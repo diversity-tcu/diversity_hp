@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const items = await getCollection('events');
+  return items.map((item) => ({
+    params: { slug: item.id.replace(/\.md$/, '') },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+const { Content } = await render(item);
+---
+<Base title={`${item.data.title} | 活動報告`}>
+  <article>
+    <h1 class="entry-title">{item.data.title}</h1>
+    {item.data.date && <p style="color:#888;">{item.data.date}</p>}
+    <div class="entry-content">
+      <Content />
+    </div>
+    <p style="margin-top:40px;"><a href="/events/">&laquo; 活動報告一覧に戻る</a></p>
+  </article>
+</Base>

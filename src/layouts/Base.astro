@@ -1,0 +1,140 @@
+---
+export interface Props {
+  title?: string;
+  description?: string;
+}
+const { title = '東京都市大学 ダイバーシティ推進室', description = '東京都市大学 ダイバーシティ推進室' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="stylesheet" href="/assets/wp-css/common.css" />
+  <link rel="stylesheet" href="/assets/wp-css/skin.css" />
+  <link rel="stylesheet" href="/assets/wp-css/style.css" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; }
+    .siteHeader { background:#fff; border-bottom:1px solid #eee; padding:10px 0; }
+    .siteHeader .container { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; padding:0 20px; }
+    .siteHeader_logo img { max-height:50px; margin-right:10px; }
+    .siteHeader_logo { display:flex; align-items:center; margin:0; }
+    .gMenu { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; background:#0655B4; }
+    .gMenu > li { position:relative; }
+    .gMenu > li > a { display:block; color:#fff; padding:12px 16px; text-decoration:none; font-size:14px; }
+    .gMenu > li > a:hover { background:#0a68db; }
+    .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:#0655B4; min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
+    .gMenu > li:hover .sub-menu { display:block; }
+    .gMenu .sub-menu a { display:block; color:#fff; padding:10px 14px; text-decoration:none; font-size:13px; border-top:1px solid rgba(255,255,255,0.15); }
+    .siteFooter { background:#0655B4; color:#fff; padding:40px 20px; margin-top:40px; }
+    .siteFooter a { color:#fff; text-decoration:underline; }
+    .siteFooter .container { max-width:1200px; margin:0 auto; display:grid; grid-template-columns: repeat(3, 1fr); gap:30px; }
+    .siteFooter .copySection { text-align:center; padding-top:20px; font-size:12px; border-top:1px solid rgba(255,255,255,0.3); margin-top:30px; }
+    .mainContent { max-width:1200px; margin:0 auto; padding:30px 20px; }
+    .mainContent img { max-width:100%; height:auto; }
+    h1.entry-title { border-bottom:3px solid #0655B4; padding-bottom:10px; }
+    .newsList { list-style:none; padding:0; }
+    .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
+    .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
+    @media (max-width: 780px) {
+      .gMenu { flex-direction:column; }
+      .siteFooter .container { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar siteHeader">
+    <div class="container siteHeadContainer">
+      <h1 class="siteHeader_logo">
+        <a href="https://www.tcu.ac.jp/" target="_blank" rel="noopener">
+          <span><img src="/uploads/sites/9/2021/08/logo_new01.png" alt="東京都市大学" /></span>
+        </a>
+        <a href="/">
+          <span><img src="/uploads/2021/08/logo_new02.png" alt="東京都市大学 ダイバーシティ推進室" /></span>
+        </a>
+      </h1>
+    </div>
+    <nav>
+      <ul class="gMenu">
+        <li><a href="/about/"><strong>ダイバーシティについて</strong></a>
+          <ul class="sub-menu">
+            <li><a href="/about/overview/">概要</a></li>
+            <li><a href="/about/introduction/">学長・室長挨拶</a></li>
+            <li><a href="/about/history/">沿革/体制</a></li>
+            <li><a href="/about/members/">委員/室員の紹介</a></li>
+            <li><a href="/about/declaration02/">東京都市大学ダイバーシティ推進宣言</a></li>
+            <li><a href="/about/declaration/">10私立大学共同宣言</a></li>
+          </ul>
+        </li>
+        <li><a href="/news/"><strong>お知らせ</strong></a></li>
+        <li><a href="/events/"><strong>活動報告</strong></a></li>
+        <li><a href="/library/"><strong>ライブラリ</strong></a></li>
+        <li><a href="/support/"><strong>各種支援</strong></a></li>
+        <li><a href="/state/"><strong>都市大の現状</strong></a>
+          <ul class="sub-menu">
+            <li><a href="/state/stateofnumber/">数字で見る都市大の現状</a></li>
+            <li><a href="/state/enquete/">アンケート</a></li>
+          </ul>
+        </li>
+        <li><a href="/rentalbooks/"><strong>貸出図書</strong></a></li>
+        <li><a href="/publication/"><strong>刊行物</strong></a>
+          <ul class="sub-menu">
+            <li><a href="/publication/communication/">TCUダイバーシティ通信</a></li>
+            <li><a href="/publication/calendarterms/">カレンダー用語集</a></li>
+            <li><a href="/publication/rolemodel/">卒業生ロールモデル集</a></li>
+            <li><a href="/publication/t_rolemodel/">教員ロールモデル集</a></li>
+          </ul>
+        </li>
+        <li><a href="/access/"><strong>アクセス</strong></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="mainContent">
+    <slot />
+  </main>
+
+  <footer class="siteFooter">
+    <div class="container">
+      <div>
+        <p class="f_title" style="font-weight:bold;font-size:1.1em;">東京都市大学 ダイバーシティ推進室</p>
+        <p>〒158-8557<br />
+          東京都世田谷区玉堤1-28-1<br />
+          世田谷キャンパス1号館3階<br /><br />
+          TEL：03-5707-0104（代）<br />
+          FAX：03-5707-1289<br />
+          開室時間：9:00〜17:00<br />
+          (土日・祝日・大学休業日を除く)
+        </p>
+      </div>
+      <div>
+        <p class="f_title" style="font-weight:bold;font-size:1.1em;">サイトマップ</p>
+        <p>
+          <a href="/about/">ダイバーシティについて</a><br />
+          <a href="/news/">お知らせ</a><br />
+          <a href="/events/">活動報告</a><br />
+          <a href="/library/">ライブラリ</a><br />
+          <a href="/support/">各種支援</a><br />
+          <a href="/state/">都市大の現状</a><br />
+          <a href="/rentalbooks/">貸出図書</a><br />
+          <a href="/publication/">刊行物</a><br />
+          <a href="/access/">アクセス</a>
+        </p>
+      </div>
+      <div>
+        <p class="f_title" style="font-weight:bold;font-size:1.1em;">関連リンク</p>
+        <ul style="list-style:none;padding:0;">
+          <li><a href="https://www.gender.go.jp/" target="_blank" rel="noopener">内閣府男女共同参画局</a></li>
+          <li><a href="https://www.jst.go.jp/diversity/" target="_blank" rel="noopener">JSTダイバーシティ推進</a></li>
+          <li><a href="https://opened.network/" target="_blank" rel="noopener">全国ダイバーシティネットワークOPENeD</a></li>
+          <li><a href="https://www.tcu.ac.jp/" target="_blank" rel="noopener">東京都市大学</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copySection">Copyright © TCU. All Rights Reserved.</div>
+  </footer>
+</body>
+</html>

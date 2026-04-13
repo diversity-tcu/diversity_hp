@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const items = await getCollection('pages');
+  return items.map((item) => {
+    const slug = (item.data.slug && item.data.slug.length > 0)
+      ? item.data.slug
+      : item.id.replace(/\.md$/, '');
+    return {
+      params: { slug },
+      props: { item },
+    };
+  });
+}
+
+const { item } = Astro.props;
+const { Content } = await render(item);
+---
+<Base title={`${item.data.title} | 東京都市大学 ダイバーシティ推進室`}>
+  <article>
+    <h1 class="entry-title">{item.data.title}</h1>
+    <div class="entry-content">
+      <Content />
+    </div>
+  </article>
+</Base>

@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const news = (await getCollection('news'))
+  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
+  .slice(0, 8);
+const events = (await getCollection('events'))
+  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
+  .slice(0, 6);
+---
+<Base title="東京都市大学 ダイバーシティ推進室">
+  <section style="margin-bottom:40px;">
+    <h1 class="entry-title">東京都市大学 ダイバーシティ推進室</h1>
+    <p>本推進室は、多様な人々が能力を発揮できる大学・社会づくりを目指して活動しています。学生・教職員を対象とした各種支援、講演会・研修の開催、刊行物の発行などを通じて、ダイバーシティ推進を進めています。</p>
+  </section>
+
+  <section style="margin-bottom:40px;">
+    <h2 style="border-top:3px solid #0655B4;padding-top:8px;">お知らせ</h2>
+    <ul class="newsList">
+      {news.map((n) => (
+        <li>
+          <time>{n.data.date}</time>
+          <a href={`/news/${n.id.replace(/\.md$/, '')}/`}>{n.data.title}</a>
+        </li>
+      ))}
+    </ul>
+    <p style="text-align:right;"><a href="/news/">お知らせ一覧へ &raquo;</a></p>
+  </section>
+
+  <section>
+    <h2 style="border-top:3px solid #0655B4;padding-top:8px;">活動報告</h2>
+    <ul class="newsList">
+      {events.map((e) => (
+        <li>
+          <time>{e.data.date}</time>
+          <a href={`/events/${e.id.replace(/\.md$/, '')}/`}>{e.data.title}</a>
+        </li>
+      ))}
+    </ul>
+    <p style="text-align:right;"><a href="/events/">活動報告一覧へ &raquo;</a></p>
+  </section>
+</Base>

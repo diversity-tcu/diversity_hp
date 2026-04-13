@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const items = (await getCollection('events'))
+  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''));
+---
+<Base title="活動報告 | 東京都市大学 ダイバーシティ推進室">
+  <h1 class="entry-title">活動報告</h1>
+  <ul class="newsList">
+    {items.map((e) => (
+      <li>
+        <time>{e.data.date}</time>
+        <a href={`/events/${e.id.replace(/\.md$/, '')}/`}>{e.data.title}</a>
+      </li>
+    ))}
+  </ul>
+</Base>
