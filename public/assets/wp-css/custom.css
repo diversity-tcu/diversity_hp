@@ -1,0 +1,90 @@
+/* PDF書影カードグリッド (SiteOrigin Panels由来) */
+.entry-body .panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 28px 24px;
+  margin-bottom: 40px;
+}
+.entry-body .panel-grid-cell {
+  width: auto !important;
+  margin: 0 !important;
+  float: none !important;
+}
+.entry-body .panel-grid-cell-empty { display: none; }
+.entry-body .so-widget-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 496/720;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.12), 0 1px 3px rgba(0,0,0,.08);
+  transition: transform .25s ease, box-shadow .25s ease;
+  background: #fff;
+}
+.entry-body .panel-grid-cell a:hover .so-widget-image {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0,0,0,.18), 0 2px 6px rgba(0,0,0,.1);
+}
+.entry-body .bn_title {
+  margin: 10px 0 0;
+  font-size: 0.88em;
+  color: #333;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.entry-body .panel-grid-cell > .widget,
+.entry-body .panel-grid-cell > .so-panel {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* セクション見出し整形 */
+.entry-body .p_title {
+  font-size: 2em;
+  border-bottom: 3px solid var(--brand-primary, #0655B4);
+  padding-bottom: 10px;
+  margin-bottom: 4px;
+}
+.entry-body .p_title_s {
+  color: #888;
+  letter-spacing: .15em;
+  font-size: .85em;
+  margin-bottom: 30px;
+}
+.entry-body .new_h2 {
+  font-size: 1.4em;
+  margin: 50px 0 24px;
+  padding-left: 14px;
+  border-left: 5px solid var(--brand-primary, #0655B4);
+}
+.entry-body .new_h2 .h2_line,
+.entry-body .new_h2 p.h2_line {
+  margin: 0;
+  display: inline;
+}
+
+/* ロールモデル集などのボタン */
+.entry-body .btn_model {
+  display: block;
+  background: linear-gradient(135deg, var(--brand-primary, #0655B4), #0a7bd9);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+.entry-body .btn_model:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.18);
+}
+
+@media (max-width: 780px) {
+  .entry-body .panel-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px 16px;
+  }
+}
