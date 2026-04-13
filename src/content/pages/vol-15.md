@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3927"><div class="panel-grid panel-no-style" id="pg-3927-0"><div class="panel-grid-cell" id="pgc-3927-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3927-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role15_01.png"/></div></div>
+<div class="panel-layout" id="pl-3927"><div class="panel-grid panel-no-style" id="pg-3927-0"><div class="panel-grid-cell" id="pgc-3927-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3927-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role15_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">メディア情報学部 社会メディア学科<br/>
 <span class="font-15em">三村 紗世</span> さん<br/>
 <br/>
@@ -70,10 +70,10 @@ LITALICOのビジョンにとても共感したことと、
 ことが研究室時代からの私のやりがいです。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role15_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role15_style.png"/>
 <br/>
 <h3 class="font-12em">マイブーム</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role15_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role15_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 社会人になってから、インテリア（主に植物）やご飯の作り置きにはまっ
 ています。私の中で「暮らし」はとても重要な割合を占めています。家の
@@ -83,7 +83,7 @@ LITALICOのビジョンにとても共感したことと、
 なります。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role15_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role15_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 小池研究室での活動はフィールドワークが多く大変ではありましたが、
 それによって社会とつながる喜びや、やりがいを感じることが出来まし

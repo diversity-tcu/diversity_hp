@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3737"><div class="panel-grid panel-no-style" id="pg-3737-0"><div class="panel-grid-cell" id="pgc-3737-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3737-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role09_01.png"/></div></div>
+<div class="panel-layout" id="pl-3737"><div class="panel-grid panel-no-style" id="pg-3737-0"><div class="panel-grid-cell" id="pgc-3737-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3737-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role09_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">知識工学部 情報科学科<br/>
 <span class="font-15em">水田 夏美</span> さん<br/>
 <br/>
@@ -70,10 +70,10 @@ FPGA というデバイスを使った処理システムの
 られているのだと思います。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role09_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role09_style.png"/>
 <br/>
 <h3 class="font-12em">私の趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role09_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role09_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 吹奏楽です。会社の吹奏楽部に所属して
 おり、毎週日曜日、練習に励んでいます。
@@ -86,7 +86,7 @@ FPGA というデバイスを使った処理システムの
 練習中です！
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role09_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role09_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 都市大を選んでよかったことは、人に恵
 まれたことだと思います。学生生活の中

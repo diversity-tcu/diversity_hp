@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3930"><div class="panel-grid panel-no-style" id="pg-3930-0"><div class="panel-grid-cell" id="pgc-3930-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3930-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role16_01.png"/></div></div>
+<div class="panel-layout" id="pl-3930"><div class="panel-grid panel-no-style" id="pg-3930-0"><div class="panel-grid-cell" id="pgc-3930-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3930-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role16_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">メディア情報学部 情報システム学科<br/>
 <span class="font-15em">吉川 摩耶</span> さん<br/>
 <br/>
@@ -37,10 +37,10 @@ status: "publish"
 ソフトウェアを使い始めた当時は、少しでも良いものを作りたい一心でデザインに関する情報にアンテナを張り続けていました。本屋に立ち寄って最新のトレンドをチェックしたり、先輩たちからはデザインや表現方法のヒントを得るために、フリーペーパーや雑誌などを良く見ることを叩き込まれていたので、情報を集める日々…。今でも駅に配置されているフリー雑誌や移動中に目にする広告などに自然と目が行くくせがついたままです（笑）。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role16_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role16_style.png"/>
 <br/>
 <h3 class="font-12em">わたしの趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role16_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role16_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 春から秋は、きれいな景色を求めて登山へ
 出かけます。良い運動にもなるし、空気も
@@ -52,7 +52,7 @@ status: "publish"
 劇場などにも足を運んで楽しんでいます。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role16_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role16_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 アメフト部のマネージャーをしていたので、ゼミとの両立で常に忙しかっ
 た記憶があります。ですが、この経験をしていたことによって、社会人に

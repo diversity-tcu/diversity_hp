@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">これからも好奇心を持って新しいことをどんどん学んでいきたいと思っています。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../../../wp-content/uploads/2025/03/t_role7_01.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2025/03/t_role7_01.jpg"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">デザイン・データ科学部　デザイン・データ科学科<br/>
 <span class="font-15em">山口 敦子</span> 教授<br/>
 <br/>
@@ -35,13 +35,13 @@ status: "publish"
 <h3 class="font-12em t_h3">夢のために努力したこと</h3>
 <p class="font-08em">私の場合は、夢の実現に向けて努力したというよりも、好奇心の赴くままに動いているうちに転機が訪れることが多く、何かに導かれた気がしています。言い換えるなら運がよかったのだと思います。ただし、導かれた先で置いていかれないよう、学ぶことは常に怠らないでいたつもりです。機会が来るかどうかは運も大きいとは思いますが、機会を活かせるかどうかは、自分次第だと思うので、これからも好奇心を持って新しいことをどんどん学んでいきたいと思っています。</p>
 <br/>
-<img alt="ロールモデル" decoding="async" src="../../../wp-content/uploads/2024/03/t_role7_style03.png"/>
+<img alt="ロールモデル" decoding="async" src="../..//uploads/2024/03/t_role7_style03.png"/>
 <br/>
 <h3 class="font-12em t_h3">座右の銘</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="座右の銘の写真" decoding="async" src="../../../wp-content/uploads/2024/03/t_role7_02.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="座右の銘の写真" decoding="async" src="../..//uploads/2024/03/t_role7_02.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">座右の銘は「理業一致」です。元々剣道でよく使われる言葉で（ちなみに、以前、剣道をしていました）、理論と実技を一致させつつ稽古せよ、どちらかに偏るな、という意味です。私の研究でも理論と実データを用いた解析をできるだけ一致させつつ進めていきたいと思っています。</div></div></div>
 <h3 class="font-12em t_h3">マイブーム</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="マイブームの写真" decoding="async" src="../../../wp-content/uploads/2024/03/t_role7_03.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="マイブームの写真" decoding="async" src="../..//uploads/2024/03/t_role7_03.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">マイブームは娘と一緒に布小物の作成をすることです。娘はデザインと布選び担当、それを私が型紙と作成手順に起します。本格的な洋裁はまた違うかもしれませんが、布小物の場合、型紙は3次元を2次元に展開する図で、作成手順はアルゴリズムそのものです。パズルを解くようで、とても面白いです。実際の作業、たとえば布裁断や縫製は正直あまり好きではないのですが、実証実験のつもりでできるだけ最後まで仕上げるようにしています。</div></div></div>
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>

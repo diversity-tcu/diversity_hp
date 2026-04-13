@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3745"><div class="panel-grid panel-no-style" id="pg-3745-0"><div class="panel-grid-cell" id="pgc-3745-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3745-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role12_01.png"/></div></div>
+<div class="panel-layout" id="pl-3745"><div class="panel-grid panel-no-style" id="pg-3745-0"><div class="panel-grid-cell" id="pgc-3745-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3745-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role12_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">知識工学部 自然科学科<br/>
 <span class="font-15em">中田 愛乃</span> さん<br/>
 <br/>
@@ -70,10 +70,10 @@ status: "publish"
 ていきたいと考えています。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role12_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role12_style.png"/>
 <br/>
 <h3 class="font-12em">２０代のうちにやっておくべきこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role12_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role12_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 外国語を学んで損は無いと思います。私の場合はわずかながらイタリア語
 を話すことができるのですが、活用する機会はないと思っていました。し
@@ -83,7 +83,7 @@ status: "publish"
 すめします！
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role12_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role12_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 地球科学に興味があり、この学校を選びました。苦手科目もありましたが、
 履修する授業の大部分が自分の興味がある分野だったため、授業も実験も

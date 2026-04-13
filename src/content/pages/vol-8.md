@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3733"><div class="panel-grid panel-no-style" id="pg-3733-0"><div class="panel-grid-cell" id="pgc-3733-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3733-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role07_01.png"/></div></div>
+<div class="panel-layout" id="pl-3733"><div class="panel-grid panel-no-style" id="pg-3733-0"><div class="panel-grid-cell" id="pgc-3733-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3733-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role07_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 建築学科<br/>
 <span class="font-15em">清水 結衣</span> さん<br/>
 <br/>
@@ -66,10 +66,10 @@ status: "publish"
 自分の言葉で表現しやすくなったと思います。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role07_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role07_style.png"/>
 <br/>
 <h3 class="font-12em">工夫した勉強法</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role07_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role07_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 今の仕事上、会社を読み解く力が必要なので、決算書の分析の勉強をして
 います。出かけた時に気になったブランドや商品の会社の決算書類を使っ
@@ -79,7 +79,7 @@ status: "publish"
 がけています。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role07_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role07_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 大学選びの時に学科棟や図書館に惹かれました。また、４年間同じキャン
 パスで過ごせる点も良いと思いました。入学して間もない頃、学科棟で図

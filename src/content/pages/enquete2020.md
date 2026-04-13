@@ -19,105 +19,105 @@ status: "publish"
 
 **設問 1． 「LGBT」「SOGI」の説明について、理解できましたか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_1_r1_c1.png)
+![](/uploads/2022/03/enquete2020_1_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_01.png)
+![](/uploads/2022/03/2020_01.png)
 
 **設問 2． 性的マイノリティーについて、（曖昧でも）どのようなことか知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_1_r3_c1.png)
+![](/uploads/2022/03/enquete2020_1_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_02.png)
+![](/uploads/2022/03/2020_02.png)
 
 **設問 3． 性的マイノリティに該当する人が学内にもいる可能性のあることを普段から意識していますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_1_r5_c1.png)
+![](/uploads/2022/03/enquete2020_1_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_03.png)
+![](/uploads/2022/03/2020_03.png)
 
 **設問 4． 性的マイノリティの方が誰にも打ち明けられない思いをもっていることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_1_r7_c1.png)
+![](/uploads/2022/03/enquete2020_1_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_04.png)
+![](/uploads/2022/03/2020_04.png)
 
 **設問 5． 性的マイノリティの方がカミングアウトする相手として、友人が多いことを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_2_r1_c1.png)
+![](/uploads/2022/03/enquete2020_2_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_05.png)
+![](/uploads/2022/03/2020_05.png)
 
 **設問 6． 性的マイノリティの方が、「いじめ」の対象として選ばれやすいことを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_2_r3_c1.png)
+![](/uploads/2022/03/enquete2020_2_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_06.png)
+![](/uploads/2022/03/2020_06.png)
 
 **設問 7． 性的マイノリティの方の性的指向や性自認を本人の同意なしで第三者に勝手に暴露すること（アウティング）は容認されないことを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_2_r5_c1.png)
+![](/uploads/2022/03/enquete2020_2_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_07.png)
+![](/uploads/2022/03/2020_07.png)
 
 **設問 8． 「男（女）なんだから」というような断定的で押しつけにつながるような言い方をしたり、聞いたりしたことがありますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_2_r7_c1.png)
+![](/uploads/2022/03/enquete2020_2_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_08.png)
+![](/uploads/2022/03/2020_08.png)
 
 **設問 9． カップル、あるいは、二人一組というと、男女のペアだけを連想していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_3_r1_c1.png)
+![](/uploads/2022/03/enquete2020_3_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_09.png)
+![](/uploads/2022/03/2020_09.png)
 
 **設問 10． 友人同士で、性的指向に関する事柄を話していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_3_r3_c1.png)
+![](/uploads/2022/03/enquete2020_3_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_10.png)
+![](/uploads/2022/03/2020_10.png)
 
 **設問 11． 多目的トイレを男女共用の「だれでもトイレ」として使用できることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_3_r5_c1.png)
+![](/uploads/2022/03/enquete2020_3_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_11.png)
+![](/uploads/2022/03/2020_11.png)
 
 **設問 12． 集団で実施する健康診断であっても、希望すれば個別に受診できることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_3_r7_c1.png)
+![](/uploads/2022/03/enquete2020_3_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_12.png)
+![](/uploads/2022/03/2020_12.png)
 
 **設問 13． 飲み会等の懇親の場で、好みの異性のタイプを聞いたりしていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_4_r1_c1.png)
+![](/uploads/2022/03/enquete2020_4_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_13.png)
+![](/uploads/2022/03/2020_13.png)
 
 **設問 14． 宴会の余興等でふざけて、女装や男装することに傷つく人がいることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_4_r3_c1.png)
+![](/uploads/2022/03/enquete2020_4_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_14.png)
+![](/uploads/2022/03/2020_14.png)
 
 **設問 15． 公的な式典等であっても、服装を（戸籍上の）性別で固定する必要はないと知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_4_r5_c1.png)
+![](/uploads/2022/03/enquete2020_4_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_15.png)
+![](/uploads/2022/03/2020_15.png)
 
 **設問 16． リクルートスーツなど、服装が性別で固定されていることに違和感を感じたことはありますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_4_r7_c1.png)
+![](/uploads/2022/03/enquete2020_4_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_16.png)
+![](/uploads/2022/03/2020_16.png)
 
 **設問 17． 人生設計に関するセミナーやテレビのCMなどが異性愛を前提としていることに違和感を感じたことはありますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_4_r9_c1.png)
+![](/uploads/2022/03/enquete2020_4_r9_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_17.png)
+![](/uploads/2022/03/2020_17.png)
 
 ## 教職員向け「ダイバーシティ（多様性）に関する理解度チェック」結果報告
 
@@ -127,33 +127,33 @@ status: "publish"
 
 **設問 1． あなたの教職員区分を教えてください。**
 
-![](/wp-content/uploads/2022/03/enquete2020_5_r1_c1.png)
+![](/uploads/2022/03/enquete2020_5_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_18.png)
+![](/uploads/2022/03/2020_18.png)
 
 **設問 2． 大学運営にもダイバーシティ環境の実現を推進することが重要であることを理解していますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_5_r3_c1.png)
+![](/uploads/2022/03/enquete2020_5_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_19.png)
+![](/uploads/2022/03/2020_19.png)
 
 **設問 3． 本学に「ダイバーシティ推進室」があることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_5_r5_c1.png)
+![](/uploads/2022/03/enquete2020_5_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_20.png)
+![](/uploads/2022/03/2020_20.png)
 
 **設問 4． 本学のダイバーシティ推進室の活動内容を知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2020_6_r1_c2.png)
+![](/uploads/2022/03/enquete2020_6_r1_c2.png)
 
-![](/wp-content/uploads/2022/03/2020_21.png)
+![](/uploads/2022/03/2020_21.png)
 
 **設問 5． ダイバーシティ推進室の2020年1月～2020年12月中に実施した活動で知っているものを全てチェックしてください。(複数回答可)**
 
-![](/wp-content/uploads/2022/03/enquete2020_6_r3_c1.png)
+![](/uploads/2022/03/enquete2020_6_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2020_22.png)
+![](/uploads/2022/03/2020_22.png)
 
 **【ご回答された方からの自由意見】**
 

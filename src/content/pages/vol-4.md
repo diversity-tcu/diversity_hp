@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3727"><div class="panel-grid panel-no-style" id="pg-3727-0"><div class="panel-grid-cell" id="pgc-3727-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3727-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role04_01.png"/></div></div>
+<div class="panel-layout" id="pl-3727"><div class="panel-grid panel-no-style" id="pg-3727-0"><div class="panel-grid-cell" id="pgc-3727-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3727-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role04_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 医用工学科<br/>
 <span class="font-15em">安池 祐子</span> さん<br/>
 <br/>
@@ -69,10 +69,10 @@ status: "publish"
 興味のある道を選ぶことができました。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role04_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role04_style.png"/>
 <br/>
 <h3 class="font-12em">大切にしている言葉　座右の銘</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role04_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role04_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 漫画の台詞なのですが「知識は武器」という言葉が好きです。それを読ん
 で以来、武器にできるように知識と経験を積むように心掛け、些細なこと
@@ -82,7 +82,7 @@ status: "publish"
 は緊張しませんでした。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role04_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role04_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 生体医工学という視点が面白そう、という理由で都市大を受験しました。
 機械系、電気系、生物系と学べる分野も多く、視野が大きく広がりました。

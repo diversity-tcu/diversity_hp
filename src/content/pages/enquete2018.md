@@ -19,102 +19,102 @@ status: "publish"
 
 **設問 1． 「LGBT」「SOGI」の説明について、理解できましたか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_1_r1_c1.png)
+![](/uploads/2022/03/enquete2018_1_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_01.png)
+![](/uploads/2022/03/2018_01.png)
 
 **設問 2． 性的マイノリティーについて、（曖昧でも）どのようなことか知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_1_r3_c1.png)
+![](/uploads/2022/03/enquete2018_1_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_02.png)
+![](/uploads/2022/03/2018_02.png)
 
 **設問 3． 性的マイノリティに該当する者が学内にもいる可能性のあることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_1_r5_c1.png)
+![](/uploads/2022/03/enquete2018_1_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_03.png)
+![](/uploads/2022/03/2018_03.png)
 
 **設問 4． 性的マイノリティの方が誰にも打ち明けられない思いをもっていることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_1_r7_c1.png)
+![](/uploads/2022/03/enquete2018_1_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_04.png)
+![](/uploads/2022/03/2018_04.png)
 
 **設問 5． 「男(女)なんだから○○だ」というような断定的な、押しつけた言動をしていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_2_r1_c1.png)
+![](/uploads/2022/03/enquete2018_2_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_05.png)
+![](/uploads/2022/03/2018_05.png)
 
 **設問 6． 学生が記入する書類やアンケート、履歴書に性別欄はありませんか？(もし性別欄がある場合、それに違和感を感じていますか？)**
 
-![](/wp-content/uploads/2022/03/enquete2018_2_r3_c1.png)
+![](/uploads/2022/03/enquete2018_2_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_06.png)
+![](/uploads/2022/03/2018_06.png)
 
 **設問 7． 授業やセミナーで、「男女のペアワーク」を課していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_2_r5_c1.png)
+![](/uploads/2022/03/enquete2018_2_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_07.png)
+![](/uploads/2022/03/2018_07.png)
 
 **設問 8． 授業や業務上のたとえ話で、性的指向に関わる事柄を扱っていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_2_r7_c1.png)
+![](/uploads/2022/03/enquete2018_2_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_08.png)
+![](/uploads/2022/03/2018_08.png)
 
 **設問 9． 「くん」「ちゃん」など、名前の呼び方を性別で固定していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_3_r1_c1.png)
+![](/uploads/2022/03/enquete2018_3_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_09.png)
+![](/uploads/2022/03/2018_09.png)
 
 **設問 10． 多目的トイレを男女共用の「だれでもトイレ」として使用できることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_3_r3_c1.png)
+![](/uploads/2022/03/enquete2018_3_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_10.png)
+![](/uploads/2022/03/2018_10.png)
 
 **設問 11． 健康診断で個別受診の希望があった場合、それはわがままだと思っていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_3_r5_c1.png)
+![](/uploads/2022/03/enquete2018_3_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_11.png)
+![](/uploads/2022/03/2018_11.png)
 
 **設問 12． 飲み会等の懇親の場で、好みの異性のタイプを訊いたりしていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_3_r7_c1.png)
+![](/uploads/2022/03/enquete2018_3_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_12.png)
+![](/uploads/2022/03/2018_12.png)
 
 **設問 13． 宴会の余興等でふざけて、女装や男装することに傷つく人がいることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_4_r1_c1.png)
+![](/uploads/2022/03/enquete2018_4_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_13.png)
+![](/uploads/2022/03/2018_13.png)
 
 **設問 14． 式典の服装を性別で固定していませんか？（たとえば、卒業式で男子学生はネクタイ着用等）**
 
-![](/wp-content/uploads/2022/03/enquete2018_4_r3_c1.png)
+![](/uploads/2022/03/enquete2018_4_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_14.png)
+![](/uploads/2022/03/2018_14.png)
 
 **設問 15． リクルートスーツが男女に分かれているため、説明会や面接に行きづらいと感じる学生がいることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_4_r5_c1.png)
+![](/uploads/2022/03/enquete2018_4_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_15.png)
+![](/uploads/2022/03/2018_15.png)
 
 **設問 16． キャリアセミナーが異性愛を前提に行われているため、将来設計がしにくいと感じる学生がいることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_4_r7_c1.png)
+![](/uploads/2022/03/enquete2018_4_r7_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_16.png)
+![](/uploads/2022/03/2018_16.png)
 
 **設問 17． 本学でのSOGIに関する相談窓口は、学生相談室が対応していることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2018_4_r9_c1.png)
+![](/uploads/2022/03/enquete2018_4_r9_c1.png)
 
-![](/wp-content/uploads/2022/03/2018_17.png)
+![](/uploads/2022/03/2018_17.png)

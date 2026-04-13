@@ -25,113 +25,113 @@ status: "publish"
 
 **設問 1． 「LGBT」「SOGI」の説明について、理解できましたか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_1_r1_c1.png)
-![](/wp-content/uploads/2022/03/2021_01.png)
-![](/wp-content/uploads/2022/03/enquete2021_1_r2_c3.png)
+![](/uploads/2022/03/enquete2021_1_r1_c1.png)
+![](/uploads/2022/03/2021_01.png)
+![](/uploads/2022/03/enquete2021_1_r2_c3.png)
 
 **設問 2． 性的マイノリティーについて、（曖昧でも）どのようなことか知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_1_r5_c1.png)
-![](/wp-content/uploads/2022/03/2021_02.png)
-![](/wp-content/uploads/2022/03/enquete2021_1_r6_c4.png)
+![](/uploads/2022/03/enquete2021_1_r5_c1.png)
+![](/uploads/2022/03/2021_02.png)
+![](/uploads/2022/03/enquete2021_1_r6_c4.png)
 
 **設問 3． 性的マイノリティに該当する人が学内にもいる可能性のあることを普段から意識していますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_1_r9_c1.png)
-![](/wp-content/uploads/2022/03/2021_03.png)
+![](/uploads/2022/03/enquete2021_1_r9_c1.png)
+![](/uploads/2022/03/2021_03.png)
 
 **設問 4． 性的マイノリティの方が誰にも打ち明けられない思いをもっていることを理解できていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_2_r1_c1.png)
-![](/wp-content/uploads/2022/03/2021_04.png "sp")
-![](/wp-content/uploads/2022/03/enquete2021_2_r2_c3.png)
+![](/uploads/2022/03/enquete2021_2_r1_c1.png)
+![](/uploads/2022/03/2021_04.png "sp")
+![](/uploads/2022/03/enquete2021_2_r2_c3.png)
 
 **設問 5． 性的マイノリティの方がカミングアウトする相手として、友人が多いことを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_2_r5_c1.png)
-![](/wp-content/uploads/2022/03/2021_05.png)
+![](/uploads/2022/03/enquete2021_2_r5_c1.png)
+![](/uploads/2022/03/2021_05.png)
 
 **設問 6． 性的マイノリティの方が、「いじめ」の対象として選ばれやすいことを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_2_r7_c1.png)
-![](/wp-content/uploads/2022/03/2021_06.png)
+![](/uploads/2022/03/enquete2021_2_r7_c1.png)
+![](/uploads/2022/03/2021_06.png)
 
 **設問 7． 性的マイノリティの方の性的指向や性自認を本人の同意なしで第三者に勝手に暴露すること（アウティング）は、人格権・プライバシー権等を著しく侵害するもので、許されない行為であることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_2_r9_c1.png)
-![](/wp-content/uploads/2022/03/2021_07.png)
+![](/uploads/2022/03/enquete2021_2_r9_c1.png)
+![](/uploads/2022/03/2021_07.png)
 
 **設問 8． 過去一年以内に、「男（女）だから」というような断定的で押しつけにつながるような言い方をしたり、聞いたりしたことがありますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_3_r1_c2.png)
-![](/wp-content/uploads/2022/03/2021_08.png)
+![](/uploads/2022/03/enquete2021_3_r1_c2.png)
+![](/uploads/2022/03/2021_08.png)
 
 **設問 9． 学生に記入してもらう書類やアンケート等に「性別欄」が残っていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_3_r3_c1.png)
-![](/wp-content/uploads/2022/03/2021_09.png)
-![](/wp-content/uploads/2022/03/enquete2021_3_r4_c3.png)
+![](/uploads/2022/03/enquete2021_3_r3_c1.png)
+![](/uploads/2022/03/2021_09.png)
+![](/uploads/2022/03/enquete2021_3_r4_c3.png)
 
 **設問 10． 授業やセミナー等で、「男女のペアワーク」を課していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_3_r7_c1.png)
-![](/wp-content/uploads/2022/03/2021_10.png)
-![](/wp-content/uploads/2022/03/enquete2021_3_r8_c3.png)
+![](/uploads/2022/03/enquete2021_3_r7_c1.png)
+![](/uploads/2022/03/2021_10.png)
+![](/uploads/2022/03/enquete2021_3_r8_c3.png)
 
 **設問 11． 授業や業務上のたとえ話で、性的指向に関わる事柄を扱っていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_3_r11_c1.png)
-![](/wp-content/uploads/2022/03/2021_11.png)
-![](/wp-content/uploads/2022/03/enquete2021_3_r12_c4.png)
+![](/uploads/2022/03/enquete2021_3_r11_c1.png)
+![](/uploads/2022/03/2021_11.png)
+![](/uploads/2022/03/enquete2021_3_r12_c4.png)
 
 **設問 12． 「くん」「ちゃん」など、名前の呼び方を性別で固定していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_4_r1_c1.png)
-![](/wp-content/uploads/2022/03/2021_12.png)
-![](/wp-content/uploads/2022/03/enquete2021_4_r2_c3.png)
+![](/uploads/2022/03/enquete2021_4_r1_c1.png)
+![](/uploads/2022/03/2021_12.png)
+![](/uploads/2022/03/enquete2021_4_r2_c3.png)
 
 **設問 13． カップル、あるいは、二人一組という時に、男女のペアだけを想定していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_4_r5_c2.png)
-![](/wp-content/uploads/2022/03/2021_13.png)
+![](/uploads/2022/03/enquete2021_4_r5_c2.png)
+![](/uploads/2022/03/2021_13.png)
 
 **設問 14． 相手の属性（学生・教職員）を問わず、適切な配慮なく性的指向に関する事柄を話していませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_4_r7_c2.png)
-![](/wp-content/uploads/2022/03/2021_14.png)
+![](/uploads/2022/03/enquete2021_4_r7_c2.png)
+![](/uploads/2022/03/2021_14.png)
 
 **設問 15． 多目的トイレを性別にかかわらず使用できる「トイレ」として認識していますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_4_r9_c2.png)
-![](/wp-content/uploads/2022/03/2021_15.png)
-![](/wp-content/uploads/2022/03/enquete2021_4_r10_c5.png)
+![](/uploads/2022/03/enquete2021_4_r9_c2.png)
+![](/uploads/2022/03/2021_15.png)
+![](/uploads/2022/03/enquete2021_4_r10_c5.png)
 
 **設問 16． 集団で実施する健康診断であっても、希望すれば個別に受診できることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_5_r1_c1.png)
-![](/wp-content/uploads/2022/03/2021_16.png)
+![](/uploads/2022/03/enquete2021_5_r1_c1.png)
+![](/uploads/2022/03/2021_16.png)
 
 **設問 17． 飲み会等の懇親の場で、好みの異性のタイプを聞いたりしていませんか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_5_r3_c1.png)
-![](/wp-content/uploads/2022/03/2021_17.png)
-![](/wp-content/uploads/2022/03/enquete2021_5_r4_c3.png)
+![](/uploads/2022/03/enquete2021_5_r3_c1.png)
+![](/uploads/2022/03/2021_17.png)
+![](/uploads/2022/03/enquete2021_5_r4_c3.png)
 
 **設問 18． 宴会の余興等でふざけて、女装や男装することに傷つく人がいることを理解していますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_5_r7_c1.png)
-![](/wp-content/uploads/2022/03/2021_18.png)
-![](/wp-content/uploads/2022/03/enquete2021_5_r8_c3.png)
+![](/uploads/2022/03/enquete2021_5_r7_c1.png)
+![](/uploads/2022/03/2021_18.png)
+![](/uploads/2022/03/enquete2021_5_r8_c3.png)
 
 **設問 19． 公的な式典等であっても、服装を（戸籍上の）性別で固定する必要はないと知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_5_r11_c1.png)
-![](/wp-content/uploads/2022/03/2021_19.png)
+![](/uploads/2022/03/enquete2021_5_r11_c1.png)
+![](/uploads/2022/03/2021_19.png)
 
 **設問 20． 人生設計に関するセミナーやテレビの CM などが異性愛を前提としていることに違和感を覚えたことはありますか？**
 
-![](/wp-content/uploads/2022/03/enquete2021_5_r13_c1.png)
-![](/wp-content/uploads/2022/03/2021_20.png)
+![](/uploads/2022/03/enquete2021_5_r13_c1.png)
+![](/uploads/2022/03/2021_20.png)
 
 [ページトップへ戻る](#)
 

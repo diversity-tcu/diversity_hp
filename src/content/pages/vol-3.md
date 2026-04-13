@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3725"><div class="panel-grid panel-no-style" id="pg-3725-0"><div class="panel-grid-cell" id="pgc-3725-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3725-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role03_01.png"/></div></div>
+<div class="panel-layout" id="pl-3725"><div class="panel-grid panel-no-style" id="pg-3725-0"><div class="panel-grid-cell" id="pgc-3725-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3725-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role03_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 電気電子通信工学科<br/>
 <span class="font-15em">大西 千尋</span> さん<br/>
 <br/>
@@ -66,17 +66,17 @@ status: "publish"
 新たな視点から楽しさを見出すようにしてい
 ます。</p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role03_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role03_style.png"/>
 <br/>
 <h3 class="font-12em">20代のうちにやっておくべきこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role03_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role03_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">元々はインドア派だったのですが、出張で新潟県に行ったことがきっかけ
 で各地を旅行することが趣味になりました。現在は小中学生時代に教科書
 で学んだ場所に足を運ぶことにはまっています。よく名前を聞いたことの
 ある場所でも実際に行って体験することで、また新たな発見があります。
 その場で、その時代の人になりきって探検するのがおススメです。</div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/wp-content/uploads/2019/12/role03_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="https://diversity.capsulemode-test.site/uploads/2019/12/role03_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">都市大を選んで良かったことは、大学で受けた講義の内容が現在の仕事に
 役立っていることです。入社後、たった半年間という短い間ですら、必要
 になった専門科目は８割もあり、幅広く履修しておいて良かったと思った

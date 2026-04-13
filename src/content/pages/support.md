@@ -39,7 +39,7 @@ status: "publish"
 　Mail：hoikuen[@]kidsbasecamp.com　[＠]は小文字の@に置き換えてください。<br/>
 　HP：<a href="https://www.kbc-hoikuen.com" rel="noopener" target="_blank">https://www.kbc-hoikuen.com</a><br/>
 <br/>
-<img alt="KBCほいくえん" decoding="async" height="auto" src="../wp-content/uploads/2022/10/KBChoikuen.jpg" width="400"/>
+<img alt="KBCほいくえん" decoding="async" height="auto" src="/uploads/2022/10/KBChoikuen.jpg" width="400"/>
 </p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5234-5"><div class="panel-grid-cell" id="pgc-5234-5-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="5" id="panel-5234-5-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">育児・介護相談窓口</p></h2></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5234-6"><div class="panel-grid-cell" id="pgc-5234-6-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="6" id="panel-5234-6-0-0"><div class="textwidget custom-html-widget"><p class="f16px flexcenter">
 <span>	
 本学では、育児・介護にかかわる諸制度を整備しています。<br/>

@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">夢の実現に向けて努力している最中です。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../../../wp-content/uploads/2022/11/t_role04_01.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2022/11/t_role04_01.jpg"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">環境学部 環境創生学科<br/>
 <span class="font-15em">咸 泳植</span> 准教授<br/>
 <br/>
@@ -34,10 +34,10 @@ status: "publish"
 <h3 class="font-12em t_h3">1日の過ごし方</h3>
 <p class="font-08em">平日午前10時～午後7時に、事務的な業務、教育関連業務、研究関連業務を行っています。週末には、必要に応じて出校し、業務をやっています。授業の準備や採点は、デスクワークで、分析指導は実験室でやっています。学生指導や授業の準備のため、夜8時～10時まで研究室にいることがあります。特に演習科目の場合は、実験道具や試薬の購入から、セットアップまで、時間と手間がかかりますが、受講者のため頑張っています。</p>
 <h3 class="font-12em t_h3">趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="水質分析写真1" decoding="async" src="../../../wp-content/uploads/2022/11/t_role04_02.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="水質分析写真1" decoding="async" src="../..//uploads/2022/11/t_role04_02.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">「趣味」は、特にありませんが、学外委員会等の活動に参加しています。エピソードは、国交省と環境省が後援している全国水質一斉調査に2004年～2022年まで19年間参加し皆勤賞をいただきました。2014年～2019年には、韓国でも水質調査に参加し、海外データが加えられたことがありました。韓国では、首都のソウルの漢江の15km区間を採水および分析をしましたが、遠くて暑くてとても大変でした。</div></div></div>
 <h3 class="font-12em t_h3">好きなもの</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="水質分析写真2" decoding="async" src="../../../wp-content/uploads/2022/11/t_role04_03.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="水質分析写真2" decoding="async" src="../..//uploads/2022/11/t_role04_03.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">「好きなもの」は、特にありませんが、身近な環境を分析することが好きです。エピソードは、海岸域でマイクロプラスチック汚染を分析したところ、最初は表層（0-5cm）だけ分析しましたが、表層より深い層からもマイクロプラスチックが検出され、一体どこまでマイクロプラスチックが分布しているのかが知りたくなりまして、0cm～1mまで採取し分析している最中です。</div></div></div>
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>

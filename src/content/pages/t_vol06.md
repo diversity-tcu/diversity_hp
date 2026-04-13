@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">笑顔でいるためにどうすればいいかを考えて過ごしています。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../../../wp-content/uploads/2023/06/t_role06_01.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2023/06/t_role06_01.jpg"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">理工学部 機械システム工学科<br/>
 <span class="font-15em">関口 和真</span> 准教授<br/>
 <br/>
@@ -43,7 +43,7 @@ status: "publish"
 </p>
 <h3 class="font-12em t_h3">趣味・好きなもの</h3>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="趣味" decoding="async" src="../../../wp-content/uploads/2023/06/t_role06_02.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="趣味" decoding="async" src="../..//uploads/2023/06/t_role06_02.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">折り紙、編み物、ルービックキューブ、絵、ピアノ、プログラミング、木工、デイキャンプ、山登りなどなど好きなことがたくさんあって分身がいればなぁと日々思っています。</div></div>
 </div>
 <h3 class="font-12em t_h3">お勧めしたい本</h3>

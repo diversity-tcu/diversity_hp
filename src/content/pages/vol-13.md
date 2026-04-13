@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3747"><div class="panel-grid panel-no-style" id="pg-3747-0"><div class="panel-grid-cell" id="pgc-3747-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3747-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role13_01.png"/></div></div>
+<div class="panel-layout" id="pl-3747"><div class="panel-grid panel-no-style" id="pg-3747-0"><div class="panel-grid-cell" id="pgc-3747-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3747-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role13_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">環境学部 環境創生学科<br/>
 <span class="font-15em">松宮 綾香</span> さん<br/>
 <br/>
@@ -67,10 +67,10 @@ status: "publish"
 来ました。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role13_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role13_style.png"/>
 <br/>
 <h3 class="font-12em">私の趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role13_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role13_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 大学生のころからミュージカルが好きで、ミュージカル鑑賞をよくしてい
 ます。人気の演目はチケットがなかなか取れないため、いつも苦労してい
@@ -79,7 +79,7 @@ status: "publish"
 メリカのブロードウェイに行って、ミュージカルをたくさん観ることです。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role13_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role13_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 都市大には各分野で活躍する先輩たちが多くいらっしゃいます。在学中は
 環境分野への専門的な就職を目指していたこともあり、専門家として活躍

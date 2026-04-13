@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3741"><div class="panel-grid panel-no-style" id="pg-3741-0"><div class="panel-grid-cell" id="pgc-3741-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3741-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role11_01.png"/></div></div>
+<div class="panel-layout" id="pl-3741"><div class="panel-grid panel-no-style" id="pg-3741-0"><div class="panel-grid-cell" id="pgc-3741-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3741-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role11_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">知識工学部 知能情報工学科<br/>
 <span class="font-15em">塩澤 あさひ</span> さん<br/>
 <br/>
@@ -66,10 +66,10 @@ status: "publish"
 います。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role11_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role11_style.png"/>
 <br/>
 <h3 class="font-12em">２０代のうちにやっておくべきこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role11_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role11_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 大学生のうちは遊びもですが、勉強もしっかりしたほうがよいと思います。
 社会人ましてや母になると、勉強する環境を自分で作るのはかなりの根気
@@ -78,7 +78,7 @@ status: "publish"
 かできない遊びもあるので、時間のある時に目一杯遊んでほしいと思います！
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role11_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role11_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 クラスの女子がほとんど医療系に進む中、特にやりたいことがなかった私
 に、友人が情報系を勧めてくれました。その中で、応用情報工学科の「人

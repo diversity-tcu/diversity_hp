@@ -19,33 +19,33 @@ status: "publish"
 
 **設問 1． あなたの教職員区分を教えてください。**
 
-![](/wp-content/uploads/2022/03/enquete2019_1_r1_c1.png)
+![](/uploads/2022/03/enquete2019_1_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2019_01.png)
+![](/uploads/2022/03/2019_01.png)
 
 **設問 2． 大学運営にもダイバーシティ環境の実現を推進することが重要であることを理解していますか？**
 
-![](/wp-content/uploads/2022/03/enquete2019_1_r3_c1.png)
+![](/uploads/2022/03/enquete2019_1_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2019_02.png)
+![](/uploads/2022/03/2019_02.png)
 
 **設問 3． 本学に「ダイバーシティ推進室」があることを知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2019_1_r5_c1.png)
+![](/uploads/2022/03/enquete2019_1_r5_c1.png)
 
-![](/wp-content/uploads/2022/03/2019_03.png)
+![](/uploads/2022/03/2019_03.png)
 
 **設問 4． 本学のダイバーシティ推進室の活動内容を知っていますか？**
 
-![](/wp-content/uploads/2022/03/enquete2019_2_r1_c1.png)
+![](/uploads/2022/03/enquete2019_2_r1_c1.png)
 
-![](/wp-content/uploads/2022/03/2019_04.png)
+![](/uploads/2022/03/2019_04.png)
 
 **設問 5． ダイバーシティ推進室の2019年度中に実施した活動で知っているものを全てチェックしてください。（複数回答可）**
 
-![](/wp-content/uploads/2022/03/enquete2019_2_r3_c1.png)
+![](/uploads/2022/03/enquete2019_2_r3_c1.png)
 
-![](/wp-content/uploads/2022/03/2019_05.png)
+![](/uploads/2022/03/2019_05.png)
 
 **【ご回答された方からの自由意見】**
 

@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3932"><div class="panel-grid panel-no-style" id="pg-3932-0"><div class="panel-grid-cell" id="pgc-3932-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3932-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role17_01.png"/></div></div>
+<div class="panel-layout" id="pl-3932"><div class="panel-grid panel-no-style" id="pg-3932-0"><div class="panel-grid-cell" id="pgc-3932-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3932-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role17_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">都市生活学部 都市生活学科<br/>
 <span class="font-15em">白土 瑶子</span> さん<br/>
 <br/>
@@ -69,10 +69,10 @@ status: "publish"
 せる建築士になりたいです。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../../../wp-content/uploads/2019/12/role17_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role17_style.png"/>
 <br/>
 <h3 class="font-12em">20代のうちにやっておくべきこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role17_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role17_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 何か機会を見つけたときには、せっかくなので何でも本気でやっておく、
 ということをお勧めしたいです。学生時代にも様々な機会が目の前に訪れ
@@ -82,7 +82,7 @@ status: "publish"
 楽しい自分史を築けます。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../../../wp-content/uploads/2019/12/role17_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role17_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 私は入学前から海外や英語に興味がありました。この大学ではネイティブ
 講師による英会話教室など、英語を学習できる環境が整っていた為、気軽
