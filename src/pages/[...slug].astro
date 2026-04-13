@@ -5,7 +5,7 @@ import { getCollection, render } from 'astro:content';
 export async function getStaticPaths() {
   const items = await getCollection('pages');
   return items.map((item) => {
-    const slug = item.id.replace(/\.md$/, '');
+    const slug = item.data.slug || item.id.replace(/\.md$/, '').split('/').pop() || item.id.replace(/\.md$/, '');
     return {
       params: { slug },
       props: { item },
@@ -18,8 +18,7 @@ const { Content } = await render(item);
 ---
 <Base title={`${item.data.title} | 東京都市大学 ダイバーシティ推進室`}>
   <article>
-    <h1 class="entry-title">{item.data.title}</h1>
-    <div class="entry-content">
+    <div class="entry-content page-article">
       <Content />
     </div>
   </article>
