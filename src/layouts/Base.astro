@@ -16,81 +16,43 @@ const { title = '東京都市大学 ダイバーシティ推進室', description
   <link rel="stylesheet" href="/assets/wp-css/common.css" />
   <link rel="stylesheet" href="/assets/wp-css/skin.css" />
   <link rel="stylesheet" href="/assets/wp-css/style.css" />
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; }
-    .siteHeader { background:#fff; border-bottom:1px solid #eee; padding:10px 0; }
-    .siteHeader .container { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; padding:0 20px; }
-    .siteHeader_logo img { max-height:50px; margin-right:10px; }
-    .siteHeader_logo { display:flex; align-items:center; margin:0; }
-    .gMenu { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; background:#0655B4; }
-    .gMenu > li { position:relative; }
-    .gMenu > li > a { display:block; color:#fff; padding:12px 16px; text-decoration:none; font-size:14px; }
-    .gMenu > li > a:hover { background:#0a68db; }
-    .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:#0655B4; min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
-    .gMenu > li:hover .sub-menu { display:block; }
-    .gMenu .sub-menu a { display:block; color:#fff; padding:10px 14px; text-decoration:none; font-size:13px; border-top:1px solid rgba(255,255,255,0.15); }
-    .siteFooter { background:#0655B4; color:#fff; padding:40px 20px; margin-top:40px; }
-    .siteFooter a { color:#fff; text-decoration:underline; }
-    .siteFooter .container { max-width:1200px; margin:0 auto; display:grid; grid-template-columns: repeat(3, 1fr); gap:30px; }
-    .siteFooter .copySection { text-align:center; padding-top:20px; font-size:12px; border-top:1px solid rgba(255,255,255,0.3); margin-top:30px; }
-    .mainContent { max-width:1200px; margin:0 auto; padding:30px 20px; }
-    .mainContent img { max-width:100%; height:auto; }
-    h1.entry-title { border-bottom:3px solid #0655B4; padding-bottom:10px; }
-    .newsList { list-style:none; padding:0; }
-    .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
-    .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
-    @media (max-width: 780px) {
-      .gMenu { flex-direction:column; }
-      .siteFooter .container { grid-template-columns: 1fr; }
-    }
-  </style>
 </head>
 <body>
   <header class="navbar siteHeader">
     <div class="container siteHeadContainer">
-      <h1 class="siteHeader_logo">
-        <a href="https://www.tcu.ac.jp/" target="_blank" rel="noopener">
-          <span><img src="/uploads/sites/9/2021/08/logo_new01.png" alt="東京都市大学" /></span>
+      <div class="siteHeader_top">
+        <a class="siteHeader_tcuLink" href="https://www.tcu.ac.jp/">
+          <img class="siteHeader_tcuLogo" src="/assets/top/tcu_header_logo.svg" alt="東京都市大学" />
         </a>
-        <a href="/">
-          <span><img src="/uploads/2021/08/logo_new02.png" alt="東京都市大学 ダイバーシティ推進室" /></span>
+        <a class="siteHeader_diversityLink" href="/">
+          <img class="siteHeader_diversityLogo" src="/assets/top/diversity_logo.png" alt="東京都市大学 ダイバーシティ推進室" />
         </a>
-      </h1>
+        <nav class="siteHeader_nav">
+          <ul class="gMenu">
+            <li class="menu-events"><a href="/events/"><strong>活動報告</strong></a></li>
+            <li class="menu-library"><a href="/library/"><strong>コラム</strong></a></li>
+            <li class="menu-support"><a href="/support/"><strong>各種支援</strong></a></li>
+            <li class="menu-state"><a href="/state/"><strong>都市大の現状</strong></a>
+              <ul class="sub-menu">
+                <li><a href="/state/stateofnumber/">数字で見る都市大の現状</a></li>
+                <li><a href="/state/enquete/">アンケート</a></li>
+              </ul>
+            </li>
+            <li class="menu-publication"><a href="/publication/"><strong>刊行物</strong></a>
+              <ul class="sub-menu">
+                <li><a href="/publication/communication/">TCUダイバーシティ通信</a></li>
+                <li><a href="/publication/calendarterms/">カレンダー用語集</a></li>
+                <li><a href="/publication/rolemodel/">卒業生ロールモデル集</a></li>
+                <li><a href="/publication/t_rolemodel/">教員ロールモデル集</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <a class="siteHeader_action" href="https://www.diversity.tcu.ac.jp/access/#daivbtn">
+          <img class="siteHeader_diver" src="/assets/top/diver.svg" alt="ダイバ" />
+        </a>
+      </div>
     </div>
-    <nav>
-      <ul class="gMenu">
-        <li><a href="/about/"><strong>ダイバーシティについて</strong></a>
-          <ul class="sub-menu">
-            <li><a href="/about/overview/">概要</a></li>
-            <li><a href="/about/introduction/">学長・室長挨拶</a></li>
-            <li><a href="/about/history/">沿革/体制</a></li>
-            <li><a href="/about/members/">委員/室員の紹介</a></li>
-            <li><a href="/about/declaration02/">東京都市大学ダイバーシティ推進宣言</a></li>
-            <li><a href="/about/declaration/">10私立大学共同宣言</a></li>
-          </ul>
-        </li>
-        <li><a href="/news/"><strong>お知らせ</strong></a></li>
-        <li><a href="/events/"><strong>活動報告</strong></a></li>
-        <li><a href="/library/"><strong>ライブラリ</strong></a></li>
-        <li><a href="/support/"><strong>各種支援</strong></a></li>
-        <li><a href="/state/"><strong>都市大の現状</strong></a>
-          <ul class="sub-menu">
-            <li><a href="/state/stateofnumber/">数字で見る都市大の現状</a></li>
-            <li><a href="/state/enquete/">アンケート</a></li>
-          </ul>
-        </li>
-        <li><a href="/rentalbooks/"><strong>貸出図書</strong></a></li>
-        <li><a href="/publication/"><strong>刊行物</strong></a>
-          <ul class="sub-menu">
-            <li><a href="/publication/communication/">TCUダイバーシティ通信</a></li>
-            <li><a href="/publication/calendarterms/">カレンダー用語集</a></li>
-            <li><a href="/publication/rolemodel/">卒業生ロールモデル集</a></li>
-            <li><a href="/publication/t_rolemodel/">教員ロールモデル集</a></li>
-          </ul>
-        </li>
-        <li><a href="/access/"><strong>アクセス</strong></a></li>
-      </ul>
-    </nav>
   </header>
 
   <main class="mainContent">
@@ -98,43 +60,160 @@ const { title = '東京都市大学 ダイバーシティ推進室', description
   </main>
 
   <footer class="siteFooter">
+    <div class="siteFooter_bar" aria-hidden="true"></div>
     <div class="container">
-      <div>
-        <p class="f_title" style="font-weight:bold;font-size:1.1em;">東京都市大学 ダイバーシティ推進室</p>
-        <p>〒158-8557<br />
-          東京都世田谷区玉堤1-28-1<br />
-          世田谷キャンパス1号館3階<br /><br />
-          TEL：03-5707-0104（代）<br />
-          FAX：03-5707-1289<br />
-          開室時間：9:00〜17:00<br />
-          (土日・祝日・大学休業日を除く)
-        </p>
+      <div class="siteFooter_top">
+        <div class="siteFooter_address">
+          <p>〒158-8557<br />
+            東京都世田谷区玉堤1-28-1　
+            世田谷キャンパス1号館3階<br />
+            TEL：03-5707-0104（代）　
+            FAX：03-5707-1289<br />
+            開室時間：9:00〜17:00　
+            (土日・祝日・大学休業日を除く)
+          </p>
+        </div>
+        <div class="siteFooter_brand">
+          <img src="/assets/top/diversity_logo.png" alt="東京都市大学 ダイバーシティ推進室" />
+        </div>
+        <div class="siteFooter_diverWrap">
+          <img src="/assets/top/diver.svg" alt="ダイバ" />
+        </div>
       </div>
-      <div>
-        <p class="f_title" style="font-weight:bold;font-size:1.1em;">サイトマップ</p>
-        <p>
-          <a href="/about/">ダイバーシティについて</a><br />
-          <a href="/news/">お知らせ</a><br />
-          <a href="/events/">活動報告</a><br />
-          <a href="/library/">ライブラリ</a><br />
-          <a href="/support/">各種支援</a><br />
-          <a href="/state/">都市大の現状</a><br />
-          <a href="/rentalbooks/">貸出図書</a><br />
-          <a href="/publication/">刊行物</a><br />
-          <a href="/access/">アクセス</a>
-        </p>
-      </div>
-      <div>
-        <p class="f_title" style="font-weight:bold;font-size:1.1em;">関連リンク</p>
-        <ul style="list-style:none;padding:0;">
-          <li><a href="https://www.gender.go.jp/" target="_blank" rel="noopener">内閣府男女共同参画局</a></li>
-          <li><a href="https://www.jst.go.jp/diversity/" target="_blank" rel="noopener">JSTダイバーシティ推進</a></li>
-          <li><a href="https://opened.network/" target="_blank" rel="noopener">全国ダイバーシティネットワークOPENeD</a></li>
-          <li><a href="https://www.tcu.ac.jp/" target="_blank" rel="noopener">東京都市大学</a></li>
-        </ul>
+      <div class="siteFooter_rule"></div>
+      <div class="siteFooter_bottom">
+        <div class="siteFooter_links">
+          <div class="siteFooter_linkBlock">
+            <p class="siteFooter_heading siteFooter_heading-sitemap">サイトマップ</p>
+            <div class="siteFooter_panel">
+              <p>
+              <a href="/about/">ダイバーシティについて</a><br />
+              <a href="/news/">お知らせ</a><br />
+              <a href="/events/">活動報告</a><br />
+              <a href="/library/">ライブラリ</a><br />
+              <a href="/support/">各種支援</a><br />
+              <a href="/state/">都市大の現状</a><br />
+              <a href="/rentalbooks/">貸出図書</a><br />
+              <a href="/publication/">刊行物</a><br />
+              <a href="/access/">アクセス</a>
+              </p>
+            </div>
+          </div>
+          <div class="siteFooter_linkBlock">
+            <p class="siteFooter_heading siteFooter_heading-links">関連リンク</p>
+            <div class="siteFooter_panel">
+              <p>
+              <a href="https://www.gender.go.jp/" target="_blank" rel="noopener">内閣府男女共同参画局</a><br />
+              <a href="https://www.jst.go.jp/diversity/" target="_blank" rel="noopener">JSTダイバーシティ推進</a><br />
+              <a href="https://opened.network/" target="_blank" rel="noopener">全国ダイバーシティネットワークOPENeD</a><br />
+              <a href="https://www.tcu.ac.jp/" target="_blank" rel="noopener">東京都市大学</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="copySection">Copyright © TCU. All Rights Reserved.</div>
       </div>
     </div>
-    <div class="copySection">Copyright © TCU. All Rights Reserved.</div>
   </footer>
+  <style>
+    :root {
+      --brand-primary: #37baf7;
+      --topic-environment: #2ecc71;
+      --topic-reform: #5b6ee1;
+      --topic-nextgen: #e74c3c;
+    }
+    html { margin:0; padding:0; overflow-x:hidden !important; overflow-y:auto !important; }
+    body { margin:0; padding:0; min-height:100%; overflow:visible !important; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; position:static !important; }
+    .vk-mobile-nav,
+    .vk-mobile-nav.vk-mobile-nav-open { display:none !important; top:auto !important; height:auto !important; overflow:hidden !important; }
+    .siteHeader { background:#fff; border:0; box-shadow:none; }
+    .siteHeader .container { max-width:1200px; margin:0 auto; padding:0 20px; }
+    .siteHeader_top { display:grid; grid-template-columns: 5% 6% 10% 1fr 50% 10%; align-items:center; column-gap:0; padding:12px 0; overflow:visible; }
+    .siteHeader_tcuLink,
+    .siteHeader_diversityLink,
+    .siteHeader_nav,
+    .siteHeader_action { display:flex; align-items:center; min-width:0; width:100%; }
+    .siteHeader_tcuLink { justify-content:flex-start; }
+    .siteHeader_diversityLink { justify-content:flex-start; }
+    .siteHeader_nav { justify-content:center; justify-self:end; border:0; box-shadow:none; }
+    .siteHeader_action { justify-content:flex-end; }
+    .siteHeader_tcuLink { grid-column:1; }
+    .siteHeader_diversityLink { grid-column:3; }
+    .siteHeader_nav { grid-column:5; }
+    .siteHeader_action { grid-column:6; }
+    .siteHeader_tcuLink img,
+    .siteHeader_diversityLink img,
+    .siteHeader_action img { display:block; width:100%; height:auto; }
+    .siteHeader_tcuLogo { max-width:100%; transform:scale(2); transform-origin:left center; }
+    .siteHeader_diversityLogo { max-width:100%; }
+    .siteHeader_diver { max-width:40px; width:100%; transform:scale(2); transform-origin:right center; }
+    .gMenu { list-style:none; padding:0; margin:0; display:flex; flex-wrap:nowrap; justify-content:center; width:100%; background:#fff; border:1px solid #d9dee5; border-radius:12px; overflow:hidden; box-shadow:none; }
+    .gMenu > li { position:relative; flex:1 1 0; min-width:0; }
+    .gMenu > li + li::before { content:""; position:absolute; left:0; top:18%; width:1px; height:64%; background:#d9dee5; }
+    .gMenu > li > a { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; min-height:74px; color:#444; padding:10px 8px; text-decoration:none; font-size:12px; line-height:1.3; text-align:center; }
+    .gMenu > li > a::before { font-size:18px; line-height:1; color:#626a73; }
+    .gMenu > li > a:hover { background:#f5f7fa; }
+    .gMenu > li > a strong { font-weight:600; color:#444; }
+    .gMenu > li.menu-events > a::before { content:"◫"; }
+    .gMenu > li.menu-library > a::before { content:"✎"; }
+    .gMenu > li.menu-support > a::before { content:"⌘"; }
+    .gMenu > li.menu-state > a::before { content:"◔"; }
+    .gMenu > li.menu-publication > a::before { content:"▤"; }
+    .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:var(--brand-primary); min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
+    .gMenu > li:hover .sub-menu { display:block; }
+    .gMenu .sub-menu a { display:block; color:#fff; padding:10px 14px; text-decoration:none; font-size:13px; border-top:1px solid rgba(255,255,255,0.15); }
+    footer.siteFooter,
+    .siteFooter { background:#fff; color:#444; margin-top:0px; overflow:visible; border:0 !important; border-top:0 !important; box-shadow:none !important; }
+    .siteFooter_bar { max-width:1200px; margin:0 auto; height:7px; background:linear-gradient(90deg,#e74c3c 0%,#f39c12 16%,#f1c40f 32%,#2ecc71 48%,#3498db 64%,#5b6ee1 82%,#e056fd 100%); }
+    .siteFooter a { color:#444; text-decoration:none; }
+    .siteFooter a:hover { color:var(--brand-primary); }
+    .siteFooter .container { max-width:1200px; margin:0 auto; padding:32px 20px 24px; }
+    .siteFooter_top { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:24px; align-items:center; }
+    .siteFooter_address,
+    .siteFooter_brand,
+    .siteFooter_diverWrap { display:flex;  font-size: 0.85em;align-items:center; justify-content:center; text-align:center; }
+    .siteFooter_address { justify-content:flex-start; text-align:left; }
+    .siteFooter_address p { margin:0; line-height:1.8; }
+    .siteFooter_brand img { max-width:200px; width:100%; height:auto; }
+    .siteFooter_diverWrap img { max-width:130px; width:100%; height:auto; }
+    .siteFooter_rule { height:1px; background:#d9dee5; margin:28px 0 24px; }
+    .siteFooter_bottom { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
+    .siteFooter_links { display:flex; gap:48px; align-items:flex-start; }
+    .siteFooter_linkBlock { position:relative; }
+    .siteFooter_heading { margin:0 0 10px; font-weight:700; color:#444; display:flex; align-items:center; gap:8px; }
+    .siteFooter_heading::before { color:#7a8693; font-size:16px; }
+    .siteFooter_heading-sitemap::before { content:"▦"; }
+    .siteFooter_heading-links::before { content:"↗"; }
+    .siteFooter_panel { position:absolute; top:calc(100% + 8px); left:0; min-width:260px; padding:14px 16px; background:#fff; border:1px solid #d9dee5; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,.08); opacity:0; visibility:hidden; transform:translateY(8px); transition:opacity .18s, transform .18s, visibility .18s; z-index:20; }
+    .siteFooter_panel p { margin:0; line-height:1.9; }
+    .siteFooter_linkBlock:hover .siteFooter_panel,
+    .siteFooter_linkBlock:focus-within .siteFooter_panel { opacity:1; visibility:visible; transform:translateY(0); }
+    .siteFooter .copySection { margin-left:auto; margin-top:0; padding-top:0; text-align:right; font-size:12px; color:#666; white-space:nowrap; border:0; }
+    .mainContent { max-width:1200px; margin:0 auto; padding:30px 20px; }
+    .mainContent img { max-width:100%; height:auto; }
+    h1.entry-title { border-bottom:3px solid var(--brand-primary); padding-bottom:10px; }
+    .newsList { list-style:none; padding:0; }
+    .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
+    .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
+    @media (max-width: 780px) {
+      .siteHeader_top { grid-template-columns: 1fr; row-gap:12px; }
+      .siteHeader_tcuLink,
+      .siteHeader_diversityLink,
+      .siteHeader_nav,
+      .siteHeader_action { flex:0 0 auto; width:100%; justify-content:center; }
+      .siteHeader_tcuLogo { max-width:220px; }
+      .siteHeader_diversityLogo { max-width:320px; }
+      .gMenu { flex-direction:column; }
+      .siteFooter .container { padding:33px 20px 20px; }
+      .siteFooter_top { grid-template-columns: 1fr; }
+      .siteFooter_address,
+      .siteFooter_brand,
+      .siteFooter_diverWrap { justify-content:center; text-align:center; }
+      .siteFooter_bottom { flex-direction:column; }
+      .siteFooter_links { flex-direction:column; gap:20px; }
+      .siteFooter_panel { position:static; min-width:0; margin-top:8px; opacity:1; visibility:visible; transform:none; box-shadow:none; }
+      .siteFooter .copySection { margin-left:0; margin-top:0; padding-top:0; text-align:left; white-space:normal; border:0; }
+    }
+  </style>
 </body>
 </html>

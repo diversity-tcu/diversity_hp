@@ -8,6 +8,7 @@ const pageSchema = z.object({
   author: z.string().optional(),
   original_url: z.string().optional(),
   status: z.string().optional(),
+  topic: z.enum(['environment', 'reform', 'nextgen']).optional(),
 });
 
 const pages = defineCollection({

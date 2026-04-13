@@ -11,7 +11,7 @@ const items = (await getCollection('news'))
     {items.map((n) => (
       <li>
         <time>{n.data.date}</time>
-        <a href={`/news/${n.id.replace(/\.md$/, '')}/`}>{n.data.title}</a>
+        <a href={`/news/${n.data.slug || n.id.replace(/\.md$/, '')}/`}>{n.data.title}</a>
       </li>
     ))}
   </ul>
