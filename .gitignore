@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+*.Zone.Identifier
+mirror/
+backup_*.zip
+WordPress.*.xml
+image_urls.txt
