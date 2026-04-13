@@ -7,10 +7,16 @@ original_url: "https://www.diversity.tcu.ac.jp/state/"
 status: "publish"
 ---
 
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-@import url(/wp-content/plugins/siteorigin-panels/css/front-flex.min.css); #pgc-5827-0-0 { width:100%;width:calc(100% - ( 0 \* 30px ) ) } #pl-5827 #panel-5827-0-0-0 , #pl-5827 #panel-5827-1-0-0 , #pl-5827 #panel-5827-1-1-0 { } #pg-5827-0 , #pl-5827 .so-panel { margin-bottom:30px } #pgc-5827-1-0 , #pgc-5827-1-1 { width:50%;width:calc(50% - ( 0.5 \* 30px ) ) } #pl-5827 .so-panel:last-child { margin-bottom:0px } #pg-5827-0.panel-no-style, #pg-5827-0.panel-has-style > .panel-row-style , #pg-5827-1.panel-no-style, #pg-5827-1.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-5827-0.panel-no-style, #pg-5827-0.panel-has-style > .panel-row-style , #pg-5827-1.panel-no-style, #pg-5827-1.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-5827-0 > .panel-grid-cell , #pg-5827-0 > .panel-row-style > .panel-grid-cell , #pg-5827-1 > .panel-grid-cell , #pg-5827-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-5827-1-0 { margin-bottom:30px } #pl-5827 .panel-grid-cell { padding:0 } #pl-5827 .panel-grid .panel-grid-cell-empty { display:none } #pl-5827 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px } }
+<div class="entry-body">
+<div class="panel-layout" id="pl-5827"><div class="panel-grid panel-no-style" id="pg-5827-0"><div class="panel-grid-cell" id="pgc-5827-0-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" id="panel-5827-0-0-0"><div class="textwidget custom-html-widget"><h1 class="p_title">都市大の現状</h1>
+<p class="p_title_s">STATE</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5827-1"><div class="panel-grid-cell" id="pgc-5827-1-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="1" id="panel-5827-1-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=4314.html" style="color:#000">
+<div style="border: solid 1px #888888">
+<div style="text-align:center;margin:15px 0px;font-weight:bold">数字で見る都市大の現状</div>
+<img alt="数字で見る都市大" decoding="async" src="../wp-content/uploads/2020/04/books.png" style="border-top: solid 1px #888888;width:100%"/>
+</div>
+</a></div></div></div><div class="panel-grid-cell" id="pgc-5827-1-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="2" id="panel-5827-1-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5670.html" style="color:#000">
+<div style="border: solid 1px #888888">
+<div style="text-align:center;margin:15px 0px;font-weight:bold">アンケート</div>
+<img alt="アンケート" decoding="async" src="../wp-content/uploads/2022/03/enquete_img.png" style="border-top: solid 1px #888888;width:100%"/>
+</div>
+</a></div></div></div></div></div> </div>

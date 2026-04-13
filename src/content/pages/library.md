@@ -7,138 +7,145 @@ original_url: "https://www.diversity.tcu.ac.jp/library/"
 status: "publish"
 ---
 
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
+<div class="entry-body">
+<div class="panel-layout" id="pl-5687"><div class="panel-grid panel-no-style" id="pg-5687-0"><div class="panel-grid-cell" id="pgc-5687-0-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" id="panel-5687-0-0-0"><div class="textwidget custom-html-widget"><h1 class="p_title">ライブラリ</h1>
+<p class="p_title_s">LIBRARY</p>
+<div style="font-size: 14px;">※内容、所属、役職等は掲載当時のものです</div></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5687-1"><div class="panel-grid-cell" id="pgc-5687-1-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="1" id="panel-5687-1-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><span class="h2_line"></span> ワーク・イン・ライフ連載企画</h2>
+<span style="font-size:14px">「ワーク・イン・ライフ」とは、仕事（ワーク）を生活（ライフ）の一部と捉え、両者を対立するものではなく、調和させて考える概念のことです。生活を適切に調整し、互いが良好な関係を保つ状態を指している「ワーク・ライフ・バランス」に対し、「ワーク・イン・ライフ」では、仕事を自分の人生の中に組み込み、相互作用をさせることで充実した生き方が実現すると考えます。</span></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-2"><div class="pc_library_line panel-row-style panel-row-style-for-5687-2"><div class="panel-grid-cell" id="pgc-5687-2-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="2" id="panel-5687-2-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7450.html"><img alt="" class="so-widget-image" decoding="async" fetchpriority="high" height="720" src="../wp-content/uploads/2025/10/workinlife01.png" title="" width="496">
+</img></a>
+<p class="bn_title">第01回<br/>都市生活学部<br/>都市生活学科<br/>宇都 正哲 教授<br/>（2025年6月）</p></div></div></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-2-1"></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-2-2"></div><div class="panel-grid-cell panel-grid-cell-empty panel-grid-cell-mobile-last" id="pgc-5687-2-3"></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-2-4"></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-3"><div class="sp_library_line panel-row-style panel-row-style-for-5687-3"><div class="panel-grid-cell" id="pgc-5687-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" id="panel-5687-3-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7450.html"><img alt="" class="so-widget-image" decoding="async" height="720" src="../wp-content/uploads/2025/10/workinlife01.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第01回<br/>都市生活学部<br/>都市生活学科<br/>宇都 正哲 教授<br/>（2025年6月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-3-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="4" id="panel-5687-3-1-0"><div class="textwidget custom-html-widget"></div></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5687-4"><div class="panel-grid-cell" id="pgc-5687-4-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="5" id="panel-5687-4-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><span class="h2_line"></span> イクボス連載企画</h2>
+<span style="font-size:14px">イクボス：子育てに積極的に関わる男性をイクメンと呼ぶのに倣い、部下のキャリアと人生を応援し、仕事と生活の両立が図りやすい環境の整備に 努める上司（経営者・管理職、男女を問わない）のこと。</span></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-5"><div class="pc_library_line panel-row-style panel-row-style-for-5687-5"><div class="panel-grid-cell" id="pgc-5687-5-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="6" id="panel-5687-5-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5697.html"><img alt="" class="so-widget-image" decoding="async" height="720" src="../wp-content/uploads/2022/03/ikubosu01.png" title="" width="496"/>
+</a>
+<p class="bn_title">第01回<br/>理工学部<br/>電気電子通信工学科<br/>鈴木 憲吏 准教授<br/>（2020年12月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-5-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="7" id="panel-5687-5-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5700.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu02.png" title="" width="496"/>
+</a>
+<p class="bn_title">第02回<br/>事務局総務部<br/>水谷 茂喜 部長<br/>（2021年3月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-5-2"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="8" id="panel-5687-5-2-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5704.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu03.png" title="" width="496"/>
+</a>
+<p class="bn_title">第03回<br/>関 良明 副学長<br/>（2021年6月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-5-3"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="9" id="panel-5687-5-3-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5708.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu04.png" title="" width="496"/>
+</a>
+<p class="bn_title">第04回<br/>大上 浩 副学長<br/>（2021年9月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-5-4"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="10" id="panel-5687-5-4-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5710.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu05.png" title="" width="496"/>
+</a>
+<p class="bn_title">第05回<br/>野中 謙一郎 副学長<br/>（2021年12月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-6"><div class="pc_library_line panel-row-style panel-row-style-for-5687-6"><div class="panel-grid-cell" id="pgc-5687-6-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="11" id="panel-5687-6-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6285.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/ikubosu06.png" title="" width="496"/>
+</a>
+<p class="bn_title">第06回<br/>住田 曉弘 学生支援部長<br/>（2022年4月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-6-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="12" id="panel-5687-6-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6294.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/ikubosu07.png" title="" width="496"/>
+</a>
+<p class="bn_title">第07回<br/>情報工学部<br/>情報科学科<br/>田口 亮 教授<br/>（2022年6月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-6-2"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="13" id="panel-5687-6-2-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6301.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/ikubosu08.png" title="" width="496"/>
+</a>
+<p class="bn_title">第08回<br/>鳥羽 幸太郎 事務局長<br/>（2022年10月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-6-3"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="14" id="panel-5687-6-3-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6937.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu09.png" title="" width="496"/>
+</a>
+<p class="bn_title">第09回<br/>理工学部<br/>自然科学科<br/>飯島 正徳 教授<br/>（2023年2月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-6-4"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="15" id="panel-5687-6-4-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6947.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu10.png" title="" width="496"/>
+</a>
+<p class="bn_title">第10回<br/>人間科学部<br/>人間科学科<br/>早坂 信哉 教授<br/>（2023年6月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-7"><div class="pc_library_line panel-row-style panel-row-style-for-5687-7"><div class="panel-grid-cell" id="pgc-5687-7-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="16" id="panel-5687-7-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6949.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu11.png" title="" width="496"/>
+</a>
+<p class="bn_title">第11回<br/>理工学部<br/>電気電子通信工学科<br/>柴田 随道 教授<br/>（2023年10月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-7-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="17" id="panel-5687-7-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6953.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu12.png" title="" width="496"/>
+</a>
+<p class="bn_title">第12回<br/>情報工学部<br/>知能情報工学科<br/>森 博彦 教授<br/>（2024年10月）</p></div></div></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-7-2"></div><div class="panel-grid-cell panel-grid-cell-empty panel-grid-cell-mobile-last" id="pgc-5687-7-3"></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-7-4"></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-8"><div class="sp_library_line panel-row-style panel-row-style-for-5687-8"><div class="panel-grid-cell" id="pgc-5687-8-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="18" id="panel-5687-8-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5697.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu01.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第01回<br/>理工学部<br/>電気電子通信工学科<br/>鈴木 憲吏 准教授<br/>（2020年12月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-8-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="19" id="panel-5687-8-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5700.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu02.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第02回<br/>事務局総務部<br/>水谷 茂喜 部長<br/>（2021年3月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-9"><div class="sp_library_line panel-row-style panel-row-style-for-5687-9"><div class="panel-grid-cell" id="pgc-5687-9-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="20" id="panel-5687-9-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5704.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu03.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第03回<br/>関 良明 副学長<br/>（2021年6月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-9-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="21" id="panel-5687-9-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5708.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu04.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第04回<br/>大上 浩 副学長<br/>（2021年9月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-10"><div class="sp_library_line panel-row-style panel-row-style-for-5687-10"><div class="panel-grid-cell" id="pgc-5687-10-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="22" id="panel-5687-10-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5710.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/ikubosu05.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第05回<br/>野中 謙一郎 副学長<br/>（2021年12月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-10-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="23" id="panel-5687-10-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6285.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/ikubosu06.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第06回<br/>住田 曉弘 学生支援部長<br/>（2022年4月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-11"><div class="sp_library_line panel-row-style panel-row-style-for-5687-11"><div class="panel-grid-cell" id="pgc-5687-11-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="24" id="panel-5687-11-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6294.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/ikubosu07.png" title="" width="496"/>
+</a>
+<p class="bn_title">第07回<br/>情報工学部<br/>情報科学科<br/>田口 亮 教授<br/>（2022年6月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-11-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="25" id="panel-5687-11-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6301.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/ikubosu08.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第08回<br/>鳥羽 幸太郎 事務局長<br/>（2022年10月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-12"><div class="sp_library_line panel-row-style panel-row-style-for-5687-12"><div class="panel-grid-cell" id="pgc-5687-12-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="26" id="panel-5687-12-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6937.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu09.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第09回<br/>理工学部<br/>自然科学科<br/>飯島 正徳 教授<br/>（2023年2月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-12-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="27" id="panel-5687-12-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6947.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu10.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第10回<br/>人間科学部<br/>人間科学科<br/>早坂 信哉 教授<br/>（2023年6月）</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-13"><div class="sp_library_line panel-row-style panel-row-style-for-5687-13"><div class="panel-grid-cell" id="pgc-5687-13-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="28" id="panel-5687-13-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6949.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu11.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第11回<br/>理工学部<br/>電気電子通信工学科<br/>柴田 随道 教授<br/>（2023年10月）</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-13-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="29" id="panel-5687-13-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6953.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/ikubosu12.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第12回<br/>情報工学部<br/>知能情報工学科<br/>森 博彦 教授<br/>（2024年10月）</p></div></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5687-14"><div class="panel-grid-cell" id="pgc-5687-14-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="30" id="panel-5687-14-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><span class="h2_line"></span> コラム「窓」</h2></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-15"><div class="pc_library_line panel-row-style panel-row-style-for-5687-15"><div class="panel-grid-cell" id="pgc-5687-15-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="31" id="panel-5687-15-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5712.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/mado01.png" title="" width="496"/>
+</a>
+<p class="bn_title">第01回</p>
+</div></div></div><div class="panel-grid-cell" id="pgc-5687-15-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="32" id="panel-5687-15-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5738.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/mado02.png" title="" width="496"/>
+</a>
+<p class="bn_title">第02回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-15-2"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="33" id="panel-5687-15-2-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5741.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/mado03.png" title="" width="496"/>
+</a>
+<p class="bn_title">第03回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-15-3"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="34" id="panel-5687-15-3-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6313.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/mado04.png" title="" width="496"/>
+</a>
+<p class="bn_title">第04回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-15-4"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="35" id="panel-5687-15-4-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6318.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/mado05.png" title="" width="496"/>
+</a>
+<p class="bn_title">第05回</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-16"><div class="pc_library_line panel-row-style panel-row-style-for-5687-16"><div class="panel-grid-cell" id="pgc-5687-16-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="36" id="panel-5687-16-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6329.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/mado06.png" title="" width="496"/>
+</a>
+<p class="bn_title">第06回</p>
+</div></div></div><div class="panel-grid-cell" id="pgc-5687-16-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="37" id="panel-5687-16-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6966.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado07.png" title="" width="496"/>
+</a>
+<p class="bn_title">第07回</p>
+</div></div></div><div class="panel-grid-cell" id="pgc-5687-16-2"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="38" id="panel-5687-16-2-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6972.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado08.png" title="" width="496"/>
+</a>
+<p class="bn_title">第08回</p>
+</div></div></div><div class="panel-grid-cell" id="pgc-5687-16-3"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="39" id="panel-5687-16-3-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6979.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado09.png" title="" width="496"/>
+</a>
+<p class="bn_title">第09回</p>
+</div></div></div><div class="panel-grid-cell" id="pgc-5687-16-4"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="40" id="panel-5687-16-4-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7013.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado10.png" title="" width="496"/>
+</a>
+<p class="bn_title">第10回</p>
+</div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-17"><div class="pc_library_line panel-row-style panel-row-style-for-5687-17"><div class="panel-grid-cell" id="pgc-5687-17-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="41" id="panel-5687-17-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7015.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado11.png" title="" width="496"/>
+</a>
+<p class="bn_title">第11回</p>
+</div></div></div><div class="panel-grid-cell" id="pgc-5687-17-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="42" id="panel-5687-17-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7025.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado12.png" title="" width="496"/>
+</a>
+<p class="bn_title">第12回</p>
+</div></div></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-17-2"></div><div class="panel-grid-cell panel-grid-cell-empty panel-grid-cell-mobile-last" id="pgc-5687-17-3"></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-17-4"></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-18"><div class="sp_library_line panel-row-style panel-row-style-for-5687-18"><div class="panel-grid-cell" id="pgc-5687-18-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="43" id="panel-5687-18-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5712.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/mado01.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第01回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-18-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="44" id="panel-5687-18-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5738.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/mado02.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第02回</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-19"><div class="sp_library_line panel-row-style panel-row-style-for-5687-19"><div class="panel-grid-cell" id="pgc-5687-19-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="45" id="panel-5687-19-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5741.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/mado03.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第03回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-19-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="46" id="panel-5687-19-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6313.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/mado04.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第04回</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-20"><div class="sp_library_line panel-row-style panel-row-style-for-5687-20"><div class="panel-grid-cell" id="pgc-5687-20-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="47" id="panel-5687-20-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6318.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/mado05.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第05回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-20-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="48" id="panel-5687-20-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6329.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2023/01/mado06.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第06回</p>
+</div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-21"><div class="sp_library_line panel-row-style panel-row-style-for-5687-21"><div class="panel-grid-cell" id="pgc-5687-21-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="49" id="panel-5687-21-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6966.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado07.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第07回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-21-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="50" id="panel-5687-21-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6972.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado08.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第08回</p>
+</div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-22"><div class="sp_library_line panel-row-style panel-row-style-for-5687-22"><div class="panel-grid-cell" id="pgc-5687-22-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="51" id="panel-5687-22-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=6979.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado09.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第09回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-22-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="52" id="panel-5687-22-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7013.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado10.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第10回</p>
+</div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-23"><div class="sp_library_line panel-row-style panel-row-style-for-5687-23"><div class="panel-grid-cell" id="pgc-5687-23-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="53" id="panel-5687-23-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7015.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado11.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第11回</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-23-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="54" id="panel-5687-23-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=7025.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2025/01/mado12.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第12回</p>
+</div></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5687-24"><div class="panel-grid-cell" id="pgc-5687-24-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="55" id="panel-5687-24-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><span class="h2_line"></span> 岡田住子先生と女性活躍推進のあゆみ</h2></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-25"><div class="pc_library_line panel-row-style panel-row-style-for-5687-25"><div class="panel-grid-cell" id="pgc-5687-25-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="56" id="panel-5687-25-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5744.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada01.png" title="" width="496"/>
+</a>
+<p class="bn_title">第01回<br/>黄色い安全靴</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-25-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="57" id="panel-5687-25-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5792.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada02.png" title="" width="496"/>
+</a>
+<p class="bn_title">第02回<br/>都市大ダイバーシティ～テクノレディと身近なロールモデル～</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-25-2"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="58" id="panel-5687-25-2-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5796.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada03.png" title="" width="496"/>
+</a>
+<p class="bn_title">第03回<br/>多様な人が集まり相互に機能するインクルージョンは夢？</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-25-3"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="59" id="panel-5687-25-3-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5798.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada04.png" title="" width="496"/>
+</a>
+<p class="bn_title">第04回<br/>なにもかも は・じ・め・ま・し・て！都市大女性研究者支援事業</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-25-4"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="60" id="panel-5687-25-4-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5802.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada05.png" title="" width="496"/>
+</a>
+<p class="bn_title">第05回<br/>女性研究者支援はうまくいったのか？意識改革は進んだのか？</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-26"><div class="pc_library_line panel-row-style panel-row-style-for-5687-26"><div class="panel-grid-cell" id="pgc-5687-26-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="61" id="panel-5687-26-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5805.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada06.png" title="" width="496"/>
+</a>
+<p class="bn_title">最終回<br/>SDGsのひとつジェンダー平等の実現とひとり一人ができること」「女性研究者支援はうまくいったのか？意識改革は進んだのか？</p></div></div></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-26-1"></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-26-2"></div><div class="panel-grid-cell panel-grid-cell-empty panel-grid-cell-mobile-last" id="pgc-5687-26-3"></div><div class="panel-grid-cell panel-grid-cell-empty" id="pgc-5687-26-4"></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-27"><div class="sp_library_line panel-row-style panel-row-style-for-5687-27"><div class="panel-grid-cell" id="pgc-5687-27-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="62" id="panel-5687-27-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5744.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada01.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第01回<br/>黄色い安全靴</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-27-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="63" id="panel-5687-27-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5792.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada02.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第02回<br/>都市大ダイバーシティ～テクノレディと身近なロールモデル～</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-28"><div class="sp_library_line panel-row-style panel-row-style-for-5687-28"><div class="panel-grid-cell" id="pgc-5687-28-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="64" id="panel-5687-28-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5796.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada03.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第03回<br/>多様な人が集まり相互に機能するインクルージョンは夢？</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-28-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="65" id="panel-5687-28-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5798.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada04.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第04回<br/>なにもかも は・じ・め・ま・し・て！都市大女性研究者支援事業</p></div></div></div></div></div><div class="panel-grid panel-has-style" id="pg-5687-29"><div class="sp_library_line panel-row-style panel-row-style-for-5687-29"><div class="panel-grid-cell" id="pgc-5687-29-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="66" id="panel-5687-29-0-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5802.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada05.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">第05回<br/>女性研究者支援はうまくいったのか？意識改革は進んだのか？</p></div></div></div><div class="panel-grid-cell" id="pgc-5687-29-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="67" id="panel-5687-29-1-0"><div class="textwidget custom-html-widget"><a href="../index.html%3Fp=5805.html"><img alt="" class="so-widget-image" decoding="async" height="720" loading="lazy" src="../wp-content/uploads/2022/03/okada06.png" style="border:solid 1px #ccc" title="" width="496"/>
+</a>
+<p class="bn_title">最終回<br/>SDGsのひとつジェンダー平等の実現とひとり一人ができること」「女性研究者支援はうまくいったのか？意識改革は進んだのか？</p></div></div></div></div></div></div> </div>

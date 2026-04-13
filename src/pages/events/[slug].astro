@@ -5,7 +5,7 @@ import { getCollection, render } from 'astro:content';
 export async function getStaticPaths() {
   const items = await getCollection('events');
   return items.map((item) => ({
-    params: { slug: item.data.slug || item.id.replace(/\.md$/, '') },
+    params: { slug: item.id.replace(/\.md$/, '') },
     props: { item },
   }));
 }

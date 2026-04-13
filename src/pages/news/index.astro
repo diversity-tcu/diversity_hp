@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL;
     {items.map((n) => (
       <li>
         <time>{n.data.date}</time>
-        <a href={`${base}news/${n.data.slug || n.id.replace(/\.md$/, '')}/`}>{n.data.title}</a>
+        <a href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>{n.data.title}</a>
       </li>
     ))}
   </ul>

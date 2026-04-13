@@ -7,20 +7,18 @@ original_url: "https://www.diversity.tcu.ac.jp/about/introduction/"
 status: "publish"
 ---
 
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
+<div class="entry-body">
+<div class="panel-layout" id="pl-3525"><div class="panel-grid panel-no-style" id="pg-3525-0"><div class="panel-grid-cell" id="pgc-3525-0-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" id="panel-3525-0-0-0"><div class="textwidget custom-html-widget"><h1 class="p_title">ご挨拶</h1>
+<p class="p_title_s">INTRODUCTION</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-3525-1"><div class="panel-grid-cell" id="pgc-3525-1-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="1" id="panel-3525-1-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">学長挨拶</p></h2>
+</div></div></div></div><div class="panel-grid panel-no-style" id="pg-3525-2"><div class="panel-grid-cell" id="pgc-3525-2-0"><div class="so-panel widget widget_media_image panel-first-child panel-last-child" data-index="2" id="panel-3525-2-0-0"><img alt="" class="image wp-image-6796 attachment-full size-full" decoding="async" fetchpriority="high" height="889" sizes="(max-width: 800px) 100vw, 800px" src="../../wp-content/uploads/2024/03/top_pr01_2024_02.jpg" srcset="../../wp-content/uploads/2024/03/top_pr01_2024_02.jpg 800w, ../../wp-content/uploads/2024/03/top_pr01_2024_02-270x300.jpg 270w, ../../wp-content/uploads/2024/03/top_pr01_2024_02-768x853.jpg 768w" style="max-width: 100%; height: auto;" width="800"/></div></div><div class="panel-grid-cell" id="pgc-3525-2-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" id="panel-3525-2-1-0"><div class="textwidget custom-html-widget"><p class="f16px">　東京都市大学は、建学の精神「公正、自由、自治」に基づき、それぞれの構成員の価値観や生き方が尊重され、その個性と能力を十分に発揮できるように努めております。</p>
+<p class="f16px">　いまの日本の高年齢層は、その子供時代に「そんな人と違うことはしてはいけません」という趣旨のお叱りのことばをうけることが珍しくないような環境のなかで育ってきました。こうした陰に陽に働いていた同一性圧力は弱まってきていますが、いまだにそうした圧力が存在していると思わざるを得ないことが、それなりの頻度でおきています。
+</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-3525-3"><div class="panel-grid-cell" id="pgc-3525-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="4" id="panel-3525-3-0-0"><div class="textwidget custom-html-widget"><p class="f16px">　一方、グローバル化のなかで、私たちは、多様性の大事さや可能性も認識しはじめています。同じような発想、同じような考え方、同じような技術・技能をもつ人ばかりで構成される組織よりも、異なる発想や、異なる考え方、異なる得意技をもった人で構成される組織の方が創造性に富み、さまざまな新しいモノ・コトや、解決策を生み出しやすいということを、私たちは学びつつあります。</p>
+<p class="f16px">　いま、「人と同じことをすること」よりも、「自らの個性を磨くこと」の方が、それぞれの個人にとっても、所属組織にとっても、そして、社会全体にとってもしあわせなことだというパラダイムシフトがおきていると思われます。</p>
+<p class="f16px">　東京都市大学は、そのパラダイムシフトに向き合い、性別、性的指向・性自認、国籍、人種、民族、文化、宗教、信条、障がい、年齢などにかかわらず、すべての人がもつ多様な価値観や生き方が尊重されて、人権を守り、尊厳を高めていくことが、何かを生み出す源となり、個人・組織・社会に大きな福音をもたらすと認識し、多様性を高めるため包括的に取り組んで参ります。</p>
+<p class="f16px" style="text-align: right">東京都市大学　学長　野城智也</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-3525-4"><div class="panel-grid-cell" id="pgc-3525-4-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="5" id="panel-3525-4-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">室長挨拶</p></h2></div></div></div></div><div class="panel-grid panel-no-style" id="pg-3525-5"><div class="panel-grid-cell" id="pgc-3525-5-0"><div class="so-panel widget widget_media_image panel-first-child panel-last-child" data-index="6" id="panel-3525-5-0-0"><img alt="" class="image wp-image-4715 attachment-full size-full" decoding="async" height="300" sizes="(max-width: 221px) 100vw, 221px" src="../../wp-content/uploads/2020/06/31ccbf2d1aa50f8dc77ee44e7e5ee45d.jpg" srcset="../../wp-content/uploads/2020/06/31ccbf2d1aa50f8dc77ee44e7e5ee45d.jpg 221w, ../../wp-content/uploads/2020/06/31ccbf2d1aa50f8dc77ee44e7e5ee45d-111x150.jpg 111w" style="max-width: 100%; height: auto;" width="221"/></div></div><div class="panel-grid-cell" id="pgc-3525-5-1"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="7" id="panel-3525-5-1-0"><div class="textwidget custom-html-widget"><p class="f16px">
+　性別、国籍といった多様な属性、宗教等を含む多様な文化的背景を有する学生たちにのびのびと学んでいただきたい、多様な人材が学ぶキャンパスでの生活を通じて互いの違いを認め、理解することのできる人に育って頂きたい、これを基礎として様々な境界をしなやかに越えてグローバルに活躍できる人材に育っていただきたい、そのために学生の学びを支える教職員についても多様な背景を持つ方々が快適に過ごせる場であって欲しい、このような願いを持って「ダイバーシティ推進室」は活動しております。
 
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Media\_Image"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Media\_Image"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
+</p>
+<p class="f16px">　東京都市大学は1929年に武蔵高等工科学校として発足し、1949年には武蔵工業大学となり、今日では7学部からなる総合大学へと進化しています。これに伴い学内もさらに多様化していると感じます。今後ますますグローバル化する時代に生きていく学生諸君に、多様性を認め合い尊重しあう姿勢を身に着けてもらうための環境が整いつつあります。</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-3525-6"><div class="panel-grid-cell" id="pgc-3525-6-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="8" id="panel-3525-6-0-0"><div class="textwidget custom-html-widget"><p class="f16px">　本学では、2009年度に文部科学省科学技術振興調整費に採択されて「女性研究者支援室」を開設して以来、とくに理工系分野における女性の活躍を推進するため男女共同参画を推進してまいりました。さらに、2019年に室名を「男女共同参画室」から「ダイバーシティ推進室」に変更してからは、本学におけるダイバーシティ環境の実現を推進するため、以下の３プロジェクトを軸としたさまざまな取り組みを行っています。「１．環境整備プロジェクト」では、留学生アンケートなどにより、性別や国籍を問わず、この大学で学ぶことが幸せと思えるような環境づくりを目指しています。「２．意識改革プロジェクト」では、イクメン座談会や図書館展などのイベントを通して、またダイバーシティ用語の解説を載せた卓上カレンダーを教職員に配布し、ダイバーシティやワークライフバランスに関する学内理解の向上に努めています。「３．次世代育成プロジェクト」では、学生と研究者の対話機会を設ける、女子高生向けの進学関連イベントを実施するなど、ダイバーシティ環境の実現に向けた次世代育成につながる活動に取り組んでいます。</p>
+<p class="f16px">　「ダイバーシティ推進室」では、本学が目指す「国際標準の大学への進化」を実現するため、本学の建学の精神「公正、自由、自治」に基づき、性別や国籍、民族、宗教、さらには障がいの有無といった違いを問わず、この大学で学び働く全員が、誰一人取り残されることなく、幸せに過ごすことのできるキャンパス環境の実現を目指し、今後も活動を推進してまいります。そのため当室では「共に学び、共に働き、共に築く」をキーワードに、皆様からのご意見を柔軟に取り入れてまいります。当室の活動に対するご理解とご支援、ご協力を何卒よろしくお願い致します。</p>
+<p class="f16px" style="text-align: right">東京都市大学　ダイバーシティ推進室　室長　伊東明美</p></div></div></div></div></div> </div>

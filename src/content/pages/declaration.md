@@ -7,8 +7,30 @@ original_url: "https://www.diversity.tcu.ac.jp/about/declaration/"
 status: "publish"
 ---
 
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-[siteorigin\_widget class="WP\_Widget\_Custom\_HTML"][/siteorigin\_widget]
-
-@import url(/wp-content/plugins/siteorigin-panels/css/front-flex.min.css); #pgc-3477-0-0 , #pgc-3477-1-0 { width:100%;width:calc(100% - ( 0 \* 30px ) ) } #pl-3477 #panel-3477-0-0-0 , #pl-3477 #panel-3477-1-0-0 { } #pg-3477-0 , #pl-3477 .so-panel { margin-bottom:30px } #pl-3477 .so-panel:last-child { margin-bottom:0px } #pg-3477-0.panel-no-style, #pg-3477-0.panel-has-style > .panel-row-style , #pg-3477-1.panel-no-style, #pg-3477-1.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-3477-0.panel-no-style, #pg-3477-0.panel-has-style > .panel-row-style , #pg-3477-1.panel-no-style, #pg-3477-1.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-3477-0 > .panel-grid-cell , #pg-3477-0 > .panel-row-style > .panel-grid-cell , #pg-3477-1 > .panel-grid-cell , #pg-3477-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-3477 .panel-grid-cell { padding:0 } #pl-3477 .panel-grid .panel-grid-cell-empty { display:none } #pl-3477 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px } }
+<div class="entry-body">
+<div class="panel-layout" id="pl-3477"><div class="panel-grid panel-no-style" id="pg-3477-0"><div class="panel-grid-cell" id="pgc-3477-0-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" id="panel-3477-0-0-0"><div class="textwidget custom-html-widget"><h1 class="p_title">10私立大学共同宣言</h1>
+<p class="p_title_s">DECLARATION</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-3477-1"><div class="panel-grid-cell" id="pgc-3477-1-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="1" id="panel-3477-1-0-0"><div class="textwidget custom-html-widget"><p class="f16px">日本国憲法は、個人の尊重と法の下の平等をうたい、この原則にのっとって、男女共同参画社会基本法は、男女共同参画社会の実現を21世紀の最重要課題と位置づけています。人が性別にかかわらず、社会の対等な構成員として、自らの意思により社会のあらゆる分野の活動に参画し、政治的、経済的、社会的および文化的利益を平等に享受する社会、そして各人の個性が尊菫され、多様な選択が保障される社会、そのような社会が「男女共同参画社会」です。</p>
+<p class="f16px">男女共同参画社会の実現は、国、地方公共団体、国民すべてに共通に課せられた責務であり、高等教育機関としての大学も、その一翼を担うべきことはいうまでもありません。教育 · 研究活動や学術・研究分野における男女共同参画の促進について、大学が果たすべき役割は非常に大きいものがあります。</p>
+<p class="f16px">日本学術会議で出された2008年7月の「学術分野における男女共同参画促進のために」という提言の中のアンケート調査では、男女共同参画を推進するための活動の実施状況は全体的に低く、「特にしていない」との回答のあった451校の内訳は、国立大学の35.1%に対し、私立大学は78.4%にも達していました。残念ながら、この数字を見ただけでも、男女共同参画に向けた活動が私立大学ではきわめて低調であることは明らかです。</p>
+<p class="f16px">しかしながら、科学技術振興調整費「女性研究者支援モデル育成」事業の採択校については、男女共同参画推進のための組織や委員会が設置され、広報啓発活動が活発化し、統計的資料や問題分析も進んでいることが明らかになりました。さらに、女性教員の増加のための取り組み、大学の意思決定に対する女性の積極的参加、育児支援制度等で優れた実績を上げていることもはっきりしてきました。</p>
+<p class="f16px">現在、「女 性研究者支援モデル育成」事業には45機関が採択され、それぞれが各機関の教育理念や特性を活かしつつ、ユニークな構想の実現とシステム改革に鋭意取り組んでいますが、このうち私立大学は、東京女子医科大学、日本女子大学、早稲田大学、慶應義塾大学、津田塾大学、東海大 学、日本大学、上智大学、東京都市大学、東邦大学の10大学しか採択されていません。全国に773 の大学があるうち、私立大学はその77%近くを占めるにもかかわらず、採択数は全体4分の1にも 満たない状況です。</p>
+<p class="f16px">国立大学は、すでに2000年に国立大学協会（国大協）によリ「国立大学における男女共同参画を推進するための提言」がなされ、この中で「男女共同参画推進担当機関の設圏」や「ポジティブ・アクションの採用」、「理工系、その他特に女性の少ない分野への女性の参画の推進」などが挙げられておリ、古くから男女共同参画推進体制が構築されてきました。</p>
+<p class="f16px">この結果、北海道大学や名古屋大学では、それぞれ「ポジティブアクション北大方式」、 「発展型ポジティブ・アクションプロジェクト」を展開し、全学予算を効果的に用いることで、部局の人事権を尊重しつつ非常に積極的な女性増員策がとられています。2008年10月の国立7大学シンポジウムでは、7大学総長による「U7 “男女共同参画’に係る共同宣言」において、「男女共同参画社会の実現のために大学が負っている重大な責務を自覚し、“公正な評価に基づく女性研究者の積極的登用＂等を含めた施策に英知を絞り、その実現に向けて真摯に努力する。」と宣言され、また、多くの大学で「男女共同参画」が大学の戦略として位置づけられています。</p>
+<p class="f16px">私立大学も、ぜひそれぞれが意識を高め、積極的な支援策を打ち出すことで、より多くの大学が 後に続いてくれることを期待し、ここに、私立大学における10大学の学長・総長等による内外に向けた取り組みとして、男女共同参画を促進し実現することを高らかに宣言します。</p>
+<p class="f16px">私たちは、教育・研究・就労の場における男女共同参画を実現するために、全学をあげて、教職員・学生等の人的構成の男女格差を是正し、大学運営の意思決定における男女共同参画の実現をめざします。</p>
+<p class="f16px">私たちは、各大学の教職員・学生等が、出産・育児・介護と教育・研究・就労を両立させることができるための効果的で具体的な措置を講じます。</p>
+<p class="f16px">私たちは、男女共同参画社会における学問・研究が、世界をリードし地球的規模で生ずるさまざまな問題の解決のために大きく寄与するものであり、かつ、男女共同参画の実現が多様な生の共存にも貢献するものであることを自覚しつつ、今後とも、新たな社会の創造に向けた知の結集・国際性豊かで優れた人材の育成をめざします。</p>
+<p class="f16px">私たちは、学術分野での男女共同参画を強力に推進するために、女性研究者の積極的採用、キャリア形成支援、育児・介護等と研究・教育の両立支援などについて、私立大学としても社会に対する重大な責務と認識し、その実現に向けて真摯に努力します。</p>
+<p class="f16px" style="text-align: right">2009年12月4日<br/>
+<br/>
+東京女子医科大学学長<br/>
+日本女子大学学長<br/>
+早稲田大学総長<br/>
+慶應義塾長<br/>
+津田塾大学学長<br/>
+東海大学学長<br/>
+日本大学総長<br/>
+上智大学学長<br/>
+東京都市大学学長<br/>
+東邦大学学長<br/>
+（採択年度順 · 50 音順）</p></div></div></div></div></div> </div>

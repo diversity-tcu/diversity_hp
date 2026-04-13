@@ -113,7 +113,7 @@ const quickLinks = [
       <ul class="news-cards">
         {news.map((n) => (
           <li class="news-card">
-            <a class="news-card-link" href={`${base}news/${n.data.slug || n.id.replace(/\.md$/, '')}/`}>
+            <a class="news-card-link" href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>
               <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
               <time>New! {n.data.date}</time>
               <span>{n.data.title}</span>
@@ -144,7 +144,7 @@ const quickLinks = [
     <h2 class="act-title">活動報告</h2>
     <div class="act-grid">
       {events.map((e) => (
-        <a class="act-card" href={`${base}events/${e.data.slug || e.id.replace(/\.md$/, '')}/`}>
+        <a class="act-card" href={`${base}events/${e.id.replace(/\.md$/, '')}/`}>
           <div class="act-thumb" style={`background-image:url('${withBase(e.thumb)}')`}></div>
           <div class="act-meta">
             <span class="act-date">{e.data.date}</span>
