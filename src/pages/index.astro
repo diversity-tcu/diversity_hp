@@ -1,6 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../lib/path';
+
+const base = import.meta.env.BASE_URL;
 
 const TOPIC_META = {
   environment: { label: '環境整備' },
@@ -77,22 +80,22 @@ const quickLinks = [
   { label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌' },
   { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/library/', icon: '▤' },
   { label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '⌘' },
-  { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '✦' },
+  { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '🕮' },
 ];
 ---
 <Base title="東京都市大学 ダイバーシティ推進室">
   <section class="hero">
     <div class="hero-grid">
-      <div class="hero-img hero-img-left"><img src="/assets/top/hero2.jpg" alt="" /></div>
-      <div class="hero-img hero-img-center"><img src="/assets/top/hero3.jpg" alt="" /></div>
-      <div class="hero-img hero-img-right"><img src="/assets/top/hero1.jpg" alt="" /></div>
+      <div class="hero-img hero-img-left"><img src={withBase('/assets/top/hero2.jpg')} alt="" /></div>
+      <div class="hero-img hero-img-center"><img src={withBase('/assets/top/hero3.jpg')} alt="" /></div>
+      <div class="hero-img hero-img-right"><img src={withBase('/assets/top/hero1.jpg')} alt="" /></div>
     </div>
   </section>
 
   <section class="top-panels">
     <section class="quicklinks">
       {quickLinks.map((q) => (
-        <a class="ql-card" href={q.href}>
+        <a class="ql-card" href={withBase(q.href)}>
           <div class="ql-icon" aria-hidden="true">{q.icon}</div>
           <div class="ql-text">
             <div class="ql-label">{q.label}</div>
@@ -105,12 +108,12 @@ const quickLinks = [
     <section class="news-block">
       <div class="news-side">
         <h2 class="news-title">News</h2>
-        <a class="news-all" href="/news/">お知らせ一覧<span class="btn-arrow" aria-hidden="true">›</span></a>
+        <a class="news-all" href={`${base}news/`}>お知らせ一覧<span class="btn-arrow" aria-hidden="true">›</span></a>
       </div>
       <ul class="news-cards">
         {news.map((n) => (
           <li class="news-card">
-            <a class="news-card-link" href={`/news/${n.data.slug || n.id.replace(/\.md$/, '')}/`}>
+            <a class="news-card-link" href={`${base}news/${n.data.slug || n.id.replace(/\.md$/, '')}/`}>
               <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
               <time>New! {n.data.date}</time>
               <span>{n.data.title}</span>
@@ -141,8 +144,8 @@ const quickLinks = [
     <h2 class="act-title">活動報告</h2>
     <div class="act-grid">
       {events.map((e) => (
-        <a class="act-card" href={`/events/${e.data.slug || e.id.replace(/\.md$/, '')}/`}>
-          <div class="act-thumb" style={`background-image:url('${e.thumb}')`}></div>
+        <a class="act-card" href={`${base}events/${e.data.slug || e.id.replace(/\.md$/, '')}/`}>
+          <div class="act-thumb" style={`background-image:url('${withBase(e.thumb)}')`}></div>
           <div class="act-meta">
             <span class="act-date">{e.data.date}</span>
             <span class={`act-tag topic-${e.topic}`}>{e.topicLabel}</span>
@@ -151,7 +154,7 @@ const quickLinks = [
         </a>
       ))}
     </div>
-    <p class="act-more"><a href="/events/">活動報告一覧 &gt;</a></p>
+    <p class="act-more"><a href={`${base}events/`}>活動報告一覧 &gt;</a></p>
   </section>
 </Base>
 

@@ -4,6 +4,7 @@ export interface Props {
   description?: string;
 }
 const { title = '東京都市大学 ダイバーシティ推進室', description = '東京都市大学 ダイバーシティ推進室' } = Astro.props;
+const base = import.meta.env.BASE_URL; // ends with "/"
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -13,43 +14,43 @@ const { title = '東京都市大学 ダイバーシティ推進室', description
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  <link rel="stylesheet" href="/assets/wp-css/common.css" />
-  <link rel="stylesheet" href="/assets/wp-css/skin.css" />
-  <link rel="stylesheet" href="/assets/wp-css/style.css" />
+  <link rel="stylesheet" href={`${base}assets/wp-css/common.css`} />
+  <link rel="stylesheet" href={`${base}assets/wp-css/skin.css`} />
+  <link rel="stylesheet" href={`${base}assets/wp-css/style.css`} />
 </head>
 <body>
   <header class="navbar siteHeader">
     <div class="container siteHeadContainer">
       <div class="siteHeader_top">
         <a class="siteHeader_tcuLink" href="https://www.tcu.ac.jp/">
-          <img class="siteHeader_tcuLogo" src="/assets/top/tcu_header_logo.svg" alt="東京都市大学" />
+          <img class="siteHeader_tcuLogo" src={`${base}assets/top/tcu_header_logo.svg`} alt="東京都市大学" />
         </a>
-        <a class="siteHeader_diversityLink" href="/">
-          <img class="siteHeader_diversityLogo" src="/assets/top/diversity_logo.png" alt="東京都市大学 ダイバーシティ推進室" />
+        <a class="siteHeader_diversityLink" href={base}>
+          <img class="siteHeader_diversityLogo" src={`${base}assets/top/diversity_logo.png`} alt="東京都市大学 ダイバーシティ推進室" />
         </a>
         <nav class="siteHeader_nav">
           <ul class="gMenu">
-            <li class="menu-events"><a href="/events/"><strong>活動報告</strong></a></li>
-            <li class="menu-library"><a href="/library/"><strong>コラム</strong></a></li>
-            <li class="menu-support"><a href="/support/"><strong>各種支援</strong></a></li>
-            <li class="menu-state"><a href="/state/"><strong>都市大の現状</strong></a>
+            <li class="menu-events"><a href={`${base}events/`}><strong>活動報告</strong></a></li>
+            <li class="menu-library"><a href={`${base}library/`}><strong>コラム</strong></a></li>
+            <li class="menu-support"><a href={`${base}support/`}><strong>各種支援</strong></a></li>
+            <li class="menu-state"><a href={`${base}state/`}><strong>都市大の現状</strong></a>
               <ul class="sub-menu">
-                <li><a href="/state/stateofnumber/">数字で見る都市大の現状</a></li>
-                <li><a href="/state/enquete/">アンケート</a></li>
+                <li><a href={`${base}state/stateofnumber/`}>数字で見る都市大の現状</a></li>
+                <li><a href={`${base}state/enquete/`}>アンケート</a></li>
               </ul>
             </li>
-            <li class="menu-publication"><a href="/publication/"><strong>刊行物</strong></a>
+            <li class="menu-publication"><a href={`${base}publication/`}><strong>刊行物</strong></a>
               <ul class="sub-menu">
-                <li><a href="/publication/communication/">TCUダイバーシティ通信</a></li>
-                <li><a href="/publication/calendarterms/">カレンダー用語集</a></li>
-                <li><a href="/publication/rolemodel/">卒業生ロールモデル集</a></li>
-                <li><a href="/publication/t_rolemodel/">教員ロールモデル集</a></li>
+                <li><a href={`${base}publication/communication/`}>TCUダイバーシティ通信</a></li>
+                <li><a href={`${base}publication/calendarterms/`}>カレンダー用語集</a></li>
+                <li><a href={`${base}publication/rolemodel/`}>卒業生ロールモデル集</a></li>
+                <li><a href={`${base}publication/t_rolemodel/`}>教員ロールモデル集</a></li>
               </ul>
             </li>
           </ul>
         </nav>
         <a class="siteHeader_action" href="https://www.diversity.tcu.ac.jp/access/#daivbtn">
-          <img class="siteHeader_diver" src="/assets/top/diver.svg" alt="ダイバ" />
+          <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
         </a>
       </div>
     </div>
@@ -74,10 +75,10 @@ const { title = '東京都市大学 ダイバーシティ推進室', description
           </p>
         </div>
         <div class="siteFooter_brand">
-          <img src="/assets/top/diversity_logo.png" alt="東京都市大学 ダイバーシティ推進室" />
+          <img src={`${base}assets/top/diversity_logo.png`} alt="東京都市大学 ダイバーシティ推進室" />
         </div>
         <div class="siteFooter_diverWrap">
-          <img src="/assets/top/diver.svg" alt="ダイバ" />
+          <img src={`${base}assets/top/diver.svg`} alt="ダイバ" />
         </div>
       </div>
       <div class="siteFooter_rule"></div>
@@ -87,15 +88,15 @@ const { title = '東京都市大学 ダイバーシティ推進室', description
             <p class="siteFooter_heading siteFooter_heading-sitemap">サイトマップ</p>
             <div class="siteFooter_panel">
               <p>
-              <a href="/about/">ダイバーシティについて</a><br />
-              <a href="/news/">お知らせ</a><br />
-              <a href="/events/">活動報告</a><br />
-              <a href="/library/">ライブラリ</a><br />
-              <a href="/support/">各種支援</a><br />
-              <a href="/state/">都市大の現状</a><br />
-              <a href="/rentalbooks/">貸出図書</a><br />
-              <a href="/publication/">刊行物</a><br />
-              <a href="/access/">アクセス</a>
+              <a href={`${base}about/`}>ダイバーシティについて</a><br />
+              <a href={`${base}news/`}>お知らせ</a><br />
+              <a href={`${base}events/`}>活動報告</a><br />
+              <a href={`${base}library/`}>ライブラリ</a><br />
+              <a href={`${base}support/`}>各種支援</a><br />
+              <a href={`${base}state/`}>都市大の現状</a><br />
+              <a href={`${base}rentalbooks/`}>貸出図書</a><br />
+              <a href={`${base}publication/`}>刊行物</a><br />
+              <a href={`${base}access/`}>アクセス</a>
               </p>
             </div>
           </div>
@@ -154,11 +155,11 @@ const { title = '東京都市大学 ダイバーシティ推進室', description
     .gMenu > li > a::before { font-size:18px; line-height:1; color:#626a73; }
     .gMenu > li > a:hover { background:#f5f7fa; }
     .gMenu > li > a strong { font-weight:600; color:#444; }
-    .gMenu > li.menu-events > a::before { content:"◫"; }
-    .gMenu > li.menu-library > a::before { content:"✎"; }
-    .gMenu > li.menu-support > a::before { content:"⌘"; }
+    .gMenu > li.menu-events > a::before { content:"📢"; }
+    .gMenu > li.menu-library > a::before { content:"🖉"; }
+    .gMenu > li.menu-support > a::before { content:"🤝"; }
     .gMenu > li.menu-state > a::before { content:"◔"; }
-    .gMenu > li.menu-publication > a::before { content:"▤"; }
+    .gMenu > li.menu-publication > a::before { content:"📚"; }
     .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:var(--brand-primary); min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
     .gMenu > li:hover .sub-menu { display:block; }
     .gMenu .sub-menu a { display:block; color:#fff; padding:10px 14px; text-decoration:none; font-size:13px; border-top:1px solid rgba(255,255,255,0.15); }
