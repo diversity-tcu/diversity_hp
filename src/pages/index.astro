@@ -105,13 +105,18 @@ const quickLinks = [
       {quickLinks.map((q) => (
         q.submenu ? (
           <div class="ql-wrap">
-            <a class="ql-card" href="#" onclick="event.preventDefault()">
+            <button
+              type="button"
+              class="ql-card ql-card-btn"
+              aria-haspopup="true"
+              aria-expanded="false"
+              onclick="const w=this.parentElement;const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);">
               <div class="ql-icon" aria-hidden="true">{q.icon}</div>
               <div class="ql-text">
                 <div class="ql-label">{q.label}</div>
                 <div class="ql-sub">{q.sub}</div>
               </div>
-            </a>
+            </button>
             <ul class="ql-submenu">
               {q.submenu.map((s) => (
                 <li>
@@ -245,7 +250,7 @@ const quickLinks = [
 
   .top-panels { margin: 0 -20px 0px; background: #f9f9f9; padding: 20px 20px; border-radius: 0px; }
   .quicklinks { display:grid; grid-template-columns: repeat(4, 1fr); gap:16px; margin-bottom:24px; }
-  .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:8px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; }
+  .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:10px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; min-height:64px; box-sizing:border-box; }
   .ql-card:hover { transform:translateY(-2px); }
   .ql-icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:999px; background:rgba(255,255,255,.16); font-size:18px; font-weight:700; line-height:1; flex:0 0 auto; }
   .ql-text { min-width:0; }
@@ -264,7 +269,9 @@ const quickLinks = [
     transform:translateX(1px);
     flex:0 0 auto;
   }
-  .ql-wrap { position:relative; }
+  .ql-wrap { position:relative; display:flex; }
+  .ql-wrap > .ql-card { flex:1; }
+  .ql-card-btn { width:100%; font:inherit; text-align:left; border:0; cursor:pointer; }
   .ql-wrap .ql-card { cursor:pointer; }
   .ql-submenu {
     position:absolute; top:100%; left:0; right:0; z-index:20;
@@ -274,15 +281,16 @@ const quickLinks = [
     transition:opacity .15s, transform .15s, visibility .15s;
   }
   .ql-wrap:hover .ql-submenu,
-  .ql-wrap:focus-within .ql-submenu { opacity:1; visibility:visible; transform:translateY(0); }
+  .ql-wrap:focus-within .ql-submenu,
+  .ql-wrap.open .ql-submenu { opacity:1; visibility:visible; transform:translateY(0); }
   .ql-submenu li { margin:0; }
   .ql-submenu a {
     display:block; padding:10px 12px; border-radius:6px;
     color:#333; text-decoration:none; font-size:.88em; line-height:1.4;
   }
   .ql-submenu a:hover { background:var(--brand-primary); color:#fff; }
-  .ql-label { font-weight:bold; font-size:0.95em; white-space:pre-line; }
-  .ql-sub { font-size:.8em; opacity:.85; }
+  .ql-label { font-weight:bold; font-size:0.85em; line-height:1.35; white-space:pre-line; }
+  .ql-sub { font-size:.72em; opacity:.85; }
 
   .news-block {  display:grid; grid-template-columns: 180px 1fr; gap:0px; align-items:start; }
   .news-side { display:flex; flex-direction:column; align-items:flex-start; gap:14px; }
