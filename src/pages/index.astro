@@ -79,7 +79,15 @@ const events = (await getCollection('events'))
 const quickLinks = [
   { label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌' },
   { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '▤' },
-  { label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '⌘' },
+  {
+    label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '⌘',
+    submenu: [
+      { label: '世田谷キャンパス多目的トイレマップ', href: '/assets/restroom_setagaya_map.pdf' },
+      { label: '横浜キャンパス多目的トイレマップ', href: '/assets/restroom_yokohama_map.pdf' },
+      { label: '世田谷キャンパスUDマップ', href: '/assets/scudmap.pdf' },
+      { label: '世田谷キャンパスVRマップ', href: 'https://kengo0626.shop/', external: true },
+    ],
+  },
   { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '🕮' },
 ];
 ---
@@ -95,13 +103,36 @@ const quickLinks = [
   <section class="top-panels">
     <section class="quicklinks">
       {quickLinks.map((q) => (
-        <a class="ql-card" href={withBase(q.href)}>
-          <div class="ql-icon" aria-hidden="true">{q.icon}</div>
-          <div class="ql-text">
-            <div class="ql-label">{q.label}</div>
-            <div class="ql-sub">{q.sub}</div>
+        q.submenu ? (
+          <div class="ql-wrap">
+            <a class="ql-card" href="#" onclick="event.preventDefault()">
+              <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+              <div class="ql-text">
+                <div class="ql-label">{q.label}</div>
+                <div class="ql-sub">{q.sub}</div>
+              </div>
+            </a>
+            <ul class="ql-submenu">
+              {q.submenu.map((s) => (
+                <li>
+                  <a
+                    href={s.external ? s.href : withBase(s.href)}
+                    target={s.external ? '_blank' : undefined}
+                    rel={s.external ? 'noopener noreferrer' : undefined}
+                  >{s.label}</a>
+                </li>
+              ))}
+            </ul>
           </div>
-        </a>
+        ) : (
+          <a class="ql-card" href={withBase(q.href)}>
+            <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+            <div class="ql-text">
+              <div class="ql-label">{q.label}</div>
+              <div class="ql-sub">{q.sub}</div>
+            </div>
+          </a>
+        )
       ))}
     </section>
 
@@ -216,7 +247,7 @@ const quickLinks = [
   .quicklinks { display:grid; grid-template-columns: repeat(4, 1fr); gap:16px; margin-bottom:24px; }
   .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:8px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; }
   .ql-card:hover { transform:translateY(-2px); }
-  .ql-icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:999px; background:rgba(255,255,255,.16); font-size:21px; font-weight:700; line-height:1; flex:0 0 auto; }
+  .ql-icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:999px; background:rgba(255,255,255,.16); font-size:18px; font-weight:700; line-height:1; flex:0 0 auto; }
   .ql-text { min-width:0; }
   .ql-card::after {
     content:"›" !important;
@@ -233,7 +264,24 @@ const quickLinks = [
     transform:translateX(1px);
     flex:0 0 auto;
   }
-  .ql-label { font-weight:bold; font-size:1.05em; white-space:pre-line; }
+  .ql-wrap { position:relative; }
+  .ql-wrap .ql-card { cursor:pointer; }
+  .ql-submenu {
+    position:absolute; top:100%; left:0; right:0; z-index:20;
+    margin:6px 0 0; padding:6px; list-style:none;
+    background:#fff; border-radius:10px; box-shadow:0 6px 20px rgba(0,0,0,.15);
+    opacity:0; visibility:hidden; transform:translateY(-4px);
+    transition:opacity .15s, transform .15s, visibility .15s;
+  }
+  .ql-wrap:hover .ql-submenu,
+  .ql-wrap:focus-within .ql-submenu { opacity:1; visibility:visible; transform:translateY(0); }
+  .ql-submenu li { margin:0; }
+  .ql-submenu a {
+    display:block; padding:10px 12px; border-radius:6px;
+    color:#333; text-decoration:none; font-size:.88em; line-height:1.4;
+  }
+  .ql-submenu a:hover { background:var(--brand-primary); color:#fff; }
+  .ql-label { font-weight:bold; font-size:0.95em; white-space:pre-line; }
   .ql-sub { font-size:.8em; opacity:.85; }
 
   .news-block {  display:grid; grid-template-columns: 180px 1fr; gap:0px; align-items:start; }
