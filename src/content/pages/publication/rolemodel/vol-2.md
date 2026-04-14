@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3723"><div class="panel-grid panel-no-style" id="pg-3723-0"><div class="panel-grid-cell" id="pgc-3723-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3723-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/sites/9/2019/12/role02_01.png"/></div></div>
+<div class="panel-layout" id="pl-3723"><div class="panel-grid panel-no-style" id="pg-3723-0"><div class="panel-grid-cell" id="pgc-3723-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3723-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role02_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 機械システム工学科<br/>
 <span class="font-15em">髙橋 愛実</span> さん<br/>
 <br/>
@@ -63,10 +63,10 @@ status: "publish"
 その結果、夢が広がり、進路の選択肢も増え
 たと思います。</p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../..//uploads/sites/9/2019/12/role02_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role02_style.png"/>
 <br/>
 <h3 class="font-12em">お勧めしたい本</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/sites/9/2019/12/role02_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role02_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">皆さんに特に読んでほしい本が2 冊あります。
 1. きれいな色とことば おーなり由子
 素敵なフレーズと色とりどりのイラストを描く著者のエッセイです！読了
@@ -75,7 +75,7 @@ status: "publish"
 高校卒業後の杏子が和菓子屋のアルバイトを通じて成長していく話で、私
 の働く姿勢の参考書です。</div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/sites/9/2019/12/role02_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role02_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">よかったことは「自信を持って意見を発言できるようになった」ことです。
 大学の授業では実験内容をレポートにまとめることで論理的に説明する力
 を身につけ、大学院では専門性の高い知識や考察を論文やプレゼンテー

@@ -177,7 +177,7 @@ status: "publish"
 
 ![](/uploads/2025/01/enq-graph2021-2_q06-02.png)
 
-![](/uploads/2025/01/enq2021-2_q06-02.png)
+![](/uploads/2025/01/enq-graph2021-2_q06-03.png)
 
 **設問7．ダイバーシティ推進室へのあなたの期待度を教えてください。**
 

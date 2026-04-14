@@ -9,7 +9,7 @@ status: "publish"
 
 <div class="entry-body">
 <div class="panel-layout" id="pl-3694"><div class="panel-grid panel-no-style" id="pg-3694-0"><div class="panel-grid-cell" id="pgc-3694-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3694-0-0-0"><div class="textwidget"><div class="su-row">
-<div class="su-column su-column-size-3-5"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/sites/9/2019/12/role01_01.png"/></div></div>
+<div class="su-column su-column-size-3-5"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2019/12/role01_01.png"/></div></div>
 <div class="su-column su-column-size-2-5"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 機械工学科<br/>
 <span class="font-15em">竹内 奈々</span> さん<br/>
 <br/>
@@ -32,13 +32,13 @@ status: "publish"
 <h3 class="font-12em">夢の実現に向けて努力したこと</h3>
 <p class="font-08em">「努力」と胸を張って言えるような大それたことはしていませんが、強いて言うならば、いろいろなことに目を向け、興味を持ったことにはとことん打ち込みました。偏見を持たず多くのことを吸収してきた結果、やりたいことを見つけることができました。</p>
 <br/>
-<img alt="ロールモデル" decoding="async" src="../..//uploads/sites/9/2019/12/role01_style.png"/>
+<img alt="ロールモデル" decoding="async" src="../..//uploads/2019/12/role01_style.png"/>
 <br/>
 <h3 class="font-12em">私の趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/sites/9/2019/12/role01_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2019/12/role01_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">趣味はたくさんあってどれについて話すか迷いますが、いま熱中しているのはプロ野球観戦です。クルマと同様、小さい頃から地元のベイスターズを応援して丸20 年になります。社会人になってお金や時間の余裕ができたので、以前よりも多く球場観戦しています。平日や忙しい時は部屋で中継を観て応援し、職場の人とも野球の話をしたりしています。</div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/sites/9/2019/12/role01_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2019/12/role01_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">元工業大学なので専門的なことを深く学べると思いました。教授や先輩、OB の方がよく気にかけてくださり、熱心に指導してくれるところがよかったと思います。また、研究室に配属されてからは、社会人になった今でも使える専門的な知識や資料作成の基礎を得られただけでなく、どう仕事を進めるのかを学ぶことができました。</div></div></div>
 <div>
 <br/>
