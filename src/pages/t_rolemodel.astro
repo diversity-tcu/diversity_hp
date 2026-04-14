@@ -13,7 +13,15 @@ const items = (await getCollection('pages'))
     const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
     return { it, info, slug };
   })
-  .sort((a, b) => (b.it.data.date || '').localeCompare(a.it.data.date || ''));
+  .sort((a, b) => {
+    const dateCmp = (b.it.data.date || '').localeCompare(a.it.data.date || '');
+    if (dateCmp !== 0) return dateCmp;
+    const volNum = (s: string) => {
+      const m = s.match(/(\d+)/);
+      return m ? parseInt(m[1], 10) : 0;
+    };
+    return volNum(b.slug) - volNum(a.slug);
+  });
 ---
 <Base title="教員ロールモデル集 | 東京都市大学 ダイバーシティ推進室">
   <article>

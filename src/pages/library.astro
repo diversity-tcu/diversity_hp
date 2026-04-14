@@ -35,7 +35,15 @@ for (const it of all) {
   }
 }
 for (const k of Object.keys(bySeries) as SeriesKey[]) {
-  bySeries[k].sort((a, b) => (b.it.data.date || '').localeCompare(a.it.data.date || ''));
+  bySeries[k].sort((a, b) => {
+    const dateCmp = (b.it.data.date || '').localeCompare(a.it.data.date || '');
+    if (dateCmp !== 0) return dateCmp;
+    const volNum = (s: string) => {
+      const m = s.match(/(\d+)/);
+      return m ? parseInt(m[1], 10) : 0;
+    };
+    return volNum(b.slug) - volNum(a.slug);
+  });
 }
 // For okada: put "最終回" entry at the top (by date sort it should already be, but
 // okada6 has the latest date).
