@@ -268,7 +268,7 @@ const quickLinks = [
   .mission { text-align:center; padding: 40px 0; margin-bottom:50px; }
   .mission-title { font-size:2em; color:var(--brand-primary); background:#fff;border: #fff; gin:0 0 8px; letter-spacing:.05em; padding: 0;margin:0;}
   .mission-sub { font-size:1.2em; color:#666; margin:0 0 30px; }
-  .mission-body { display:grid; grid-template-columns: 280px 1fr; gap:40px; align-items:center; text-align:left; max-width:900px; margin:0 auto; }
+  .mission-body { display:grid; grid-template-columns: minmax(0,280px) minmax(0,1fr); gap:40px; align-items:center; text-align:left; max-width:900px; margin:0 auto; }
   .mission-pillars { position:relative; width:260px; height:230px; margin:0 auto; }
   .pillar { position:absolute; color:#fff; border-radius:50%; width:110px; height:110px; display:flex; align-items:center; justify-content:center; font-weight:bold; }
   .pillar:nth-child(1) { background:var(--topic-environment); left:0; bottom:0; }
@@ -293,16 +293,37 @@ const quickLinks = [
   .footer-banner img { max-width:300px; height:auto; }
 
   @media (max-width: 780px) {
+    .hero { margin: -18px -14px 0; }
     .hero-grid { grid-template-columns: 1fr; }
-    .hero-img { height: 240px; }
-    .top-panels { margin: 0 -20px 50px; }
-    .quicklinks { grid-template-columns: repeat(2, 1fr); }
-    .news-block { grid-template-columns: 1fr; gap:18px; }
-    .news-side { gap:12px; }
+    .hero-img { height: 200px; }
+    .top-panels { margin: 0 -14px 40px; padding: 16px 14px; }
+    .quicklinks { grid-template-columns: repeat(2, 1fr); gap:12px; }
+    .ql-card { padding:8px 10px; }
+    .ql-label { font-size:.95em; }
+    .news-block { grid-template-columns: 1fr; gap:14px; }
+    .news-side { gap:12px; flex-direction:row; align-items:center; justify-content:space-between; }
+    .news-title { font-size:1.5em; }
+    .news-cards { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .mission { padding:28px 0; margin-bottom:30px; }
+    .mission-title { font-size:1.5em; }
+    .mission-sub { font-size:1em; margin-bottom:20px; }
+    .mission-body { grid-template-columns: 1fr; text-align:center; gap:20px; }
+    .mission-pillars { width:240px; height:210px; }
+    .pillar { width:100px; height:100px; font-size:.9em; }
+    .activities { padding:18px 14px; margin:0 -14px 30px; }
+    .act-title { font-size:1.5em; }
+    .act-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px; }
+  }
+  @media (max-width: 480px) {
+    .hero-img { height: 170px; }
+    .quicklinks { grid-template-columns: 1fr; }
+    .ql-icon { width:34px; height:34px; font-size:18px; }
     .news-cards { grid-template-columns: 1fr; }
-    .mission-body { grid-template-columns: 1fr; text-align:center; }
-    .mission-pillars { flex-direction:row; justify-content:center; }
-    .pillar { margin:0 !important; align-self:center !important; }
+    .news-card-link { padding:14px 14px; }
     .act-grid { grid-template-columns: 1fr; }
+    .mission-title { font-size:1.3em; }
+    .mission-pillars { width:220px; height:200px; }
+    .pillar { width:90px; height:90px; font-size:.82em; }
+    .news-side { flex-direction:column; align-items:flex-start; }
   }
 </style>

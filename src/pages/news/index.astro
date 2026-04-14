@@ -83,6 +83,11 @@ const items = (await getCollection('news'))
     .news-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
   @media (max-width: 560px) {
-    .news-cards { grid-template-columns: 1fr; }
+    .news-cards { grid-template-columns: 1fr; gap:12px; }
+    .list-hero { margin: 6px 0 24px; }
+    .list-hero h1 { font-size:1.8em; }
+    .list-hero-sub { font-size:.78em; letter-spacing:.22em; }
+    .news-card-link { padding:14px 14px; }
+    .news-card-title { font-size:.92em; }
   }
 </style>

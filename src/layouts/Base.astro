@@ -198,23 +198,42 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
     .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
     @media (max-width: 780px) {
-      .siteHeader_top { grid-template-columns: 1fr; row-gap:12px; }
+      .siteHeader .container { padding:0 12px; }
+      .siteHeader_top { grid-template-columns: 1fr; row-gap:12px; padding:10px 0; }
       .siteHeader_tcuLink,
       .siteHeader_diversityLink,
       .siteHeader_nav,
-      .siteHeader_action { flex:0 0 auto; width:100%; justify-content:center; }
-      .siteHeader_tcuLogo { max-width:220px; }
-      .siteHeader_diversityLogo { max-width:320px; }
-      .gMenu { flex-direction:column; }
-      .siteFooter .container { padding:33px 20px 20px; }
-      .siteFooter_top { grid-template-columns: 1fr; }
+      .siteHeader_action { flex:0 0 auto; width:100%; justify-content:center; grid-column:1; }
+      .siteHeader_tcuLogo { max-width:200px; transform:none; }
+      .siteHeader_diversityLogo { max-width:280px; }
+      .siteHeader_diver { max-width:56px; transform:none; }
+      .gMenu { flex-direction:column; border-radius:8px; }
+      .gMenu > li { flex:0 0 auto; width:100%; }
+      .gMenu > li + li::before { left:12px; right:12px; top:0; width:auto; height:1px; background:#e6ecf2; }
+      .gMenu > li > a { flex-direction:row; justify-content:flex-start; gap:10px; min-height:44px; padding:10px 14px; text-align:left; font-size:14px; }
+      .gMenu .sub-menu { position:static; min-width:0; background:#f5f9fd; }
+      .gMenu .sub-menu a { color:#1a2633; border-top:1px solid #e6ecf2; padding:8px 28px; }
+      .gMenu > li:not(:hover) .sub-menu { display:none; }
+      .siteFooter .container { padding:28px 14px 20px; }
+      .siteFooter_top { grid-template-columns: 1fr; gap:18px; }
       .siteFooter_address,
       .siteFooter_brand,
       .siteFooter_diverWrap { justify-content:center; text-align:center; }
-      .siteFooter_bottom { flex-direction:column; }
-      .siteFooter_links { flex-direction:column; gap:20px; }
+      .siteFooter_bottom { flex-direction:column; gap:16px; }
+      .siteFooter_links { flex-direction:column; gap:16px; }
       .siteFooter_panel { position:static; min-width:0; margin-top:8px; opacity:1; visibility:visible; transform:none; box-shadow:none; }
       .siteFooter .copySection { margin-left:0; margin-top:0; padding-top:0; text-align:left; white-space:normal; border:0; }
+    }
+    @media (max-width: 480px) {
+      .siteHeader_tcuLogo { max-width:160px; }
+      .siteHeader_diversityLogo { max-width:240px; }
+      .gMenu > li > a { font-size:13px; padding:10px 12px; }
+      .gMenu .sub-menu a { font-size:12px; padding:8px 24px; }
+      .mainContent { padding:18px 14px; }
+      .siteFooter .container { padding:22px 14px 18px; }
+      .siteFooter_address p { font-size:.9em; line-height:1.7; }
+      .siteFooter_brand img { max-width:160px; }
+      .siteFooter_diverWrap img { max-width:100px; }
     }
   </style>
 </body>

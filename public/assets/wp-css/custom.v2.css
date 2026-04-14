@@ -363,3 +363,104 @@
 .pub-item-vol { font-size: .75em; color: #0655B4; letter-spacing: .08em; font-weight: 600; }
 .pub-item-affiliation { font-size: .78em; color: #666; }
 .pub-item-name { font-size: 1em; color: #1a2633; font-weight: 600; margin-top: 2px; }
+
+/* ================================================================
+   Global mobile responsiveness hardening
+   - Prevent horizontal overflow from long strings, wide tables,
+     embedded media and fixed-width WP grids.
+   ================================================================ */
+.entry-body,
+.entry-content,
+.page-article { max-width: 100%; }
+.entry-body img,
+.entry-content img,
+.page-article img { max-width: 100%; height: auto; }
+.entry-body iframe,
+.entry-content iframe { max-width: 100%; }
+
+/* Tables overflow horizontally on mobile rather than break layout */
+.entry-body table,
+.entry-content table {
+  max-width: 100%;
+}
+@media (max-width: 780px) {
+  .entry-body .su-table,
+  .entry-body .su-table-responsive,
+  .entry-body table,
+  .entry-content table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .entry-body table,
+  .entry-content table { white-space: nowrap; }
+  .entry-body .su-tabs-nav { flex-wrap: wrap; }
+  .entry-body .su-tabs-nav span { flex: 0 0 auto; }
+}
+
+/* Tablet / large-phone breakpoint ------------------------------- */
+@media (max-width: 780px) {
+  .page-article h2,
+  .page-article .new_h2 {
+    font-size: 1.35em;
+    padding: 12px 14px 12px 20px;
+    margin: 36px -12px 18px;
+  }
+  .page-article h3 { font-size: 1.2em; }
+  .pub-hub { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+  .page-article > ul,
+  .page-article .entry-content > ul {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+  }
+}
+
+/* Small phone breakpoint (iPhone SE / standard smartphones) ----- */
+@media (max-width: 480px) {
+  .mainContent { padding: 18px 14px !important; }
+  .page-article h1,
+  .page-article .p_title { font-size: 1.6em; letter-spacing: .04em; }
+  .page-article .p_title_s { font-size: .78em; letter-spacing: .22em; margin-bottom: 20px; }
+  .page-article h2,
+  .page-article .new_h2 {
+    font-size: 1.15em;
+    padding: 10px 12px 10px 16px;
+    margin: 28px -14px 16px;
+    line-height: 1.35;
+  }
+  .page-article h3 { font-size: 1.05em; margin: 22px 0 10px; }
+  .page-article h4 { font-size: 1em; }
+  .entry-body .panel-grid,
+  .entry-body div.panel-grid,
+  .entry-body .panel-row-style {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px 12px !important;
+  }
+  .pub-list,
+  .pub-hub {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 12px;
+  }
+  .page-article > ul,
+  .page-article .entry-content > ul {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .entry-body .bn_title,
+  .pub-item-title { font-size: .78em; }
+  .pub-caption { padding: 10px 12px 12px; }
+}
+
+/* Very narrow (< 360px) — fold to single column ----------------- */
+@media (max-width: 360px) {
+  .entry-body .panel-grid,
+  .entry-body div.panel-grid,
+  .entry-body .panel-row-style,
+  .pub-list,
+  .pub-hub {
+    grid-template-columns: 1fr !important;
+  }
+  .page-article h1,
+  .page-article .p_title { font-size: 1.4em; }
+}
