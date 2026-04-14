@@ -55,6 +55,43 @@ status: "publish"
 
 `src/content/pages/about.md` を編集。
 
+### 6. TCUダイバーシティ通信の新号を追加する
+> 「TCUダイバーシティ通信Vol.21(2026年9月発行)を追加して。PDFは /uploads/2026/09/Vol21.pdf、表紙画像は同フォルダの Vol21.jpg」
+
+`src/data/communication.ts` の配列 `communicationEntries` の **先頭(または任意位置)に1エントリ追加** するだけ。
+date 降順で自動ソートされ、 `/communication/` 一覧に即反映される。サムネイル画像を用意できない
+場合は `thumb` を省略すれば PDF アイコンの fallback 表示になる。
+
+```ts
+{ title: 'TCUダイバーシティ通信Vol.21(2026年9月発行)', date: '2026-09-01',
+  pdf: '/uploads/2026/09/Vol21.pdf', thumb: '/uploads/2026/09/Vol21.jpg' },
+```
+
+### 7. 卒業生/教員ロールモデル集の新号を追加する
+> 「卒業生ロールモデル集 Vol.19 を追加して。所属は○○学部○○学科、氏名は△△△△、本文は…」
+
+- 卒業生: `src/content/pages/publication/rolemodel/vol-XX.md` を新規作成
+- 教員: `src/content/pages/publication/t_rolemodel/t_volXX.md` を新規作成
+
+frontmatter の `title` / `slug` / `date` を既存号に倣って設定し、本文の冒頭に
+**所属・氏名・役職** (Markdown の太字 `**...**` か WordPress移行時の
+`<span class="font-15em">氏名</span>` を含む HTML ブロック)を置き、本文中に画像
+(`/uploads/YYYY/MM/xxx.(jpg|png|gif|webp)`) を1枚以上入れておけば、
+`/rolemodel/` または `/t_rolemodel/` 一覧ページに **date 降順で自動反映** される。
+タイトル接頭辞は必ず以下を使うこと(ページ側のフィルタ条件):
+
+- 卒業生: `社会で輝く卒業生たち Vol.XX`
+- 教員: `東京都市大学の多様な教員たち Vol.XX`
+
+### 8. ライブラリ連載の新記事を追加する
+> 「イクボス連載の第13回を追加して。所属・氏名は…、本文は…」
+
+`src/content/pages/library/<series>/<slug>.md` を新規作成するだけ。
+`<series>` は `workinlife` / `ikubosu` / `mado` / `okada` のいずれか。
+slug は `ikubosu13` のように連番で命名。本文冒頭に `**所属 氏名 役職**` の
+太字ブロックと `/uploads/...` の画像があれば、 `/library/` の該当セクションに
+date 降順で自動反映される。タイトルには `第XX回` を含めること(Vol表示に使用)。
+
 ## AIへの作業ルール(依頼者が伝えなくてもAIは守ること)
 
 1. **新規お知らせ/イベントは既存ファイルのfrontmatterをそのまま踏襲**(余計なフィールドを追加しない)

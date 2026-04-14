@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../lib/path';
+import { extractTileInfo } from '../lib/extract';
+
+const FALLBACK = '/uploads/2025/03/t_role8_01.jpg';
+
+const items = (await getCollection('pages'))
+  .filter((it) => (it.data.title || '').startsWith('東京都市大学の多様な教員たち'))
+  .map((it) => {
+    const info = extractTileInfo(it.data.title, it.body);
+    const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
+    return { it, info, slug };
+  })
+  .sort((a, b) => (b.it.data.date || '').localeCompare(a.it.data.date || ''));
+---
+<Base title="教員ロールモデル集 | 東京都市大学 ダイバーシティ推進室">
+  <article>
+    <div class="entry-content page-article">
+      <h1>教員ロールモデル集</h1>
+      <p>東京都市大学の多様な教員たちを紹介します。タイルをクリックすると本文が表示されます。</p>
+      <div class="pub-list">
+        {items.map(({ info, slug }) => (
+          <a class="pub-item" href={withBase(`/${slug}/`)}>
+            <div class="pub-item-thumb">
+              <img src={withBase(info.thumb || FALLBACK)} alt="" />
+            </div>
+            <div class="pub-item-title">
+              {info.vol && <span class="pub-item-vol">{info.vol}</span>}
+              {info.affiliation && <span class="pub-item-affiliation">{info.affiliation}</span>}
+              {info.name && <span class="pub-item-name">{info.name}{info.role ? `　${info.role}` : ''}</span>}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </article>
+</Base>
