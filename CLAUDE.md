@@ -58,13 +58,17 @@ status: "publish"
 ### 6. TCUダイバーシティ通信の新号を追加する
 > 「TCUダイバーシティ通信Vol.21(2026年9月発行)を追加して。PDFは /uploads/2026/09/Vol21.pdf、表紙画像は同フォルダの Vol21.jpg」
 
-`src/data/communication.ts` の配列 `communicationEntries` の **先頭(または任意位置)に1エントリ追加** するだけ。
-date 降順で自動ソートされ、 `/communication/` 一覧に即反映される。サムネイル画像を用意できない
-場合は `thumb` を省略すれば PDF アイコンの fallback 表示になる。
+`src/content/communication/<slug>.md` を新規作成するだけ。date 降順で自動ソートされ
+`/communication/` 一覧に即反映される。サムネイル画像を用意できない場合は `thumb` を
+省略すれば PDF アイコンの fallback 表示になる。slug は `Vol21` のように連番で命名。
 
-```ts
-{ title: 'TCUダイバーシティ通信Vol.21(2026年9月発行)', date: '2026-09-01',
-  pdf: '/uploads/2026/09/Vol21.pdf', thumb: '/uploads/2026/09/Vol21.jpg' },
+```markdown
+---
+title: "TCUダイバーシティ通信Vol.21(2026年9月発行)"
+date: "2026-09-01"
+pdf: "/uploads/2026/09/Vol21.pdf"
+thumb: "/uploads/2026/09/Vol21.jpg"
+---
 ```
 
 ### 7. 卒業生/教員ロールモデル集の新号を追加する

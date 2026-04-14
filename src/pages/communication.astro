@@ -1,11 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import { withBase } from '../lib/path';
-import { communicationEntries } from '../data/communication';
+import { getCollection } from 'astro:content';
 
-const entries = [...communicationEntries].sort(
-  (a, b) => (b.date || '').localeCompare(a.date || ''),
-);
+const entries = (await getCollection('communication'))
+  .map((e) => e.data)
+  .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 ---
 <Base title="TCUダイバーシティ通信 | 東京都市大学 ダイバーシティ推進室">
   <article>
