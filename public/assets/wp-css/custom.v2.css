@@ -85,6 +85,24 @@
   float: none !important;
   clear: both;
 }
+/* library 等: .panel-row-style (pc_library_line / sp_library_line) が
+   panel-grid と cell の間に挟まっているケース */
+.entry-body .panel-grid.panel-has-style {
+  display: block !important;
+}
+.entry-body .panel-row-style {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
+  gap: 28px 24px !important;
+  width: 100%;
+  margin: 0 0 32px !important;
+}
+/* モバイル用の重複行は PC では非表示、PC用は SP で非表示 */
+.entry-body .sp_library_line { display: none !important; }
+@media (max-width: 780px) {
+  .entry-body .pc_library_line { display: none !important; }
+  .entry-body .sp_library_line { display: grid !important; }
+}
 .entry-body .panel-grid-cell,
 .entry-body div.panel-grid-cell {
   width: auto !important;
