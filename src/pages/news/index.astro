@@ -46,8 +46,11 @@ const items = (await getCollection('news'))
       {items.map((n) => (
         <li class="news-card">
           <a class="news-card-link" href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>
-            <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
-            <time>{n.isNew && <span class="tag-new">New!</span>}{n.data.date}</time>
+            <div class="news-card-meta">
+              <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
+              {n.isNew && <span class="tag-new">New!</span>}
+              <time>{n.data.date}</time>
+            </div>
             <span class="news-card-title">{n.data.title}</span>
           </a>
         </li>
@@ -66,7 +69,8 @@ const items = (await getCollection('news'))
   .news-card { background:#fff; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,.06); overflow:hidden; transition:transform .15s, box-shadow .15s; }
   .news-card:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.1); }
   .news-card-link { display:flex; flex-direction:column; gap:10px; min-height:100%; padding:16px 18px; color:#333; text-decoration:none; }
-  .news-card time { display:flex; align-items:center; gap:6px; color:#6a92aa; font-size:.82em; font-weight:600; }
+  .news-card-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .news-card time { color:#6a92aa; font-size:.82em; font-weight:600; }
   .tag-new { display:inline-block; background:#e74c3c; color:#fff; padding:1px 7px; border-radius:4px; font-size:.9em; letter-spacing:.04em; }
   .news-card-title { font-size:.96em; font-weight:500; line-height:1.6; color:#1a2633; }
   .news-card-link:hover .news-card-title { color:var(--brand-primary,#0655B4); }
