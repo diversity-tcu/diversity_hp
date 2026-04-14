@@ -14,14 +14,14 @@ status: "publish"
 ## 定期刊行物
 
 <div class="pub-hub">
-<a class="pub-card" href="/publication/communication/">
+<a class="pub-card" href="/communication/">
   <div class="pub-thumb"><img src="/uploads/2026/04/TCU-diversityLetter_Vol20-v3.jpg" alt="TCUダイバーシティ通信 最新号" /></div>
   <div class="pub-caption">
     <div class="pub-section">TCUダイバーシティ通信</div>
     <div class="pub-latest">最新: Vol.20 (2026年3月発行)</div>
   </div>
 </a>
-<a class="pub-card pub-card--text" href="/publication/calendarterms/">
+<a class="pub-card pub-card--text" href="/calendarterms/">
   <div class="pub-thumb pub-thumb--text"><span>カレンダー<br/>用語集</span></div>
   <div class="pub-caption">
     <div class="pub-section">ダイバーシティカレンダー用語集</div>
@@ -33,14 +33,14 @@ status: "publish"
 ## ロールモデル集
 
 <div class="pub-hub">
-<a class="pub-card" href="/publication/rolemodel/">
+<a class="pub-card" href="/rolemodel/">
   <div class="pub-thumb"><img src="/uploads/2019/12/role18_01.png" alt="卒業生ロールモデル集 最新号" /></div>
   <div class="pub-caption">
     <div class="pub-section">卒業生ロールモデル集</div>
     <div class="pub-latest">社会で輝く卒業生たち</div>
   </div>
 </a>
-<a class="pub-card" href="/publication/t_rolemodel/">
+<a class="pub-card" href="/t_rolemodel/">
   <div class="pub-thumb"><img src="/uploads/2025/03/t_role8_01.jpg" alt="教員ロールモデル集 最新号" /></div>
   <div class="pub-caption">
     <div class="pub-section">教員ロールモデル集</div>
