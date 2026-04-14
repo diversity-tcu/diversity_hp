@@ -77,7 +77,18 @@ const events = (await getCollection('events'))
   });
 
 const quickLinks = [
-  { label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌' },
+  {
+    label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌',
+    submenu: [
+      { label: 'ダイバーシティについて', href: '/about/' },
+      { label: '概要', href: '/overview/' },
+      { label: '学長・室長挨拶', href: '/introduction/' },
+      { label: '沿革/体制', href: '/history/' },
+      { label: '委員/室員の紹介', href: '/members/' },
+      { label: '東京都市大学ダイバーシティ推進宣言', href: '/declaration02/' },
+      { label: '10私立大学共同宣言', href: '/declaration/' },
+    ],
+  },
   { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '▤' },
   {
     label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '⌘',
@@ -105,18 +116,35 @@ const quickLinks = [
       {quickLinks.map((q) => (
         q.submenu ? (
           <div class="ql-wrap">
-            <button
-              type="button"
-              class="ql-card ql-card-btn"
-              aria-haspopup="true"
-              aria-expanded="false"
-              onclick="const w=this.parentElement;const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);">
-              <div class="ql-icon" aria-hidden="true">{q.icon}</div>
-              <div class="ql-text">
-                <div class="ql-label">{q.label}</div>
-                <div class="ql-sub">{q.sub}</div>
-              </div>
-            </button>
+            {q.href && q.href !== '#' ? (
+              <a class="ql-card" href={withBase(q.href)}>
+                <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+                <div class="ql-text">
+                  <div class="ql-label">{q.label}</div>
+                  <div class="ql-sub">{q.sub}</div>
+                </div>
+                <button
+                  type="button"
+                  class="ql-toggle"
+                  aria-label="サブメニューを開く"
+                  aria-expanded="false"
+                  onclick="event.preventDefault();event.stopPropagation();const w=this.closest('.ql-wrap');const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);"
+                >▾</button>
+              </a>
+            ) : (
+              <button
+                type="button"
+                class="ql-card ql-card-btn"
+                aria-haspopup="true"
+                aria-expanded="false"
+                onclick="const w=this.parentElement;const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);">
+                <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+                <div class="ql-text">
+                  <div class="ql-label">{q.label}</div>
+                  <div class="ql-sub">{q.sub}</div>
+                </div>
+              </button>
+            )}
             <ul class="ql-submenu">
               {q.submenu.map((s) => (
                 <li>
@@ -272,6 +300,14 @@ const quickLinks = [
   .ql-wrap { position:relative; display:flex; }
   .ql-wrap > .ql-card { flex:1; }
   .ql-card-btn { width:100%; font:inherit; text-align:left; border:0; cursor:pointer; }
+  .ql-toggle {
+    display:inline-flex; align-items:center; justify-content:center;
+    width:24px; height:24px; margin-left:auto;
+    padding:0; border:1.5px solid rgba(255,255,255,.85); border-radius:999px;
+    background:transparent; color:#fff; font-size:12px; line-height:1; cursor:pointer;
+    flex:0 0 auto;
+  }
+  .ql-wrap > .ql-card::after { display:none !important; }
   .ql-wrap .ql-card { cursor:pointer; }
   .ql-submenu {
     position:absolute; top:100%; left:0; right:0; z-index:20;
