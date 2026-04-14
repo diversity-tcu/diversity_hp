@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
+import rehypeRaw from 'rehype-raw';
 
 const BASE = '/diversity_hp';
 
@@ -17,6 +18,13 @@ function rehypeBasePath() {
     if (url === base || url.startsWith(base + '/')) return url;
     return base + url;
   };
+  const rewriteRawHtml = (html) => {
+    if (typeof html !== 'string') return html;
+    // href="/..." and src="/..." inside raw HTML blocks
+    return html
+      .replace(/(\s(?:href|src)=)(['"])(\/[^'"]*)\2/g, (_m, attr, q, u) => `${attr}${q}${rewrite(u)}${q}`)
+      .replace(/url\((['"]?)(\/[^'")]+)\1\)/g, (_m, q, u) => `url(${q}${rewrite(u)}${q})`);
+  };
   const visit = (node) => {
     if (!node || typeof node !== 'object') return;
     if (node.type === 'element' && node.properties) {
@@ -26,6 +34,9 @@ function rehypeBasePath() {
       if (p.style && typeof p.style === 'string') {
         p.style = p.style.replace(/url\((['"]?)(\/[^'")]+)\1\)/g, (_m, q, u) => `url(${q}${rewrite(u)}${q})`);
       }
+    }
+    if (node.type === 'raw' && typeof node.value === 'string') {
+      node.value = rewriteRawHtml(node.value);
     }
     if (Array.isArray(node.children)) node.children.forEach(visit);
   };
@@ -39,7 +50,8 @@ export default defineConfig({
   output: 'static',
   integrations: [mdx()],
   markdown: {
-    rehypePlugins: [rehypeBasePath()],
+    allowHTML: true,
+    rehypePlugins: [rehypeRaw, rehypeBasePath()],
   },
   vite: {
     build: {},
