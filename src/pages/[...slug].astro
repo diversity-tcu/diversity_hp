@@ -19,7 +19,6 @@ const { Content } = await render(item);
 
 const aboutMenu = [
   { label: 'ダイバーシティについて', slug: 'about' },
-  { label: '概要', slug: 'overview' },
   { label: '学長・室長挨拶', slug: 'introduction' },
   { label: '沿革/体制', slug: 'history' },
   { label: '委員/室員の紹介', slug: 'members' },
@@ -36,7 +35,7 @@ const inAboutSection = aboutMenu.some((m) => m.slug === currentSlug);
     </div>
     {inAboutSection && (
       <aside class="page-aside">
-        <h3 class="aside-title">About</h3>
+        <h3 class="aside-title">ABOUT US</h3>
         <ul class="aside-menu">
           {aboutMenu.map((m) => (
             <li>
