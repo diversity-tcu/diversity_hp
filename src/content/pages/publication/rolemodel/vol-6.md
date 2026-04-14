@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3731"><div class="panel-grid panel-no-style" id="pg-3731-0"><div class="panel-grid-cell" id="pgc-3731-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3731-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role06_01.png"/></div></div>
+<div class="panel-layout" id="pl-3731"><div class="panel-grid panel-no-style" id="pg-3731-0"><div class="panel-grid-cell" id="pgc-3731-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3731-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role06_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 原子力安全工学科<br/>
 <span class="font-15em">和田 莉奈</span> さん<br/>
 <br/>
@@ -65,10 +65,10 @@ status: "publish"
 ※ 放射線の飛跡を観察するための実験用の箱
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role06_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="/uploads/2019/12/role06_style.png"/>
 <br/>
 <h3 class="font-12em">私の趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role06_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role06_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 私は旅行に行くのが好きです。会社の有休
 を利用して、友人と一緒に海外へ旅行に行っ
@@ -77,7 +77,7 @@ status: "publish"
 の業務とのメリハリをつけています。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role06_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role06_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 都市大は、様々なことに挑戦できる大学です。私は制度を利用して短期留
 学に行きました。外国の文化に触れ、異なる価値観を学ぶことができました。

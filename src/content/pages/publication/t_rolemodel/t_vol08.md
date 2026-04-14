@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">一人の母として、一人の大学人として、その時々のバランスを模索しながら、人生を楽しみたいと考えています。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2025/03/t_role8_01.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="/uploads/2025/03/t_role8_01.jpg"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">建築都市デザイン学部　都市工学科<br/>
 <span class="font-15em">小野村 史穂</span> 准教授<br/>
 <br/>
@@ -36,12 +36,12 @@ status: "publish"
 <h3 class="font-12em t_h3">夢のために努力したこと</h3>
 <p class="font-08em">博士課程からスウェーデンの大学に進みましたが、Ph.D.取得までそれなりに苦労したと思います。今振り返ると、もう少し研究を俯瞰的に捉えて楽しみながら戦略的に進められたのではと考えたりしますが、当時は海外での新しい生活と目の前の研究テーマに必死だったように思います。学生を指導する側になり、気づけたことかもしれません。根気強く支えてくれた指導教官や先生方、あたたかい言葉をかけてくれた同僚や友達に今でも感謝しています。</p>
 <br/>
-<img alt="ロールモデル" decoding="async" src="../..//uploads/2025/03/t_role8_style.png"/>
+<img alt="ロールモデル" decoding="async" src="/uploads/2025/03/t_role8_style.png"/>
 <br/>
 <h3 class="font-12em t_h3">大切にしている言葉</h3>
 <p class="font-08em">スウェーデン留学時代によく耳にしたLagomという言葉、時々思い出しています。その直訳は、「ちょうどよい具合」ですが、「各々にとってのちょうどよさ、心地よさ」という意味で使われます。幸福度が高いことで有名なスウェーデンらしい言葉です。日々暮らしていく中で、無理をしないといけないときもありますが、頑張りすぎるとやがて心が荒みます。そうなる前に、物事を調整し、自分の心地よさを見つけるようにしています。</p>
 <h3 class="font-12em t_h3">好きな時間</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="好きな時間の写真" decoding="async" src="../..//uploads/2025/03/t_role8_02.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="好きな時間の写真" decoding="async" src="/uploads/2025/03/t_role8_02.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">２歳の子供がいるのですが、一緒に出かけながら会話するときが楽しいです。何事にも興味津々で、周りを見渡しながら「でんしゃきたね」などと一つ一つ丁寧に教えてくれます。子供が生まれてから、仕事や研究に割ける時間は減りましたが、一人の母として、一人の大学人として過ごす時間はどちらもかけがえのないものと思っています。上手く両立できているとは言えませんが、その時々のバランスを模索しながら、人生を楽しみたいと考えています。</div></div></div>
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>

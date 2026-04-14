@@ -8,7 +8,7 @@ status: "publish"
 ---
 
 <div class="entry-body">
-<div class="panel-layout" id="pl-3735"><div class="panel-grid panel-no-style" id="pg-3735-0"><div class="panel-grid-cell" id="pgc-3735-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3735-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role08_01.png"/></div></div>
+<div class="panel-layout" id="pl-3735"><div class="panel-grid panel-no-style" id="pg-3735-0"><div class="panel-grid-cell" id="pgc-3735-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3735-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role08_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">工学部 都市工学科<br/>
 <span class="font-15em">石射 倫子</span> さん<br/>
 <br/>
@@ -72,10 +72,10 @@ status: "publish"
 の最難関資格である技術士の勉強中です。
 </p>
 <br/>
-<img alt="“ロールモデル”" decoding="async" src="../..//uploads/2019/12/role08_style.png"/>
+<img alt="“ロールモデル”" decoding="async" src="/uploads/2019/12/role08_style.png"/>
 <br/>
 <h3 class="font-12em">20代のうちにやっておくべきこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role08_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role08_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 大切にしている言葉は「やらずに後悔するより、やって後悔した方が良い」
 です。大学生のときに雑誌でこの言葉を見つけて以来、日々胸に刻んでい
@@ -85,7 +85,7 @@ status: "publish"
 スに短期留学しました。
 </div></div></div>
 <h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="../..//uploads/2019/12/role08_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role08_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
 オープンキャンパスに行ったときの対応が良かったことと、就職に強いこ
 とから志望しました。都市基盤工学科（現在の都市工学科）は、コンクリート、

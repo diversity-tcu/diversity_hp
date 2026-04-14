@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">国内外の研究者で共同研究を行い、世界レベルの研究実績を積んでいきたいと思います。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2022/12/t_role05_01.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="/uploads/2022/12/t_role05_01.jpg"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">都市生活学部 都市生活学科<br/>
 <span class="font-15em">林 和眞</span> 准教授<br/>
 <br/>
@@ -41,8 +41,8 @@ status: "publish"
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>
 <p class="font-08em">現在は、都市・地域計画に関する幅広い研究を行っていますが、当事者としての研究スタイルと研究者としての知識欲にこたえる研究スタイルを両方もっている状況です。学生とはやはり実際の地域でのPBLを重視し、様々な活動を一緒に行っています。一方で、国内外の研究者で共同研究を行い、世界レベルの研究実績を積んでいきたいと思います。主にはアジアにおける国際的な都市・地域計画の知見についての構造的な整理をしたいと思うことや、今後の都市がどのように変化していくのか、その変化を定量的に追うこと、さらにはそれらの科学的なエビデンスが政策の現場で活かされるようにわかりやすいツール開発なども試してみたいと思っています。</p>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="活動写真1" decoding="async" src="../..//uploads/2022/12/t_role05_02.jpg"/></div></div>
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="活動写真2" decoding="async" src="../..//uploads/2022/12/t_role05_03.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="活動写真1" decoding="async" src="/uploads/2022/12/t_role05_02.jpg"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="活動写真2" decoding="async" src="/uploads/2022/12/t_role05_03.jpg"/></div></div>
 </div>
 <br/>
 <h2 class="t_h2">

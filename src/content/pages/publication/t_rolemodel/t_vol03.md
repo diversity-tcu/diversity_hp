@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">ヒトに寄り添えるシステムを創りたいです。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2022/07/t_role03_01.png"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="/uploads/2022/07/t_role03_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">情報工学部 情報科学科<br/>
 <span class="font-15em">張 英夏</span> 准教授<br/>
 <br/>
@@ -33,13 +33,13 @@ status: "publish"
 <h3 class="font-12em t_h3">夢のために努力したこと</h3>
 <p class="font-08em">大きな自分の夢を実現するために、何かすごく特別なことを実行した記憶はありません。その時々にできそうなことを飽きるまでやっていくということを繰り返してやってきました。長期的にコツコツ同じことをやっていくのが苦手、戦略を立てて効率よくやるのが苦手、という性格のせいもあると思います。持続力がない分やめてしまいたくなった場合には、どうしてそのような状況になったのかを考え、必要なら少しやり方を変えて別の方向から再チャレンジします。</p>
 <br/>
-<img alt="ロールモデル" decoding="async" src="../..//uploads/2022/07/t_role3_style02.png"/>
+<img alt="ロールモデル" decoding="async" src="/uploads/2022/07/t_role3_style02.png"/>
 <br/>
 <h3 class="font-12em t_h3">趣味（日々の楽しみ？）</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="趣味（日々の楽しみ？）写真" decoding="async" src="../..//uploads/2022/07/t_role03_02.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="趣味（日々の楽しみ？）写真" decoding="async" src="/uploads/2022/07/t_role03_02.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">コロナ禍前は通勤区間の一部に自転車を使っていて、いろんな通勤ルートを開発するのが楽しみでした。一本横の路地に入ると今まで気づかなかった神社やお店、木陰の快適な道を見つけたり、たまには行き止まりにあたってしまったり、さまざまな発見やイベントがあって楽しかったです。コロナによる自宅勤務を経て現在は全区間電車通勤していますが、自転車の方が時間の短縮にもなるし、また開始しようかと思っています。</div></div></div>
 <h3 class="font-12em t_h3">好きなもの</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="大切にしているもの写真" decoding="async" src="../..//uploads/2022/07/t_role03_03.jpg"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="大切にしているもの写真" decoding="async" src="/uploads/2022/07/t_role03_03.jpg"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">「もの」ではありませんが、日の出前の雰囲気がすごく好きです。夜更かししたり朝早起きしたりした時、余裕があれば外にでます。言葉にすることができないのですが、あの静けさ、空気感、もうすぐ日が昇るよーという空の感じが大好きです。</div></div></div>
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>

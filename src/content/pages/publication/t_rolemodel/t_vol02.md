@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">人との繋がりは大切だと、日々、実感しています。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2022/05/t_role02_01.png"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="/uploads/2022/05/t_role02_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">理工学部 機械工学科<br/>
 <span class="font-15em">白木 尚人</span> 教授<br/>
 <br/>
@@ -31,13 +31,13 @@ status: "publish"
 <h3 class="font-12em t_h3">夢のために努力したこと</h3>
 <p class="font-08em">1997年4月に本学に助手として着任以来、どんな仕事にも全力を尽くしてきたつもりです。授業、研究はもちろんですが、それ以外の学内外の業務も同じ様に全力で取り組んできました。いつ役立つか分かりませんが、こうした経験がいつか自分もしくは誰かの役に立つと思ってやってきました。学内外で様々な課題で大きな壁にぶつかった時でも、こうした経験を元に乗り切ることが出来ていますし、自力で出来なくても、過去に一緒に仕事をした方達に大いに助けられています。自分一人の能力は、すぐに限界がきてしまいます。やはり人との繋がりは大切なのだと日々実感、感謝しながら今日も働いています。</p>
 <br/>
-<img alt="ロールモデル" decoding="async" src="../..//uploads/2022/05/t_role2_style.png"/>
+<img alt="ロールモデル" decoding="async" src="/uploads/2022/05/t_role2_style.png"/>
 <br/>
 <h3 class="font-12em t_h3">趣味・好きなもの</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="趣味・好きなもの写真" decoding="async" src="../..//uploads/2022/05/t_role02_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="趣味・好きなもの写真" decoding="async" src="/uploads/2022/05/t_role02_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">競馬です。競馬歴は約35年になります。競馬ファンには、馬券ファンと馬ファンに分かれますが、私は断然「馬」ファンです。得意ジャンルは、（競馬の）「歴史」、「血統」、「海外情報」。1970年代から2000年にかけて出版された競馬に関する書籍は、200冊以上あります。自分自身では「白木競馬文庫」と呼んで、たまに読み返しています。最近は時間がないので、情報源は専らインターネットです。馬名の由来、有名な競走馬と有名人との意外な関係など、競馬以外の知識もどんどんついてきます。</div></div></div>
 <h3 class="font-12em t_h3">大切にしているもの</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="大切にしているもの写真" decoding="async" src="../..//uploads/2022/05/t_role02_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="大切にしているもの写真" decoding="async" src="/uploads/2022/05/t_role02_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">「天声人語ノート」です。2014年に御祝いで卒業生から万年筆を頂きました。普段使いもしていますが、「天声人語ノート」なるものがあることを知り、気に入った記事を切り取って保管しておき、時間があるときに書き写す様にしています。最初は半年に1冊ペースでしたが、最近はちょっとサボり気味です。書き写すことで記事の内容が頭に入りますし、この内容の一部は授業のネタになっています。書き写すのに約30分間、お気に入りの万年筆で一つ一つの文字を丁寧に書くことに集中する時間を持つことで、写し終わると頭の中がスッキリします。</div></div></div>
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>

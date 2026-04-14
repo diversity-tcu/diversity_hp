@@ -12,7 +12,7 @@ status: "publish"
 <h2 class="t_role_theme">建築は、生活を守るだけでなく思想や文化の象徴です。</h2>
 </div>
 <div class="su-row">
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="../..//uploads/2022/02/t_role01_01.png"/></div></div>
+<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="ロールモデル" decoding="async" src="/uploads/2022/02/t_role01_01.png"/></div></div>
 <div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">共通教育部 人文・社会科学系<br/>
 <span class="font-15em">岡山 理香</span> 教授<br/>
 <br/>
@@ -30,13 +30,13 @@ status: "publish"
 <h3 class="font-12em t_h3">夢のために努力したこと</h3>
 <p class="font-08em">夢というか目標の実現に向けて、一生懸命努力しても思うような結果が出ないことがあります。そのときにどう考えるのかが大事だと思っています。そのまま諦めてしまうのか、続けるのか。私は、何度も諦めかけましました。それでも続けることができたのは、相談でき、支えてくれる人々がまわりにいてくれたからです。ある日「私は、社会で役に立っているのだろうか。」と両親に尋ねました。両親は「それは、理香が考えても仕方がないこと。いつか社会が判断してくれるものだから。」と答えてくれました。私ひとりの努力などたかが知れています。周りの人々とともに希望を持って生きていける社会の実現に向けて努力していければと思います。</p>
 <br/>
-<img alt="ロールモデル" decoding="async" src="../..//uploads/2022/03/t_role1_style.png"/>
+<img alt="ロールモデル" decoding="async" src="/uploads/2022/03/t_role1_style.png"/>
 <br/>
 <h3 class="font-12em t_h3">マイブーム</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="マイブーム写真" decoding="async" src="../..//uploads/2022/02/t_role01_02.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="マイブーム写真" decoding="async" src="/uploads/2022/02/t_role01_02.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">ミニチュアのフィギュアを集めています。小さいものが大好きです。建築とか、イスとか車とか。海外へ行くと必ず買ってきます。そういえば、学生さんたちが旅行で中国の西安へ行った時に兵馬俑のミニチュアを買ってきてくれました。お店のものを買い占めた！と言っていました。20体ぐらいでしたか。お墓の出土品なんだけど、って思いましたがとても嬉しかったです。いつかの夏に行ったドイツのメルセデスベンツ博物館では、クラシックなデザインの自動車を集めました。写真の右がその1台です。中央はニューヨークにあるグッゲンハイム美術館。左はサンクトペテルブルクの教会です。コンコルドも顔をのぞかせています。</div></div></div>
 <h3 class="font-12em t_h3">生活のこだわり</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="生活のこだわり写真" decoding="async" src="../..//uploads/2022/02/t_role01_03.png"/></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt="生活のこだわり写真" decoding="async" src="/uploads/2022/02/t_role01_03.png"/></div></div>
 <div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">お茶の時間を大切にしています。紅茶が大好きなのですが、最近はコーヒーもおいしいなと思うようになりました。お菓子も一緒にいただきます。家族や友人と、また、研究室でもお茶をします。コロナ禍以前は、学生さんや教職員のみなさんが旅先でのおみやげを持ってきてくださって、それをいただきながらの時間もとても楽しかったです！何気ない会話の中に、発見や学ぶこともあります。そうした日々が戻ってくることを願っています。音楽や植物が身近にあることも大切にしています。祖父、両親ともに植物の研究者であったことも影響しているのでしょう。</div></div></div>
 <div>
 <h3 class="font-12em t_h3">研究をどのように社会に役立てていきたいですか？</h3>
