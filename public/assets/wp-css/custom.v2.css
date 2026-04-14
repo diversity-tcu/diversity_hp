@@ -39,7 +39,16 @@
 .page-article .new_h2 {
   font-size: 1.7em;
   color: var(--brand-primary, #0655B4);
-  background: linear-gradient(90deg, rgba(6,85,180,.10), rgba(6,85,180,.02) 80%, transparent);
+  background: linear-gradient(
+    90deg,
+    rgba(231,76,60,.12) 0%,
+    rgba(243,156,18,.12) 16%,
+    rgba(241,196,15,.12) 32%,
+    rgba(46,204,113,.12) 48%,
+    rgba(52,152,219,.12) 64%,
+    rgba(91,110,225,.12) 82%,
+    rgba(224,86,253,.12) 100%
+  );
   border: none;
   border-left: 6px solid var(--brand-primary, #0655B4);
   letter-spacing: .05em;
