@@ -14,8 +14,6 @@ const items = (await getCollection('pages'))
     return { it, info, slug };
   })
   .sort((a, b) => {
-    const dateCmp = (b.it.data.date || '').localeCompare(a.it.data.date || '');
-    if (dateCmp !== 0) return dateCmp;
     const volNum = (s: string) => {
       const m = s.match(/(\d+)/);
       return m ? parseInt(m[1], 10) : 0;
