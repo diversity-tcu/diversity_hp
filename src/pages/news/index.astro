@@ -2,9 +2,38 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
+const TOPIC_META = {
+  environment: { label: '環境整備' },
+  reform: { label: '意識改革' },
+  nextgen: { label: '次世代育成' },
+} as const;
+
+type TopicKey = keyof typeof TOPIC_META;
+
+const classifyTopic = (text: string): TopicKey => {
+  const n = text.toLowerCase();
+  if (/女子|女の子|高校生|中学生|小学生|学生向け|進路|理系|stem|girls in control|次世代|育成|キャリア教育|ロールモデル/.test(n)) return 'nextgen';
+  if (/障がい|バリアフリー|ユニバーサルデザイン|環境整備|支援|設備|配慮|保育|介護|両立|働きやす|アクセシビ/.test(n)) return 'environment';
+  return 'reform';
+};
+
 const base = import.meta.env.BASE_URL;
+
+const SIX_MONTHS_MS = 1000 * 60 * 60 * 24 * 183;
+const now = Date.now();
+
 const items = (await getCollection('news'))
-  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''));
+  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
+  .map((n) => {
+    const topic = (n.data as any).topic ?? classifyTopic(`${n.data.title ?? ''}\n${n.body ?? ''}`);
+    const ts = n.data.date ? Date.parse(n.data.date) : 0;
+    return {
+      ...n,
+      topic,
+      topicLabel: TOPIC_META[topic as TopicKey].label,
+      isNew: ts > 0 && now - ts <= SIX_MONTHS_MS,
+    };
+  });
 ---
 <Base title="お知らせ | 東京都市大学 ダイバーシティ推進室">
   <article class="page-article">
@@ -13,12 +42,13 @@ const items = (await getCollection('news'))
       <p class="list-hero-sub">NEWS</p>
     </header>
 
-    <ul class="news-list">
+    <ul class="news-cards">
       {items.map((n) => (
-        <li>
-          <a href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>
-            <time>{n.data.date}</time>
-            <span class="news-list-title">{n.data.title}</span>
+        <li class="news-card">
+          <a class="news-card-link" href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>
+            <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
+            <time>{n.isNew && <span class="tag-new">New!</span>}{n.data.date}</time>
+            <span class="news-card-title">{n.data.title}</span>
           </a>
         </li>
       ))}
@@ -32,14 +62,23 @@ const items = (await getCollection('news'))
   .list-hero-sub { color:#0655B4; letter-spacing:.3em; font-size:.9em; font-style:italic; font-weight:500; opacity:.75; margin:4px 0 0; }
   .list-hero-sub::after { content:""; display:block; width:60px; height:3px; margin:14px auto 0; background:linear-gradient(90deg,#e74c3c,#f39c12,#2ecc71,#3498db,#5b6ee1); border-radius:2px; }
 
-  .news-list { list-style:none; padding:0; margin:0; background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,.06); overflow:hidden; }
-  .news-list li + li { border-top:1px solid #eee; }
-  .news-list a { display:grid; grid-template-columns:140px 1fr; gap:20px; align-items:baseline; padding:16px 22px; text-decoration:none; color:#1a2633; transition:background .15s; }
-  .news-list a:hover { background:#f5f9ff; }
-  .news-list time { color:#0655B4; font-weight:600; font-size:.9em; letter-spacing:.03em; }
-  .news-list-title { font-size:1em; line-height:1.5; }
+  .news-cards { list-style:none; padding:0; margin:0; display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:14px; }
+  .news-card { background:#fff; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,.06); overflow:hidden; transition:transform .15s, box-shadow .15s; }
+  .news-card:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.1); }
+  .news-card-link { display:flex; flex-direction:column; gap:10px; min-height:100%; padding:16px 18px; color:#333; text-decoration:none; }
+  .news-card time { display:flex; align-items:center; gap:6px; color:#6a92aa; font-size:.82em; font-weight:600; }
+  .tag-new { display:inline-block; background:#e74c3c; color:#fff; padding:1px 7px; border-radius:4px; font-size:.9em; letter-spacing:.04em; }
+  .news-card-title { font-size:.96em; font-weight:500; line-height:1.6; color:#1a2633; }
+  .news-card-link:hover .news-card-title { color:var(--brand-primary,#0655B4); }
+  .topic-tag { display:inline-flex; align-items:center; justify-content:center; width:fit-content; padding:4px 10px; border-radius:999px; color:#fff; font-size:.74em; font-weight:700; letter-spacing:.02em; }
+  .topic-environment { background:var(--topic-environment,#2ecc71); }
+  .topic-reform { background:var(--topic-reform,#5b6ee1); }
+  .topic-nextgen { background:var(--topic-nextgen,#e74c3c); }
 
-  @media (max-width: 780px) {
-    .news-list a { grid-template-columns:1fr; gap:4px; padding:14px 16px; }
+  @media (max-width: 900px) {
+    .news-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .news-cards { grid-template-columns: 1fr; }
   }
 </style>
