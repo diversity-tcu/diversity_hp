@@ -9,17 +9,45 @@ status: "publish"
 
 # 刊行物
 
-用途ごとにページを分けています。新しいコンテンツを追加するときは、該当ページに1件ずつ追記してください。
+ダイバーシティ推進室が発行している各種刊行物の一覧です。書影をクリックすると、バックナンバーを含む一覧ページへ移動します。
 
 ## 定期刊行物
 
-- [TCUダイバーシティ通信](/communication/)
-- [ダイバーシティカレンダー用語集](/calendarterms/)
+<div class="pub-hub">
+<a class="pub-card" href="/publication/communication/">
+  <div class="pub-thumb"><img src="/uploads/2026/04/TCU-diversityLetter_Vol20-v3.jpg" alt="TCUダイバーシティ通信 最新号" /></div>
+  <div class="pub-caption">
+    <div class="pub-section">TCUダイバーシティ通信</div>
+    <div class="pub-latest">最新: Vol.20 (2026年3月発行)</div>
+  </div>
+</a>
+<a class="pub-card pub-card--text" href="/publication/calendarterms/">
+  <div class="pub-thumb pub-thumb--text"><span>カレンダー<br/>用語集</span></div>
+  <div class="pub-caption">
+    <div class="pub-section">ダイバーシティカレンダー用語集</div>
+    <div class="pub-latest">最新: 2024年度版</div>
+  </div>
+</a>
+</div>
 
 ## ロールモデル集
 
-- [卒業生ロールモデル集](/rolemodel/)
-- [教員ロールモデル集](/t_rolemodel/)
+<div class="pub-hub">
+<a class="pub-card" href="/publication/rolemodel/">
+  <div class="pub-thumb"><img src="/uploads/2019/12/role18_01.png" alt="卒業生ロールモデル集 最新号" /></div>
+  <div class="pub-caption">
+    <div class="pub-section">卒業生ロールモデル集</div>
+    <div class="pub-latest">社会で輝く卒業生たち</div>
+  </div>
+</a>
+<a class="pub-card" href="/publication/t_rolemodel/">
+  <div class="pub-thumb"><img src="/uploads/2025/03/t_role8_01.jpg" alt="教員ロールモデル集 最新号" /></div>
+  <div class="pub-caption">
+    <div class="pub-section">教員ロールモデル集</div>
+    <div class="pub-latest">最新: Vol.8 (2025年3月)</div>
+  </div>
+</a>
+</div>
 
 ## レポート
 
