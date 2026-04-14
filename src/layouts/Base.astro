@@ -198,14 +198,62 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
     .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
     @media (max-width: 780px) {
-      .siteHeader_top { grid-template-columns: 1fr; row-gap:12px; }
-      .siteHeader_tcuLink,
-      .siteHeader_diversityLink,
-      .siteHeader_nav,
-      .siteHeader_action { flex:0 0 auto; width:100%; justify-content:center; }
-      .siteHeader_tcuLogo { max-width:220px; }
-      .siteHeader_diversityLogo { max-width:320px; }
-      .gMenu { flex-direction:column; }
+      .siteHeader_top {
+        grid-template-columns: 20% 20% 1fr;
+        column-gap: 8px;
+        row-gap: 0;
+        padding: 8px 0;
+        align-items: center;
+      }
+      .siteHeader_tcuLink { grid-column: 1; justify-content: flex-start; }
+      .siteHeader_diversityLink { grid-column: 2; justify-content: flex-start; }
+      .siteHeader_nav { grid-column: 3; justify-content: flex-end; position: relative; }
+      .siteHeader_action { display: none; }
+      .siteHeader_tcuLogo,
+      .siteHeader_diversityLogo { transform: none; max-width: 100%; width: 100%; height: auto; }
+
+      /* ハンバーガートリガー (擬似要素) */
+      .siteHeader_nav::before {
+        content: "☰ メニュー";
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 12px;
+        background: var(--brand-primary, #0655B4);
+        color: #fff;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      /* メニュー本体: 通常非表示、ホバー/フォーカスで表示 */
+      .siteHeader_nav .gMenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 220px;
+        background: #fff;
+        box-shadow: 0 8px 24px rgba(0,0,0,.18);
+        border-radius: 8px;
+        flex-direction: column;
+        padding: 6px 0;
+        z-index: 100;
+        margin-top: 6px;
+      }
+      .siteHeader_nav:hover .gMenu,
+      .siteHeader_nav:focus-within .gMenu { display: flex; }
+      .gMenu > li { width: 100%; }
+      .gMenu > li > a { display: block; padding: 10px 16px; color: #1a2633; font-size: 14px; }
+      .gMenu > li > a:hover { background: #f5f9ff; color: var(--brand-primary, #0655B4); }
+      .gMenu .sub-menu {
+        position: static;
+        background: #f5f9fd;
+        box-shadow: none;
+        min-width: 0;
+        padding: 4px 0 8px;
+      }
+      .gMenu .sub-menu a { padding: 8px 28px; font-size: 13px; color: #333; }
       .siteFooter .container { padding:28px 14px 20px; }
       .siteFooter_top { grid-template-columns: 1fr; gap:18px; }
       .siteFooter_address,
