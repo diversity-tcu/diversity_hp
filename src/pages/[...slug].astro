@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
+import { withBase } from '../lib/path';
 
 export async function getStaticPaths() {
   const items = await getCollection('pages');
@@ -15,11 +16,72 @@ export async function getStaticPaths() {
 
 const { item } = Astro.props;
 const { Content } = await render(item);
+
+const aboutMenu = [
+  { label: 'ダイバーシティについて', slug: 'about' },
+  { label: '概要', slug: 'overview' },
+  { label: '学長・室長挨拶', slug: 'introduction' },
+  { label: '沿革/体制', slug: 'history' },
+  { label: '委員/室員の紹介', slug: 'members' },
+  { label: '東京都市大学ダイバーシティ推進宣言', slug: 'declaration02' },
+  { label: '10私立大学共同宣言', slug: 'declaration' },
+];
+const currentSlug = item.data.slug || item.id.replace(/\.md$/, '').split('/').pop();
+const inAboutSection = aboutMenu.some((m) => m.slug === currentSlug);
 ---
 <Base title={`${item.data.title} | 東京都市大学 ダイバーシティ推進室`}>
-  <article>
+  <article class={inAboutSection ? 'with-aside' : ''}>
     <div class="entry-content page-article">
       <Content />
     </div>
+    {inAboutSection && (
+      <aside class="page-aside">
+        <h3 class="aside-title">About</h3>
+        <ul class="aside-menu">
+          {aboutMenu.map((m) => (
+            <li>
+              <a
+                href={withBase(`/${m.slug}/`)}
+                class={m.slug === currentSlug ? 'is-current' : ''}
+                aria-current={m.slug === currentSlug ? 'page' : undefined}
+              >{m.label}</a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
   </article>
 </Base>
+
+<style>
+  .with-aside {
+    display:grid;
+    grid-template-columns: minmax(0,1fr) 240px;
+    gap:32px;
+    align-items:start;
+  }
+  .page-aside {
+    position:sticky; top:80px;
+    background:#f9f9f9; border-radius:10px; padding:18px 16px;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+  }
+  .aside-title {
+    margin:0 0 12px; padding:0 0 8px;
+    font-size:1.05em; color:var(--brand-primary);
+    border-bottom:2px solid var(--brand-primary);
+  }
+  .aside-menu { list-style:none; padding:0; margin:0; }
+  .aside-menu li { margin:0; }
+  .aside-menu a {
+    display:block; padding:8px 10px; border-radius:6px;
+    color:#333; text-decoration:none; font-size:.9em; line-height:1.4;
+  }
+  .aside-menu a:hover { background:#fff; color:var(--brand-primary); }
+  .aside-menu a.is-current {
+    background:var(--brand-primary); color:#fff; font-weight:600;
+  }
+  @media (max-width: 780px) {
+    .with-aside { grid-template-columns: 1fr; }
+    .page-aside { position:static; }
+  }
+</style>
