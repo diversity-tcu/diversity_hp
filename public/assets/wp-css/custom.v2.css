@@ -358,3 +358,8 @@
 @media (max-width: 780px) {
   .pub-list { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 20px 16px; }
 }
+
+.pub-item-title { display: flex; flex-direction: column; gap: 2px; }
+.pub-item-vol { font-size: .75em; color: #0655B4; letter-spacing: .08em; font-weight: 600; }
+.pub-item-affiliation { font-size: .78em; color: #666; }
+.pub-item-name { font-size: 1em; color: #1a2633; font-weight: 600; margin-top: 2px; }
