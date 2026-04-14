@@ -2,18 +2,68 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-const items = (await getCollection('events'))
-  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''));
+const extractFirstImage = (body: string): string | null => {
+  const m = body.match(/\/uploads\/[^\s"')]+?\.(?:jpg|jpeg|png|gif|webp)/i);
+  return m ? m[0] : null;
+};
+const fallbackThumbs = [
+  '/assets/top/hero1.jpg',
+  '/assets/top/hero2.jpg',
+  '/assets/top/hero3.jpg',
+];
+
 const base = import.meta.env.BASE_URL;
+const withBase = (p: string) =>
+  p.startsWith('/') ? `${base}${p.slice(1)}` : p;
+
+const items = (await getCollection('events'))
+  .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
+  .map((e, i) => ({
+    ...e,
+    thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[i % 3]),
+  }));
 ---
 <Base title="活動報告 | 東京都市大学 ダイバーシティ推進室">
-  <h1 class="entry-title">活動報告</h1>
-  <ul class="newsList">
-    {items.map((e) => (
-      <li>
-        <time>{e.data.date}</time>
-        <a href={`${base}events/${e.id.replace(/\.md$/, '')}/`}>{e.data.title}</a>
-      </li>
-    ))}
-  </ul>
+  <article class="page-article">
+    <header class="list-hero">
+      <h1>活動報告</h1>
+      <p class="list-hero-sub">ACTIVITY REPORT</p>
+    </header>
+
+    <div class="card-grid">
+      {items.map((e) => (
+        <a class="act-card" href={`${base}events/${e.id.replace(/\.md$/, '')}/`}>
+          <div class="act-thumb" style={`background-image:url('${e.thumb}')`}></div>
+          <div class="act-body">
+            <div class="act-meta">
+              <span class="act-date">{e.data.date}</span>
+              <span class="act-tag">活動報告</span>
+            </div>
+            <div class="act-title-text">{e.data.title}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </article>
 </Base>
+
+<style>
+  .list-hero { text-align:center; margin: 10px 0 36px; }
+  .list-hero h1 { font-size:2.6em; color:var(--brand-primary,#0655B4); margin:0; letter-spacing:.06em; font-weight:700; }
+  .list-hero-sub { color:#0655B4; letter-spacing:.3em; font-size:.9em; font-style:italic; font-weight:500; opacity:.75; margin:4px 0 0; }
+  .list-hero-sub::after { content:""; display:block; width:60px; height:3px; margin:14px auto 0; background:linear-gradient(90deg,#e74c3c,#f39c12,#2ecc71,#3498db,#5b6ee1); border-radius:2px; }
+
+  .card-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:24px; }
+  .act-card { display:flex; flex-direction:column; background:#fff; border-radius:10px; overflow:hidden; text-decoration:none; color:#333; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .2s, box-shadow .2s; }
+  .act-card:hover { transform:translateY(-4px); box-shadow:0 10px 22px rgba(0,0,0,.14); }
+  .act-thumb { aspect-ratio:16/10; background-size:cover; background-position:center; background-color:#d0d7e0; }
+  .act-body { padding:14px 16px 18px; }
+  .act-meta { display:flex; gap:10px; align-items:center; font-size:.8em; color:#666; margin-bottom:8px; }
+  .act-tag { background:var(--brand-primary,#0655B4); color:#fff; padding:2px 10px; border-radius:4px; font-size:.9em; }
+  .act-title-text { font-size:.98em; font-weight:600; line-height:1.5; color:#1a2633; }
+
+  @media (max-width: 780px) {
+    .card-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap:16px; }
+    .act-body { padding:10px 12px 14px; }
+  }
+</style>

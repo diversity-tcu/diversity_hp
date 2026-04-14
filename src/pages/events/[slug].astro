@@ -15,12 +15,25 @@ const { Content } = await render(item);
 const base = import.meta.env.BASE_URL;
 ---
 <Base title={`${item.data.title} | 活動報告`}>
-  <article>
-    <h1 class="entry-title">{item.data.title}</h1>
-    {item.data.date && <p style="color:#888;">{item.data.date}</p>}
+  <article class="page-article">
+    <header class="article-hero">
+      <p class="article-kicker">活動報告 / ACTIVITY REPORT</p>
+      <h1>{item.data.title}</h1>
+      {item.data.date && <p class="article-date">{item.data.date}</p>}
+    </header>
     <div class="entry-content">
       <Content />
     </div>
-    <p style="margin-top:40px;"><a href={`${base}events/`}>&laquo; 活動報告一覧に戻る</a></p>
+    <p class="back-link"><a href={`${base}events/`}>&laquo; 活動報告一覧に戻る</a></p>
   </article>
 </Base>
+
+<style>
+  .article-hero { text-align:center; margin: 10px 0 36px; padding-bottom:20px; border-bottom:1px solid #e6ecf2; }
+  .article-kicker { color:#0655B4; letter-spacing:.3em; font-size:.8em; font-style:italic; font-weight:500; opacity:.8; margin:0 0 6px; }
+  .article-hero h1 { font-size:2em; color:#1a2633; margin:0 0 10px; letter-spacing:.04em; font-weight:700; line-height:1.35; }
+  .article-date { color:#666; font-size:.9em; margin:0; }
+  .back-link { margin-top:50px; }
+  .back-link a { color:#0655B4; text-decoration:none; }
+  .back-link a:hover { text-decoration:underline; }
+</style>
