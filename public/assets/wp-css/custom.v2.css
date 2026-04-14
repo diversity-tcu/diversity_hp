@@ -37,26 +37,37 @@
         セクション境界が分かるようにページ幅の淡い帯を敷く -------- */
 .page-article h2,
 .page-article .new_h2 {
+  position: relative;
   font-size: 1.7em;
   color: var(--brand-primary, #0655B4);
-  background: linear-gradient(
-    90deg,
-    rgba(231,76,60,.12) 0%,
-    rgba(243,156,18,.12) 16%,
-    rgba(241,196,15,.12) 32%,
-    rgba(46,204,113,.12) 48%,
-    rgba(52,152,219,.12) 64%,
-    rgba(91,110,225,.12) 82%,
-    rgba(224,86,253,.12) 100%
-  );
+  background: rgba(6, 85, 180, .04);
   border: none;
-  border-left: 6px solid var(--brand-primary, #0655B4);
   letter-spacing: .05em;
-  padding: 14px 20px;
+  padding: 14px 20px 14px 26px;
   margin: 48px -20px 24px;
   font-weight: 700;
   line-height: 1.3;
   border-radius: 0 6px 6px 0;
+}
+.page-article h2::before,
+.page-article .new_h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 7px;
+  background: linear-gradient(
+    180deg,
+    #e74c3c 0%,
+    #f39c12 16%,
+    #f1c40f 32%,
+    #2ecc71 48%,
+    #3498db 64%,
+    #5b6ee1 82%,
+    #e056fd 100%
+  );
+  border-radius: 2px 0 0 2px;
 }
 .page-article .new_h2 .h2_line,
 .page-article .new_h2 p.h2_line {
