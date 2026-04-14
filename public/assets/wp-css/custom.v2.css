@@ -170,6 +170,18 @@
   font-weight: 500;
 }
 
+/* 写真 + 文章の2カラム行(introduction など): 画像列を固定幅、文章を残り */
+.entry-body .panel-grid:has(> .panel-grid-cell:nth-child(2):last-child):has(.widget_media_image) {
+  grid-template-columns: minmax(180px, 260px) minmax(0, 1fr) !important;
+  gap: 24px !important;
+  align-items: start;
+}
+@media (max-width: 780px) {
+  .entry-body .panel-grid:has(> .panel-grid-cell:nth-child(2):last-child):has(.widget_media_image) {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* 単独行(カードが無い)の panel-grid は普通のブロックに */
 .entry-body .panel-grid:has(> .panel-grid-cell:only-child) {
   display: block !important;
