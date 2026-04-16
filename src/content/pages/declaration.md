@@ -1,6 +1,5 @@
 ---
 title: "10私立大学共同宣言"
-slug: "declaration"
 date: "2019-12-11"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/about/declaration/"

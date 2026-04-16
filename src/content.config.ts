@@ -3,7 +3,6 @@ import { glob } from 'astro/loaders';
 
 const pageSchema = z.object({
   title: z.string().optional().default(''),
-  slug: z.string().optional(),
   date: z.string().optional(),
   author: z.string().optional(),
   original_url: z.string().optional(),

@@ -1,6 +1,5 @@
 ---
 title: "岡田往子先生と女性活躍推進のあゆみ 第04回"
-slug: "okada4"
 date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada4/"

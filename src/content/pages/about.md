@@ -1,6 +1,5 @@
 ---
 title: "ダイバーシティについて"
-slug: "about"
 date: "2020-01-06"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/about/"

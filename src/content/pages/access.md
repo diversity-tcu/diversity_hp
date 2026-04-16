@@ -1,6 +1,5 @@
 ---
 title: "アクセス"
-slug: "access"
 date: "2019-12-11"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/access/"

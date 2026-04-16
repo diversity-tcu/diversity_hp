@@ -1,6 +1,5 @@
 ---
 title: "東京都市大学の多様な教員たち Vol.02"
-slug: "t_vol02"
 date: "2022-05-23"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/publication/t_rolemodel/t_vol02/"

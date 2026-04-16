@@ -1,6 +1,5 @@
 ---
 title: "岡田往子先生と女性活躍推進のあゆみ 最終回"
-slug: "okada6"
 date: "2022-03-16"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada6/"

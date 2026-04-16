@@ -1,6 +1,5 @@
 ---
 title: "窓 第02回"
-slug: "mado02"
 date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/mado02/"

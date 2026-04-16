@@ -1,6 +1,5 @@
 ---
 title: "東京都市大学ダイバーシティ推進宣言"
-slug: "declaration02"
 date: "2022-07-22"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/about/declaration02/"

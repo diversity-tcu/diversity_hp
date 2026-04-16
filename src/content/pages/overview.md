@@ -1,6 +1,5 @@
 ---
 title: "概要"
-slug: "overview"
 date: "2021-08-30"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/about/overview/"

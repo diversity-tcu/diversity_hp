@@ -1,6 +1,5 @@
 ---
 title: "窓 第06回"
-slug: "mado06"
 date: "2023-02-06"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/mado06/"

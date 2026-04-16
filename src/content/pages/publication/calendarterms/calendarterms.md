@@ -1,6 +1,5 @@
 ---
 title: "ダイバーシティカレンダー用語集"
-slug: "calendarterms"
 date: "2020-04-06"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/publication/calendarterms/"

@@ -1,6 +1,5 @@
 ---
 title: "イクボス連載企画 第02回"
-slug: "ikubosu02"
 date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu02/"

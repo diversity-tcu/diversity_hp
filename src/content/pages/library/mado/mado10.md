@@ -1,6 +1,5 @@
 ---
 title: "窓 第10回"
-slug: "mado10"
 date: "2025-01-29"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/mado10/"

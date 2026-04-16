@@ -1,6 +1,5 @@
 ---
 title: "岡田往子先生と女性活躍推進のあゆみ 第01回"
-slug: "okada1"
 date: "2022-03-09"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada1/"

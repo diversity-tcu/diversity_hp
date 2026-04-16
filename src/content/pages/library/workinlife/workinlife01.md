@@ -1,6 +1,5 @@
 ---
 title: "ワーク・イン・ライフ連載企画 第01回"
-slug: "workinlife01"
 date: "2025-10-03"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/workinlife01/"

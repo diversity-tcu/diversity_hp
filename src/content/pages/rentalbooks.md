@@ -1,6 +1,5 @@
 ---
 title: "貸出図書"
-slug: "rentalbooks"
 date: "2020-04-06"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/rentalbooks/"

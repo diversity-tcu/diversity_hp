@@ -1,6 +1,5 @@
 ---
 title: "イクボス連載企画 第06回"
-slug: "ikubosu06"
 date: "2023-02-06"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu06/"

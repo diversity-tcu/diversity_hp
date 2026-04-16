@@ -1,6 +1,5 @@
 ---
 title: "数字で見る都市大の現状"
-slug: "stateofnumber"
 date: "2020-01-06"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/state/stateofnumber/"

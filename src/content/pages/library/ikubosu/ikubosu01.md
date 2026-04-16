@@ -1,6 +1,5 @@
 ---
 title: "イクメン連載企画 第01回"
-slug: "ikubosu01"
 date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu01/"
