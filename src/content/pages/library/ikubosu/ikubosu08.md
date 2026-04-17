@@ -4,6 +4,7 @@ date: "2025-01-29"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu08/"
 status: "publish"
+thumb: "/uploads/2023/01/ikubosu08.png"
 ---
 
 # 第08回　理想的な「イクボス」像を目指し、『お互いが相手への思いやりを大事に』

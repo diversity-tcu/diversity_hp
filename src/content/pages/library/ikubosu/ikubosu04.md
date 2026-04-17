@@ -4,6 +4,7 @@ date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu04/"
 status: "publish"
+thumb: "/uploads/2022/03/ikubosu04.png"
 ---
 
 # 第04回

@@ -4,6 +4,7 @@ date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu03/"
 status: "publish"
+thumb: "/uploads/2022/03/ikubosu03.png"
 ---
 
 # 第03回 育児を支援する働き方改革と職場の理解
