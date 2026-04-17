@@ -2,8 +2,8 @@
 
 東京都市大学ダイバーシティ推進室ウェブサイト
 
-- 公開サイト: https://kasekiguchi.github.io/diversity_hp/
-- ビルド状況: https://github.com/kasekiguchi/diversity_hp/actions
+- 公開サイト: https://diversity-tcu.github.io/diversity_hp/
+- ビルド状況: https://github.com/diversity-tcu/diversity_hp/actions
 
 ---
 

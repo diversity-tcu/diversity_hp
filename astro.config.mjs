@@ -44,7 +44,7 @@ function rehypeBasePath() {
 }
 
 export default defineConfig({
-  site: 'https://kasekiguchi.github.io',
+  site: 'https://diversity-tcu.github.io',
   base: BASE,
   trailingSlash: 'always',
   output: 'static',
