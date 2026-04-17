@@ -4,6 +4,7 @@ date: "2022-03-16"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada6/"
 status: "publish"
+thumb: "/uploads/2022/03/okada06.png"
 ---
 
 # 最終回「SDGsのひとつジェンダー平等の実現とひとり一人ができること」「女性研究者支援はうまくいったのか？意識改革は進んだのか？」

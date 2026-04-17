@@ -4,6 +4,7 @@ date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada2/"
 status: "publish"
+thumb: "/uploads/2022/03/okada02.png"
 ---
 
 # 第02回「都市大ダイバーシティ～テクノレディと身近なロールモデル～」

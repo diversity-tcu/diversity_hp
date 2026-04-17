@@ -4,6 +4,7 @@ date: "2025-01-29"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/mado07/"
 status: "publish"
+thumb: "/uploads/2025/01/mado07.png"
 ---
 
 # 第07回

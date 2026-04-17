@@ -27,6 +27,7 @@ for (const it of all) {
       // Special-case "最終回" for okada6 etc.
       const title = it.data.title || '';
       const info = extractTileInfo(title, it.body);
+      if (it.data.thumb) info.thumb = it.data.thumb;
       if (!info.vol && /最終/.test(title)) info.vol = '最終回';
       const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
       bySeries[s.key].push({ it, info, slug, seriesLabel: s.fallbackLabel });

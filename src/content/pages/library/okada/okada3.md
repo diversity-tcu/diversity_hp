@@ -4,6 +4,7 @@ date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada3/"
 status: "publish"
+thumb: "/uploads/2022/03/okada03.png"
 ---
 
 # 第03回「多様な人が集まり相互に機能するインクルージョンは夢？」

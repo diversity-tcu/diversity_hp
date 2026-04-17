@@ -4,6 +4,7 @@ date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada5/"
 status: "publish"
+thumb: "/uploads/2022/03/okada05.png"
 ---
 
 # 第05回「女性研究者支援はうまくいったのか？意識改革は進んだのか？」

@@ -4,6 +4,7 @@ date: "2022-03-09"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada1/"
 status: "publish"
+thumb: "/uploads/2022/03/okada01.png"
 ---
 
 # 第01回「黄色い安全靴」

@@ -4,6 +4,7 @@ date: "2022-03-25"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/okada4/"
 status: "publish"
+thumb: "/uploads/2022/03/okada04.png"
 ---
 
 # 第04回 「なにもかも は・じ・め・ま・し・て！都市大女性研究者支援事業」
