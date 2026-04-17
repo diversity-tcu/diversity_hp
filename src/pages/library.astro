@@ -6,10 +6,10 @@ import { extractTileInfo } from '../lib/extract';
 
 type SeriesKey = 'workinlife' | 'ikubosu' | 'mado' | 'okada';
 const SERIES: { key: SeriesKey; heading: string; fallbackLabel: string; idPrefix: RegExp }[] = [
-  { key: 'workinlife', heading: 'ワーク・イン・ライフ', fallbackLabel: 'ワーク・イン・ライフ', idPrefix: /^workinlife/ },
-  { key: 'ikubosu',    heading: 'イクボス連載企画',       fallbackLabel: 'イクボス連載企画',       idPrefix: /^ikubosu\d/ },
-  { key: 'mado',       heading: 'コラム「窓」',           fallbackLabel: 'コラム「窓」',           idPrefix: /^mado\d/ },
-  { key: 'okada',      heading: '岡田往子先生と女性活躍推進のあゆみ', fallbackLabel: '岡田往子先生と女性活躍推進のあゆみ', idPrefix: /^okada\d/ },
+  { key: 'workinlife', heading: 'ワーク・イン・ライフ', fallbackLabel: 'ワーク・イン・ライフ', idPrefix: /^library\/workinlife/ },
+  { key: 'ikubosu',    heading: 'イクボス連載企画',       fallbackLabel: 'イクボス連載企画',       idPrefix: /^library\/ikubosu/ },
+  { key: 'mado',       heading: 'コラム「窓」',           fallbackLabel: 'コラム「窓」',           idPrefix: /^library\/mado/ },
+  { key: 'okada',      heading: '岡田往子先生と女性活躍推進のあゆみ', fallbackLabel: '岡田往子先生と女性活躍推進のあゆみ', idPrefix: /^library\/okada/ },
 ];
 
 const FALLBACK_THUMB: Record<SeriesKey, string> = {
