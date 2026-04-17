@@ -32,16 +32,16 @@ passwd : ****** (F2Fで説明します。)
 2. 「URL」タブを選択
 3. 以下のURLを入力:
    ```
-   https://github.com/kasekiguchi/diversity_hp.git
+   https://github.com/diversity-tcu/diversity_hp.git
    ```
-4. **Local path** にクローン先フォルダを指定（例: `C:\Users\<ユーザー名>\GitHub\diversity_hp`）
+4. **Local path** にクローン先フォルダを指定（例: `C:\Users\<ユーザー名>\Documents\GitHub\diversity_hp`）
 5. 「Clone」をクリック
 
 クローンが完了すると、GitHub Desktop にリポジトリが表示されます。
 
 ---
 
-## 4. ローカルプレビュー環境を準備する（任意）
+## 4. ローカルプレビュー環境を準備する（基本的にスキップでOK）
 
 コンテンツの見た目を事前に確認したい場合は、以下をセットアップしてください。
 
