@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/path';
+import { extractTileInfo } from '../../lib/extract';
+
+const SERIES_CONFIG = {
+  workinlife: { heading: 'ワーク・イン・ライフ', idPrefix: /^library\/workinlife/, fallbackThumb: '/uploads/2025/10/workinlife01.png' },
+  ikubosu:    { heading: 'イクボス連載企画',       idPrefix: /^library\/ikubosu/,    fallbackThumb: '/uploads/2022/03/ikubosu01.png' },
+  mado:       { heading: 'コラム「窓」',           idPrefix: /^library\/mado/,       fallbackThumb: '/uploads/2022/03/mado01.png' },
+  okada:      { heading: '岡田往子先生と女性活躍推進のあゆみ', idPrefix: /^library\/okada/, fallbackThumb: '/uploads/2022/03/okada01.png' },
+} as const;
+
+type SeriesKey = keyof typeof SERIES_CONFIG;
+
+export function getStaticPaths() {
+  return Object.keys(SERIES_CONFIG).map((key) => ({ params: { series: key } }));
+}
+
+const { series } = Astro.params as { series: SeriesKey };
+const config = SERIES_CONFIG[series];
+
+const all = await getCollection('pages');
+const items: any[] = [];
+for (const it of all) {
+  if (config.idPrefix.test(it.id)) {
+    const title = it.data.title || '';
+    const info = extractTileInfo(title, it.body);
+    if (it.data.thumb) info.thumb = it.data.thumb;
+    if (!info.vol && /最終/.test(title)) info.vol = '最終回';
+    const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
+    items.push({ it, info, slug });
+  }
+}
+items.sort((a, b) => {
+  const dateCmp = (b.it.data.date || '').localeCompare(a.it.data.date || '');
+  if (dateCmp !== 0) return dateCmp;
+  const volNum = (s: string) => { const m = s.match(/(\d+)/); return m ? parseInt(m[1], 10) : 0; };
+  return volNum(b.slug) - volNum(a.slug);
+});
+---
+<Base title={`${config.heading} | 東京都市大学 ダイバーシティ推進室`}>
+  <article>
+    <div class="entry-content page-article">
+      <h1>{config.heading}</h1>
+      <p><a href={withBase('/library/')}>← ライブラリ一覧に戻る</a></p>
+      <div class="pub-list">
+        {items.map(({ info, slug }) => (
+          <a class="pub-item" href={withBase(`/${slug}/`)}>
+            <div class="pub-item-thumb">
+              <img src={withBase(info.thumb || config.fallbackThumb)} alt="" loading="lazy" />
+            </div>
+            <div class="pub-item-title">
+              {info.vol && <span class="pub-item-vol">{info.vol}</span>}
+              {info.affiliation && <span class="pub-item-affiliation">{info.affiliation}</span>}
+              <span class="pub-item-name">
+                {info.name ? `${info.name}${info.role ? `　${info.role}` : ''}` : config.heading}
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </article>
+</Base>

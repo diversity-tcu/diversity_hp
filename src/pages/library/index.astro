@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import { withBase } from '../../lib/path';
+---
+<Base title="ライブラリ | 東京都市大学 ダイバーシティ推進室">
+  <article>
+    <div class="entry-content page-article">
+      <h1>ライブラリ</h1>
+      <p>ダイバーシティ推進室が発行している各種刊行物・連載企画の一覧です。書影をクリックすると、バックナンバーを含む一覧ページへ移動します。</p>
+
+      <h2>定期刊行物</h2>
+      <div class="pub-hub">
+        <a class="pub-card" href={withBase('/communication/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2026/04/TCU-diversityLetter_Vol20-v3.jpg')} alt="TCUダイバーシティ通信 最新号" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">TCUダイバーシティ通信</div>
+            <div class="pub-latest">最新: Vol.20 (2026年3月発行)</div>
+          </div>
+        </a>
+        <a class="pub-card pub-card--text" href={withBase('/calendarterms/')}>
+          <div class="pub-thumb pub-thumb--text"><span>カレンダー<br/>用語集</span></div>
+          <div class="pub-caption">
+            <div class="pub-section">ダイバーシティカレンダー用語集</div>
+            <div class="pub-latest">最新: 2024年度版</div>
+          </div>
+        </a>
+        <a class="pub-card" href={withBase('/library/workinlife/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2025/10/workinlife01.png')} alt="ワーク・イン・ライフ" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">ワーク・イン・ライフ</div>
+            <div class="pub-latest">連載中</div>
+          </div>
+        </a>
+      </div>
+
+      <h2>ロールモデル集</h2>
+      <div class="pub-hub">
+        <a class="pub-card" href={withBase('/rolemodel/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2019/12/role18_01.png')} alt="卒業生ロールモデル集 最新号" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">卒業生ロールモデル集</div>
+            <div class="pub-latest">社会で輝く卒業生たち</div>
+          </div>
+        </a>
+        <a class="pub-card" href={withBase('/t_rolemodel/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2025/03/t_role8_01.jpg')} alt="教員ロールモデル集 最新号" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">教員ロールモデル集</div>
+            <div class="pub-latest">最新: Vol.8 (2025年3月)</div>
+          </div>
+        </a>
+      </div>
+
+      <h2>既刊の連載企画</h2>
+      <div class="pub-hub">
+        <a class="pub-card" href={withBase('/uploads/2020/03/activity_report_2018.pdf')}>
+          <div class="pub-thumb pub-thumb--text"><span>女性卒業生<br/>活躍レポート</span></div>
+          <div class="pub-caption">
+            <div class="pub-section">女性卒業生活躍レポート</div>
+            <div class="pub-latest">2018年版（PDF）</div>
+          </div>
+        </a>
+        <a class="pub-card" href={withBase('/library/ikubosu/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2022/03/ikubosu01.png')} alt="イクボス連載企画" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">イクボス連載企画</div>
+            <div class="pub-latest">全12回</div>
+          </div>
+        </a>
+        <a class="pub-card" href={withBase('/library/mado/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2022/03/mado01.png')} alt="コラム「窓」" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">コラム「窓」</div>
+            <div class="pub-latest">全12回</div>
+          </div>
+        </a>
+        <a class="pub-card" href={withBase('/library/okada/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2022/03/okada01.png')} alt="岡田往子先生と女性活躍推進のあゆみ" /></div>
+          <div class="pub-caption">
+            <div class="pub-section">岡田往子先生と女性活躍推進のあゆみ</div>
+            <div class="pub-latest">全6回</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </article>
+</Base>
