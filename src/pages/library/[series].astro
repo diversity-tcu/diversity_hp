@@ -14,7 +14,7 @@ const SERIES_CONFIG = {
 type SeriesKey = keyof typeof SERIES_CONFIG;
 
 export function getStaticPaths() {
-  return Object.keys(SERIES_CONFIG).map((key) => ({ params: { series: key } }));
+  return ['workinlife', 'ikubosu', 'mado', 'okada'].map((key) => ({ params: { series: key } }));
 }
 
 const { series } = Astro.params as { series: SeriesKey };
