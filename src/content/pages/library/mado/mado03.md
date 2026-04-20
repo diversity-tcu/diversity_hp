@@ -2,7 +2,6 @@
 title: "窓 第03回"
 date: "2022-03-25"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/mado03/"
 status: "publish"
 thumb: "/uploads/2022/03/mado03.png"
 ---

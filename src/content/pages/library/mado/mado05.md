@@ -2,7 +2,6 @@
 title: "窓 第05回"
 date: "2023-02-06"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/mado05/"
 status: "publish"
 thumb: "/uploads/2023/01/mado05.png"
 ---

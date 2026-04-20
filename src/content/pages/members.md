@@ -2,7 +2,6 @@
 title: "委員/室員の紹介"
 date: "2019-12-11"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/about/members/"
 status: "publish"
 ---
 

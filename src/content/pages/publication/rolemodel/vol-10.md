@@ -1,30 +1,22 @@
 ---
 title: "社会で輝く卒業生たち Vol.10"
 date: "2019-12-12"
-author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/publication/rolemodel/vol-10/"
 status: "publish"
+name: "水田 夏美"
+affiliation: "知識工学部 情報科学科"
+role: "さん"
+photo_main: "/uploads/2019/12/role09_01.png"
+workplace: "株式会社富士通アドバンストエンジニアリング
+エンジニアリングビジネス本部"
+education: "2012年 武蔵工業大学 知識工学部 情報科学科 卒業
+
+2014年 東京都市大学大学院 工学研究科 情報工学専攻 修士課程 修了"
+high_school: "神奈川県立横須賀大津高等学校 卒業"
+photo_style: "/uploads/2019/12/role09_style.png"
 ---
 
-<div class="entry-body">
-<div class="panel-layout" id="pl-3737"><div class="panel-grid panel-no-style" id="pg-3737-0"><div class="panel-grid-cell" id="pgc-3737-0-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="0" id="panel-3737-0-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role09_01.png"/></div></div>
-<div class="su-column su-column-size-1-2"><div class="su-column-inner su-u-clearfix su-u-trim">知識工学部 情報科学科<br/>
-<span class="font-15em">水田 夏美</span> さん<br/>
-<br/>
-勤務先<br/>
-<span class="font-08em">株式会社富士通アドバンストエンジニアリング<br/>エンジニアリングビジネス本部</span><br/>
-<br/>
-出身学部<br/>
-<span class="font-08em">2012年 武蔵工業大学 知識工学部 情報科学科 卒業<br/>
-2014年 東京都市大学大学院 工学研究科 情報工学専攻 修士課程 修了</span><br/>
-<br/>
-出身高校<br/>
-<span class="font-08em">神奈川県立横須賀大津高等学校 卒業</span>
-</div></div></div>
-<div>
-<h2 class="new_h2"><p class="h2_line">現在の仕事内容</p></h2>
-</div>
-<p class="font-08em">
+## 現在の仕事内容
+
 FPGA というデバイスを使った処理システムの
 組込みソフトウェア( ドライバなど) の開発を
 担当しています。私の所属する部署は、新規
@@ -37,9 +29,8 @@ FPGA というデバイスを使った処理システムの
 品で、ユーザである他の分野のエンジニアや
 研究者の方々と意見を交わしながら、ユーザ
 要件の実現を目指しています。
-</p>
-<h3 class="font-12em">職業を選択したきっかけ</h3>
-<p class="font-08em">
+
+### 職業を選択したきっかけ
 組込みソフトウェアの開発がやりたかったの
 で、システム開発もハードウェア開発も両方
 手掛けている会社でのハードエンジニアの道
@@ -52,9 +43,8 @@ FPGA というデバイスを使った処理システムの
 タの中でソフトウェアが動く仕組みの部分で
 した。今の仕事でも大学で学んだことが役
 立っていると感じます。
-</p>
-<h3 class="font-12em">夢の実現に向けて努力したこと</h3>
-<p class="font-08em">
+
+### 夢の実現に向けて努力したこと
 これまでの人生で最もチャレンジングな決断
 だったのが、大学受験の時に理転したことで
 す。数学が苦手だった私は、何となく自分は
@@ -67,13 +57,10 @@ FPGA というデバイスを使った処理システムの
 学や就職先でも努力し続けることを強いられ
 ていますが、好きなことを選択したから続け
 られているのだと思います。
-</p>
-<br/>
-<img alt="“ロールモデル”" decoding="async" src="/uploads/2019/12/role09_style.png"/>
-<br/>
-<h3 class="font-12em">私の趣味</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role09_02.png"/></div></div>
-<div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
+
+### 私の趣味
+![写真](/uploads/2019/12/role09_02.png)
+
 吹奏楽です。会社の吹奏楽部に所属して
 おり、毎週日曜日、練習に励んでいます。
 部では学生時代から続けているトラン
@@ -83,10 +70,10 @@ FPGA というデバイスを使った処理システムの
 し習い始めました。今年は初のソロ演奏
 に挑戦するので、仕事終わりや休日に猛
 練習中です！
-</div></div></div>
-<h3 class="font-12em">都市大を選んでよかったこと</h3>
-<div class="su-row"><div class="su-column su-column-size-1-2 “”"><div class="su-column-inner su-u-clearfix su-u-trim"><img alt='“ロールモデル"' decoding="async" src="/uploads/2019/12/role09_03.png"/></div></div>
-<div class="su-column su-column-size-1-2 font-08em"><div class="su-column-inner su-u-clearfix su-u-trim">
+
+### 都市大を選んでよかったこと
+![写真](/uploads/2019/12/role09_03.png)
+
 都市大を選んでよかったことは、人に恵
 まれたことだと思います。学生生活の中
 で困難にぶつかった時には、学生支援セ
@@ -97,15 +84,11 @@ FPGA というデバイスを使った処理システムの
 う関係です。また、今の夫に出会ったの
 も同じ研究室になったことがきっかけで
 した。
-</div></div></div>
-<div>
-<br/>
-<h2 class="new_h2"><p class="h2_line">Message</p></h2>
-</div>
-<p>
+
+## Message
+
 学生時代は、苦手なことや経験のないことにこそチャレンジする最大の機会だと
 思います。人見知りだった私が、友人に誘われて始めた接客のアルバイトで身に
 付けた“笑顔で人と話す癖” は、思いがけず就職活動で役に立ちました( 笑)。
 苦手だから、やったことがないから、と諦めてしまわずに、今の自分にできない
 ことだからこそやってみるということが、自分の可能性を広げていくと思います。
-</p></div></div></div></div></div> </div>

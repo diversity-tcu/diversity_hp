@@ -2,7 +2,6 @@
 title: "TOP(new)"
 date: "2020-10-23"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/"
 status: "publish"
 ---
 

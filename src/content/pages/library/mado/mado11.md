@@ -2,7 +2,6 @@
 title: "窓 第11回"
 date: "2025-01-29"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/mado11/"
 status: "publish"
 thumb: "/uploads/2025/01/mado11.png"
 ---

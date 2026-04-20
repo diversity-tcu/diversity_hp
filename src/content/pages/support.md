@@ -2,7 +2,6 @@
 title: "各種支援"
 date: "2021-08-30"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/support/"
 status: "publish"
 ---
 

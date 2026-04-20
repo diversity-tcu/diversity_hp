@@ -2,7 +2,6 @@
 title: "ダイバーシティカレンダー用語集"
 date: "2020-04-06"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/publication/calendarterms/"
 status: "publish"
 ---
 
