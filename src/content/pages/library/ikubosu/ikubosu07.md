@@ -2,7 +2,6 @@
 title: "イクボス連載企画 第07回"
 date: "2023-02-06"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu07/"
 status: "publish"
 thumb: "/uploads/2023/01/ikubosu07.png"
 ---

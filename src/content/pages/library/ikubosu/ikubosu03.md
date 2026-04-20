@@ -2,7 +2,6 @@
 title: "イクボス連載企画 第03回"
 date: "2022-03-25"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu03/"
 status: "publish"
 thumb: "/uploads/2022/03/ikubosu03.png"
 ---

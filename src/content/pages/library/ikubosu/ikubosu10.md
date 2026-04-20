@@ -2,7 +2,6 @@
 title: "イクボス連載企画 第10回"
 date: "2025-01-29"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/ikubosu10/"
 status: "publish"
 thumb: "/uploads/2025/01/ikubosu10.png"
 ---

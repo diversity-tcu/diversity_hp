@@ -2,7 +2,6 @@
 title: "2018年度"
 date: "2022-03-25"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/state/enquete/enquete2018/"
 status: "publish"
 ---
 
