@@ -1,6 +1,6 @@
 ---
 title: "ワーク・イン・ライフ連載企画 第02回"
-date: "2026-03-20"
+date: "2025-10-20"
 author: "tcucomm4"
 original_url: "https://www.diversity.tcu.ac.jp/library/workinlife02/"
 status: "publish"
