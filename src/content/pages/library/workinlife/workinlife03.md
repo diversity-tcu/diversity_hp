@@ -2,7 +2,7 @@
 title: "ワーク・イン・ライフ連載企画 第03回"
 date: "2026-03-20"
 author: "tcucomm4"
-original_url: "https://www.diversity.tcu.ac.jp/library/workinlife01/"
+thumb: "/uploads/2026/04/workinlife03.jpg"
 status: "publish"
 ---
 

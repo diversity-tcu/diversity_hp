@@ -2,6 +2,7 @@
 title: "ワーク・イン・ライフ連載企画 第02回"
 date: "2025-10-20"
 author: "tcucomm4"
+thumb: "/uploads/2026/04/workinlife02.jpg"
 status: "publish"
 ---
 
