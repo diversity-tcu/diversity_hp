@@ -1,0 +1,82 @@
+---
+export interface Props {
+  name: string;
+  affiliation?: string;
+  role?: string;
+  photo_main?: string;
+  photo_style?: string;
+  theme?: string;
+  workplace?: string;
+  career?: string;
+  education?: string;
+  high_school?: string;
+  published_date?: string;
+  isTeacher?: boolean;
+}
+
+const {
+  name, affiliation, role, photo_main, photo_style,
+  theme, workplace, career, education, high_school,
+  published_date, isTeacher,
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+function resolve(path: string) {
+  if (path.startsWith('/')) return base + path.slice(1);
+  return path;
+}
+---
+
+<div class="rm-profile">
+  {theme && <h2 class="rm-theme">{theme}</h2>}
+
+  <div class="rm-header">
+    {photo_main && (
+      <div class="rm-photo">
+        <img src={resolve(photo_main)} alt={name} />
+      </div>
+    )}
+    <div class="rm-info">
+      {affiliation && <p class="rm-affiliation">{affiliation}</p>}
+      <p class="rm-name">{name}<span class="rm-role">{role ? `　${role}` : ''}</span></p>
+
+      {workplace && (
+        <div class="rm-detail">
+          <p class="rm-label">勤務先</p>
+          {workplace.split('\n').map((line: string) => <p class="rm-value">{line}</p>)}
+        </div>
+      )}
+
+      {career && (
+        <div class="rm-detail">
+          <p class="rm-label">経歴</p>
+          {career.split('\n').map((line: string) => <p class="rm-value">{line}</p>)}
+        </div>
+      )}
+
+      {education && (
+        <div class="rm-detail">
+          <p class="rm-label">{isTeacher ? '学歴' : '出身学部'}</p>
+          {education.split('\n').map((line: string) => <p class="rm-value">{line}</p>)}
+        </div>
+      )}
+
+      {high_school && (
+        <div class="rm-detail">
+          <p class="rm-label">出身高校</p>
+          <p class="rm-value">{high_school}</p>
+        </div>
+      )}
+    </div>
+  </div>
+
+  {photo_style && (
+    <div class="rm-style">
+      <img src={resolve(photo_style)} alt={`${name}のスタイル`} />
+    </div>
+  )}
+</div>
+
+{published_date && (
+  <p class="rm-published">掲載日：{published_date}</p>
+)}

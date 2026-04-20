@@ -464,6 +464,82 @@
   .pub-caption { padding: 10px 12px 12px; }
 }
 
+/* ================================================================
+   ロールモデル プロフィール (Markdown 新形式)
+   ================================================================ */
+.rm-profile { margin-bottom: 32px; }
+.rm-theme {
+  text-align: center;
+  font-size: 1.3em;
+  color: var(--brand-primary, #0655B4);
+  font-weight: 600;
+  margin: 0 0 24px;
+  line-height: 1.5;
+  padding: 18px 20px;
+  background: rgba(6, 85, 180, .04);
+  border-radius: 8px;
+}
+.rm-header {
+  display: grid;
+  grid-template-columns: minmax(180px, 300px) 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-bottom: 28px;
+}
+.rm-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.rm-affiliation {
+  margin: 0 0 4px;
+  font-size: .95em;
+  color: #444;
+}
+.rm-name {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 16px;
+  color: #1a2633;
+}
+.rm-role {
+  font-size: .7em;
+  font-weight: 400;
+  color: #666;
+}
+.rm-detail { margin-bottom: 10px; }
+.rm-label {
+  margin: 0;
+  font-weight: 600;
+  font-size: .85em;
+  color: #444;
+}
+.rm-value {
+  margin: 0;
+  font-size: .82em;
+  color: #555;
+  line-height: 1.6;
+}
+.rm-style {
+  margin: 24px 0;
+  text-align: center;
+}
+.rm-style img {
+  max-width: 100%;
+  height: auto;
+}
+.rm-published {
+  text-align: right;
+  font-size: .85em;
+  color: #666;
+  margin-top: 32px;
+}
+@media (max-width: 780px) {
+  .rm-header { grid-template-columns: 1fr; }
+  .rm-photo { max-width: 280px; }
+  .rm-name { font-size: 1.3em; }
+}
+
 /* Very narrow (< 360px) — fold to single column ----------------- */
 @media (max-width: 360px) {
   .entry-body .panel-grid,

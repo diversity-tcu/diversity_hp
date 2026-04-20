@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import RolemodelProfile from '../components/RolemodelProfile.astro';
 import { getCollection, render } from 'astro:content';
 import { withBase } from '../lib/path';
 
@@ -17,6 +18,10 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const { Content } = await render(item);
 
+const d = item.data;
+const hasRolemodelProfile = !!d.name;
+const isTeacher = (d.title || '').startsWith('東京都市大学の多様な教員たち');
+
 const aboutMenu = [
   { label: 'ダイバーシティについて', slug: 'about' },
   { label: '学長・室長挨拶', slug: 'introduction' },
@@ -31,6 +36,22 @@ const inAboutSection = aboutMenu.some((m) => m.slug === currentSlug);
 <Base title={`${item.data.title} | 東京都市大学 ダイバーシティ推進室`}>
   <article class={inAboutSection ? 'with-aside' : ''}>
     <div class="entry-content page-article">
+      {hasRolemodelProfile && (
+        <RolemodelProfile
+          name={d.name!}
+          affiliation={d.affiliation}
+          role={d.role}
+          photo_main={d.photo_main}
+          photo_style={d.photo_style}
+          theme={d.theme}
+          workplace={d.workplace}
+          career={d.career}
+          education={d.education}
+          high_school={d.high_school}
+          published_date={d.published_date}
+          isTeacher={isTeacher}
+        />
+      )}
       <Content />
     </div>
     {inAboutSection && (

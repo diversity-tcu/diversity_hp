@@ -9,7 +9,12 @@ const FALLBACK = '/uploads/2025/03/t_role8_01.jpg';
 const items = (await getCollection('pages'))
   .filter((it) => (it.data.title || '').startsWith('東京都市大学の多様な教員たち'))
   .map((it) => {
-    const info = extractTileInfo(it.data.title, it.body);
+    const info = extractTileInfo(it.data.title, it.body, {
+      name: it.data.name,
+      affiliation: it.data.affiliation,
+      role: it.data.role,
+      photo_main: it.data.photo_main,
+    });
     const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
     return { it, info, slug };
   })

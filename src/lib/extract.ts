@@ -111,7 +111,27 @@ export interface TileInfo {
   thumb: string | null;
 }
 
-export function extractTileInfo(title: string | undefined, body: string | undefined): TileInfo {
+export interface FrontmatterHints {
+  name?: string;
+  affiliation?: string;
+  role?: string;
+  photo_main?: string;
+}
+
+export function extractTileInfo(
+  title: string | undefined,
+  body: string | undefined,
+  hints?: FrontmatterHints,
+): TileInfo {
+  if (hints?.name) {
+    return {
+      vol: extractVolLabel(title),
+      affiliation: hints.affiliation || '',
+      name: hints.name,
+      role: hints.role || '',
+      thumb: hints.photo_main || extractFirstImage(body),
+    };
+  }
   const person = extractPerson(body);
   return {
     vol: extractVolLabel(title),

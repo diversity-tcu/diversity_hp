@@ -9,6 +9,18 @@ const pageSchema = z.object({
   status: z.string().optional(),
   topic: z.enum(['environment', 'reform', 'nextgen']).optional(),
   thumb: z.string().optional(),
+  // ロールモデル用（frontmatterで指定すればMarkdownだけで記事が書ける）
+  name: z.string().optional(),
+  affiliation: z.string().optional(),
+  role: z.string().optional(),
+  photo_main: z.string().optional(),
+  photo_style: z.string().optional(),
+  theme: z.string().optional(),
+  workplace: z.string().optional(),
+  career: z.string().optional(),
+  education: z.string().optional(),
+  high_school: z.string().optional(),
+  published_date: z.string().optional(),
 });
 
 const pages = defineCollection({

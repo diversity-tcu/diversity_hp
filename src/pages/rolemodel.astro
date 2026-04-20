@@ -9,7 +9,12 @@ const FALLBACK = '/uploads/2019/12/role18_01.png';
 const items = (await getCollection('pages'))
   .filter((it) => (it.data.title || '').startsWith('社会で輝く卒業生たち'))
   .map((it) => {
-    const info = extractTileInfo(it.data.title, it.body);
+    const info = extractTileInfo(it.data.title, it.body, {
+      name: it.data.name,
+      affiliation: it.data.affiliation,
+      role: it.data.role,
+      photo_main: it.data.photo_main,
+    });
     const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
     return { it, info, slug };
   })

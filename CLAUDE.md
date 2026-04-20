@@ -76,15 +76,119 @@ thumb: "/uploads/2026/09/Vol21.jpg"
 - 卒業生: `src/content/pages/publication/rolemodel/vol-XX.md` を新規作成
 - 教員: `src/content/pages/publication/t_rolemodel/t_volXX.md` を新規作成
 
-frontmatter の `title` / `date` を既存号に倣って設定し、本文の冒頭に
-**所属・氏名・役職** (Markdown の太字 `**...**` か WordPress移行時の
-`<span class="font-15em">氏名</span>` を含む HTML ブロック)を置き、本文中に画像
-(`/uploads/YYYY/MM/xxx.(jpg|png|gif|webp)`) を1枚以上入れておけば、
-`/rolemodel/` または `/t_rolemodel/` 一覧ページに **date 降順で自動反映** される。
+**HTMLは不要。** frontmatter にプロフィール情報を書き、本文は普通のMarkdownで書く。
 タイトル接頭辞は必ず以下を使うこと(ページ側のフィルタ条件):
 
 - 卒業生: `社会で輝く卒業生たち Vol.XX`
 - 教員: `東京都市大学の多様な教員たち Vol.XX`
+
+#### 卒業生ロールモデルのテンプレート
+
+```markdown
+---
+title: "社会で輝く卒業生たち Vol.19"
+date: "2026-04-20"
+status: "publish"
+name: "山田 花子"
+affiliation: "理工学部 機械システム工学科"
+role: "さん"
+photo_main: "/uploads/2026/04/role19_01.jpg"
+workplace: "株式会社○○\n○○部 ○○課"
+education: "2020年 東京都市大学 理工学部 機械システム工学科 卒業\n2022年 東京都市大学大学院 総合理工学研究科 修了"
+high_school: "東京都立○○高等学校 卒業"
+photo_style: "/uploads/2026/04/role19_style.png"
+---
+
+## 現在の仕事内容
+
+ここに本文を書く。
+
+### 職業を選択したきっかけ
+
+ここに本文を書く。
+
+### 夢の実現に向けて努力したこと
+
+ここに本文を書く。
+
+### 私の趣味
+
+![趣味の写真](/uploads/2026/04/role19_02.jpg)
+
+ここに本文を書く。
+
+### 都市大を選んでよかったこと
+
+![写真](/uploads/2026/04/role19_03.jpg)
+
+ここに本文を書く。
+
+## Message
+
+メッセージ本文を書く。
+```
+
+#### 教員ロールモデルのテンプレート
+
+```markdown
+---
+title: "東京都市大学の多様な教員たち Vol.09"
+date: "2026-04-20"
+status: "publish"
+name: "田中 太郎"
+affiliation: "理工学部 機械工学科"
+role: "教授"
+photo_main: "/uploads/2026/04/t_role09_01.jpg"
+theme: "ここに教員のテーマとなる一言を入れる"
+career: "○○大学○○学部卒業。\n○○大学大学院修了。\n東京都市大学講師を経て現職。\n／出身地"
+photo_style: "/uploads/2026/04/t_role09_style.png"
+published_date: "2026年4月20日"
+---
+
+## 研究内容の見出し
+
+ここに本文を書く。
+
+### 研究のきっかけ
+
+ここに本文を書く。
+
+### 夢のために努力したこと
+
+ここに本文を書く。
+
+### マイブーム
+
+![写真](/uploads/2026/04/t_role09_02.jpg)
+
+ここに本文を書く。
+
+### 研究をどのように社会に役立てていきたいですか？
+
+ここに本文を書く。
+
+## 若い人へのメッセージをお願いします。
+
+メッセージ本文を書く。
+```
+
+#### frontmatter フィールド一覧
+
+| フィールド | 必須 | 説明 |
+|---|---|---|
+| `name` | ○ | 氏名 |
+| `affiliation` | | 所属(学部・学科) |
+| `role` | | 役職(「さん」「教授」「准教授」など) |
+| `photo_main` | | メイン写真パス |
+| `photo_style` | | 1日のスタイル画像パス |
+| `workplace` | | 勤務先(卒業生用、改行は `\n`) |
+| `education` | | 出身学部(卒業生用、改行は `\n`) |
+| `high_school` | | 出身高校(卒業生用) |
+| `theme` | | テーマの一言(教員用) |
+| `career` | | 経歴(教員用、改行は `\n`) |
+| `published_date` | | 掲載日(教員用、「2026年4月20日」形式) |
+
+> **既存記事(Vol.01〜18, t_vol01〜08)** は旧HTMLフォーマットのまま動作する。新規追加時のみ上記Markdown形式を使えばよい。
 
 ### 8. ライブラリ連載の新記事を追加する
 > 「イクボス連載の第13回を追加して。所属・氏名は…、本文は…」
