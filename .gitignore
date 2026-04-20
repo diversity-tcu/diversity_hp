@@ -8,4 +8,4 @@ backup_*.zip
 WordPress.*.xml
 image_urls.txt
 venv/
-
+*\?
