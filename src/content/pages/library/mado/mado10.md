@@ -1,7 +1,7 @@
 ---
 title: "窓 第10回"
 date: "2025-01-29"
-author: "金谷朗子 ほか"
+author: "学生支援課・金谷朗子・都市生活学部・斉藤"
 status: "publish"
 thumb: "/uploads/2025/01/mado10.png"
 ---

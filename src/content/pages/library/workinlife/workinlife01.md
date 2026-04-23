@@ -1,7 +1,7 @@
 ---
 title: "ワーク・イン・ライフ連載企画 第01回"
 date: "2025-10-03"
-author: "宇都 正哲"
+author: "都市生活学部長　宇都 正哲"
 status: "publish"
 ---
 

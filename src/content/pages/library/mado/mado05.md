@@ -1,7 +1,7 @@
 ---
 title: "窓 第05回"
 date: "2023-02-06"
-author: "ダイバーシティ推進室・伊東 ほか"
+author: "ダイバーシティ推進室・伊東・R.S"
 status: "publish"
 thumb: "/uploads/2023/01/mado05.png"
 ---

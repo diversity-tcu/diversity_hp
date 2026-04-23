@@ -1,7 +1,7 @@
 ---
 title: "窓 第09回"
 date: "2025-01-29"
-author: "ダイバーシティ推進室・伊東 ほか"
+author: "ダイバーシティ推進室・伊東・探求の友"
 status: "publish"
 thumb: "/uploads/2025/01/mado09.png"
 ---

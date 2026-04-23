@@ -1,7 +1,7 @@
 ---
 title: "窓 第08回"
 date: "2025-01-29"
-author: "髙橋うらら ほか"
+author: "人間科学部 髙橋うらら・ダイバーシティ推進室・伊東"
 status: "publish"
 thumb: "/uploads/2025/01/mado08.png"
 ---

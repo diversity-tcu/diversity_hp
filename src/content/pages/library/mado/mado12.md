@@ -1,7 +1,7 @@
 ---
 title: "窓 第12回"
 date: "2025-01-29"
-author: "岩田遵子"
+author: "人間科学部 岩田遵子"
 status: "publish"
 thumb: "/uploads/2025/01/mado12.png"
 ---
