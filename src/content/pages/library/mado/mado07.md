@@ -1,7 +1,7 @@
 ---
 title: "窓 第07回"
 date: "2025-01-29"
-author: "tcucomm4"
+author: "みちかぱぱ"
 status: "publish"
 thumb: "/uploads/2025/01/mado07.png"
 ---

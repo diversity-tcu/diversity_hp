@@ -1,7 +1,7 @@
 ---
 title: "窓 第03回"
 date: "2022-03-25"
-author: "tcucomm4"
+author: "みかん"
 status: "publish"
 thumb: "/uploads/2022/03/mado03.png"
 ---

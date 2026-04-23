@@ -1,7 +1,7 @@
 ---
 title: "窓 第04回"
 date: "2023-02-06"
-author: "tcucomm4"
+author: ""
 status: "publish"
 thumb: "/uploads/2023/01/mado04.png"
 ---

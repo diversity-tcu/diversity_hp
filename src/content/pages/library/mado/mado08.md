@@ -1,7 +1,7 @@
 ---
 title: "窓 第08回"
 date: "2025-01-29"
-author: "tcucomm4"
+author: "髙橋うらら ほか"
 status: "publish"
 thumb: "/uploads/2025/01/mado08.png"
 ---

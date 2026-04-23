@@ -1,7 +1,7 @@
 ---
 title: "窓 第09回"
 date: "2025-01-29"
-author: "tcucomm4"
+author: "ダイバーシティ推進室・伊東 ほか"
 status: "publish"
 thumb: "/uploads/2025/01/mado09.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "窓 第10回"
 date: "2025-01-29"
-author: "tcucomm4"
+author: "金谷朗子 ほか"
 status: "publish"
 thumb: "/uploads/2025/01/mado10.png"
 ---
