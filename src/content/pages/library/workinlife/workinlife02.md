@@ -1,7 +1,8 @@
 ---
 title: "ワーク・イン・ライフ連載企画 第02回"
 date: "2025-10-20"
-author: "総務人事局長　新堂 孝"
+author: "新堂 孝"
+affiliate: "総務人事局長"
 thumb: "/uploads/2026/04/workinlife02.jpg"
 status: "publish"
 ---

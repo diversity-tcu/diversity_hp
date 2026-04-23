@@ -1,7 +1,8 @@
 ---
 title: "ワーク・イン・ライフ連載企画 第03回"
 date: "2026-03-20"
-author: "学生部長　久保 哲也"
+author: "久保 哲也"
+affiliate: "学生部長"
 thumb: "/uploads/2026/04/workinlife03.jpg"
 status: "publish"
 ---
