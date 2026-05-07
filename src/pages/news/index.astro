@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 
 const TOPIC_META = {
   environment: { label: '環境整備' },
-  reform: { label: '意識改革' },
+  意識改革: { label: '意識改革' },
   nextgen: { label: '次世代育成' },
 } as const;
 
@@ -14,7 +14,7 @@ const classifyTopic = (text: string): TopicKey => {
   const n = text.toLowerCase();
   if (/女子|女の子|高校生|中学生|小学生|学生向け|進路|理系|stem|girls in control|次世代|育成|キャリア教育|ロールモデル/.test(n)) return 'nextgen';
   if (/障がい|バリアフリー|ユニバーサルデザイン|環境整備|支援|設備|配慮|保育|介護|両立|働きやす|アクセシビ/.test(n)) return 'environment';
-  return 'reform';
+  return '意識改革';
 };
 
 const base = import.meta.env.BASE_URL;
@@ -76,7 +76,7 @@ const items = (await getCollection('news'))
   .news-card-link:hover .news-card-title { color:var(--brand-primary,#0655B4); }
   .topic-tag { display:inline-flex; align-items:center; justify-content:center; width:fit-content; padding:4px 10px; border-radius:999px; color:#fff; font-size:.74em; font-weight:700; letter-spacing:.02em; }
   .topic-environment { background:var(--topic-environment,#2ecc71); }
-  .topic-reform { background:var(--topic-reform,#5b6ee1); }
+  .topic-意識改革 { background:var(--topic-意識改革,#5b6ee1); }
   .topic-nextgen { background:var(--topic-nextgen,#e74c3c); }
 
   @media (max-width: 900px) {
