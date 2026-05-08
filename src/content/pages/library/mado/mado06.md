@@ -1,7 +1,7 @@
 ---
 title: "窓 第06回"
 date: "2023-02-06"
-author: "tcucomm4"
+author: "白い猫"
 status: "publish"
 thumb: "/uploads/2023/01/mado06.png"
 ---

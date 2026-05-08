@@ -16,11 +16,17 @@ const base = import.meta.env.BASE_URL;
 const withBase = (p: string) =>
   p.startsWith('/') ? `${base}${p.slice(1)}` : p;
 
+const hash = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+};
+
 const items = (await getCollection('events'))
   .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
-  .map((e, i) => ({
+  .map((e) => ({
     ...e,
-    thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[i % 3]),
+    thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[hash(e.id) % 3]),
   }));
 ---
 <Base title="活動報告 | 東京都市大学 ダイバーシティ推進室">

@@ -1,7 +1,7 @@
 ---
 title: "窓 第11回"
 date: "2025-01-29"
-author: "tcucomm4"
+author: "ダイバーシティ推進室長 伊東"
 status: "publish"
 thumb: "/uploads/2025/01/mado11.png"
 ---

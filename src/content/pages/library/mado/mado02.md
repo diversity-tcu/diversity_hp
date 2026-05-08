@@ -1,7 +1,7 @@
 ---
 title: "窓 第02回"
 date: "2022-03-25"
-author: "tcucomm4"
+author: "探求の友・Y"
 status: "publish"
 thumb: "/uploads/2022/03/mado02.png"
 ---

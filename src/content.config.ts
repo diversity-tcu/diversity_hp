@@ -5,8 +5,9 @@ const pageSchema = z.object({
   title: z.string().optional().default(''),
   date: z.string().optional(),
   author: z.string().optional(),
+  affiliate: z.string().optional(),
   status: z.string().optional(),
-  topic: z.enum(['environment', 'reform', 'nextgen']).optional(),
+  topic: z.enum(['environment', '意識改革', 'nextgen']).optional(),
   thumb: z.string().optional(),
   // ロールモデル用（frontmatterで指定すればMarkdownだけで記事が書ける）
   name: z.string().optional(),
