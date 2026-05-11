@@ -115,7 +115,9 @@ status: "publish"
 </table>
 </div>
 </div>
+
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="性">
+<h2 class="new_h2"><p class="h2_line">性</p></h2>
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
 <tr>
