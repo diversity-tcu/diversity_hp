@@ -115,7 +115,6 @@ status: "publish"
 </table>
 </div>
 </div>
-
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="性">
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -394,6 +393,9 @@ status: "publish"
 </table>
 </div>
 </div>
+
+<div data-title="宗教・国籍">
+
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="宗教・国籍">
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -416,6 +418,7 @@ status: "publish"
 </table>
 </div>
 </div>
+
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="SDGs">
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -510,6 +513,7 @@ status: "publish"
 </table>
 </div>
 </div>
+
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="育児・介護">
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -644,6 +648,7 @@ status: "publish"
 </table>
 </div>
 </div>
+
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="キャリア">
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
