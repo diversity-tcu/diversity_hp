@@ -115,6 +115,8 @@ status: "publish"
 </table>
 </div>
 </div>
+
+性
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="性">
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -362,7 +364,6 @@ status: "publish"
 </div>
 </div>
 
-<div data-title="障がい">
 <div class="panel-grid panel-no-style" id="pg-4576-5"><div class="panel-grid-cell" id="pgc-4576-5-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="5" id="panel-4576-5-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">障がい</p></h2></div></div></div></div>
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -393,8 +394,6 @@ status: "publish"
 </table>
 </div>
 </div>
-
-<div data-title="宗教・国籍">
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="宗教・国籍">
 <div class="su-table sp_none su-table-responsive">
