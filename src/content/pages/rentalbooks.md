@@ -364,6 +364,14 @@ status: "publish"
 <td>2023.7</td>
 <td>9784750517971</td>
 </tr>
+<tr>
+<td>2-30</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784041141489" target="_blank" rel="noopener">在る。SOGI支援医のカルテ</a></td>
+<td>前川　ほまれ</td>
+<td>角川書店</td>
+<td>2025.9</td>
+<td>9784041141489</td>
+</tr>
 </table>
 </div>
 </div>
