@@ -116,7 +116,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>性</h4>
+<h4>2 性</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="性">
 <div class="su-table sp_none su-table-responsive">
@@ -365,7 +365,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>障がい</h4>
+<h4>3 障がい</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="障がい">
 <div class="su-table sp_none su-table-responsive">
@@ -398,7 +398,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>宗教・国籍</h4>
+<h4>4 宗教・国籍</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="宗教・国籍">
 <div class="su-table sp_none su-table-responsive">
@@ -423,7 +423,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>SDGs</h4>
+<h4>5 SDGs</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="SDGs">
 <div class="su-table sp_none su-table-responsive">
@@ -520,7 +520,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>６　育児・介護</h4>
+<h4>6 育児・介護</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="育児・介護">
 <div class="su-table sp_none su-table-responsive">
@@ -657,7 +657,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>キャリア</h4>
+<h4>7 キャリア</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="キャリア">
 <div class="su-table sp_none su-table-responsive">
@@ -914,7 +914,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>その他</h4>
+<h4>8 その他</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="その他">
 <div class="su-table sp_none su-table-responsive">
