@@ -30,6 +30,9 @@ status: "publish"
 閲覧をご希望の際もお気軽にダイバーシティ推進室までお越しください。
 </div>
 <br/><br/></div></div></div></div><div class="panel-grid panel-no-style" id="pg-4576-3"><div class="panel-grid-cell" id="pgc-4576-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" id="panel-4576-3-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">貸出図書一覧</p></h2></div></div></div></div><div class="panel-grid panel-no-style" id="pg-4576-4"><div class="panel-grid-cell" id="pgc-4576-4-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="4" id="panel-4576-4-0-0"><div class="textwidget"><div class="su-tabs su-tabs-style-default su-tabs-mobile-desktop" data-active="1" data-anchor-in-url="no" data-scroll-offset="0"><div class="su-tabs-nav">
+
+<h4>1.性</h4>
+
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
 <tr>
@@ -116,7 +119,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>2 性</h4>
+<h4>2.性</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="性">
 <div class="su-table sp_none su-table-responsive">
@@ -365,7 +368,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>3 障がい</h4>
+<h4>3.障がい</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="障がい">
 <div class="su-table sp_none su-table-responsive">
@@ -398,7 +401,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>4 宗教・国籍</h4>
+<h4>4.宗教・国籍</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="宗教・国籍">
 <div class="su-table sp_none su-table-responsive">
@@ -423,7 +426,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>5 SDGs</h4>
+<h4>5.SDGs</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="SDGs">
 <div class="su-table sp_none su-table-responsive">
@@ -520,7 +523,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>6 育児・介護</h4>
+<h4>6.育児・介護</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="育児・介護">
 <div class="su-table sp_none su-table-responsive">
@@ -657,7 +660,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>7 キャリア</h4>
+<h4>7.キャリア</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="キャリア">
 <div class="su-table sp_none su-table-responsive">
@@ -914,7 +917,7 @@ status: "publish"
 </div>
 </div>
 
-<h4>8 その他</h4>
+<h4>8.その他</h4>
 
 <div class="su-tabs-pane su-u-clearfix su-u-trim" data-title="その他">
 <div class="su-table sp_none su-table-responsive">
