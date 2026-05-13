@@ -115,6 +115,14 @@ status: "publish"
 <td>2021.4</td>
 <td>9784295307204 </td>
 </tr>
+<tr>
+<td>1-10</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784591175101" target="_blank" rel="noopener">しなきゃ、なんてない</a></td>
+<td>LIFUL</td>
+<td> 株式会社ポプラ </td>
+<td>2022.12</td>
+<td>9784591175101 </td>
+</tr>
 </table>
 </div>
 </div>
@@ -405,6 +413,14 @@ status: "publish"
 <td>2018.6</td>
 <td>9784120050855</td>
 </tr>
+<tr>
+<td>3-3</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784835646954" target="_blank" rel="noopener">凱旋　9歳で癌になった僕が17歳で世界一になるまでの話</a></td>
+<td>小田　凱人</td>
+<td>ぴあ株式会社</td>
+<td>2024.6</td>
+<td>9784835646954</td>
+</tr>
 </table>
 </div>
 </div>
@@ -428,6 +444,22 @@ status: "publish"
 <td>川橋範子・小松加代子編集</td>
 <td>昭和堂</td>
 <td>2016.11</td>
+<td>9784812216019</td>
+</tr>
+<tr>
+<td>4-2</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784759263404" target="_blank" rel="noopener">Q＆A　ハラールを知る101問</a></td>
+<td>福島康博</td>
+<td>解放出版社</td>
+<td>2018.5</td>
+<td>9784759263404</td>
+</tr>
+<tr>
+<td>4-3</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784812216019" target="_blank" rel="noopener">図解　世界5大宗教全史</a></td>
+<td>中村圭志</td>
+<td>株式会社ディスカヴァー・トゥエンティワン</td>
+<td>2020.6</td>
 <td>9784812216019</td>
 </tr>
 </table>
@@ -920,6 +952,14 @@ status: "publish"
 <td>あすなろ書房</td>
 <td>2020.10</td>
 <td>9784751530030 </td>
+</tr>
+<tr>
+<td>7-31</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784799111215" target="_blank" rel="noopener">うちの職場がムリすぎる。</a></td>
+<td>沢渡あまね</td>
+<td>すばる舎</td>
+<td>2023.3</td>
+<td>9784799111215 </td>
 </tr>
 </table>
 </div>
