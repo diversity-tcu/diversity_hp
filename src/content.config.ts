@@ -9,6 +9,7 @@ const pageSchema = z.object({
   status: z.string().optional(),
   topic: z.enum(['environment', '意識改革', 'nextgen']).optional(),
   thumb: z.string().optional(),
+  isNew: z.boolean().optional(),
   // ロールモデル用（frontmatterで指定すればMarkdownだけで記事が書ける）
   name: z.string().optional(),
   affiliation: z.string().optional(),

@@ -177,8 +177,8 @@ const quickLinks = [
         {news.map((n) => (
           <li class="news-card">
             <a class="news-card-link" href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>
-              <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
-              <time>New! {n.data.date}</time>
+            <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
+              <time>{(n.data as any).isNew !== false && 'New! '}{n.data.date}</time>
               <span>{n.data.title}</span>
             </a>
           </li>

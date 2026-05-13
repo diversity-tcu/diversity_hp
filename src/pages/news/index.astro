@@ -19,7 +19,7 @@ const classifyTopic = (text: string): TopicKey => {
 
 const base = import.meta.env.BASE_URL;
 
-const SIX_MONTHS_MS = 1000 * 60 * 60 * 24 * 183;
+const TWO_MONTHS_MS = 1000 * 60 * 60 * 24 * 60;
 const now = Date.now();
 
 const items = (await getCollection('news'))
@@ -27,11 +27,12 @@ const items = (await getCollection('news'))
   .map((n) => {
     const topic = (n.data as any).topic ?? classifyTopic(`${n.data.title ?? ''}\n${n.body ?? ''}`);
     const ts = n.data.date ? Date.parse(n.data.date) : 0;
+    const isNewData = (n.data as any).isNew;
     return {
       ...n,
       topic,
       topicLabel: TOPIC_META[topic as TopicKey].label,
-      isNew: ts > 0 && now - ts <= SIX_MONTHS_MS,
+      isNew: isNewData !== undefined ? isNewData : (ts > 0 && now - ts <= TWO_MONTHS_MS),
     };
   });
 ---
