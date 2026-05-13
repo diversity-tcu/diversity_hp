@@ -954,7 +954,7 @@ status: "publish"
 <td>9784751530030 </td>
 </tr>
 <tr>
-<td>7-30</td>
+<td>7-31</td>
 <td><a href="https://www.amazon.co.jp/s?k=9784799111215" target="_blank" rel="noopener">うちの職場がムリすぎる。</a></td>
 <td>沢渡あまね</td>
 <td>すばる舎</td>
