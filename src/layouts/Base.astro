@@ -77,8 +77,23 @@ const base = import.meta.env.BASE_URL; // ends with "/"
         <div class="siteFooter_brand">
           <img src={`${base}assets/top/diversity_logo.svg`} alt="東京都市大学 ダイバーシティ推進室" />
         </div>
-        <div class="siteFooter_diverWrap">
-          <img src={`${base}assets/top/diver.svg`} alt="ダイバ" />
+        <div class="siteFooter_mascotNotice">
+          <p class="siteFooter_mascotTitle">東京都市大学ダイバーシティ推進室マスコットキャラクターの使用について</p>
+          <p>
+            東京都市大学ダイバーシティ推進室マスコットキャラクター「ダイバ」は、ダイバーシティの概念に沿ったものであれば無償で使用できます。
+            使用にあたり、事前にマスコットキャラクター使用申請書を東京都市大学ダイバーシティ推進室へ提出してください。
+          </p>
+          <details class="siteFooter_mascotDetails">
+            <summary>使用方法を確認する</summary>
+            <ol>
+              <li>使用にあたり、事前にマスコットキャラクター使用申請書（別紙1）を提出してください。</li>
+              <li>「ダイバ」の著作権は推進室に帰属しています。使用の際は、デザインの近くに著作権表示「©2022東京都市大学ダイバーシティ推進室」を明示してください。</li>
+              <li>二次創作をする場合は、事前にマスコットキャラクター二次創作申請書（別紙2）を提出してください。デザイン変更内容に問題がなければ使用を許可します。</li>
+              <li>本学の品位を傷つけるおそれがある場合、本学ダイバーシティ推進活動の正しい理解の妨げになるおそれがある場合、法令または公序良俗に反するおそれがある場合、特定の個人・政党・宗教団体を支援または公認しているような誤解を与えるおそれがある場合は使用を禁止します。</li>
+            </ol>
+          </details>
+          <p class="siteFooter_mascotCopyright">©2022東京都市大学ダイバーシティ推進室</p>
+          <a class="siteFooter_mascotDownload" href={`${base}uploads/2023/06/application_form.docx`}>申請書ダウンロード（Word形式）</a>
         </div>
       </div>
       <div class="siteFooter_rule"></div>
@@ -172,11 +187,20 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .siteFooter_top { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:24px; align-items:center; }
     .siteFooter_address,
     .siteFooter_brand,
-    .siteFooter_diverWrap { display:flex;  font-size: 0.85em;align-items:center; justify-content:center; text-align:center; }
+    .siteFooter_mascotNotice { display:flex;  font-size: 0.85em;align-items:center; justify-content:center; text-align:center; }
     .siteFooter_address { justify-content:flex-start; text-align:left; }
     .siteFooter_address p { margin:0; line-height:1.8; }
     .siteFooter_brand img { max-width:200px; width:100%; height:auto; }
-    .siteFooter_diverWrap img { max-width:130px; width:100%; height:auto; }
+    .siteFooter_mascotNotice { flex-direction:column; align-items:flex-start; text-align:left; line-height:1.65; }
+    .siteFooter_mascotNotice p { margin:0 0 8px; }
+    .siteFooter_mascotTitle { font-weight:700; color:#1a2633; }
+    .siteFooter_mascotDetails { margin:0 0 8px; }
+    .siteFooter_mascotDetails summary { color:var(--brand-primary); cursor:pointer; font-weight:700; }
+    .siteFooter_mascotDetails ol { margin:8px 0 0; padding-left:1.4em; }
+    .siteFooter_mascotDetails li { margin:0 0 6px; }
+    .siteFooter_mascotCopyright { font-size:.92em; color:#666; }
+    .siteFooter_mascotDownload { display:inline-flex; align-items:center; justify-content:center; min-height:30px; padding:0 12px; border-radius:5px; background:var(--brand-primary); color:#fff !important; text-decoration:none; font-size:.92em; box-shadow:0 2px 8px rgba(55,186,247,.25); }
+    .siteFooter_mascotDownload:hover { color:#fff !important; opacity:.88; }
     .siteFooter_rule { height:1px; background:#d9dee5; margin:28px 0 24px; }
     .siteFooter_bottom { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
     .siteFooter_links { display:flex; gap:48px; align-items:flex-start; }
@@ -257,7 +281,8 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       .siteFooter_top { grid-template-columns: 1fr; gap:18px; }
       .siteFooter_address,
       .siteFooter_brand,
-      .siteFooter_diverWrap { justify-content:center; text-align:center; }
+      .siteFooter_mascotNotice { justify-content:center; text-align:center; }
+      .siteFooter_mascotNotice { align-items:center; }
       .siteFooter_bottom { flex-direction:column; gap:16px; }
       .siteFooter_links { flex-direction:column; gap:16px; }
       .siteFooter .copySection { margin-left:0; margin-top:0; padding-top:0; text-align:left; white-space:normal; border:0; }
@@ -267,7 +292,6 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       .siteFooter .container { padding:22px 14px 18px; }
       .siteFooter_address p { font-size:.9em; line-height:1.7; }
       .siteFooter_brand img { max-width:160px; }
-      .siteFooter_diverWrap img { max-width:100px; }
     }
   </style>
 </body>
