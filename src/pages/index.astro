@@ -219,6 +219,27 @@ const quickLinks = [
     </div>
     <p class="act-more"><a href={`${base}events/`}>活動報告一覧 &gt;</a></p>
   </section>
+
+  <section class="daiba-use">
+    <details class="daiba-use-details">
+      <summary class="daiba-use-button">
+        <img src={withBase('/uploads/2025/12/chara1line.png')} alt="" />
+        <span>ダイバの使用について</span>
+      </summary>
+      <div class="daiba-use-panel">
+        <h2>東京都市大学ダイバーシティ推進室マスコットキャラクターの使用について</h2>
+        <p>東京都市大学ダイバーシティ推進室マスコットキャラクター「ダイバ」の使用方法は、下記の通りとなります。</p>
+        <ol>
+          <li>ダイバーシティの概念に沿ったものであれば、無償にて使用を許可します。使用にあたり、事前にマスコットキャラクター使用申請書（別紙1）を東京都市大学ダイバーシティ推進室へ提出してください。</li>
+          <li>「ダイバ」の著作権は推進室に帰属しています。使用の際は、デザインの近くに著作権表示「©2022東京都市大学ダイバーシティ推進室」を明示してください。</li>
+          <li>二次創作をする場合は、事前にマスコットキャラクター二次創作申請書（別紙2）を提出してください。デザイン変更内容に問題がなければ使用を許可します。なお、当該著作物の著作権は推進室へ無償譲渡し、且つ、本件著作権に係る著作者人格権を行使しないことが条件となりますのでご承知おきください。</li>
+          <li>本学の品位を傷つけ、又は傷つけるおそれのあるとき、本学ダイバーシティ推進活動の正しい理解の妨げになり、または妨げになるおそれのあるとき、法令または公序良俗に反し、又は反するおそれのあるとき、特定の個人、政党、宗教団体を支援し、又は公認しているような誤解を与え、又は与えるおそれのあるときは使用を禁止します。</li>
+        </ol>
+        <p>上記以外でも、使用を禁止及び中止させていただくことがあります。予めご了承ください。</p>
+        <p class="daiba-use-download"><a href={withBase('/uploads/2023/06/application_form.docx')}>申請書ダウンロード（Word形式）</a></p>
+      </div>
+    </details>
+  </section>
 </Base>
 
 <style>
@@ -383,6 +404,55 @@ const quickLinks = [
   .footer-banner { text-align:center; padding:30px 0; }
   .footer-banner img { max-width:300px; height:auto; }
 
+  .daiba-use { margin: 0 -20px 34px; padding: 0 20px; display:flex; justify-content:flex-end; }
+  .daiba-use-details { width:min(100%, 760px); }
+  .daiba-use-details summary { list-style:none; }
+  .daiba-use-details summary::-webkit-details-marker { display:none; }
+  .daiba-use-button {
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:14px;
+    width:min(100%, 360px);
+    margin-left:auto;
+    min-height:76px;
+    padding:8px 18px 8px 10px;
+    box-sizing:border-box;
+    border:0;
+    border-radius:8px;
+    background:var(--brand-primary);
+    color:#fff;
+    cursor:pointer;
+    box-shadow:0 3px 10px rgba(55,186,247,.28);
+    transition:transform .15s, box-shadow .15s;
+  }
+  .daiba-use-button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(55,186,247,.34); }
+  .daiba-use-button img {
+    width:68px;
+    height:58px;
+    object-fit:contain;
+    object-position:left bottom;
+    flex:0 0 auto;
+  }
+  .daiba-use-button span { font-weight:700; font-size:1.04em; line-height:1.35; }
+  .daiba-use-panel {
+    margin-top:14px;
+    padding:22px 24px;
+    background:#fff;
+    border:1px solid #d9dee5;
+    border-radius:8px;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    color:#333;
+    text-align:left;
+  }
+  .daiba-use-panel h2 { margin:0 0 12px; padding:0; border:0; background:#fff; color:#1a2633; font-size:1.2em; line-height:1.45; }
+  .daiba-use-panel p { margin:0 0 12px; line-height:1.8; }
+  .daiba-use-panel ol { margin:0 0 12px; padding-left:1.4em; }
+  .daiba-use-panel li { margin:0 0 10px; line-height:1.8; }
+  .daiba-use-download { margin-top:18px !important; }
+  .daiba-use-download a { display:inline-flex; align-items:center; justify-content:center; min-height:34px; padding:0 16px; border-radius:5px; background:var(--brand-primary); color:#fff; text-decoration:none; font-size:.92em; }
+  .daiba-use-download a:hover { opacity:.88; }
+
   @media (max-width: 780px) {
     .hero { margin: -18px -14px 0; }
     .hero-grid { grid-template-columns: 1fr; }
@@ -404,6 +474,10 @@ const quickLinks = [
     .activities { padding:18px 14px; margin:0 -14px 30px; }
     .act-title { font-size:1.5em; }
     .act-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px; }
+    .daiba-use { margin: 0 -14px 28px; padding:0 14px; justify-content:center; }
+    .daiba-use-details { width:100%; }
+    .daiba-use-button { margin:0 auto; }
+    .daiba-use-panel { padding:18px 16px; }
   }
   @media (max-width: 480px) {
     .hero-img { height: 170px; }
@@ -416,5 +490,9 @@ const quickLinks = [
     .mission-pillars { width:220px; height:200px; }
     .pillar { width:90px; height:90px; font-size:.82em; }
     .news-side { flex-direction:column; align-items:flex-start; }
+    .daiba-use-button { width:100%; min-height:70px; }
+    .daiba-use-button img { width:58px; height:50px; }
+    .daiba-use-button span { font-size:.96em; }
+    .daiba-use-panel h2 { font-size:1.05em; }
   }
 </style>
