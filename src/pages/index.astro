@@ -223,8 +223,7 @@ const quickLinks = [
   <section class="daiba-use">
     <details class="daiba-use-details">
       <summary class="daiba-use-button">
-        <img src={withBase('/uploads/2025/12/chara1line.png')} alt="" />
-        <span>ダイバの使用について</span>
+        <img src="https://www.diversity.tcu.ac.jp/assets/images/home/banner01.png" alt="「ダイバ」の使用について" />
       </summary>
       <div class="daiba-use-panel">
         <h2>東京都市大学ダイバーシティ推進室マスコットキャラクターの使用について</h2>
@@ -409,32 +408,21 @@ const quickLinks = [
   .daiba-use-details summary { list-style:none; }
   .daiba-use-details summary::-webkit-details-marker { display:none; }
   .daiba-use-button {
-    display:flex;
-    align-items:center;
-    justify-content:flex-start;
-    gap:14px;
-    width:min(100%, 360px);
+    display:block;
+    width:min(100%, 700px);
     margin-left:auto;
-    min-height:76px;
-    padding:8px 18px 8px 10px;
-    box-sizing:border-box;
     border:0;
-    border-radius:8px;
-    background:var(--brand-primary);
-    color:#fff;
+    background:transparent;
     cursor:pointer;
-    box-shadow:0 3px 10px rgba(55,186,247,.28);
-    transition:transform .15s, box-shadow .15s;
+    transition:transform .15s, filter .15s;
   }
-  .daiba-use-button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(55,186,247,.34); }
+  .daiba-use-button:hover { transform:translateY(-2px); filter:brightness(1.02); }
   .daiba-use-button img {
-    width:68px;
-    height:58px;
-    object-fit:contain;
-    object-position:left bottom;
-    flex:0 0 auto;
+    display:block;
+    width:100%;
+    height:auto;
+    border:1px solid #1d4b95;
   }
-  .daiba-use-button span { font-weight:700; font-size:1.04em; line-height:1.35; }
   .daiba-use-panel {
     margin-top:14px;
     padding:22px 24px;
@@ -490,9 +478,6 @@ const quickLinks = [
     .mission-pillars { width:220px; height:200px; }
     .pillar { width:90px; height:90px; font-size:.82em; }
     .news-side { flex-direction:column; align-items:flex-start; }
-    .daiba-use-button { width:100%; min-height:70px; }
-    .daiba-use-button img { width:58px; height:50px; }
-    .daiba-use-button span { font-size:.96em; }
     .daiba-use-panel h2 { font-size:1.05em; }
   }
 </style>
