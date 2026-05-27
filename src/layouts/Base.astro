@@ -78,7 +78,9 @@ const base = import.meta.env.BASE_URL; // ends with "/"
           <img src={`${base}assets/top/diversity_logo.svg`} alt="東京都市大学 ダイバーシティ推進室" />
         </div>
         <div class="siteFooter_diverWrap">
-          <img src={`${base}assets/top/diver.svg`} alt="ダイバ" />
+          <a class="siteFooter_daibaButton" href={`${base}daiba-use/`} target="_blank" rel="noopener">
+            <img src="https://www.diversity.tcu.ac.jp/assets/images/home/banner01.png" alt="「ダイバ」の使用について" />
+          </a>
         </div>
       </div>
       <div class="siteFooter_rule"></div>
@@ -176,7 +178,10 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .siteFooter_address { justify-content:flex-start; text-align:left; }
     .siteFooter_address p { margin:0; line-height:1.8; }
     .siteFooter_brand img { max-width:200px; width:100%; height:auto; }
-    .siteFooter_diverWrap img { max-width:130px; width:100%; height:auto; }
+    .siteFooter_diverWrap { position:relative; justify-content:flex-end; }
+    .siteFooter_daibaButton { display:block; width:min(100%, 210px); margin-left:auto; cursor:pointer; transition:transform .15s, filter .15s; }
+    .siteFooter_daibaButton:hover { transform:translateY(-2px); filter:brightness(1.02); }
+    .siteFooter_daibaButton img { display:block; width:100%; height:auto; border:1px solid #1d4b95; }
     .siteFooter_rule { height:1px; background:#d9dee5; margin:28px 0 24px; }
     .siteFooter_bottom { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
     .siteFooter_links { display:flex; gap:48px; align-items:flex-start; }
@@ -258,6 +263,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       .siteFooter_address,
       .siteFooter_brand,
       .siteFooter_diverWrap { justify-content:center; text-align:center; }
+      .siteFooter_daibaButton { margin:0 auto; width:min(100%, 240px); }
       .siteFooter_bottom { flex-direction:column; gap:16px; }
       .siteFooter_links { flex-direction:column; gap:16px; }
       .siteFooter .copySection { margin-left:0; margin-top:0; padding-top:0; text-align:left; white-space:normal; border:0; }
@@ -267,7 +273,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       .siteFooter .container { padding:22px 14px 18px; }
       .siteFooter_address p { font-size:.9em; line-height:1.7; }
       .siteFooter_brand img { max-width:160px; }
-      .siteFooter_diverWrap img { max-width:100px; }
+      .siteFooter_daibaButton { width:min(100%, 220px); }
     }
   </style>
 </body>
