@@ -78,7 +78,7 @@ const events = (await getCollection('events'))
 
 const quickLinks = [
   {
-    label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌',
+    label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌', iconClass: '',
     submenu: [
       { label: 'ダイバーシティについて', href: '/about/' },
       { label: '学長・室長挨拶', href: '/introduction/' },
@@ -88,9 +88,9 @@ const quickLinks = [
       { label: '10私立大学共同宣言', href: '/declaration/' },
     ],
   },
-  { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '▤' },
+  { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '▤', iconClass: '' },
   {
-    label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '📍',
+    label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '', iconClass: 'ql-icon-map',
     submenu: [
       { label: '世田谷キャンパス多目的トイレマップ', href: '/assets/restroom_setagaya_map.pdf' },
       { label: '横浜キャンパス多目的トイレマップ', href: '/assets/restroom_yokohama_map.pdf' },
@@ -98,7 +98,7 @@ const quickLinks = [
       { label: '世田谷キャンパスVRマップ', href: 'https://kengo0626.shop/', external: true },
     ],
   },
-  { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '🕮' },
+  { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '🕮', iconClass: '' },
 ];
 ---
 <Base title="東京都市大学 ダイバーシティ推進室">
@@ -117,7 +117,7 @@ const quickLinks = [
           <div class="ql-wrap">
             {q.href && q.href !== '#' ? (
               <a class="ql-card" href={withBase(q.href)}>
-                <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+                <div class:list={['ql-icon', q.iconClass]} aria-hidden="true">{q.icon}</div>
                 <div class="ql-text">
                   <div class="ql-label">{q.label}</div>
                   <div class="ql-sub">{q.sub}</div>
@@ -137,7 +137,7 @@ const quickLinks = [
                 aria-haspopup="true"
                 aria-expanded="false"
                 onclick="const w=this.parentElement;const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);">
-                <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+                <div class:list={['ql-icon', q.iconClass]} aria-hidden="true">{q.icon}</div>
                 <div class="ql-text">
                   <div class="ql-label">{q.label}</div>
                   <div class="ql-sub">{q.sub}</div>
@@ -158,7 +158,7 @@ const quickLinks = [
           </div>
         ) : (
           <a class="ql-card" href={withBase(q.href)}>
-            <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+            <div class:list={['ql-icon', q.iconClass]} aria-hidden="true">{q.icon}</div>
             <div class="ql-text">
               <div class="ql-label">{q.label}</div>
               <div class="ql-sub">{q.sub}</div>
@@ -281,6 +281,16 @@ const quickLinks = [
   .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:10px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; min-height:64px; box-sizing:border-box; }
   .ql-card:hover { transform:translateY(-2px); }
   .ql-icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:999px; background:rgba(255,255,255,.16); font-size:18px; font-weight:700; line-height:1; flex:0 0 auto; }
+  .ql-icon-map { font-size:0; }
+  .ql-icon-map::before {
+    content:"";
+    display:block;
+    width:30px;
+    height:30px;
+    background:#fff;
+    -webkit-mask:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cpath%20d%3D%27M4%2058l12-40%2018-5%2014%205%2012-3v41l-12%203-14-5-18%205z%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%276%27%20stroke-linejoin%3D%27round%27/%3E%3Cpath%20d%3D%27M16%2018v41M34%2013v41M48%2018v41%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%275%27/%3E%3Cpath%20d%3D%27M32%203C20%203%2012%2011%2012%2023c0%2013%2020%2029%2020%2029s20-16%2020-29C52%2011%2044%203%2032%203z%27%20fill%3D%27black%27/%3E%3Ccircle%20cx%3D%2732%27%20cy%3D%2722%27%20r%3D%276%27%20fill%3D%27white%27/%3E%3C/svg%3E") center/contain no-repeat;
+    mask:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cpath%20d%3D%27M4%2058l12-40%2018-5%2014%205%2012-3v41l-12%203-14-5-18%205z%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%276%27%20stroke-linejoin%3D%27round%27/%3E%3Cpath%20d%3D%27M16%2018v41M34%2013v41M48%2018v41%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%275%27/%3E%3Cpath%20d%3D%27M32%203C20%203%2012%2011%2012%2023c0%2013%2020%2029%2020%2029s20-16%2020-29C52%2011%2044%203%2032%203z%27%20fill%3D%27black%27/%3E%3Ccircle%20cx%3D%2732%27%20cy%3D%2722%27%20r%3D%276%27%20fill%3D%27white%27/%3E%3C/svg%3E") center/contain no-repeat;
+  }
   .ql-text { min-width:0; }
   .ql-card::after {
     content:"›" !important;
