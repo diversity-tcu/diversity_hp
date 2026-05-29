@@ -159,8 +159,23 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .gMenu > li > a strong { font-weight:700; color:#333; }
     .gMenu > li.menu-events > a::before { content:"📢"; }
     .gMenu > li.menu-library > a::before { content:"🖉"; }
-    .gMenu > li.menu-support > a::before { content:"🤝"; }
-    .gMenu > li.menu-state > a::before { content:"◔"; }
+    .gMenu > li.menu-support > a::before {
+      content:"";
+      width:30px;
+      height:24px;
+      background:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2050%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23626a73%27%20stroke-width%3D%276%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M5%2028l12-12%2015%2015%27/%3E%3Cpath%20d%3D%27M59%2028L47%2016%2032%2031%27/%3E%3Cpath%20d%3D%27M22%2021l7-7%206%206%27/%3E%3Cpath%20d%3D%27M25%2034l7%207%207-7%27/%3E%3Cpath%20d%3D%27M19%2032l8%208%27/%3E%3Cpath%20d%3D%27M45%2032l-8%208%27/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat;
+    }
+    .gMenu > li.menu-state > a::before {
+      content:"";
+      width:26px;
+      height:24px;
+      background:
+        linear-gradient(currentColor 0 0) 3px 12px / 4px 10px no-repeat,
+        linear-gradient(currentColor 0 0) 11px 7px / 4px 15px no-repeat,
+        linear-gradient(currentColor 0 0) 19px 3px / 4px 19px no-repeat,
+        linear-gradient(currentColor 0 0) 2px 22px / 23px 2px no-repeat;
+      color:#626a73;
+    }
     .gMenu > li.menu-publication > a::before { content:"📚"; }
     .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:var(--brand-primary); min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
     .gMenu > li:hover .sub-menu { display:block; }
