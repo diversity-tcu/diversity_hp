@@ -40,7 +40,7 @@ const hash = (s: string) => {
 const items = (await getCollection('events'))
   .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
   .map((e) => {
-    const topic = classifyTopic(`${e.data.title ?? ''}\n${e.body ?? ''}`);
+    const topic = (e.data.topic ?? classifyTopic(`${e.data.title ?? ''}\n${e.body ?? ''}`)) as TopicKey;
     return {
       ...e,
       thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[hash(e.id) % 3]),
