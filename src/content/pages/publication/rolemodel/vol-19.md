@@ -5,16 +5,12 @@ status: "publish"
 name: "渡邉歩美"
 affiliation: "人間科学部　児童学科"
 role: "さん"
-photo_main: "/uploads/2026/05/卒業生ロールモデル（ワタナベ先生）.png"
+thumb: "/uploads/2026/05/卒業生ロールモデル（ワタナベ先生）.png"
 workplace: "東京都市大学　二子幼稚園"
 education: "2023年4月 東京都市大学 二子幼稚園 入職（現職）"
 high_school: "東京高等学校 卒業"
 photo_style: "/uploads/2026/05/卒業生ロールモデル（ワタナベ先生）.png"
 ---
-
-## 現在の仕事内容
-
-現在は、年中組の担任として子どもたちの成長を見守っています。毎日登園してくる子どもたちを受け入れ、日々の保育を通して子どもたちが楽しく元気に過ごせるよう援助しています。一人ひとりに寄り添いながら会話をしたり、時には厳しく伝えたり、毎日いろいろなことが起こります。大変なことも多い仕事ですが、子どもたちの「できたよ！」、「たのしかった！」の声は何よりもやりがいを感じます。子どもたちのエネルギーを最大限に浴び、一人ひとりの成長を感じることができるのは、この仕事の魅力だと思います。							                  
 
 <section class="rolemodel-workstyle" aria-label="My WorkStyle 1日の過ごし方">
   <div class="rolemodel-workstyle__title">
@@ -118,7 +114,7 @@ photo_style: "/uploads/2026/05/卒業生ロールモデル（ワタナベ先生�
   .rolemodel-workstyle__timeline span {
     position: relative;
     display: block;
-    padding-left: 14px;
+    padding-left: 28px;
     font-size: 17px;
     font-weight: 700;
     line-height: 1.45;
@@ -126,7 +122,7 @@ photo_style: "/uploads/2026/05/卒業生ロールモデル（ワタナベ先生�
   .rolemodel-workstyle__timeline span::before {
     content: "---";
     position: absolute;
-    left: -22px;
+    left: 0;
     color: #111;
     font-weight: 700;
   }
@@ -162,6 +158,10 @@ photo_style: "/uploads/2026/05/卒業生ロールモデル（ワタナベ先生�
     }
   }
 </style>
+
+## 現在の仕事内容
+
+現在は、年中組の担任として子どもたちの成長を見守っています。毎日登園してくる子どもたちを受け入れ、日々の保育を通して子どもたちが楽しく元気に過ごせるよう援助しています。一人ひとりに寄り添いながら会話をしたり、時には厳しく伝えたり、毎日いろいろなことが起こります。大変なことも多い仕事ですが、子どもたちの「できたよ！」、「たのしかった！」の声は何よりもやりがいを感じます。子どもたちのエネルギーを最大限に浴び、一人ひとりの成長を感じることができるのは、この仕事の魅力だと思います。							                  
 
 ### 職業を選択したきっかけ
 

@@ -14,6 +14,7 @@ const items = (await getCollection('pages'))
       affiliation: it.data.affiliation,
       role: it.data.role,
       photo_main: it.data.photo_main,
+      thumb: it.data.thumb,
     });
     const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
     return { it, info, slug };
