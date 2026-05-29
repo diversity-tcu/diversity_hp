@@ -33,6 +33,18 @@ const base = import.meta.env.BASE_URL;
   .article-kicker { color:#0655B4; letter-spacing:.3em; font-size:.8em; font-style:italic; font-weight:500; opacity:.8; margin:0 0 6px; }
   .article-hero h1 { font-size:2em; color:#1a2633; margin:0 0 10px; letter-spacing:.04em; font-weight:700; line-height:1.35; }
   .article-date { color:#666; font-size:.9em; margin:0; }
+  .entry-content :global(.event-photo-grid) {
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:18px;
+    margin:30px 0;
+  }
+  .entry-content :global(.event-photo-grid img) {
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:6px;
+  }
   .back-link { margin-top:50px; }
   .back-link a { color:#0655B4; text-decoration:none; }
   .back-link a:hover { text-decoration:underline; }
@@ -40,6 +52,7 @@ const base = import.meta.env.BASE_URL;
     .article-hero { margin: 6px 0 24px; padding-bottom:16px; }
     .article-hero h1 { font-size:1.4em; line-height:1.4; }
     .article-kicker { font-size:.72em; letter-spacing:.22em; }
+    .entry-content :global(.event-photo-grid) { grid-template-columns:1fr; gap:14px; margin:24px 0; }
     .back-link { margin-top:32px; }
   }
 </style>

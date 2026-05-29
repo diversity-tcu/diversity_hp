@@ -43,7 +43,7 @@ const items = (await getCollection('events'))
     const topic = (e.data.topic ?? classifyTopic(`${e.data.title ?? ''}\n${e.body ?? ''}`)) as TopicKey;
     return {
       ...e,
-      thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[hash(e.id) % 3]),
+      thumb: withBase(e.data.thumb || extractFirstImage(e.body || '') || fallbackThumbs[hash(e.id) % 3]),
       topic,
       topicLabel: TOPIC_META[topic].label,
     };
