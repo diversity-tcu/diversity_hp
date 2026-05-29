@@ -88,7 +88,7 @@ const quickLinks = [
       { label: '10私立大学共同宣言', href: '/declaration/' },
     ],
   },
-  { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '▤', iconClass: '' },
+  { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '', iconClass: 'ql-icon-info' },
   {
     label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '', iconClass: 'ql-icon-map',
     submenu: [
@@ -282,6 +282,22 @@ const quickLinks = [
   .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:10px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; min-height:64px; box-sizing:border-box; }
   .ql-card:hover { transform:translateY(-2px); }
   .ql-icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:999px; background:rgba(255,255,255,.16); font-size:18px; font-weight:700; line-height:1; flex:0 0 auto; }
+  .ql-icon-info { font-size:0; }
+  .ql-icon-info::before {
+    content:"i";
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:28px;
+    height:28px;
+    border:3px solid #fff;
+    border-radius:999px;
+    color:#fff;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    line-height:1;
+  }
   .ql-icon-about { font-size:0; }
   .ql-icon-about::before {
     content:"";
@@ -377,7 +393,7 @@ const quickLinks = [
   .mission { text-align:center; padding: 40px 0; margin-bottom:50px; }
   .mission-title { font-size:2.15em; color:var(--brand-primary); background:#fff;border: #fff; gin:0 0 8px; letter-spacing:.05em; padding: 0;margin:0; font-weight:800; line-height:1.35; }
   .mission-sub { font-size:1.25em; color:#4d5963; margin:6px 0 30px; font-weight:700; line-height:1.5; }
-  .mission-body { display:grid; grid-template-columns: minmax(0,380px) minmax(0,1fr); gap:48px; align-items:center; text-align:left; max-width:960px; margin:0 auto; }
+  .mission-body { display:grid; grid-template-columns: minmax(0,360px) minmax(0,1fr); gap:42px; align-items:center; text-align:left; max-width:980px; margin:0 auto; }
   .mission-pillars { position:relative; width:380px; height:350px; margin:0 auto; }
   .pillar { position:absolute; color:#fff; border-radius:50%; width:180px; height:180px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; font-size:1.15em; font-weight:bold; }
   .pillar::before { content:""; display:block; width:54px; height:54px; background:center/contain no-repeat; }
@@ -392,7 +408,7 @@ const quickLinks = [
     font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
     font-size:1.06em;
     font-weight:600;
-    letter-spacing:.01em;
+    letter-spacing:-.02em;
   }
   .mission-text p { line-height:1.72; margin:0 0 .72em; }
   .mission-text p:last-child { margin-bottom:0; }
