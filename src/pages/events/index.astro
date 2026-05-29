@@ -12,6 +12,21 @@ const fallbackThumbs = [
   '/assets/top/hero3.jpg',
 ];
 
+const TOPIC_META = {
+  environment: { label: '環境整備' },
+  意識改革: { label: '意識改革' },
+  nextgen: { label: '次世代育成' },
+} as const;
+
+type TopicKey = keyof typeof TOPIC_META;
+
+const classifyTopic = (text: string): TopicKey => {
+  const n = text.toLowerCase();
+  if (/女子|女の子|高校生|中学生|小学生|学生向け|進路|理系|stem|girls in control|リケジョ|次世代|育成|キャリア教育|ロールモデル|企業見学|ランチ交流会/.test(n)) return 'nextgen';
+  if (/障がい|障害|バリアフリー|ユニバーサルデザイン|環境整備|支援|設備|配慮|保育|介護|両立|働きやす|アクセシビ|留学生|座談会|お茶会|多目的トイレ/.test(n)) return 'environment';
+  return '意識改革';
+};
+
 const base = import.meta.env.BASE_URL;
 const withBase = (p: string) =>
   p.startsWith('/') ? `${base}${p.slice(1)}` : p;
@@ -24,10 +39,15 @@ const hash = (s: string) => {
 
 const items = (await getCollection('events'))
   .sort((a, b) => (b.data.date || '').localeCompare(a.data.date || ''))
-  .map((e) => ({
-    ...e,
-    thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[hash(e.id) % 3]),
-  }));
+  .map((e) => {
+    const topic = classifyTopic(`${e.data.title ?? ''}\n${e.body ?? ''}`);
+    return {
+      ...e,
+      thumb: withBase(extractFirstImage(e.body || '') || fallbackThumbs[hash(e.id) % 3]),
+      topic,
+      topicLabel: TOPIC_META[topic].label,
+    };
+  });
 ---
 <Base title="活動報告 | 東京都市大学 ダイバーシティ推進室">
   <article class="page-article">
@@ -43,7 +63,7 @@ const items = (await getCollection('events'))
           <div class="act-body">
             <div class="act-meta">
               <span class="act-date">{e.data.date}</span>
-              <span class="act-tag">活動報告</span>
+              <span class={`act-tag topic-${e.topic}`}>{e.topicLabel}</span>
             </div>
             <div class="act-title-text">{e.data.title}</div>
           </div>
@@ -65,7 +85,10 @@ const items = (await getCollection('events'))
   .act-thumb { aspect-ratio:16/10; background-size:cover; background-position:center; background-color:#d0d7e0; }
   .act-body { padding:14px 16px 18px; }
   .act-meta { display:flex; gap:10px; align-items:center; font-size:.8em; color:#666; margin-bottom:8px; }
-  .act-tag { background:var(--brand-primary,#0655B4); color:#fff; padding:2px 10px; border-radius:4px; font-size:.9em; }
+  .act-tag { color:#fff; padding:2px 10px; border-radius:4px; font-size:.9em; font-weight:700; }
+  .topic-environment { background:var(--topic-environment); }
+  .topic-意識改革 { background:var(--topic-意識改革); }
+  .topic-nextgen { background:var(--topic-nextgen); }
   .act-title-text { font-size:.98em; font-weight:600; line-height:1.5; color:#1a2633; }
 
   @media (max-width: 780px) {

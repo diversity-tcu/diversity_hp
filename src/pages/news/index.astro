@@ -76,9 +76,9 @@ const items = (await getCollection('news'))
   .news-card-title { font-size:.96em; font-weight:500; line-height:1.6; color:#1a2633; }
   .news-card-link:hover .news-card-title { color:var(--brand-primary,#0655B4); }
   .topic-tag { display:inline-flex; align-items:center; justify-content:center; width:fit-content; padding:4px 10px; border-radius:999px; color:#fff; font-size:.74em; font-weight:700; letter-spacing:.02em; }
-  .topic-environment { background:var(--topic-environment,#2ecc71); }
-  .topic-意識改革 { background:var(--topic-意識改革,#5b6ee1); }
-  .topic-nextgen { background:var(--topic-nextgen,#e74c3c); }
+  .topic-environment { background:var(--topic-environment); }
+  .topic-意識改革 { background:var(--topic-意識改革); }
+  .topic-nextgen { background:var(--topic-nextgen); }
 
   @media (max-width: 900px) {
     .news-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
