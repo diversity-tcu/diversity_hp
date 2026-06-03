@@ -116,6 +116,7 @@ export interface FrontmatterHints {
   affiliation?: string;
   role?: string;
   photo_main?: string;
+  thumb?: string;
 }
 
 export function extractTileInfo(
@@ -129,7 +130,7 @@ export function extractTileInfo(
       affiliation: hints.affiliation || '',
       name: hints.name,
       role: hints.role || '',
-      thumb: hints.photo_main || extractFirstImage(body),
+      thumb: hints.thumb || hints.photo_main || extractFirstImage(body),
     };
   }
   const person = extractPerson(body);

@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { withBase } from '../lib/path';
+---
+<Base title="「ダイバ」の使用について | 東京都市大学 ダイバーシティ推進室">
+  <article class="daiba-page">
+    <header class="daiba-page-hero">
+      <h1>東京都市大学ダイバーシティ推進室マスコットキャラクターの使用について</h1>
+    </header>
+
+    <div class="daiba-page-body">
+      <p>東京都市大学ダイバーシティ推進室マスコットキャラクター「ダイバ」の使用方法は、下記の通りとなります。</p>
+
+      <h2>記</h2>
+      <ol>
+        <li>ダイバーシティの概念に沿ったものであれば、無償にて使用を許可します。使用にあたり、事前にマスコットキャラクター使用申請書（別紙1）を東京都市大学ダイバーシティ推進室（以下、推進室という。）へ提出してください。</li>
+        <li>「ダイバ」の著作権は推進室に帰属しています。使用の際は、デザインの近くに著作権表示「©2022東京都市大学ダイバーシティ推進室」を明示してください。</li>
+        <li>二次創作をする場合は、事前にマスコットキャラクター二次創作申請書（別紙2）を提出してください。デザイン変更内容に問題がなければ使用を許可します。なお、当該著作物の著作権は推進室へ無償譲渡し、且つ、本件著作権に係る著作者人格権を行使しないことが条件となりますのでご承知おきください。</li>
+        <li>
+          以下の場合は、使用を禁止します。
+          <ul>
+            <li>本学の品位を傷つけ、又は傷つけるおそれのあるとき。</li>
+            <li>本学ダイバーシティ推進活動の正しい理解の妨げになり、または妨げになるおそれのあるとき。</li>
+            <li>法令または公序良俗に反し、又は反するおそれのあるとき。</li>
+            <li>特定の個人、政党、宗教団体を支援し、又は公認しているような誤解を与え、又は与えるおそれのあるとき。</li>
+            <li>上記以外でも、使用を禁止及び中止させていただくことがあります。予めご了承ください。</li>
+          </ul>
+        </li>
+      </ol>
+
+      <p class="daiba-page-end">以上</p>
+
+      <p class="daiba-page-download">
+        <a href={withBase('/uploads/2023/06/application_form.docx')}>申請書ダウンロード（Word形式）</a>
+      </p>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .daiba-page { max-width:860px; margin:0 auto; }
+  .daiba-page-hero { text-align:center; margin:10px 0 30px; padding-bottom:18px; border-bottom:1px solid #e6ecf2; }
+  .daiba-page-hero h1 { margin:0; color:#1a2633; font-size:1.8em; line-height:1.45; }
+  .daiba-page-body { color:#333; font-size:1em; line-height:1.9; }
+  .daiba-page-body h2 { margin:26px 0 14px; padding:0; border:0; background:#fff; color:#1a2633; font-size:1.2em; text-align:center; }
+  .daiba-page-body p { margin:0 0 16px; }
+  .daiba-page-body ol { margin:0; padding-left:1.6em; }
+  .daiba-page-body li { margin:0 0 14px; }
+  .daiba-page-body ul { margin:10px 0 0; padding-left:1.4em; }
+  .daiba-page-end { text-align:right; }
+  .daiba-page-download { margin-top:28px !important; text-align:center; }
+  .daiba-page-download a { display:inline-flex; align-items:center; justify-content:center; min-height:38px; padding:0 18px; border-radius:5px; background:var(--brand-primary); color:#fff; text-decoration:none; }
+  .daiba-page-download a:hover { opacity:.88; }
+  @media (max-width: 480px) {
+    .daiba-page-hero h1 { font-size:1.35em; }
+    .daiba-page-body { font-size:.95em; }
+  }
+</style>

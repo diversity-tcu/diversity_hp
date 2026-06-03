@@ -78,7 +78,7 @@ const events = (await getCollection('events'))
 
 const quickLinks = [
   {
-    label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '◌',
+    label: 'About us', sub: 'ダイバーシティ推進室', href: '/about/', icon: '', iconClass: 'ql-icon-about',
     submenu: [
       { label: 'ダイバーシティについて', href: '/about/' },
       { label: '学長・室長挨拶', href: '/introduction/' },
@@ -88,9 +88,9 @@ const quickLinks = [
       { label: '10私立大学共同宣言', href: '/declaration/' },
     ],
   },
-  { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '▤' },
+  { label: 'ライフイベント\n支援制度リーフレット', sub: '', href: '/assets/life_event.pdf', icon: '', iconClass: 'ql-icon-info' },
   {
-    label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '⌘',
+    label: 'ユニバーサル\nデザインマップ', sub: '', href: '#', icon: '', iconClass: 'ql-icon-map',
     submenu: [
       { label: '世田谷キャンパス多目的トイレマップ', href: '/assets/restroom_setagaya_map.pdf' },
       { label: '横浜キャンパス多目的トイレマップ', href: '/assets/restroom_yokohama_map.pdf' },
@@ -98,7 +98,7 @@ const quickLinks = [
       { label: '世田谷キャンパスVRマップ', href: 'https://kengo0626.shop/', external: true },
     ],
   },
-  { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '🕮' },
+  { label: '貸出図書', sub: 'Book Rental', href: '/rentalbooks/', icon: '🕮', iconClass: '' },
 ];
 ---
 <Base title="東京都市大学 ダイバーシティ推進室">
@@ -132,7 +132,7 @@ const quickLinks = [
           <div class="ql-wrap">
             {q.href && q.href !== '#' ? (
               <a class="ql-card" href={withBase(q.href)}>
-                <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+                <div class:list={['ql-icon', q.iconClass]} aria-hidden="true">{q.icon}</div>
                 <div class="ql-text">
                   <div class="ql-label">{q.label}</div>
                   <div class="ql-sub">{q.sub}</div>
@@ -152,7 +152,7 @@ const quickLinks = [
                 aria-haspopup="true"
                 aria-expanded="false"
                 onclick="const w=this.parentElement;const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);">
-                <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+                <div class:list={['ql-icon', q.iconClass]} aria-hidden="true">{q.icon}</div>
                 <div class="ql-text">
                   <div class="ql-label">{q.label}</div>
                   <div class="ql-sub">{q.sub}</div>
@@ -173,7 +173,7 @@ const quickLinks = [
           </div>
         ) : (
           <a class="ql-card" href={withBase(q.href)}>
-            <div class="ql-icon" aria-hidden="true">{q.icon}</div>
+            <div class:list={['ql-icon', q.iconClass]} aria-hidden="true">{q.icon}</div>
             <div class="ql-text">
               <div class="ql-label">{q.label}</div>
               <div class="ql-sub">{q.sub}</div>
@@ -212,8 +212,9 @@ const quickLinks = [
         <div class="pillar"><span>次世代育成</span></div>
       </div>
       <div class="mission-text">
-        <p>本推進室は、多様な人々が能力を発揮できる大学・社会づくりを目指して活動しています。学生・教職員を対象とした各種支援、講演会・研修の開催、刊行物の発行などを通じて、ダイバーシティ推進を進めています。</p>
-        <p>3つの柱（環境整備・意識改革・次世代育成）を軸に、学内外と連携しながら活動しています。</p>
+        <p>わたしたちは、本学に関わるすべての人が、性別や国籍等を問わず、<br />本学で学び、働くことが幸せと思えるような環境づくりを行っています。</p>
+        <p>ダイバーシティやワークライフバランスに関する学内構成員の理解向上に<br />努めています。また、ダイバーシティの実現に向けた次世代の育成にも<br />積極的に取り組んでいます。</p>
+        <p>「環境整備」「意識改革」「次世代育成」を推進するため、複数の<br />プロジェクトを軸に、イベントやアンケートなど様々な活動を行っています。<br />この活動を通して、国籍やハンディキャップに関わらず、<br />あらゆる人材が活躍できる社会を目指します。</p>
       </div>
     </div>
   </section>
@@ -234,6 +235,7 @@ const quickLinks = [
     </div>
     <p class="act-more"><a href={`${base}events/`}>活動報告一覧 &gt;</a></p>
   </section>
+
 </Base>
 
 <style>
@@ -295,6 +297,38 @@ const quickLinks = [
   .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:10px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; min-height:64px; box-sizing:border-box; }
   .ql-card:hover { transform:translateY(-2px); }
   .ql-icon { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:999px; background:rgba(255,255,255,.16); font-size:18px; font-weight:700; line-height:1; flex:0 0 auto; }
+  .ql-icon-info { font-size:0; }
+  .ql-icon-info::before {
+    content:"i";
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:28px;
+    height:28px;
+    border:3px solid #fff;
+    border-radius:999px;
+    color:#fff;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    line-height:1;
+  }
+  .ql-icon-about { font-size:0; }
+  .ql-icon-about::before {
+    content:"";
+    display:block;
+    width:34px;
+    height:34px;
+    background:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-width%3D%273.8%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Ccircle%20cx%3D%2732%27%20cy%3D%2718%27%20r%3D%277%27/%3E%3Cpath%20d%3D%27M20%2050c2-11%206-17%2012-17s10%206%2012%2017%27/%3E%3Ccircle%20cx%3D%2717%27%20cy%3D%2727%27%20r%3D%275.5%27/%3E%3Cpath%20d%3D%27M6%2051c1.5-9%205-14%2011-14%203.4%200%206%201.5%208%204.5%27/%3E%3Ccircle%20cx%3D%2747%27%20cy%3D%2727%27%20r%3D%275.5%27/%3E%3Cpath%20d%3D%27M39%2041.5c2-3%204.6-4.5%208-4.5%206%200%209.5%205%2011%2014%27/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat;
+  }
+  .ql-icon-map { width:48px; border-radius:12px; font-size:0; }
+  .ql-icon-map::before {
+    content:"";
+    display:block;
+    width:40px;
+    height:34px;
+    background:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2080%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-width%3D%273.6%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M8%2058l19-7%2013%207%2013-7%2019%207V31l-19-7-13%207-13-7-19%207z%27/%3E%3Cpath%20d%3D%27M27%2024v27M40%2031v27M53%2024v27%27/%3E%3C/g%3E%3Cpath%20d%3D%27M40%202C32%202%2027%208%2027%2015c0%2010%2013%2021%2013%2021s13-11%2013-21C53%208%2048%202%2040%202z%27%20fill%3D%27%23e74c3c%27/%3E%3Ccircle%20cx%3D%2740%27%20cy%3D%2714%27%20r%3D%274.2%27%20fill%3D%27white%27/%3E%3C/svg%3E") center/contain no-repeat;
+  }
   .ql-text { min-width:0; }
   .ql-card::after {
     content:"›" !important;
@@ -339,8 +373,8 @@ const quickLinks = [
     color:#333; text-decoration:none; font-size:.88em; line-height:1.4;
   }
   .ql-submenu a:hover { background:var(--brand-primary); color:#fff; }
-  .ql-label { font-weight:bold; font-size:0.85em; line-height:1.35; white-space:pre-line; }
-  .ql-sub { font-size:.72em; opacity:.85; }
+  .ql-label { font-weight:800; font-size:.98em; line-height:1.28; white-space:pre-line; letter-spacing:.01em; }
+  .ql-sub { font-size:.82em; opacity:.95; font-weight:600; line-height:1.35; margin-top:2px; }
 
   .news-block {  display:grid; grid-template-columns: 180px 1fr; gap:0px; align-items:start; }
   .news-side { display:flex; flex-direction:column; align-items:flex-start; gap:14px; }
@@ -372,18 +406,30 @@ const quickLinks = [
   .topic-nextgen { background:var(--topic-nextgen); }
 
   .mission { text-align:center; padding: 40px 0; margin-bottom:50px; }
-  .mission-title { font-size:2em; color:var(--brand-primary); background:#fff;border: #fff; gin:0 0 8px; letter-spacing:.05em; padding: 0;margin:0;}
-  .mission-sub { font-size:1.2em; color:#666; margin:0 0 30px; }
-  .mission-body { display:grid; grid-template-columns: minmax(0,280px) minmax(0,1fr); gap:40px; align-items:center; text-align:left; max-width:900px; margin:0 auto; }
-  .mission-pillars { position:relative; width:260px; height:230px; margin:0 auto; }
-  .pillar { position:absolute; color:#fff; border-radius:50%; width:110px; height:110px; display:flex; align-items:center; justify-content:center; font-weight:bold; }
+  .mission-title { font-size:2.15em; color:var(--brand-primary); background:#fff;border: #fff; gin:0 0 8px; letter-spacing:.05em; padding: 0;margin:0; font-weight:800; line-height:1.35; }
+  .mission-sub { font-size:1.25em; color:#4d5963; margin:6px 0 30px; font-weight:700; line-height:1.5; }
+  .mission-body { display:grid; grid-template-columns: minmax(0,360px) minmax(0,1fr); gap:42px; align-items:center; text-align:left; max-width:980px; margin:0 auto; }
+  .mission-pillars { position:relative; width:380px; height:350px; margin:0 auto; }
+  .pillar { position:absolute; color:#fff; border-radius:50%; width:180px; height:180px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; font-size:1.15em; font-weight:bold; }
+  .pillar::before { content:""; display:block; width:54px; height:54px; background:center/contain no-repeat; }
   .pillar:nth-child(1) { background:var(--topic-environment); left:0; bottom:0; }
+  .pillar:nth-child(1)::before { background-image:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-width%3D%274.2%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M28%206h8l2%207a20%2020%200%200%201%205%202l6-4%206%206-4%206a20%2020%200%200%201%202%205l7%202v8l-7%202a20%2020%200%200%201-2%205l4%206-6%206-6-4a20%2020%200%200%201-5%202l-2%207h-8l-2-7a20%2020%200%200%201-5-2l-6%204-6-6%204-6a20%2020%200%200%201-2-5l-7-2v-8l7-2a20%2020%200%200%201%202-5l-4-6%206-6%206%204a20%2020%200%200%201%205-2z%27/%3E%3Ccircle%20cx%3D%2732%27%20cy%3D%2732%27%20r%3D%2710%27/%3E%3C/g%3E%3C/svg%3E"); }
   .pillar:nth-child(2) { background:var(--topic-意識改革); left:50%; top:0; transform:translateX(-50%); }
+  .pillar:nth-child(2)::before { background-image:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-width%3D%274.2%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M32%204v6M14%2011l4%205M50%2011l-4%205M8%2028h7M49%2028h7%27/%3E%3Cpath%20d%3D%27M21%2030c0-8%205-14%2011-14s11%206%2011%2014c0%205-2%208-5%2011-2%202-3%204-3%207h-6c0-3-1-5-3-7-3-3-5-6-5-11z%27/%3E%3Cpath%20d%3D%27M25%2049h14M26%2055h12M29%2060h6%27/%3E%3C/g%3E%3C/svg%3E"); }
   .pillar:nth-child(3) { background:var(--topic-nextgen); right:0; bottom:0; }
-  .mission-text p { line-height:1.8; }
+  .pillar:nth-child(3)::before { background-image:url("data:image/svg+xml,%3Csvg%20viewBox%3D%270%200%2064%2064%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-width%3D%274.5%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M32%2045V26%27/%3E%3Cpath%20d%3D%27M32%2029c-13%200-22-9-22-22%2013%200%2022%209%2022%2022z%27/%3E%3Cpath%20d%3D%27M32%2029c13%200%2022-9%2022-22-13%200-22%209-22%2022z%27/%3E%3Cpath%20d%3D%27M18%2054c2-8%208-12%2014-12s12%204%2014%2012z%27/%3E%3C/g%3E%3C/svg%3E"); }
+  .mission-text {
+    color:#26323d;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+    font-size:1.06em;
+    font-weight:600;
+    letter-spacing:-.02em;
+  }
+  .mission-text p { line-height:1.72; margin:0 0 .72em; }
+  .mission-text p:last-child { margin-bottom:0; }
 
   .activities { background:#f0f4f0; padding:20px 20px; margin:0 -20px 40px; border-radius:12px; }
-  .act-title { text-align:center; font-size:2em; color:var(--brand-primary); margin:0 0 10px; border:#fff; background:#f0f4f0;}
+  .act-title { text-align:center; font-size:2.2em; color:var(--brand-primary); margin:0 0 12px; border:#fff; background:#f0f4f0; font-weight:800; line-height:1.25; }
   .act-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; max-width:1100px; margin:0 auto; }
   .act-card { background:#fff; border-radius:8px; overflow:hidden; text-decoration:none; color:#333; box-shadow:0 2px 6px rgba(0,0,0,.06); display:flex; flex-direction:column; transition:transform .15s; }
   .act-card:hover { transform:translateY(-3px); }
@@ -405,7 +451,7 @@ const quickLinks = [
     .top-panels { margin: 0 -14px 40px; padding: 16px 14px; }
     .quicklinks { grid-template-columns: repeat(2, 1fr); gap:12px; }
     .ql-card { padding:8px 10px; }
-    .ql-label { font-size:.95em; }
+    .ql-label { font-size:1em; }
     .news-block { grid-template-columns: 1fr; gap:14px; }
     .news-side { gap:12px; flex-direction:row; align-items:center; justify-content:space-between; }
     .news-title { font-size:1.5em; }
@@ -414,10 +460,12 @@ const quickLinks = [
     .mission-title { font-size:1.5em; }
     .mission-sub { font-size:1em; margin-bottom:20px; }
     .mission-body { grid-template-columns: 1fr; text-align:center; gap:20px; }
-    .mission-pillars { width:240px; height:210px; }
-    .pillar { width:100px; height:100px; font-size:.9em; }
+    .mission-text { font-size:1em; text-align:left; }
+    .mission-pillars { width:300px; max-width:100%; height:280px; }
+    .pillar { width:140px; height:140px; gap:12px; font-size:.92em; }
+    .pillar::before { width:42px; height:42px; }
     .activities { padding:18px 14px; margin:0 -14px 30px; }
-    .act-title { font-size:1.5em; }
+    .act-title { font-size:1.65em; }
     .act-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px; }
   }
   @media (max-width: 480px) {
@@ -428,8 +476,10 @@ const quickLinks = [
     .news-card-link { padding:14px 14px; }
     .act-grid { grid-template-columns: 1fr; }
     .mission-title { font-size:1.3em; }
-    .mission-pillars { width:220px; height:200px; }
-    .pillar { width:90px; height:90px; font-size:.82em; }
+    .mission-pillars { width:260px; height:240px; }
+    .pillar { width:110px; height:110px; gap:8px; font-size:.82em; }
+    .pillar::before { width:32px; height:32px; }
+    .mission-text { font-size:.96em; }
     .news-side { flex-direction:column; align-items:flex-start; }
   }
 </style>
