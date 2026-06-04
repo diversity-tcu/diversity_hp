@@ -43,15 +43,14 @@ status: "publish"
 本学では、育児・介護にかかわる諸制度を整備しています。<br/>
 よりよい教育研究活動を行うため、教職員のライフイベントに応じた就労支援に関するご相談を受け付けています。<br/>
 以下のアドレスへお寄せください。<br/>
-ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。
-
-<br><a href="/assets/life_event.pdf" target="_blank" rel="noopener" class="btn_new">
+ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。<br>
+<a href="/assets/life_event.pdf" target="_blank" rel="noopener" class="btn_new">
   <span class="icon">📄</span>
   ライフイベント支援制度リーフレット
 </a>
 
 <h2 class="new_h2"><p class="h2_line">TCU ユニバーサルデザインマップ</p></h2>
-<br><a href="/uploads/2023/06/multipurpose_toilet_map_sc.pdf" target="_blank" rel="noopener" class="btn_new">
+<a href="/uploads/2023/06/multipurpose_toilet_map_sc.pdf" target="_blank" rel="noopener" class="btn_new">
   <span class="icon">📄</span>
   世田谷キャンパス多目的トイレマップ
 </a>
