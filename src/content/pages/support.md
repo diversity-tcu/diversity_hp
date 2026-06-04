@@ -44,6 +44,7 @@ status: "publish"
 よりよい教育研究活動を行うため、教職員のライフイベントに応じた就労支援に関するご相談を受け付けています。<br/>
 以下のアドレスへお寄せください。<br/>
 ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。<br>
+
 <a href="/assets/life_event.pdf" target="_blank" rel="noopener" class="btn_new">
   <span class="icon">📄</span>
   ライフイベント支援制度リーフレット
@@ -66,6 +67,3 @@ ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。
   <span class="icon">🌐</span>
   世田谷キャンパスVRマップ
 </a>
-
-
-
