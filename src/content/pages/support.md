@@ -52,6 +52,7 @@ ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。
   <span class="icon">📄</span>
   ライフイベント支援制度リーフレット
 </a>
+- [リーフレット](/assets/life_event.pdf)
 
 <h2 class="new_h2"><p class="h2_line">TCU ユニバーサルデザインマップ</p></h2>
 <br><a href="/uploads/2023/06/multipurpose_toilet_map_sc.pdf" target="_blank" rel="noopener" class="btn_new">
