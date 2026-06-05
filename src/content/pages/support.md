@@ -25,7 +25,7 @@ status: "publish"
 <br/>
 4．お問い合わせ先：ikuji_kaigo[@]tcu.ac.jp
 [＠]は小文字の@に置き換えてください。
-</br></br></br></br></br></br></br></br></p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5234-3"><div class="panel-grid-cell" id="pgc-5234-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" id="panel-5234-3-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">教職員向け　−企業主導型保育施設の利用について</p></h2></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5234-4"><div class="panel-grid-cell" id="pgc-5234-4-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="4" id="panel-5234-4-0-0"><div class="textwidget custom-html-widget"><p class="f16px flexcenter">
+</p></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5234-3"><div class="panel-grid-cell" id="pgc-5234-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" id="panel-5234-3-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">教職員向け　−企業主導型保育施設の利用について</p></h2></div></div></div></div><div class="panel-grid panel-no-style" id="pg-5234-4"><div class="panel-grid-cell" id="pgc-5234-4-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="4" id="panel-5234-4-0-0"><div class="textwidget custom-html-widget"><p class="f16px flexcenter">
 <b>〜企業主導型保育施設を従業員枠料金でご利用になることができます！〜</b><br/>
 <br/>
 本学では、(株)東急キッズベースキャンプが運営する企業主導型保育園施設「KBCほいくえん」と利用提携契約を締結しており、本学の教職員は、保育利用枠の提供および従業員枠料金で同施設を利用することができます。<br/>
@@ -52,7 +52,6 @@ ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。
   <span class="icon">📄</span>
   ライフイベント支援制度リーフレット
 </a>
-- [リーフレット](/assets/life_event.pdf)
 
 <h2 class="new_h2"><p class="h2_line">TCU ユニバーサルデザインマップ</p></h2>
 <br><a href="/uploads/2023/06/multipurpose_toilet_map_sc.pdf" target="_blank" rel="noopener" class="btn_new">
