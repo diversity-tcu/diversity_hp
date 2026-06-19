@@ -166,9 +166,27 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       background-repeat: no-repeat;
       background-position: center;
     }
-    .gMenu > li.menu-library > a::before { content:"🖉"; }
-    .gMenu > li.menu-support > a::before { content:"🤝"; font-size:28px; filter:drop-shadow(0 1px 0 rgba(0,0,0,.18)); }
-    .gMenu > li.menu-rentalbooks > a::before { content:"
+    .gMenu > li.menu-library > a::before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/万年筆.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .gMenu > li.menu-support > a::before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/握手.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .gMenu > li.menu-rentalbooks > a::before {
       content: "";
       display: inline-block;
       width: 1em;
@@ -179,15 +197,14 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       background-position: center;
     }
     .gMenu > li.menu-state > a::before {
-      content:"";
-      width:26px;
-      height:24px;
-      background:
-        linear-gradient(currentColor 0 0) 3px 12px / 4px 10px no-repeat,
-        linear-gradient(currentColor 0 0) 11px 7px / 4px 15px no-repeat,
-        linear-gradient(currentColor 0 0) 19px 3px / 4px 19px no-repeat,
-        linear-gradient(currentColor 0 0) 2px 22px / 23px 2px no-repeat;
-      color:#626a73;
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/グラフ.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     .gMenu > li.menu-publication > a::before { content:"📚"; }
     .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:var(--brand-primary); min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
