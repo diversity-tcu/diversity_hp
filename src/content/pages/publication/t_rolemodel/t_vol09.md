@@ -20,12 +20,138 @@ published_date: "2026年6月19日"
     <small>1日の過ごし方</small>
   </div>
   <ol class="rolemodel-workstyle__timeline">
-    <li><time>6:00</time><span>起床（子供も一緒）<br>・妻が6時〜6時半ごろ出勤。<br>・娘の髪のセット以外、身支度や朝食、朝食の後片付けは担当<br>（給食がない時は2人分のお弁当も作っています）</span></li>
+    <li><time>6:00</time><span>起床（子供も一緒）<br>・妻が6時〜6時半ごろ出勤。<br>・娘の髪のセット以外、身支度や朝食、朝食の後片付けは担当。<br>（給食がない時は2人分のお弁当も作っています）</span></li>
     <li><time>8:00</time><span>子供と一緒に出勤（8:30〜40に大学着）</span></li>
-    <li><time>20:00</time><span>帰宅<br>・子供が大きくなってきたので、お風呂当番は卒業→お風呂がなくなったので、気が付くと帰宅時間が少しずつ遅くなっています。<br>・妻が残業の時は18時〜19時頃までに帰宅<br>→五限がある日だけは残業や「飲み会」等を外してもらっています<br>→学童が19時までなので、帰宅時間(お迎え時間)は厳守です</span></li>
+    <li><time>20:00</time><span>帰宅<br>・子供が大きくなってきたので、お風呂当番は卒業。お風呂がなくなったので、気が付くと帰宅時間が少しずつ遅くなっています。<br>・妻が残業の時は18時〜19時頃までに帰宅。<br>→五限がある日だけは残業や「飲み会」等を外してもらっています。<br>→学童が19時までなので、帰宅時間（お迎え時間）は厳守です。</span></li>
     <li><time>23:00</time><span>自由時間（洗濯、夕食の後片付け次第）</span></li>
   </ol>
 </section>
+
+<style>
+  .rolemodel-workstyle {
+    max-width: 620px;
+    margin: 34px auto 42px;
+    padding: 4px 0;
+    color: #111;
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  }
+  .rolemodel-workstyle__title {
+    position: relative;
+    width: fit-content;
+    margin: 0 0 24px 92px;
+    color: #ff4fab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: .95;
+  }
+  .rolemodel-workstyle__title span {
+    display: block;
+    font-size: 42px;
+    letter-spacing: -.03em;
+  }
+  .rolemodel-workstyle__title small {
+    position: absolute;
+    top: 16px;
+    left: 68px;
+    display: block;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    white-space: nowrap;
+  }
+  .rolemodel-workstyle__timeline {
+    --line-x: 120px;
+    position: relative;
+    display: grid;
+    gap: 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .rolemodel-workstyle__timeline::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    bottom: 11px;
+    left: var(--line-x);
+    width: 3px;
+    background: #ff4fab;
+    border-radius: 999px;
+  }
+  .rolemodel-workstyle__timeline li {
+    position: relative;
+    display: grid;
+    grid-template-columns: 94px 1fr;
+    column-gap: 36px;
+    align-items: start;
+    min-height: 22px;
+  }
+  .rolemodel-workstyle__timeline li::before {
+    content: "";
+    position: absolute;
+    top: .55em;
+    left: calc(var(--line-x) - 5px);
+    width: 11px;
+    height: 11px;
+    background: #ff4fab;
+    border-radius: 50%;
+  }
+  .rolemodel-workstyle__timeline time {
+    color: #ff4fab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: right;
+  }
+  .rolemodel-workstyle__timeline span {
+    position: relative;
+    display: block;
+    padding-left: 28px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.55;
+  }
+  .rolemodel-workstyle__timeline span::before {
+    content: "---";
+    position: absolute;
+    left: 0;
+    color: #111;
+    font-weight: 700;
+  }
+  @media (max-width: 640px) {
+    .rolemodel-workstyle {
+      max-width: 100%;
+      margin: 28px auto 34px;
+    }
+    .rolemodel-workstyle__title {
+      margin-left: 64px;
+    }
+    .rolemodel-workstyle__title span {
+      font-size: 34px;
+    }
+    .rolemodel-workstyle__title small {
+      top: 13px;
+      left: 56px;
+      font-size: 11px;
+    }
+    .rolemodel-workstyle__timeline {
+      --line-x: 86px;
+      gap: 18px;
+    }
+    .rolemodel-workstyle__timeline li {
+      grid-template-columns: 68px 1fr;
+      column-gap: 34px;
+    }
+    .rolemodel-workstyle__timeline time {
+      font-size: 17px;
+    }
+    .rolemodel-workstyle__timeline span {
+      font-size: 14px;
+    }
+  }
+</style>
 
 ## 専門は「材料」の創成-設計
 
