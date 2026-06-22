@@ -9,7 +9,7 @@ export async function getStaticPaths() {
   return items.map((item) => {
     const rawSlug = item.data.slug || item.id.replace(/\.md$/, '');
     const slugString = rawSlug.replace(/^\/+|\/+$/g, '').replace(/\/index$/, '');
-    const slug = slugString ? slugString.split('/') : [];
+    const slug = slugString || undefined;
     return {
       params: { slug },
       props: { item },
