@@ -5,6 +5,13 @@ export interface Props {
 }
 const { title = '東京都市大学 ダイバーシティ推進室', description = '東京都市大学 ダイバーシティ推進室' } = Astro.props;
 const base = import.meta.env.BASE_URL; // ends with "/"
+const navIconStyle = [
+  `--icon-events:url("${base}uploads/2026/06/拡声器.png")`,
+  `--icon-support:url("${base}uploads/2026/06/握手.png")`,
+  `--icon-library:url("${base}uploads/2026/06/万年筆.png")`,
+  `--icon-rentalbooks:url("${base}uploads/2026/06/本.png")`,
+  `--icon-state:url("${base}uploads/2026/06/グラフ.png")`,
+].join(';');
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -21,7 +28,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
   <link rel="stylesheet" href={`${base}assets/wp-css/style.css`} />
   <link rel="stylesheet" href={`${base}assets/wp-css/custom.v2.css`} />
 </head>
-<body>
+<body style={navIconStyle}>
   <header class="navbar siteHeader">
     <div class="container siteHeadContainer">
       <div class="siteHeader_top">
@@ -52,7 +59,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
             </li>
           </ul>
         </nav>
-        <a class="siteHeader_action" href="https://www.diversity.tcu.ac.jp/diversity_hp/daiba-use/">
+        <a class="siteHeader_action" href={`${base}daiba-use/`}>
           <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
         </a>
       </div>
@@ -163,7 +170,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       display: inline-block;
       width: 1em;
       height: 1em;
-      background-image: url('/uploads/2026/06/拡声器.png');
+      background-image: var(--icon-events);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -173,7 +180,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       display: inline-block;
       width: 1em;
       height: 1em;
-      background-image: url('/uploads/2026/06/万年筆.png');
+      background-image: var(--icon-library);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -183,7 +190,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       display: inline-block;
       width: 1em;
       height: 1em;
-      background-image: url('/uploads/2026/06/握手.png');
+      background-image: var(--icon-support);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -193,7 +200,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       display: inline-block;
       width: 1em;
       height: 1em;
-      background-image: url('/uploads/2026/06/本.png');
+      background-image: var(--icon-rentalbooks);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -203,7 +210,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       display: inline-block;
       width: 1em;
       height: 1em;
-      background-image: url('/uploads/2026/06/グラフ.png');
+      background-image: var(--icon-state);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
