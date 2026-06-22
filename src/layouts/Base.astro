@@ -14,6 +14,8 @@ const base = import.meta.env.BASE_URL; // ends with "/"
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <link rel="icon" type="image/png" href={`${base}uploads/2026/06/ダイバ.png`} />
+  <link rel="shortcut icon" type="image/png" href={`${base}uploads/2026/06/ダイバ.png`} />
   <link rel="stylesheet" href={`${base}assets/wp-css/common.css`} />
   <link rel="stylesheet" href={`${base}assets/wp-css/skin.css`} />
   <link rel="stylesheet" href={`${base}assets/wp-css/style.css`} />
@@ -33,12 +35,6 @@ const base = import.meta.env.BASE_URL; // ends with "/"
           <ul class="gMenu">
             <li class="menu-events"><a href={`${base}events/`}><strong>活動報告</strong></a></li>
             <li class="menu-support"><a href={`${base}support/`}><strong>各種支援</strong></a></li>
-            <li class="menu-state"><a href={`${base}state/`}><strong>都市大の現状</strong></a>
-              <ul class="sub-menu">
-                <li><a href={`${base}state/stateofnumber/`}>数字で見る都市大の現状</a></li>
-                <li><a href={`${base}state/enquete/`}>アンケート</a></li>
-              </ul>
-            </li>
             <li class="menu-library"><a href={`${base}library/`}><strong>ライブラリ</strong></a>
               <ul class="sub-menu">
                 <li><a href={`${base}communication/`}>TCUダイバーシティ通信</a></li>
@@ -47,9 +43,16 @@ const base = import.meta.env.BASE_URL; // ends with "/"
                 <li><a href={`${base}t_rolemodel/`}>教員ロールモデル集</a></li>
               </ul>
             </li>
+            <li class="menu-rentalbooks"><a href={`${base}rentalbooks/`}><strong>貸出図書</strong></a></li>
+            <li class="menu-state"><a href={`${base}state/`}><strong>都市大の現状</strong></a>
+              <ul class="sub-menu">
+                <li><a href={`${base}state/stateofnumber/`}>数字で見る都市大の現状</a></li>
+                <li><a href={`${base}state/enquete/`}>アンケート</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
-        <a class="siteHeader_action" href="https://www.diversity.tcu.ac.jp/access/#daivbtn">
+        <a class="siteHeader_action" href="https://www.diversity.tcu.ac.jp/diversity_hp/daiba-use/">
           <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
         </a>
       </div>
@@ -65,13 +68,11 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     <div class="container">
       <div class="siteFooter_top">
         <div class="siteFooter_address">
-          <p>〒158-8557<br />
-            東京都世田谷区玉堤1-28-1　
-            世田谷キャンパス1号館3階<br />
-            TEL：03-5707-0104（代）　
-            FAX：03-5707-1289<br />
-            開室時間：9:00〜17:00　
-            (土日・祝日・大学休業日を除く)
+          <p><strong>東京都市大学　ダイバーシティ推進室<br />
+            〒158-8557<br />
+            東京都世田谷区玉堤1-28-1　世田谷キャンパス1号館3階（1308室）<br />
+            TEL：03-5707-0104（代）  FAX：03-5707-1289<br />
+            開室時間：9:00〜17:00  (土日・祝日・大学休業日を除く)</strong>
           </p>
         </div>
         <div class="siteFooter_brand">
@@ -79,7 +80,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
         </div>
         <div class="siteFooter_diverWrap">
           <a class="siteFooter_daibaButton" href={`${base}daiba-use/`} target="_blank" rel="noopener">
-            <img src="https://www.diversity.tcu.ac.jp/assets/images/home/banner01.png" alt="「ダイバ」の使用について" />
+            <img src={`${base}uploads/2026/06/ダイバ使用について.png`} alt="「ダイバ」の使用について" />
           </a>
         </div>
       </div>
@@ -150,26 +151,62 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .siteHeader_tcuLogo { max-width:100%; transform:scale(2); transform-origin:left center; }
     .siteHeader_diversityLogo { max-width:100%; }
     .siteHeader_diver { max-width:40px; width:100%; transform:scale(2); transform-origin:right center; }
-    .gMenu { list-style:none; padding:0; margin:0; display:flex; flex-wrap:nowrap; justify-content:center; width:100%; background:#fff; border:1px solid #d9dee5; border-radius:12px; overflow:hidden; box-shadow:none; }
+    .gMenu { list-style:none; padding:0; margin:0; display:flex; flex-wrap:nowrap; justify-content:center; width:100%; background:#fff; border:none; border-radius:0; overflow:hidden; box-shadow:none; }
     .gMenu > li { position:relative; flex:1 1 0; min-width:0; }
-    .gMenu > li + li::before { content:""; position:absolute; left:0; top:18%; width:1px; height:64%; background:#d9dee5; }
-    .gMenu > li > a { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; min-height:84px; color:#444; padding:12px 8px; text-decoration:none; font-size:14px; line-height:1.35; text-align:center; }
-    .gMenu > li > a::before { font-size:24px; line-height:1; color:#626a73; }
+    .gMenu > li + li::before { content:""; position:absolute; left:0; top:24%; width:1px; height:52%; background:#d9dee5; }
+    .gMenu > li > a { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; min-height:56px; color:#444; padding:8px 10px; text-decoration:none; font-size:15px; line-height:1.35; text-align:center; }
+    .gMenu > li > a::before { font-size:20px; line-height:1; color:#626a73; }
     .gMenu > li > a:hover { background:#f5f7fa; }
     .gMenu > li > a strong { font-weight:700; color:#333; }
-    .gMenu > li.menu-events > a::before { content:"📢"; }
-    .gMenu > li.menu-library > a::before { content:"🖉"; }
-    .gMenu > li.menu-support > a::before { content:"🤝"; font-size:28px; filter:drop-shadow(0 1px 0 rgba(0,0,0,.18)); }
+    .gMenu > li.menu-events > a::before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/拡声器.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .gMenu > li.menu-library > a::before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/万年筆.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .gMenu > li.menu-support > a::before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/握手.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .gMenu > li.menu-rentalbooks > a::before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/本.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
     .gMenu > li.menu-state > a::before {
-      content:"";
-      width:26px;
-      height:24px;
-      background:
-        linear-gradient(currentColor 0 0) 3px 12px / 4px 10px no-repeat,
-        linear-gradient(currentColor 0 0) 11px 7px / 4px 15px no-repeat,
-        linear-gradient(currentColor 0 0) 19px 3px / 4px 19px no-repeat,
-        linear-gradient(currentColor 0 0) 2px 22px / 23px 2px no-repeat;
-      color:#626a73;
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/uploads/2026/06/グラフ.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     .gMenu > li.menu-publication > a::before { content:"📚"; }
     .gMenu .sub-menu { display:none; position:absolute; top:100%; left:0; background:var(--brand-primary); min-width:220px; list-style:none; padding:0; margin:0; z-index:100; }
@@ -181,13 +218,13 @@ const base = import.meta.env.BASE_URL; // ends with "/"
     .siteFooter a { color:#444; text-decoration:none; }
     .siteFooter a:hover { color:var(--brand-primary); }
     .siteFooter .container { max-width:1200px; margin:0 auto; padding:32px 20px 24px; }
-    .siteFooter_top { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:24px; align-items:center; }
+    .siteFooter_top { display:grid; grid-template-columns: 1fr auto 1fr; gap:24px; align-items:center; }
     .siteFooter_address,
     .siteFooter_brand,
     .siteFooter_diverWrap { display:flex;  font-size: 0.85em;align-items:center; justify-content:center; text-align:center; }
     .siteFooter_address { justify-content:flex-start; text-align:left; }
     .siteFooter_address p { margin:0; line-height:1.8; }
-    .siteFooter_brand img { max-width:200px; width:100%; height:auto; }
+    .siteFooter_brand img { max-width:140px; width:100%; height:auto; }
     .siteFooter_diverWrap { position:relative; justify-content:flex-end; }
     .siteFooter_daibaButton { display:block; width:min(100%, 240px); margin-left:auto; cursor:pointer; transition:transform .15s, filter .15s; }
     .siteFooter_daibaButton:hover { transform:translateY(-2px); filter:brightness(1.02); }
@@ -258,7 +295,7 @@ const base = import.meta.env.BASE_URL; // ends with "/"
       .siteHeader_nav:hover .gMenu,
       .siteHeader_nav:focus-within .gMenu { display: flex; }
       .gMenu > li { width: 100%; }
-      .gMenu > li > a { display: block; padding: 10px 16px; color: #1a2633; font-size: 14px; }
+      .gMenu > li > a { display: block; padding: 10px 16px; color: #1a2633; font-size: 15px; }
       .gMenu > li > a:hover { background: #f5f9ff; color: var(--brand-primary, #0655B4); }
       .gMenu .sub-menu {
         position: static;

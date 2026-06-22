@@ -109,7 +109,22 @@ const quickLinks = [
       <div class="hero-img hero-img-right"><img src={withBase('/assets/top/hero1.jpg')} alt="" /></div>
     </div>
   </section>
+  <style>
+    .hero-grid{
+      display: flex;
+      gap: 0;
+    }
 
+    .hero-img{
+      flex: 1;
+    }
+
+    .hero-img img {
+      display: block;
+     width: 100%;
+      height: auto;
+    }
+  </style>
   <section class="top-panels">
     <section class="quicklinks">
       {quickLinks.map((q) => (
