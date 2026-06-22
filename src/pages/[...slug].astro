@@ -7,7 +7,8 @@ import { withBase } from '../lib/path';
 export async function getStaticPaths() {
   const items = await getCollection('pages');
   return items.map((item) => {
-    const slug = item.data.slug || item.id.replace(/\.md$/, '').split('/').pop() || item.id.replace(/\.md$/, '');
+    const slugString = (item.data.slug || item.id.replace(/\.md$/, '').split('/').pop() || item.id.replace(/\.md$/, '')).replace(/^\/+|\/+$/g, '');
+    const slug = slugString ? slugString.split('/') : [];
     return {
       params: { slug },
       props: { item },
