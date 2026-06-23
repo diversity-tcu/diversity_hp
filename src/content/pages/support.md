@@ -48,7 +48,7 @@ status: "publish"
 <p class="f16px flexcenter">
 ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。
 
-<br><a href="/upload/2026/06/ライフイベントリーフレット改訂_2026_掲載用" target="_blank" rel="noopener" class="btn_new">
+<br><a href="/upload/2026/06/ライフイベントリーフレット改訂_2026_掲載用.pdf" target="_blank" rel="noopener" class="btn_new">
   <span class="icon">📄</span>
   ライフイベント支援制度リーフレット
 </a>
