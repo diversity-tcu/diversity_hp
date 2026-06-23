@@ -352,6 +352,11 @@
   object-fit: cover;
   display: block;
 }
+.rolemodel-list .pub-item-thumb img {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+}
 .pub-item-thumb--fallback {
   background: linear-gradient(135deg, var(--brand-primary, #0655B4), #0a7bd9);
   color: #fff;

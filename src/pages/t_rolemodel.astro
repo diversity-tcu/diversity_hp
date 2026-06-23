@@ -31,7 +31,7 @@ const items = (await getCollection('pages'))
     <div class="entry-content page-article">
       <h1>教員ロールモデル集</h1>
       <p>東京都市大学の多様な教員たちを紹介します。タイルをクリックすると本文が表示されます。</p>
-      <div class="pub-list">
+      <div class="pub-list rolemodel-list">
         {items.map(({ info, slug }) => (
           <a class="pub-item" href={withBase(`/${slug}/`)}>
             <div class="pub-item-thumb">
