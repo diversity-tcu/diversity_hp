@@ -265,6 +265,9 @@
   object-fit: cover;
   display: block;
 }
+.library-hub .pub-thumb {
+  aspect-ratio: 1 / 1;
+}
 .pub-thumb--text {
   background: linear-gradient(135deg, var(--brand-primary, #0655B4), #0a7bd9);
   color: #fff;
