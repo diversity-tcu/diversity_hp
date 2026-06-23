@@ -1,5 +1,6 @@
 ---
 title: "東京都市大学の多様な教員たち Vol.09"
+slug: "t_vol09"
 date: "2026-05-01"
 status: "publish"
 name: "丸山 恵史"
@@ -8,7 +9,7 @@ role: "准教授"
 photo_main: "/uploads/2026/06/t_role09_01.jpg"
 theme: "Just Enjoy で研究も家庭も楽しんでいます"
 career: "富山県立富山中部高等学校卒業、東北大学工学部電気情報・物理工学科卒業。\n東北大学大学院工学研究科 応用物理学専攻 博士課程修了。\n(国)物質・材料研究機構 ポスドク研究員を経て現職。\n／出身地　富山県"
-photo_style: "/uploads/2026/06/t_role09_01.png"
+photo_style: "/uploads/2026/06/t_role09_02.png"
 published_date: "2026年6月19日"
 ---
 

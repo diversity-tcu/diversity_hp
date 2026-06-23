@@ -1,5 +1,6 @@
 ---
 title: "東京都市大学の多様な教員たち Vol.XX"
+slug: "t_volXX"
 date: "2026-01-01"
 status: "publish"
 name: "○○ ○○"
