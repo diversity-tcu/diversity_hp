@@ -4,7 +4,10 @@ import RolemodelProfile from '../components/RolemodelProfile.astro';
 import { getCollection, render } from 'astro:content';
 
 const item = (await getCollection('pages')).find(
-  (entry) => entry.id.replace(/\.md$/, '') === 'publication/rolemodel/vol-19',
+  (entry) => {
+    const id = entry.id.replace(/\.md$/, '').replace(/\\/g, '/');
+    return entry.data.slug === 'vol-19' || id === 'vol-19' || id.endsWith('/vol-19');
+  },
 );
 
 if (!item) {
