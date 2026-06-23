@@ -28,7 +28,7 @@ for (const it of all) {
     const info = extractTileInfo(title, it.body);
     if (it.data.thumb) info.thumb = it.data.thumb;
     if (!info.vol && /最終/.test(title)) info.vol = '最終回';
-    const slug = it.data.slug || it.id.replace(/\.md$/, '').split('/').pop() || '';
+    const slug = it.data.slug || it.id.replace(/\.md$/, '') || '';
     const author = it.data.author || '';
     const affiliate = it.data.affiliate || '';
     items.push({ it, info, slug, author, affiliate });
