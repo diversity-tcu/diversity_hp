@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import RolemodelProfile from '../components/RolemodelProfile.astro';
+import { getCollection, render } from 'astro:content';
+
+const item = (await getCollection('pages')).find(
+  (entry) => entry.id.replace(/\.md$/, '') === 'publication/t_rolemodel/t_vol09',
+);
+
+if (!item) {
+  throw new Error('Missing teacher rolemodel entry: publication/t_rolemodel/t_vol09');
+}
+
+const { Content } = await render(item);
+const d = item.data;
+---
+<Base title={`${item.data.title} | 東京都市大学 ダイバーシティ推進室`}>
+  <article>
+    <div class="entry-content page-article">
+      <RolemodelProfile
+        name={d.name!}
+        affiliation={d.affiliation}
+        role={d.role}
+        photo_main={d.photo_main}
+        photo_style={d.photo_style}
+        theme={d.theme}
+        workplace={d.workplace}
+        career={d.career}
+        education={d.education}
+        high_school={d.high_school}
+        published_date={d.published_date}
+        isTeacher={true}
+      />
+      <Content />
+    </div>
+  </article>
+</Base>

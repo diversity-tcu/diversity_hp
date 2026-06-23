@@ -6,7 +6,8 @@ import { withBase } from '../lib/path';
 
 export async function getStaticPaths() {
   const items = await getCollection('pages');
-  return items.map((item) => {
+  const explicitPages = new Set(['vol-19', 't_vol09']);
+  return items.flatMap((item) => {
     const idSlug = item.id.replace(/\.md$/, '');
     const rawSlug = item.data.slug || (
       /^publication\/(?:rolemodel|t_rolemodel)\//.test(idSlug)
@@ -14,11 +15,12 @@ export async function getStaticPaths() {
         : idSlug
     );
     const slugString = rawSlug.replace(/^\/+|\/+$/g, '').replace(/\/index$/, '');
+    if (explicitPages.has(slugString)) return [];
     const slug = slugString || undefined;
-    return {
+    return [{
       params: { slug },
       props: { item },
-    };
+    }];
   });
 }
 
