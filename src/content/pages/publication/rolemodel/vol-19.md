@@ -1,5 +1,6 @@
 ---
 title: "社会で輝く卒業生たち Vol.19"
+slug: "vol-19"
 date: "2026-05-22"
 status: "publish"
 name: "渡邉歩美"

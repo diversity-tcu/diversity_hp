@@ -2,6 +2,7 @@ import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const pageSchema = z.object({
+  slug: z.string().optional(),
   title: z.string().optional().default(''),
   date: z.string().optional(),
   author: z.string().optional(),

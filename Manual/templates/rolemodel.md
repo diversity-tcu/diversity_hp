@@ -1,5 +1,6 @@
 ---
 title: "社会で輝く卒業生たち Vol.XX"
+slug: "vol-XX"
 date: "2026-01-01"
 status: "publish"
 name: "○○ ○○"
