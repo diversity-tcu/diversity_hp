@@ -30,6 +30,7 @@ status: "publish"
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　兵　法　彩　　　　　　　　　　環境学部　環境経営システム学科　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　林　　　和眞　　　　　　　　　都市生活学部　都市生活学科　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　リーラ　プロビ　ドリアンダ　都市生活学部　都市生活学科　准教授</div></div></div>
+
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">室　員　ニーナ　スヴィリドヴァ　　情報工学部　知能情報工学科　講師</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-2-3 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">	建築都市デザイン学部　都市工学科　准教授</div></div><div class="su-column su-column-size-1-3 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">小野村　史穂</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-2-3 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">	環境学部　環境経営システム学科　准教授</div></div><div class="su-column su-column-size-1-3 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">	兵法　彩</div></div></div>
