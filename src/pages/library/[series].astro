@@ -1,4 +1,5 @@
 ---
+
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../lib/path';
@@ -40,7 +41,9 @@ items.sort((a, b) => {
   const volNum = (s: string) => { const m = s.match(/(\d+)/); return m ? parseInt(m[1], 10) : 0; };
   return volNum(b.slug) - volNum(a.slug);
 });
+
 ---
+
 <Base title={`${config.heading} | 東京都市大学 ダイバーシティ推進室`}>
   <article>
     <div class="entry-content page-article">

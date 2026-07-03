@@ -1,4 +1,5 @@
 ---
+
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
@@ -35,7 +36,9 @@ const items = (await getCollection('news'))
       isNew: isNewData !== undefined ? isNewData : (ts > 0 && now - ts <= TWO_MONTHS_MS),
     };
   });
+
 ---
+
 <Base title="お知らせ | 東京都市大学 ダイバーシティ推進室">
   <article class="page-article">
     <header class="list-hero">

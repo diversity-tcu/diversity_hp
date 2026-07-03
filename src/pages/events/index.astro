@@ -1,4 +1,5 @@
 ---
+
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
@@ -48,7 +49,9 @@ const items = (await getCollection('events'))
       topicLabel: TOPIC_META[topic].label,
     };
   });
+
 ---
+
 <Base title="活動報告 | 東京都市大学 ダイバーシティ推進室">
   <article class="page-article">
     <header class="list-hero">
