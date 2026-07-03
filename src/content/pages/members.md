@@ -37,7 +37,7 @@ status: "publish"
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　岩田　遵子　　　　　　　　　人間科学部　人間科学科　教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　井村　祥子　　　　　　　　　共通教育部　人文・社会科学系　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　酒井　優希　　　　　　　　　経営戦略局　DX推進部　DX推進課　事務員</div></div></div>
-<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　森下　覚
+<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　森下　覚　
 　　　　　　　　　総合企画局　企画・広報部　企画・広報課　課長補佐</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　相磯　将太　　　　　　　　　総合企画局　研究・社会連携推進部　研究推進課　事務員</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　松岡　ゆかり　　　　　　　　財務戦略局　財務部　財務課　事務員	</div></div></div>
