@@ -31,7 +31,7 @@ status: "publish"
 </div>
 <br/><br/></div></div></div></div><div class="panel-grid panel-no-style" id="pg-4576-3"><div class="panel-grid-cell" id="pgc-4576-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" id="panel-4576-3-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">貸出図書一覧</p></h2></div></div></div></div><div class="panel-grid panel-no-style" id="pg-4576-4"><div class="panel-grid-cell" id="pgc-4576-4-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child panel-last-child" data-index="4" id="panel-4576-4-0-0"><div class="textwidget"><div class="su-tabs su-tabs-style-default su-tabs-mobile-desktop" data-active="1" data-anchor-in-url="no" data-scroll-offset="0"><div class="su-tabs-nav">
 
-<h4>1.性</h4>
+<h4>1.ダイバーシティ全般</h4>
 
 <div class="su-table sp_none su-table-responsive">
 <table class="tab_b">
@@ -122,6 +122,14 @@ status: "publish"
 <td> 株式会社ポプラ </td>
 <td>2022.12</td>
 <td>9784591175101 </td>
+</tr>
+<tr>
+<td>1-11</td>
+<td><a href="https://www.amazon.co.jp/s?k=9784641173897" target="_blank" rel="noopener">多文化世界 違いを学び未来への道を探る</a></td>
+<td>G・ホフステード他、岩井八郎他 訳</td>
+<td>有斐閣</td>
+<td>2024.3</td>
+<td>9784641173897</td>
 </tr>
 </table>
 </div>
