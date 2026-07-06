@@ -116,7 +116,7 @@ status: "publish"
 <td>9784295307204 </td>
 </tr>
 <tr>
-<td>1-10</td>
+<td nowrap="">1-10</td>
 <td><a href="https://www.amazon.co.jp/s?k=9784591175101" target="_blank" rel="noopener">しなきゃ、なんてない</a></td>
 <td>LIFUL</td>
 <td> 株式会社ポプラ </td>
@@ -124,7 +124,7 @@ status: "publish"
 <td>9784591175101 </td>
 </tr>
 <tr>
-<td>1-11</td>
+<td nowrap="">1-11</td>
 <td><a href="https://www.amazon.co.jp/s?k=9784641173897" target="_blank" rel="noopener">多文化世界 違いを学び未来への道を探る</a></td>
 <td>G・ホフステード他、岩井八郎他 訳</td>
 <td>有斐閣</td>
