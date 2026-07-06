@@ -283,6 +283,40 @@
   letter-spacing: .08em;
   text-align: center;
 }
+.pub-thumb--calendar {
+  position: relative;
+  isolation: isolate;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12% 10%;
+}
+.pub-thumb--calendar::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -10%;
+  bottom: -28%;
+  width: 82%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgba(255,255,255,.16);
+}
+.pub-thumb--calendar span {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0,45,100,.28);
+}
+.pub-thumb--calendar .calendar-daiba {
+  position: absolute;
+  z-index: 1;
+  right: 3%;
+  bottom: 3%;
+  width: 62%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 5px rgba(0,35,80,.22));
+}
 .pub-caption {
   padding: 14px 16px 16px;
   border-top: 3px solid var(--brand-primary, #0655B4);
