@@ -12,7 +12,7 @@ status: "publish"
 ## 定期刊行物
 
 <div class="pub-hub">
-<a class="pub-card" href="/communication/">
+<a class="pub-card pub-card--communication-latest" href="/communication/">
   <div class="pub-thumb"><img src="/uploads/2026/07/TCU-diversityLetter_Vol21-illustrator.png" alt="TCUダイバーシティ通信 最新号" /></div>
   <div class="pub-caption">
     <div class="pub-section">TCUダイバーシティ通信</div>
