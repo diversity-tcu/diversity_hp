@@ -283,6 +283,9 @@
 .library-hub .pub-card--communication-latest .pub-thumb img {
   object-position: center top;
 }
+.library-hub .pub-card--workinlife-latest .pub-thumb img {
+  object-position: center top;
+}
 .pub-thumb--text {
   background: linear-gradient(135deg, var(--brand-primary, #0655B4), #0a7bd9);
   color: #fff;
