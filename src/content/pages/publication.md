@@ -13,7 +13,7 @@ status: "publish"
 
 <div class="pub-hub">
 <a class="pub-card pub-card--communication-latest" href="/communication/">
-  <div class="pub-thumb"><img src="/uploads/2026/07/TCU-diversityLetter_Vol21-illustrator.png" alt="TCUダイバーシティ通信 最新号" /></div>
+  <div class="pub-thumb"><img src="/uploads/2026/07/TCU-diversityLetter_Vol21-illustrator.png" alt="TCUダイバーシティ通信 最新号" style="object-position: center top;" /></div>
   <div class="pub-caption">
     <div class="pub-section">TCUダイバーシティ通信</div>
     <div class="pub-latest">最新: Vol.21 (2026年7月発行)</div>
