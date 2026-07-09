@@ -137,13 +137,10 @@ const quickLinks = [
                   <div class="ql-label">{q.label}</div>
                   <div class="ql-sub">{q.sub}</div>
                 </div>
-                <button
-                  type="button"
+                <span
                   class="ql-toggle"
-                  aria-label="サブメニューを開く"
-                  aria-expanded="false"
-                  onclick="event.preventDefault();event.stopPropagation();const w=this.closest('.ql-wrap');const o=w.classList.toggle('open');this.setAttribute('aria-expanded',o);"
-                >▾</button>
+                  aria-hidden="true"
+                >▾</span>
               </a>
             ) : (
               <button
@@ -378,7 +375,7 @@ const quickLinks = [
 
   .news-block {  display:grid; grid-template-columns: 180px 1fr; gap:0px; align-items:start; }
   .news-side { display:flex; flex-direction:column; align-items:flex-start; gap:14px; }
-  .news-title { color:var(--brand-primary); background:#f9f9f9; font-size:1.9em; margin:0;border: #cfcfcf; }
+  .news-title { color:var(--brand-primary); background:#f9f9f9; font-size:1.9em; margin:0; border:0; }
   .news-all { display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:32px; padding:0 14px 0 16px; border-radius:5px; background:var(--brand-primary); color:#fff; text-decoration:none; font-size:.9em; box-shadow:0 2px 8px rgba(55,186,247,.25); transition:transform .15s, box-shadow .15s; }
   .news-all:hover { transform:translateY(-1px); box-shadow:0 4px 12px rgba(55,186,247,.32); }
   .btn-arrow {
@@ -406,7 +403,7 @@ const quickLinks = [
   .topic-nextgen { background:var(--topic-nextgen); }
 
   .mission { text-align:center; padding: 40px 0; margin-bottom:50px; }
-  .mission-title { font-size:2.15em; color:var(--brand-primary); background:#fff;border: #fff; gin:0 0 8px; letter-spacing:.05em; padding: 0;margin:0; font-weight:800; line-height:1.35; }
+  .mission-title { font-size:2.15em; color:var(--brand-primary); background:#fff; border:0; margin:0 0 8px; letter-spacing:.05em; padding:0; font-weight:800; line-height:1.35; }
   .mission-sub { font-size:1.25em; color:#4d5963; margin:6px 0 30px; font-weight:700; line-height:1.5; }
   .mission-body { display:grid; grid-template-columns: minmax(0,360px) minmax(0,1fr); gap:42px; align-items:center; text-align:left; max-width:980px; margin:0 auto; }
   .mission-pillars { position:relative; width:380px; height:350px; margin:0 auto; }
@@ -429,7 +426,7 @@ const quickLinks = [
   .mission-text p:last-child { margin-bottom:0; }
 
   .activities { background:#f0f4f0; padding:20px 20px; margin:0 -20px 40px; border-radius:12px; }
-  .act-title { text-align:center; font-size:2.2em; color:var(--brand-primary); margin:0 0 12px; border:#fff; background:#f0f4f0; font-weight:800; line-height:1.25; }
+  .act-title { text-align:center; font-size:2.2em; color:var(--brand-primary); margin:0 0 12px; border:0; background:#f0f4f0; font-weight:800; line-height:1.25; }
   .act-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; max-width:1100px; margin:0 auto; }
   .act-card { background:#fff; border-radius:8px; overflow:hidden; text-decoration:none; color:#333; box-shadow:0 2px 6px rgba(0,0,0,.06); display:flex; flex-direction:column; transition:transform .15s; }
   .act-card:hover { transform:translateY(-3px); }
