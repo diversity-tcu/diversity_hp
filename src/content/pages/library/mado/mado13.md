@@ -1,7 +1,7 @@
 ---
 title: "窓 第13回"
 date: "2026-06-01"
-author: "R.S"
+author: "DX推進課 酒井"
 status: "publish"
 thumb: "/uploads/2026/07/TCU-diversityLetter_Vol21-mado.png"
 ---
@@ -32,4 +32,4 @@ thumb: "/uploads/2026/07/TCU-diversityLetter_Vol21-mado.png"
 
 それは特別な配慮ではなく、これからの業務における当たり前になっていくのではないでしょうか。私自身、業務の中でこの考えを大切にしていきたいと思います。
 
-（投稿者：R.S）
+（投稿者：DX推進課 酒井）
