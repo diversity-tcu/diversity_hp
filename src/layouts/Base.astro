@@ -39,7 +39,8 @@ const navIconStyle = [
           <img class="siteHeader_diversityLogo" src={`${base}assets/top/diversity_logo.svg`} alt="東京都市大学 ダイバーシティ推進室" />
         </a>
         <nav class="siteHeader_nav">
-          <ul class="gMenu">
+          <button class="siteHeader_menuTrigger" type="button" aria-expanded="false" aria-controls="headerMenu">☰ メニュー</button>
+          <ul class="gMenu" id="headerMenu">
             <li class="menu-events"><a href={`${base}events/`}><strong>活動報告</strong></a></li>
             <li class="menu-support"><a href={`${base}support/`}><strong>各種支援</strong></a></li>
             <li class="menu-library"><a href={`${base}library/`}><strong>ライブラリ</strong></a>
@@ -137,6 +138,7 @@ const navIconStyle = [
     .vk-mobile-nav.vk-mobile-nav-open { display:none !important; top:auto !important; height:auto !important; overflow:hidden !important; }
     .siteHeader { background:#fff; border:0; box-shadow:none; }
     .siteHeader .container { max-width:1200px; margin:0 auto; padding:0 20px; }
+    .siteHeader_menuTrigger { display: none; }
     .siteHeader_top { display:grid; grid-template-columns: 5% 6% 10% 1fr 50% 10%; align-items:center; column-gap:0; padding:12px 0; overflow:visible; }
     .siteHeader_tcuLink,
     .siteHeader_diversityLink,
@@ -268,9 +270,7 @@ const navIconStyle = [
       .siteHeader_tcuLogo,
       .siteHeader_diversityLogo { transform: none; max-width: 100%; width: 100%; height: auto; }
 
-      /* ハンバーガートリガー (擬似要素) */
-      .siteHeader_nav::before {
-        content: "☰ メニュー";
+      .siteHeader_menuTrigger {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -281,8 +281,13 @@ const navIconStyle = [
         font-size: 13px;
         font-weight: 600;
         cursor: pointer;
+        border: none;
       }
-      /* メニュー本体: 通常非表示、ホバー/フォーカスで表示 */
+      .siteHeader_menuTrigger:focus {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+      }
+      /* メニュー本体: 通常非表示、トリガーで表示 */
       .siteHeader_nav .gMenu {
         display: none;
         position: absolute;
@@ -297,8 +302,9 @@ const navIconStyle = [
         z-index: 100;
         margin-top: 6px;
       }
-      .siteHeader_nav:hover .gMenu,
-      .siteHeader_nav:focus-within .gMenu { display: flex; }
+      .siteHeader_nav.open .gMenu {
+        display: flex;
+      }
       .gMenu > li { width: 100%; }
       .gMenu > li > a { display: block; padding: 10px 16px; color: #1a2633; font-size: 15px; }
       .gMenu > li > a:hover { background: #f5f9ff; color: var(--brand-primary, #0655B4); }
@@ -328,5 +334,22 @@ const navIconStyle = [
       .siteFooter_daibaButton { width:min(100%, 240px); }
     }
   </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var trigger = document.querySelector('.siteHeader_menuTrigger');
+      var nav = document.querySelector('.siteHeader_nav');
+      if (!trigger || !nav) return;
+      trigger.addEventListener('click', function () {
+        var isOpen = nav.classList.toggle('open');
+        trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+      document.addEventListener('click', function (event) {
+        if (!nav.classList.contains('open')) return;
+        if (nav.contains(event.target)) return;
+        nav.classList.remove('open');
+        trigger.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
 </body>
 </html>
