@@ -13,43 +13,46 @@ import { withBase } from '../../lib/path';
 
       <h2>定期刊行物</h2>
       <div class="pub-hub library-hub">
-        <a class="pub-card" href={withBase('/communication/')}>
-          <div class="pub-thumb"><img src={withBase('/uploads/2026/04/TCU-diversityLetter_Vol20-v3.jpg')} alt="TCUダイバーシティ通信 最新号" /></div>
+        <a class="pub-card pub-card--communication-latest" href={withBase('/communication/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2026/07/TCU-diversityLetter_Vol21-card.png')} alt="TCUダイバーシティ通信 最新号" /></div>
           <div class="pub-caption">
             <div class="pub-section">TCUダイバーシティ通信</div>
-            <div class="pub-latest">最新: Vol.20 (2026年3月発行)</div>
+            <div class="pub-latest">最新: Vol.21 (2026年7月発行)</div>
           </div>
         </a>
         <a class="pub-card pub-card--text" href={withBase('/calendarterms/')}>
-          <div class="pub-thumb pub-thumb--text"><span>カレンダー<br/>用語集</span></div>
+          <div class="pub-thumb pub-thumb--text pub-thumb--calendar">
+            <span>カレンダー<br/>用語集</span>
+            <img class="calendar-daiba" src={withBase('/assets/top/diver.svg')} alt="" aria-hidden="true" />
+          </div>
           <div class="pub-caption">
             <div class="pub-section">ダイバーシティカレンダー用語集</div>
-            <div class="pub-latest">最新: 2024年度版</div>
+            <div class="pub-latest">最新: 2026年度版</div>
           </div>
         </a>
-        <a class="pub-card" href={withBase('/library/workinlife/')}>
-          <div class="pub-thumb"><img src={withBase('/uploads/2025/10/workinlife01.png')} alt="ワーク・イン・ライフ" /></div>
+        <a class="pub-card pub-card--workinlife-latest" href={withBase('/library/workinlife/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2026/07/TCU-diversityLetter_Vol21-WIL.png')} alt="ワーク・イン・ライフ 最新号" /></div>
           <div class="pub-caption">
             <div class="pub-section">ワーク・イン・ライフ</div>
-            <div class="pub-latest">連載中</div>
+            <div class="pub-latest">最新：第04回　財務戦略局長　長縄健吾</div>
           </div>
         </a>
-        <a class="pub-card" href={withBase('/library/mado/')}>
-          <div class="pub-thumb"><img src={withBase('/uploads/2022/03/mado01.png')} alt="コラム「窓」" /></div>
+        <a class="pub-card pub-card--mado-latest" href={withBase('/library/mado/')}>
+          <div class="pub-thumb"><img src={withBase('/uploads/2026/07/TCU-diversityLetter_Vol21-mado.png')} alt="コラム「窓」最新号" /></div>
           <div class="pub-caption">
             <div class="pub-section">コラム「窓」</div>
-            <div class="pub-latest">不定期連載</div>
+            <div class="pub-latest">最新：第13回　DX推進課　酒井</div>
           </div>
         </a>
       </div>
 
       <h2>ロールモデル集</h2>
       <div class="pub-hub library-hub">
-        <a class="pub-card" href={withBase('/rolemodel/')}>
+        <a class="pub-card pub-card--graduate-rolemodel" href={withBase('/rolemodel/')}>
           <div class="pub-thumb"><img src={withBase('/uploads/2026/05/卒業生ロールモデル（ワタナベ先生）.png')} alt="卒業生ロールモデル集 最新号" /></div>
           <div class="pub-caption">
             <div class="pub-section">卒業生ロールモデル集</div>
-            <div class="pub-latest">最新: Vol.19 (2026年5月)</div>
+            <div class="pub-latest">最新: Vol.19 (2026年7月)</div>
           </div>
         </a>
         <a class="pub-card pub-card--teacher-rolemodel" href={withBase('/t_rolemodel/')}>

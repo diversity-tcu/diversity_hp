@@ -28,6 +28,7 @@ for (const it of all) {
     const title = it.data.title || '';
     const info = extractTileInfo(title, it.body);
     if (it.data.thumb) info.thumb = it.data.thumb;
+    if (/^library\/workinlife\/workinlife04(?:\.md)?$/.test(it.id)) info.vol = '第04回';
     if (!info.vol && /最終/.test(title)) info.vol = '最終回';
     const slug = it.data.slug || it.id.replace(/\.md$/, '') || '';
     const author = it.data.author || '';

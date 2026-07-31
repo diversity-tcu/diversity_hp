@@ -26,10 +26,9 @@ export function extractVolLabel(title: string | undefined): string {
     const n = parseInt(m[1], 10);
     return `Vol.${String(n).padStart(2, '0')}`;
   }
-  m = title.match(/第\s*0*(\d+)\s*回/);
+  m = title.match(/第\s*([0-9０-９]+)\s*回/);
   if (m) {
-    const n = parseInt(m[1], 10);
-    return `第${String(n).padStart(2, '0')}回`;
+    return `第${m[1]}回`;
   }
   if (/最終回/.test(title)) return '最終回';
   return '';

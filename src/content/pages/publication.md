@@ -12,11 +12,11 @@ status: "publish"
 ## 定期刊行物
 
 <div class="pub-hub">
-<a class="pub-card" href="/communication/">
-  <div class="pub-thumb"><img src="/uploads/2026/04/TCU-diversityLetter_Vol20-v3.jpg" alt="TCUダイバーシティ通信 最新号" /></div>
+<a class="pub-card pub-card--communication-latest" href="/communication/">
+  <div class="pub-thumb"><img src="/uploads/2026/07/TCU-diversityLetter_Vol21-card.png" alt="TCUダイバーシティ通信 最新号" /></div>
   <div class="pub-caption">
     <div class="pub-section">TCUダイバーシティ通信</div>
-    <div class="pub-latest">最新: Vol.20 (2026年3月発行)</div>
+    <div class="pub-latest">最新: Vol.21 (2026年7月発行)</div>
   </div>
 </a>
 <a class="pub-card pub-card--text" href="/calendarterms/">
