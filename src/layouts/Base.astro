@@ -67,6 +67,8 @@ const navIconStyle = [
     </div>
   </header>
 
+  <button class="mobileScrollTop" type="button" aria-label="ページ上部へ戻る">▲</button>
+
   <main class="mainContent">
     <slot />
   </main>
@@ -139,6 +141,10 @@ const navIconStyle = [
     .siteHeader { background:#fff; border:0; box-shadow:none; }
     .siteHeader .container { max-width:1200px; margin:0 auto; padding:0 20px; }
     .siteHeader_menuTrigger { display: none; }
+    .mobileScrollTop { display: none; }
+    .mobileScrollTop {
+      display: none;
+    }
     .siteHeader_top { display:grid; grid-template-columns: 5% 6% 10% 1fr 50% 10%; align-items:center; column-gap:0; padding:12px 0; overflow:visible; }
     .siteHeader_tcuLink,
     .siteHeader_diversityLink,
@@ -316,6 +322,28 @@ const navIconStyle = [
         padding: 4px 0 8px;
       }
       .gMenu .sub-menu a { padding: 8px 28px; font-size: 13px; color: #333; }
+      .mobileScrollTop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 16px;
+        bottom: 16px;
+        width: 48px;
+        height: 48px;
+        border: none;
+        border-radius: 50%;
+        background: #37baf7;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1;
+        box-shadow: 0 6px 16px rgba(0,0,0,.2);
+        z-index: 9999;
+        cursor: pointer;
+      }
+      .mobileScrollTop:hover {
+        background: #2ba4da;
+      }
       .siteFooter .container { padding:28px 14px 20px; }
       .siteFooter_top { grid-template-columns: 1fr; gap:18px; }
       .siteFooter_address,
@@ -336,6 +364,12 @@ const navIconStyle = [
   </style>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      var scrollTopButton = document.querySelector('.mobileScrollTop');
+      if (scrollTopButton) {
+        scrollTopButton.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
       var trigger = document.querySelector('.siteHeader_menuTrigger');
       var nav = document.querySelector('.siteHeader_nav');
       if (!trigger || !nav) return;
