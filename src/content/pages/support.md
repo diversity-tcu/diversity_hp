@@ -63,7 +63,7 @@ ikuji_kaigo[@]tcu.ac.jp　[＠]は小文字の@に置き換えてください。
   <span class="icon">📄</span>
   横浜キャンパス多目的トイレマップ
 </a>
-<br><a href="https://diversity-tcu.github.io/diversity_hp/assets/scudmap.pdf" target="_blank" rel="noopener" class="btn_new">
+<br><a href="/uploads/2026/08/SC_UDmap_2026_newQR.pdf" target="_blank" rel="noopener" class="btn_new">
   <span class="icon">📄</span>
   世田谷キャンパスUDマップ
 </a>
