@@ -70,7 +70,7 @@ const events = (await getCollection('events'))
     const topic = resolveTopic(e.data.topic, `${e.data.title ?? ''}\n${e.body ?? ''}`);
     return {
       ...e,
-      thumb: extractFirstImage(e.body || '') || fallbackThumbs[i % fallbackThumbs.length],
+      thumb: (e.data as any).thumb || extractFirstImage(e.body || '') || fallbackThumbs[i % fallbackThumbs.length],
       topic,
       topicLabel: TOPIC_META[topic].label,
     };
