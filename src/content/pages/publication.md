@@ -35,7 +35,7 @@ status: "publish"
   <div class="pub-thumb"><img src="/uploads/2026/05/卒業生ロールモデル（ワタナベ先生）.png" alt="卒業生ロールモデル集 最新号" /></div>
   <div class="pub-caption">
     <div class="pub-section">卒業生ロールモデル集</div>
-    <div class="pub-latest">最新: Vol.19</div>
+    <div class="pub-latest">最新: Vol.18</div>
   </div>
 </a>
 <a class="pub-card" href="/t_rolemodel/">

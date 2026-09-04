@@ -6,7 +6,7 @@ import { withBase } from '../lib/path';
 
 export async function getStaticPaths() {
   const items = await getCollection('pages');
-  const explicitPages = new Set(['vol-19', 't_vol09']);
+  const explicitPages = new Set(['vol-18', 't_vol09']);
   return items.flatMap((item) => {
     const idSlug = item.id.replace(/\.md$/, '');
     const rawSlug = item.data.slug || (

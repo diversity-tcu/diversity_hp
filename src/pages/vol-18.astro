@@ -6,12 +6,12 @@ import { getCollection, render } from 'astro:content';
 const item = (await getCollection('pages')).find(
   (entry) => {
     const id = entry.id.replace(/\.md$/, '').replace(/\\/g, '/');
-    return entry.data.slug === 'vol-19' || id === 'vol-19' || id.endsWith('/vol-19');
+    return entry.data.slug === 'vol-18' || id === 'vol-18' || id.endsWith('/vol-18');
   },
 );
 
 if (!item) {
-  throw new Error('Missing rolemodel entry: publication/rolemodel/vol-19');
+  throw new Error('Missing rolemodel entry: publication/rolemodel/vol-18');
 }
 
 const { Content } = await render(item);
