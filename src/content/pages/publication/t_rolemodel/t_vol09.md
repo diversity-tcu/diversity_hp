@@ -21,10 +21,22 @@ published_date: "2026年6月19日"
     <small>1日の過ごし方</small>
   </div>
   <ol class="rolemodel-workstyle__timeline">
-    <li><time>6:00</time><span>起床（子供も一緒）<br>・妻が6時〜6時半ごろ出勤。<br>・娘の髪のセット以外、身支度や朝食、朝食の後片付けは担当。<br>（給食がない時は2人分のお弁当も作っています）</span></li>
-    <li><time>8:00</time><span>子供と一緒に出勤（8:30〜40に大学着）</span></li>
-    <li><time>20:00</time><span>帰宅<br>・子供が大きくなってきたので、お風呂当番は卒業。お風呂がなくなったので、気が付くと帰宅時間が少しずつ遅くなっています。<br>・妻が残業の時は18時〜19時頃までに帰宅。<br>→五限がある日だけは残業や「飲み会」等を外してもらっています。<br>→学童が19時までなので、帰宅時間（お迎え時間）は厳守です。</span></li>
-    <li><time>23:00</time><span>自由時間（洗濯、夕食の後片付け次第）</span></li>
+    <li>
+      <div class="rolemodel-workstyle__when"><span class="rolemodel-workstyle__icon" aria-hidden="true">🙏</span><time>朝 6:30頃</time></div>
+      <span>お祈りの後、少し休んで起床。家族の朝食、お弁当、夕食の準備をします。日曜日に作り置きをしているので、平日の朝は少し楽です。</span>
+    </li>
+    <li>
+      <div class="rolemodel-workstyle__when"><span class="rolemodel-workstyle__icon" aria-hidden="true">🏫</span><time>大学</time></div>
+      <span>大学へ行き、授業、事務、学生対応などを行います。海外の共同研究者とオンラインで打ち合わせをすることもあります。</span>
+    </li>
+    <li>
+      <div class="rolemodel-workstyle__when"><span class="rolemodel-workstyle__icon" aria-hidden="true">🏠</span><time>帰宅後</time></div>
+      <span>早く帰れる日は、家事をしながら子どもたちの様子を見ます。授業準備や研究計画、論文執筆なども進めます。</span>
+    </li>
+    <li>
+      <div class="rolemodel-workstyle__when"><span class="rolemodel-workstyle__icon" aria-hidden="true">🌙</span><time>夜</time></div>
+      <span>最近は健康にも気をつけ、締切がなければできるだけ早く休むようにしています。</span>
+    </li>
   </ol>
 </section>
 
@@ -98,15 +110,31 @@ published_date: "2026年6月19日"
     background: #ff4fab;
     border-radius: 50%;
   }
-  .rolemodel-workstyle__timeline time {
+  .rolemodel-workstyle__when {
+    display: grid;
+    justify-items: end;
+    gap: 5px;
+  }
+  .rolemodel-workstyle__icon {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #ff4fab;
+    border-radius: 50%;
+    background: #fff5fa;
+    font-size: 23px;
+    line-height: 1;
+  }
+  .rolemodel-workstyle__when time {
     color: #ff4fab;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 800;
     line-height: 1.2;
     text-align: right;
   }
-  .rolemodel-workstyle__timeline span {
+  .rolemodel-workstyle__timeline > li > span {
     position: relative;
     display: block;
     padding-left: 28px;
@@ -114,7 +142,7 @@ published_date: "2026年6月19日"
     font-weight: 700;
     line-height: 1.55;
   }
-  .rolemodel-workstyle__timeline span::before {
+  .rolemodel-workstyle__timeline > li > span::before {
     content: "---";
     position: absolute;
     left: 0;
@@ -145,10 +173,15 @@ published_date: "2026年6月19日"
       grid-template-columns: 68px 1fr;
       column-gap: 34px;
     }
-    .rolemodel-workstyle__timeline time {
-      font-size: 17px;
+    .rolemodel-workstyle__icon {
+      width: 36px;
+      height: 36px;
+      font-size: 20px;
     }
-    .rolemodel-workstyle__timeline span {
+    .rolemodel-workstyle__when time {
+      font-size: 14px;
+    }
+    .rolemodel-workstyle__timeline > li > span {
       font-size: 14px;
     }
   }
