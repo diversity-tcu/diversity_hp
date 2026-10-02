@@ -45,6 +45,6 @@ status: "publish"
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　渡邊　光洋　　　　　　　　　大学教学局　学生支援部　学生支援課　課長</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　伊東　明美　　　　　　　　　理工学部　機械工学科　教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　佐々木　美智子　　　　　　　総務人事局　人事部　人事課　課長補佐</div></div></div>
-<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　廣澤　勇太郎　　　　　　　　施設財務局　施設部　施設課　課長</div></div></div></div></div><div class="so-panel widget widget_text panel-last-child" data-index="6" id="panel-3455-4-0-1"> <div class="textwidget"><p style="text-align: right;">2026年5月15日　現在</p>
+<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　廣澤　勇太郎　　　　　　　　施設財務局　施設部　施設課　課長</div></div></div></div></div><div class="so-panel widget widget_text panel-last-child" data-index="6" id="panel-3455-4-0-1"> <div class="textwidget"><p style="text-align: right;">2026年10月01日　現在</p>
 </div>
 </div></div></div></div> </div>
