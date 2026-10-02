@@ -27,8 +27,7 @@ status: "publish"
 </div></div></div><div class="panel-grid panel-no-style" id="pg-3455-3"><div class="panel-grid-cell" id="pgc-3455-3-0"><div class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="4" id="panel-3455-3-0-0"><div class="textwidget custom-html-widget"><h2 class="new_h2"><p class="h2_line">ダイバーシティ推進室　室員メンバー</p></h2>
 </div></div></div></div><div class="panel-grid panel-no-style" id="pg-3455-4"><div class="panel-grid-cell" id="pgc-3455-4-0"><div class="so-panel widget widget_shortcodes-ultimate shortcodes-ultimate panel-first-child" data-index="5" id="panel-3455-4-0-0"><div class="textwidget"><div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">室　長　関　口　和真　　　　　　　　理工学部　機械システム工学科　教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">副室長　小野村　史穂　　　　　　　　建築都市デザイン学部　都市工学科　准教授</div></div></div>
-<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　兵法　彩　　　　　
-　　　　　環境学部　環境経営システム学科　准教授</div></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　兵法　彩　　　　　　　　　　　環境学部　環境経営システム学科　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　林　和眞　　　　　　　　　　都市生活学部　都市生活学科　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　リーラ　プロビ　ドリアンダ　都市生活学部　都市生活学科　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">室　員　ニーナ　スヴィリドヴァ　　　情報工学部　知能情報工学科　講師</div></div></div>
@@ -37,8 +36,7 @@ status: "publish"
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　岩田　遵子　　　　　　　　　人間科学部　人間科学科　教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　井村　祥子　　　　　　　　　共通教育部　人文・社会科学系　准教授</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　酒井　優希　　　　　　　　　経営戦略局　DX推進部　DX推進課　事務員</div></div></div>
-<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　森下　覚　
-　　　　　　　　　総合企画局 研究・社会連携推進部　PXU推進課　課長補佐</div></div></div>
+<div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　森下　覚　　　　　　　　　　　総合企画局 研究・社会連携推進部　PXU推進課　課長補佐</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　相磯　将太　　　　　　　　　総合企画局　研究・社会連携推進部　研究推進課　事務員</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　松岡　ゆかり　　　　　　　　財務戦略局　財務部　財務課　事務員	</div></div></div>
 <div class="su-row"><div class="su-column su-column-size-1-1 f16px"><div class="su-column-inner su-u-clearfix su-u-trim">　　　　立花　秀樹　　　　　　　　　大学教学局　国際部　国際支援課　課長</div></div></div>
