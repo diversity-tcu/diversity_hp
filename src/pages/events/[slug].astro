@@ -64,6 +64,13 @@ const titleLines = item.id.replace(/\.md$/, '') === '2026-09-01'
     display:block;
     border-radius:6px;
   }
+  @media (min-width: 481px) {
+    .entry-content :global(img[src$="/uploads/2026/10/2026-10-02_WS01.png"]) {
+      width:320px;
+      max-width:100%;
+      height:auto;
+    }
+  }
   .back-link { margin-top:50px; }
   .back-link a { color:#0655B4; text-decoration:none; }
   .back-link a:hover { text-decoration:underline; }
