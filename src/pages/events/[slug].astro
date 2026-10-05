@@ -64,10 +64,8 @@ const titleLines = item.id.replace(/\.md$/, '') === '2026-09-01'
     display:block;
     border-radius:6px;
   }
-  .entry-content :global(.event-media-row) {
-    margin:30px 0;
-  }
-  .entry-content :global(.event-media-row__image img) {
+  .entry-content :global(.event-media-row) { margin:30px 0; }
+  .entry-content :global(.event-media-row__image) :global(img) {
     display:block;
     width:320px;
     max-width:100%;
