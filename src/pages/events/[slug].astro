@@ -64,6 +64,16 @@ const titleLines = item.id.replace(/\.md$/, '') === '2026-09-01'
     display:block;
     border-radius:6px;
   }
+  .entry-content :global(.event-media-row) {
+    margin:30px 0;
+  }
+  .entry-content :global(.event-media-row__image img) {
+    display:block;
+    width:320px;
+    max-width:100%;
+    height:auto;
+    border-radius:6px;
+  }
   @media (min-width: 481px) {
     .entry-content :global(img[src$="/uploads/2026/10/2026-10-02_WS01.png"]) {
       width:320px;
@@ -74,6 +84,22 @@ const titleLines = item.id.replace(/\.md$/, '') === '2026-09-01'
   .back-link { margin-top:50px; }
   .back-link a { color:#0655B4; text-decoration:none; }
   .back-link a:hover { text-decoration:underline; }
+  @media (min-width: 769px) {
+    .entry-content :global(.event-media-row) {
+      display:grid;
+      grid-template-columns:minmax(0, 1fr) 320px;
+      gap:24px;
+      align-items:start;
+    }
+    .entry-content :global(.event-media-row__image) {
+      grid-column:2;
+      grid-row:1;
+    }
+    .entry-content :global(.event-media-row__text) {
+      grid-column:1;
+      grid-row:1;
+    }
+  }
   @media (max-width: 480px) {
     .article-hero { margin: 6px 0 24px; padding-bottom:16px; }
     .article-hero h1 { font-size:1.4em; line-height:1.4; }
