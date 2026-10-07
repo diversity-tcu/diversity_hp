@@ -35,7 +35,9 @@ const items = (await getCollection('pages'))
         {items.map(({ info, slug }) => (
           <a class:list={['pub-item', { 'pub-item--vol10': slug === 't_vol10' }]} href={withBase(`/${slug}/`)}>
             <div class="pub-item-thumb">
-              <img src={withBase(info.thumb || FALLBACK)} alt="" />
+              {slug === 't_vol10'
+                ? <div class="pub-item-photo--vol10"><img src={withBase(info.thumb || FALLBACK)} alt="" /></div>
+                : <img src={withBase(info.thumb || FALLBACK)} alt="" />}
             </div>
             <div class="pub-item-title">
               {info.vol && <span class="pub-item-vol">{info.vol}</span>}
@@ -52,6 +54,12 @@ const items = (await getCollection('pages'))
 </Base>
 
 <style>
+  .pub-item-photo--vol10 {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
   .rolemodel-list .pub-item--vol10 .pub-item-thumb img {
     width: 100%;
     height: 100%;
