@@ -65,6 +65,7 @@ const navIconStyle = [
         </a>
       </div>
     </div>
+    <div class="siteHeader_bar" aria-hidden="true"></div>
   </header>
 
   <button class="mobileScrollTop" type="button" aria-label="ページ上部へ戻る">▲</button>
@@ -134,11 +135,12 @@ const navIconStyle = [
       --topic-意識改革: #5b6ee1;
       --topic-nextgen: #e74c3c;
     }
-    html { margin:0; padding:0; overflow-x:hidden !important; overflow-y:auto !important; }
+    html { margin:0; padding:0; overflow-x:hidden !important; overflow-y:auto !important; scroll-padding-top:var(--site-header-height, 110px); }
     body { margin:0; padding:0; min-height:100%; overflow:visible !important; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; position:static !important; }
     .vk-mobile-nav,
     .vk-mobile-nav.vk-mobile-nav-open { display:none !important; top:auto !important; height:auto !important; overflow:hidden !important; }
-    .siteHeader { background:#fff; border:0; box-shadow:none; }
+    .siteHeader { position:sticky; top:0; z-index:1000; margin-bottom:0; background:#fff; border:0; box-shadow:none; }
+    .siteHeader_bar { max-width:1200px; margin:0 auto; height:7px; background:linear-gradient(90deg,#e74c3c 0%,#f39c12 16%,#f1c40f 32%,#2ecc71 48%,#3498db 64%,#5b6ee1 82%,#e056fd 100%); }
     .siteHeader .container { max-width:1200px; margin:0 auto; padding:0 20px; }
     .siteHeader_menuTrigger { display: none; }
     .mobileScrollTop { display: none; }
@@ -363,6 +365,14 @@ const navIconStyle = [
     }
   </style>
   <script>
+    const header = document.querySelector<HTMLElement>('.siteHeader');
+    if (header) {
+      const updateHeaderHeight = () => {
+        document.documentElement.style.setProperty('--site-header-height', `${header.getBoundingClientRect().height + 12}px`);
+      };
+      updateHeaderHeight();
+      new ResizeObserver(updateHeaderHeight).observe(header);
+    }
     document.addEventListener('DOMContentLoaded', function () {
       var scrollTopButton = document.querySelector('.mobileScrollTop');
       if (scrollTopButton) {
