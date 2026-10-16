@@ -51,6 +51,9 @@ const news = (await getCollection('news'))
     const topic = resolveTopic(n.data.topic, `${n.data.title ?? ''}\n${n.body ?? ''}`);
     return {
       ...n,
+      titleLines: n.id === '2026-10-16'
+        ? (n.data.title ?? '').split(/(?<=アンケートへの)/)
+        : [n.data.title ?? ''],
       topic,
       topicLabel: TOPIC_META[topic].label,
     };
@@ -191,7 +194,7 @@ const quickLinks = [
             <a class="news-card-link" href={`${base}news/${n.id.replace(/\.md$/, '')}/`}>
             <span class={`topic-tag topic-${n.topic}`}>{n.topicLabel}</span>
               <time>{(n.data as any).isNew !== false && 'New! '}{n.data.date}</time>
-              <span>{n.data.title}</span>
+              <span>{n.titleLines.map((line, index) => <Fragment>{index > 0 && <br />}{line}</Fragment>)}</span>
             </a>
           </li>
         ))}
