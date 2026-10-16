@@ -49,6 +49,12 @@ items.sort((a, b) => {
   <article>
     <div class="entry-content page-article">
       <h1>{config.heading}</h1>
+      {series === 'workinlife' && (
+        <>
+          <p>「ワーク・イン・ライフ」とは、仕事（ワーク）を生活（ライフ）の一部と捉え、両者を対立するものではなく、調和させて考える概念のことです。生活を適切に調整し、互いが良好な関係を保つ状態を指している「ワーク・ライフ・バランス」に対し、「ワーク・イン・ライフ」では、仕事を自分の人生の中に組み込み、相互作用をさせることで充実した生き方が実現すると考えます。</p>
+          <p>本連載では、「ワーク・イン・ライフ」を実現するために、豊かな人生を送る上での工夫や、若い方々に向けたメッセージなどを紹介します。</p>
+        </>
+      )}
       <p><a href={withBase('/library/')}>← ライブラリ一覧に戻る</a></p>
       <div class="pub-list library-series-list">
         {items.map(({ info, slug, author, affiliate }) => (
