@@ -2,7 +2,7 @@
 title: "ワーク・イン・ライフ連載企画 第05回"
 date: "2026-10-26"
 author: "岡部 大介"
-affiliate: "財務戦略局長"
+affiliate: "メディア情報学部長"
 thumb: "/uploads/2026/10/TCU-DiversityLetter-vol22_wil.jpg"
 status: "publish"
 ---
