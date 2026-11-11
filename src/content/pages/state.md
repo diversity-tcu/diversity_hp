@@ -7,5 +7,5 @@ status: "publish"
 
 # 都市大の現状
 
-- [数字で見る都市大の現状](/stateofnumber/)
+- [数字で見る都市大の現状](/state/stateofnumber/)
 - [アンケート](/enquete/)

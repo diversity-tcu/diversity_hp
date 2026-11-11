@@ -1,0 +1,645 @@
+---
+import Base from '../../layouts/Base.astro';
+import { withBase } from '../../lib/path';
+import { students, campusLabels, type CampusKey } from '../../lib/students';
+
+const campuses: CampusKey[] = ['all', 'sc', 'yc'];
+const first = students[0];
+const latest = students[students.length - 1];
+const pct = (n: number, d: number) => (d ? (n / d) * 100 : 0).toFixed(1);
+const fmt = (n: number) => n.toLocaleString('ja-JP');
+
+// ブラウザ側スクリプトに渡すデータ(数値のみ)
+const json = JSON.stringify(students).replace(/</g, '\\u003c');
+
+// 旧サイトのインフォグラフィック(学生以外の数値も含む)
+const archive = [
+  { year: 2025, src: '/uploads/2025/08/num_2025.png' },
+  { year: 2024, src: '/uploads/2024/08/num_2024.png' },
+  { year: 2023, src: '/uploads/2023/07/nem_2023.png' },
+  { year: 2022, src: '/uploads/2022/07/nem_2022.png' },
+  { year: 2021, src: '/uploads/2021/05/nem_2021_210521.png' },
+  { year: 2020, src: '/uploads/2021/05/nem_2020_210521.png' },
+  { year: 2019, src: '/uploads/2020/07/nem_2019.png' },
+  { year: 2018, src: '/uploads/2020/07/nem_2018.png' },
+];
+---
+<Base title="数字で見る都市大の現状 | 東京都市大学 ダイバーシティ推進室">
+  <article>
+    <div class="entry-content page-article son">
+      <h1 class="p_title">数字で見る都市大の現状</h1>
+      <p class="p_title_s">CURRENT SITUATION SEEN by NUMBERS</p>
+
+      <p class="son-lead">
+        東京都市大学の学生数を、男女別・留学生数とあわせて{first.year}年から{latest.year}年まで掲載しています。
+        キャンパスや年度を切り替えて、変化をご覧ください。
+      </p>
+
+      <div class="son-controls" role="group" aria-label="表示の切り替え">
+        <div class="son-seg" role="radiogroup" aria-label="キャンパス" data-control="campus">
+          {campuses.map((c, i) => (
+            <button type="button" role="radio" aria-checked={i === 0 ? 'true' : 'false'} data-value={c}>{campusLabels[c]}</button>
+          ))}
+        </div>
+        <label class="son-year">
+          <span>年度</span>
+          <select data-control="year">
+            {[...students].reverse().map((r) => <option value={r.year}>{r.year}年</option>)}
+          </select>
+        </label>
+      </div>
+
+      <section class="son-tiles" aria-live="polite">
+        <div class="son-tile">
+          <div class="son-tile-label">学生総数</div>
+          <div class="son-tile-value"><span data-stat="total">{fmt(latest.all.total)}</span><small>人</small></div>
+          <div class="son-tile-delta" data-delta="total"></div>
+        </div>
+        <div class="son-tile">
+          <div class="son-tile-label">女子学生の割合</div>
+          <div class="son-tile-value"><span data-stat="femaleRate">{pct(latest.all.female, latest.all.total)}</span><small>%</small></div>
+          <div class="son-tile-sub" data-sub="female">{fmt(latest.all.female)}人</div>
+          <div class="son-tile-delta" data-delta="femaleRate"></div>
+        </div>
+        <div class="son-tile">
+          <div class="son-tile-label">留学生の割合</div>
+          <div class="son-tile-value"><span data-stat="intlRate">{pct(latest.all.intl, latest.all.total)}</span><small>%</small></div>
+          <div class="son-tile-sub" data-sub="intl">{fmt(latest.all.intl)}人</div>
+          <div class="son-tile-delta" data-delta="intlRate"></div>
+        </div>
+      </section>
+
+      <h2 class="new_h2"><p class="h2_line">学生数の推移(男女別)</p></h2>
+      <section class="son-card">
+        <div class="son-card-head">
+          <p class="son-card-title"><span data-campus-name>{campusLabels.all}</span>の学生数</p>
+          <div class="son-seg son-seg--small" role="radiogroup" aria-label="表示形式" data-view-toggle="counts">
+            <button type="button" role="radio" aria-checked="true" data-value="chart">グラフ</button>
+            <button type="button" role="radio" aria-checked="false" data-value="table">表</button>
+          </div>
+        </div>
+        <div class="son-legend" data-view="chart">
+          <span><i class="son-key son-key--rect" style="background:var(--son-female)"></i>女子学生</span>
+          <span><i class="son-key son-key--rect" style="background:var(--son-male)"></i>男子学生</span>
+        </div>
+        <div class="son-chart" data-chart="counts" data-view="chart"></div>
+        <div class="son-table-wrap" data-view="table" hidden>
+          {campuses.map((c) => (
+            <table class="son-table" data-campus={c} hidden={c !== 'all'}>
+              <caption>{campusLabels[c]}の学生数</caption>
+              <thead>
+                <tr><th scope="col">年度</th><th scope="col">学生総数</th><th scope="col">男子</th><th scope="col">女子</th><th scope="col">女子の割合</th><th scope="col">留学生</th><th scope="col">留学生の割合</th></tr>
+              </thead>
+              <tbody>
+                {[...students].reverse().map((r) => (
+                  <tr>
+                    <th scope="row">{r.year}年</th>
+                    <td>{fmt(r[c].total)}</td>
+                    <td>{fmt(r[c].male)}</td>
+                    <td>{fmt(r[c].female)}</td>
+                    <td>{pct(r[c].female, r[c].total)}%</td>
+                    <td>{fmt(r[c].intl)}</td>
+                    <td>{pct(r[c].intl, r[c].total)}%</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ))}
+        </div>
+        <p class="son-note">棒をクリックすると、その年度の数値を上に表示します。</p>
+      </section>
+
+      <h2 class="new_h2"><p class="h2_line">割合の推移(キャンパス比較)</p></h2>
+      <section class="son-card">
+        <div class="son-card-head">
+          <div class="son-seg son-seg--small" role="radiogroup" aria-label="指標" data-control="metric">
+            <button type="button" role="radio" aria-checked="true" data-value="femaleRate">女子学生の割合</button>
+            <button type="button" role="radio" aria-checked="false" data-value="intlRate">留学生の割合</button>
+          </div>
+          <div class="son-seg son-seg--small" role="radiogroup" aria-label="表示形式" data-view-toggle="rates">
+            <button type="button" role="radio" aria-checked="true" data-value="chart">グラフ</button>
+            <button type="button" role="radio" aria-checked="false" data-value="table">表</button>
+          </div>
+        </div>
+        <div class="son-legend" data-view="chart">
+          {campuses.map((c) => (
+            <span><i class="son-key son-key--line" style={`background:var(--son-${c})`}></i>{campusLabels[c]}</span>
+          ))}
+        </div>
+        <div class="son-chart" data-chart="rates" data-view="chart"></div>
+        <div class="son-table-wrap" data-view="table" hidden>
+          {(['femaleRate', 'intlRate'] as const).map((m) => (
+            <table class="son-table" data-metric={m} hidden={m !== 'femaleRate'}>
+              <caption>{m === 'femaleRate' ? '女子学生の割合' : '留学生の割合'}(%)</caption>
+              <thead>
+                <tr><th scope="col">年度</th>{campuses.map((c) => <th scope="col">{campusLabels[c]}</th>)}</tr>
+              </thead>
+              <tbody>
+                {[...students].reverse().map((r) => (
+                  <tr>
+                    <th scope="row">{r.year}年</th>
+                    {campuses.map((c) => (
+                      <td>{pct(m === 'femaleRate' ? r[c].female : r[c].intl, r[c].total)}%</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ))}
+        </div>
+        <p class="son-note">選択中のキャンパスを太線で表示します。割合は各年度の学生総数に対する値です。</p>
+      </section>
+
+      <p class="son-download">
+        <button type="button" class="son-btn" data-download>データをCSVでダウンロード</button>
+      </p>
+      <p class="son-source">
+        出典:東京都市大学 在籍学生数(各年度5月1日現在。2020年度のみ6月1日現在)。学部生・大学院生を含みます。
+      </p>
+
+      <h2 class="new_h2"><p class="h2_line">過去のインフォグラフィック</p></h2>
+      <details class="son-archive">
+        <summary>{archive[archive.length - 1].year}〜{archive[0].year}年版を見る(教職員の数値なども掲載)</summary>
+        <div class="son-seg son-seg--small son-archive-tabs" role="radiogroup" aria-label="年版">
+          {archive.map((a, i) => (
+            <button type="button" role="radio" aria-checked={i === 0 ? 'true' : 'false'} data-archive={a.year}>{a.year}年</button>
+          ))}
+        </div>
+        {archive.map((a, i) => (
+          <img src={withBase(a.src)} alt={`数字で見る都市大の現状 ${a.year}年版`} loading="lazy" data-archive-img={a.year} hidden={i !== 0} />
+        ))}
+      </details>
+
+      <h2 class="new_h2"><p class="h2_line">関連情報</p></h2>
+      <div class="son-links">
+        <a class="son-link" href="https://www.tcu.ac.jp/tcucms/uploads/2025/06/kyouin_all_2506_v3.pdf" target="_blank" rel="noopener">
+          専任教員数について<span class="son-link-tag">PDF</span>
+        </a>
+        <a class="son-link" href="https://www.tcu.ac.jp/number/index.html" target="_blank" rel="noopener">
+          数字で見る東京都市大学<span class="son-link-tag">→</span>
+        </a>
+      </div>
+
+      <div class="son-tooltip" role="status" hidden></div>
+    </div>
+  </article>
+  <script type="application/json" id="son-data" set:html={json}></script>
+</Base>
+
+<script>
+  type CampusKey = 'all' | 'sc' | 'yc';
+  type Metric = 'femaleRate' | 'intlRate';
+  interface Counts { total: number; male: number; female: number; intl: number }
+  interface YearRow { year: number; all: Counts; sc: Counts; yc: Counts }
+
+  const SVG_NS = 'http://www.w3.org/2000/svg';
+  const CAMPUSES: CampusKey[] = ['all', 'sc', 'yc'];
+  const CAMPUS_LABEL: Record<CampusKey, string> = { all: '全学', sc: '世田谷キャンパス', yc: '横浜キャンパス' };
+  const CAMPUS_SHORT: Record<CampusKey, string> = { all: '全学', sc: '世田谷', yc: '横浜' };
+  const METRIC_LABEL: Record<Metric, string> = { femaleRate: '女子学生の割合', intlRate: '留学生の割合' };
+
+  const dataEl = document.getElementById('son-data');
+  const root = document.querySelector<HTMLElement>('.son');
+  if (dataEl && root) init(JSON.parse(dataEl.textContent || '[]') as YearRow[], root);
+
+  function init(rows: YearRow[], root: HTMLElement) {
+    const state = {
+      campus: 'all' as CampusKey,
+      year: rows[rows.length - 1].year,
+      metric: 'femaleRate' as Metric,
+    };
+    const css = getComputedStyle(root);
+    const color = (name: string) => css.getPropertyValue(name).trim();
+    const tooltip = root.querySelector<HTMLElement>('.son-tooltip')!;
+    const countsEl = root.querySelector<HTMLElement>('[data-chart="counts"]')!;
+    const ratesEl = root.querySelector<HTMLElement>('[data-chart="rates"]')!;
+    const yearSelect = root.querySelector<HTMLSelectElement>('[data-control="year"]')!;
+
+    const fmt = (n: number) => n.toLocaleString('ja-JP');
+    const rate = (c: Counts, m: Metric) => (c.total ? ((m === 'femaleRate' ? c.female : c.intl) / c.total) * 100 : 0);
+    const rowOf = (year: number) => rows.find((r) => r.year === year)!;
+
+    // ---- 共通部品 -------------------------------------------------------
+    function el<K extends keyof SVGElementTagNameMap>(tag: K, attrs: Record<string, string | number>, parent?: Element) {
+      const node = document.createElementNS(SVG_NS, tag);
+      for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, String(v));
+      if (parent) parent.appendChild(node);
+      return node;
+    }
+    function text(parent: Element, x: number, y: number, str: string, attrs: Record<string, string | number> = {}) {
+      const t = el('text', { x, y, ...attrs }, parent);
+      t.textContent = str;
+      return t;
+    }
+    function niceMax(v: number) {
+      const step = Math.pow(10, Math.floor(Math.log10(v)));
+      for (const m of [1, 2, 2.5, 5, 10]) if (m * step >= v) return m * step;
+      return 10 * step;
+    }
+    function frame(container: HTMLElement) {
+      const width = Math.max(280, container.clientWidth);
+      const narrow = width < 560;
+      const height = narrow ? 260 : 320;
+      const m = { top: 28, right: narrow ? 64 : 120, bottom: 32, left: narrow ? 44 : 56 };
+      container.replaceChildren();
+      const svg = el('svg', { viewBox: `0 0 ${width} ${height}`, width, height, role: 'img' }, container);
+      return { svg, width, height, narrow, m, iw: width - m.left - m.right, ih: height - m.top - m.bottom };
+    }
+    function yAxis(svg: SVGSVGElement, m: { left: number; top: number }, iw: number, ih: number, max: number, unit: string) {
+      const ticks = 5;
+      for (let i = 0; i <= ticks; i++) {
+        const v = (max / ticks) * i;
+        const y = m.top + ih - (v / max) * ih;
+        el('line', { x1: m.left, x2: m.left + iw, y1: y, y2: y, stroke: i === 0 ? color('--son-axis') : color('--son-grid'), 'stroke-width': 1 }, svg);
+        text(svg, m.left - 8, y + 4, unit === '%' ? `${v.toFixed(v % 1 ? 1 : 0)}%` : fmt(v), { 'text-anchor': 'end', class: 'son-tick' });
+      }
+    }
+    function showTooltip(anchor: HTMLElement, x: number, y: number, title: string, lines: { key?: string; label: string; value: string }[]) {
+      tooltip.replaceChildren();
+      const h = document.createElement('div');
+      h.className = 'son-tooltip-title';
+      h.textContent = title;
+      tooltip.appendChild(h);
+      for (const l of lines) {
+        const row = document.createElement('div');
+        row.className = 'son-tooltip-row';
+        const key = document.createElement('i');
+        key.className = 'son-key son-key--line';
+        if (l.key) key.style.background = l.key;
+        const v = document.createElement('strong');
+        v.textContent = l.value;
+        const s = document.createElement('span');
+        s.textContent = l.label;
+        row.append(key, v, s);
+        tooltip.appendChild(row);
+      }
+      tooltip.hidden = false;
+      const box = anchor.getBoundingClientRect();
+      const rootBox = root.getBoundingClientRect();
+      const tw = tooltip.offsetWidth;
+      let left = box.left - rootBox.left + x + 14;
+      if (left + tw > rootBox.width) left = box.left - rootBox.left + x - tw - 14;
+      tooltip.style.left = `${Math.max(0, left)}px`;
+      tooltip.style.top = `${box.top - rootBox.top + y}px`;
+    }
+    const hideTooltip = () => { tooltip.hidden = true; };
+
+    // ---- 男女別 積み上げ棒グラフ ------------------------------------------
+    function renderCounts() {
+      const { svg, m, iw, ih, narrow } = frame(countsEl);
+      svg.setAttribute('aria-label', `${CAMPUS_LABEL[state.campus]}の学生数の推移(男女別)`);
+      const max = niceMax(Math.max(...rows.map((r) => r[state.campus].total)) * 1.08);
+      yAxis(svg, m, iw, ih, max, '人');
+      const band = iw / rows.length;
+      const bw = Math.min(48, band * 0.62);
+      const y = (v: number) => m.top + ih - (v / max) * ih;
+      const last = rows[rows.length - 1].year;
+
+      rows.forEach((r, i) => {
+        const c = r[state.campus];
+        const cx = m.left + band * i + band / 2;
+        const x = cx - bw / 2;
+        const selected = r.year === state.year;
+        const g = el('g', { class: `son-bar${selected ? ' is-selected' : ''}` }, svg);
+        // 女子(下段・基線から)
+        const fTop = y(c.female);
+        el('rect', { x, y: fTop, width: bw, height: m.top + ih - fTop, fill: color('--son-female') }, g);
+        // 男子(上段)。女子との間に 2px の隙間、上端だけ角丸
+        const mTop = y(c.total);
+        const mH = Math.max(0, fTop - 2 - mTop);
+        const rr = Math.min(4, mH);
+        el('path', {
+          d: `M${x},${mTop + mH} V${mTop + rr} Q${x},${mTop} ${x + rr},${mTop} H${x + bw - rr} Q${x + bw},${mTop} ${x + bw},${mTop + rr} V${mTop + mH} Z`,
+          fill: color('--son-male'),
+        }, g);
+        // 合計ラベルは選択年と最新年だけ
+        if (selected || r.year === last) {
+          text(svg, cx, mTop - 8, fmt(c.total), { 'text-anchor': 'middle', class: 'son-value' });
+        }
+        text(svg, cx, m.top + ih + 20, narrow ? `'${String(r.year).slice(2)}` : `${r.year}`, {
+          'text-anchor': 'middle', class: `son-tick${selected ? ' is-selected' : ''}`,
+        });
+        // 当たり判定(棒より広い)
+        const hit = el('rect', { x: m.left + band * i, y: m.top, width: band, height: ih, fill: 'transparent', tabindex: 0, class: 'son-hit' }, svg);
+        hit.setAttribute('aria-label', `${r.year}年 総数${fmt(c.total)}人 女子${fmt(c.female)}人 男子${fmt(c.male)}人`);
+        const show = () => {
+          g.classList.add('is-hover');
+          showTooltip(countsEl, cx, Math.max(0, mTop - 20), `${r.year}年 ${CAMPUS_LABEL[state.campus]}`, [
+            { key: color('--son-female'), label: '女子', value: `${fmt(c.female)}人` },
+            { key: color('--son-male'), label: '男子', value: `${fmt(c.male)}人` },
+            { label: '総数', value: `${fmt(c.total)}人` },
+            { label: '女子の割合', value: `${rate(c, 'femaleRate').toFixed(1)}%` },
+          ]);
+        };
+        const hide = () => { g.classList.remove('is-hover'); hideTooltip(); };
+        hit.addEventListener('pointerenter', show);
+        hit.addEventListener('pointerleave', hide);
+        hit.addEventListener('focus', show);
+        hit.addEventListener('blur', hide);
+        hit.addEventListener('click', () => setYear(r.year));
+        hit.addEventListener('keydown', (e) => { if ((e as KeyboardEvent).key === 'Enter') setYear(r.year); });
+      });
+    }
+
+    // ---- キャンパス比較 折れ線グラフ ---------------------------------------
+    function renderRates() {
+      const { svg, m, iw, ih, narrow } = frame(ratesEl);
+      const metric = state.metric;
+      svg.setAttribute('aria-label', `${METRIC_LABEL[metric]}の推移(キャンパス比較)`);
+      const max = niceMax(Math.max(...rows.flatMap((r) => CAMPUSES.map((c) => rate(r[c], metric)))) * 1.1);
+      yAxis(svg, m, iw, ih, max, '%');
+      const step = rows.length > 1 ? iw / (rows.length - 1) : 0;
+      const xAt = (i: number) => m.left + step * i;
+      const y = (v: number) => m.top + ih - (v / max) * ih;
+
+      rows.forEach((r, i) => {
+        text(svg, xAt(i), m.top + ih + 20, narrow ? `'${String(r.year).slice(2)}` : `${r.year}`, {
+          'text-anchor': 'middle', class: `son-tick${r.year === state.year ? ' is-selected' : ''}`,
+        });
+      });
+      const selIndex = rows.findIndex((r) => r.year === state.year);
+      el('line', { x1: xAt(selIndex), x2: xAt(selIndex), y1: m.top, y2: m.top + ih, stroke: color('--son-axis'), 'stroke-dasharray': '3 3' }, svg);
+
+      // 選択中キャンパスを最後に描いて前面へ
+      const order = CAMPUSES.filter((c) => c !== state.campus).concat(state.campus);
+      const endLabels: { c: CampusKey; y: number; v: number }[] = [];
+      for (const c of order) {
+        const active = c === state.campus;
+        const pts = rows.map((r, i) => [xAt(i), y(rate(r[c], metric))]);
+        el('polyline', {
+          points: pts.map((p) => p.join(',')).join(' '),
+          fill: 'none', stroke: color(`--son-${c}`), 'stroke-width': active ? 3 : 2,
+          'stroke-linejoin': 'round', 'stroke-linecap': 'round', opacity: active ? 1 : 0.45,
+        }, svg);
+        const [sx, sy] = pts[selIndex];
+        el('circle', { cx: sx, cy: sy, r: active ? 5 : 4, fill: color(`--son-${c}`), stroke: '#fff', 'stroke-width': 2, opacity: active ? 1 : 0.6 }, svg);
+        const lastV = rate(rows[rows.length - 1][c], metric);
+        endLabels.push({ c, y: y(lastV), v: lastV });
+      }
+      // 右端の直接ラベル(重なりを避けて縦にずらす)
+      endLabels.sort((a, b) => a.y - b.y);
+      for (let i = 1; i < endLabels.length; i++) {
+        if (endLabels[i].y - endLabels[i - 1].y < 15) endLabels[i].y = endLabels[i - 1].y + 15;
+      }
+      for (const l of endLabels) {
+        const t = text(svg, m.left + iw + 8, l.y + 4, narrow ? `${l.v.toFixed(1)}%` : `${CAMPUS_SHORT[l.c]} ${l.v.toFixed(1)}%`, {
+          class: `son-endlabel${l.c === state.campus ? ' is-active' : ''}`,
+        });
+        t.setAttribute('fill', color('--son-text'));
+      }
+
+      // クロスヘア(最寄りの年にスナップ)
+      const hair = el('line', { y1: m.top, y2: m.top + ih, stroke: color('--son-text-muted'), 'stroke-width': 1, visibility: 'hidden' }, svg);
+      const hit = el('rect', { x: m.left - step / 2, y: m.top, width: iw + step, height: ih, fill: 'transparent', tabindex: 0, class: 'son-hit' }, svg);
+      hit.setAttribute('aria-label', `${METRIC_LABEL[metric]}。左右キーで年度を移動、Enterで選択`);
+      let hoverIndex = selIndex;
+      const showAt = (i: number) => {
+        hoverIndex = i;
+        const r = rows[i];
+        hair.setAttribute('x1', String(xAt(i)));
+        hair.setAttribute('x2', String(xAt(i)));
+        hair.setAttribute('visibility', 'visible');
+        const ys = CAMPUSES.map((c) => y(rate(r[c], metric)));
+        showTooltip(ratesEl, xAt(i), Math.min(...ys) - 10, `${r.year}年 ${METRIC_LABEL[metric]}`,
+          CAMPUSES.map((c) => ({
+            key: color(`--son-${c}`), label: CAMPUS_LABEL[c],
+            value: `${rate(r[c], metric).toFixed(1)}%(${fmt(metric === 'femaleRate' ? r[c].female : r[c].intl)}人)`,
+          })));
+      };
+      const indexFromEvent = (e: PointerEvent) => {
+        const box = (svg as SVGSVGElement).getBoundingClientRect();
+        const px = e.clientX - box.left;
+        return Math.max(0, Math.min(rows.length - 1, Math.round((px - m.left) / (step || 1))));
+      };
+      const hide = () => { hair.setAttribute('visibility', 'hidden'); hideTooltip(); };
+      hit.addEventListener('pointermove', (e) => showAt(indexFromEvent(e as PointerEvent)));
+      hit.addEventListener('pointerleave', hide);
+      hit.addEventListener('click', (e) => setYear(rows[indexFromEvent(e as PointerEvent)].year));
+      hit.addEventListener('focus', () => showAt(hoverIndex));
+      hit.addEventListener('blur', hide);
+      hit.addEventListener('keydown', (e) => {
+        const k = (e as KeyboardEvent).key;
+        if (k === 'ArrowLeft' || k === 'ArrowRight') {
+          e.preventDefault();
+          showAt(Math.max(0, Math.min(rows.length - 1, hoverIndex + (k === 'ArrowLeft' ? -1 : 1))));
+        } else if (k === 'Enter') {
+          setYear(rows[hoverIndex].year);
+        }
+      });
+    }
+
+    // ---- 数値タイル -------------------------------------------------------
+    function renderTiles() {
+      const r = rowOf(state.year);
+      const c = r[state.campus];
+      const prev = rows.find((x) => x.year === state.year - 1)?.[state.campus];
+      const base = rows[0][state.campus];
+      const set = (sel: string, v: string) => { const n = root.querySelector(sel); if (n) n.textContent = v; };
+      set('[data-stat="total"]', fmt(c.total));
+      set('[data-stat="femaleRate"]', rate(c, 'femaleRate').toFixed(1));
+      set('[data-stat="intlRate"]', rate(c, 'intlRate').toFixed(1));
+      set('[data-sub="female"]', `${fmt(c.female)}人`);
+      set('[data-sub="intl"]', `${fmt(c.intl)}人`);
+      const sign = (v: number, digits = 0) => `${v > 0 ? '+' : v < 0 ? '−' : '±'}${Math.abs(v).toFixed(digits)}`;
+      const delta = (now: number, p: Counts | undefined, b: Counts, f: (x: Counts) => number, unit: string, digits: number) => {
+        const parts: string[] = [];
+        if (p) parts.push(`前年比 ${sign(now - f(p), digits)}${unit}`);
+        if (r.year !== rows[0].year) parts.push(`${rows[0].year}年比 ${sign(now - f(b), digits)}${unit}`);
+        return parts.join(' / ') || `${rows[0].year}年(掲載開始年)`;
+      };
+      set('[data-delta="total"]', delta(c.total, prev, base, (x) => x.total, '人', 0));
+      set('[data-delta="femaleRate"]', delta(rate(c, 'femaleRate'), prev, base, (x) => rate(x, 'femaleRate'), 'pt', 1));
+      set('[data-delta="intlRate"]', delta(rate(c, 'intlRate'), prev, base, (x) => rate(x, 'intlRate'), 'pt', 1));
+      root.querySelectorAll('[data-campus-name]').forEach((n) => { n.textContent = CAMPUS_LABEL[state.campus]; });
+      root.querySelectorAll<HTMLElement>('table[data-campus]').forEach((t) => { t.hidden = t.dataset.campus !== state.campus; });
+      root.querySelectorAll<HTMLElement>('table[data-metric]').forEach((t) => { t.hidden = t.dataset.metric !== state.metric; });
+    }
+
+    function renderAll() {
+      hideTooltip();
+      renderTiles();
+      renderCounts();
+      renderRates();
+    }
+    function setYear(year: number) {
+      state.year = year;
+      yearSelect.value = String(year);
+      renderAll();
+    }
+
+    // ---- 操作 -------------------------------------------------------------
+    function segmented(group: Element, onChange: (v: string) => void) {
+      const buttons = Array.from(group.querySelectorAll<HTMLButtonElement>('button'));
+      buttons.forEach((b) => b.addEventListener('click', () => {
+        buttons.forEach((x) => x.setAttribute('aria-checked', x === b ? 'true' : 'false'));
+        onChange(b.dataset.value || b.dataset.archive || '');
+      }));
+    }
+    segmented(root.querySelector('[data-control="campus"]')!, (v) => { state.campus = v as CampusKey; renderAll(); });
+    segmented(root.querySelector('[data-control="metric"]')!, (v) => { state.metric = v as Metric; renderAll(); });
+    root.querySelectorAll('[data-view-toggle]').forEach((group) => {
+      const card = group.closest('.son-card')!;
+      segmented(group, (v) => {
+        card.querySelectorAll<HTMLElement>('[data-view]').forEach((n) => { n.hidden = n.dataset.view !== v; });
+        hideTooltip();
+        if (v === 'chart') renderAll();
+      });
+    });
+    yearSelect.addEventListener('change', () => setYear(Number(yearSelect.value)));
+
+    const archiveTabs = root.querySelector('.son-archive-tabs');
+    if (archiveTabs) segmented(archiveTabs, (v) => {
+      root.querySelectorAll<HTMLElement>('[data-archive-img]').forEach((img) => { img.hidden = img.dataset.archiveImg !== v; });
+    });
+
+    root.querySelector('[data-download]')?.addEventListener('click', () => {
+      const header = ['年度'];
+      for (const c of CAMPUSES) header.push(`${CAMPUS_LABEL[c]}_総数`, `${CAMPUS_LABEL[c]}_男子`, `${CAMPUS_LABEL[c]}_女子`, `${CAMPUS_LABEL[c]}_女子の割合(%)`, `${CAMPUS_LABEL[c]}_留学生`, `${CAMPUS_LABEL[c]}_留学生の割合(%)`);
+      const lines = [header.join(',')];
+      for (const r of rows) {
+        const cells: (string | number)[] = [r.year];
+        for (const c of CAMPUSES) {
+          const x = r[c];
+          cells.push(x.total, x.male, x.female, rate(x, 'femaleRate').toFixed(1), x.intl, rate(x, 'intlRate').toFixed(1));
+        }
+        lines.push(cells.join(','));
+      }
+      const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `tcu_students_${rows[0].year}-${rows[rows.length - 1].year}.csv`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    });
+
+    let lastWidth = 0;
+    new ResizeObserver(() => {
+      const w = countsEl.clientWidth || ratesEl.clientWidth;
+      if (w && Math.abs(w - lastWidth) > 4) { lastWidth = w; renderCounts(); renderRates(); }
+    }).observe(root);
+
+    renderAll();
+  }
+</script>
+
+<style>
+  .son {
+    position: relative;
+    --son-text: #222;
+    --son-text-2: #555;
+    --son-text-muted: #888;
+    --son-grid: #ececec;
+    --son-axis: #bdbdbd;
+    --son-border: #e3e8ee;
+    --son-surface: #fff;
+    --son-tint: #f5f9fc;
+    --son-female: #eb6834;
+    --son-male: #c3ccd5;
+    --son-all: #2a78d6;
+    --son-sc: #eb6834;
+    --son-yc: #1baf7a;
+  }
+  .son-lead { text-align: center; color: var(--son-text-2); line-height: 1.9; margin: 0 0 24px; }
+
+  .son-controls {
+    display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center;
+    margin: 0 0 16px;
+  }
+  .son-seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--son-border); border-radius: 999px; padding: 3px; background: var(--son-surface); }
+  .son-seg button {
+    appearance: none; border: 0; background: transparent; cursor: pointer;
+    padding: 8px 16px; border-radius: 999px; font: inherit; font-size: .95em; color: var(--son-text-2);
+  }
+  .son-seg button:hover { background: var(--son-tint); color: var(--son-text); }
+  .son-seg button[aria-checked="true"] { background: var(--brand-primary, #37baf7); color: #fff; font-weight: 700; }
+  .son-seg button:focus-visible, .son-year select:focus-visible, .son-btn:focus-visible { outline: 2px solid #0655B4; outline-offset: 2px; }
+  .son-seg--small button { padding: 5px 12px; font-size: .88em; }
+  .son-year { display: inline-flex; align-items: center; gap: 8px; color: var(--son-text-2); }
+  .son-year select { font: inherit; padding: 7px 10px; border: 1px solid var(--son-border); border-radius: 8px; background: var(--son-surface); }
+
+  .son-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 0 0 36px; }
+  .son-tile { background: var(--son-tint); border-radius: 12px; padding: 16px 18px; }
+  .son-tile-label { color: var(--son-text-2); font-size: .9em; }
+  .son-tile-value { color: var(--son-text); font-size: 2.2em; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .son-tile-value small { font-size: .45em; margin-left: 4px; font-weight: 500; }
+  .son-tile-sub { color: var(--son-text-2); font-size: .9em; }
+  .son-tile-delta { color: var(--son-text-muted); font-size: .82em; margin-top: 6px; }
+
+  .son-card { border: 1px solid var(--son-border); border-radius: 12px; padding: 16px 18px 12px; margin: 0 0 32px; background: var(--son-surface); }
+  .son-card-head { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center; }
+  .son-card-title { margin: 0; font-weight: 700; color: var(--son-text); }
+  .son-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 4px; font-size: .88em; color: var(--son-text-2); }
+  .son-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .son-key { display: inline-block; flex: none; }
+  .son-key--rect { width: 12px; height: 12px; border-radius: 3px; }
+  .son-key--line { width: 14px; height: 3px; border-radius: 2px; }
+  .son-chart { width: 100%; min-height: 260px; }
+  .son-chart :global(svg) { display: block; max-width: 100%; height: auto; overflow: visible; }
+  .son-chart :global(.son-tick) { font-size: 11px; fill: var(--son-text-muted); }
+  .son-chart :global(.son-tick.is-selected) { fill: var(--son-text); font-weight: 700; }
+  .son-chart :global(.son-value) { font-size: 12px; font-weight: 700; fill: var(--son-text); }
+  .son-chart :global(.son-endlabel) { font-size: 12px; }
+  .son-chart :global(.son-endlabel.is-active) { font-weight: 700; }
+  .son-chart :global(.son-bar) { opacity: .55; transition: opacity .15s; }
+  .son-chart :global(.son-bar.is-selected), .son-chart :global(.son-bar.is-hover) { opacity: 1; }
+  .son-chart :global(.son-hit) { cursor: pointer; outline: none; }
+  .son-chart :global(.son-hit:focus-visible) { stroke: #0655B4; stroke-width: 2; }
+  .son-note { margin: 6px 0 0; font-size: .82em; color: var(--son-text-muted); }
+
+  .son-table-wrap { overflow-x: auto; margin-top: 8px; }
+  .son-table { width: 100%; border-collapse: collapse; font-size: .92em; font-variant-numeric: tabular-nums; }
+  .son-table caption { text-align: left; font-weight: 700; padding: 0 0 8px; color: var(--son-text); }
+  .son-table th, .son-table td { padding: 8px 10px; border-bottom: 1px solid var(--son-border); white-space: nowrap; }
+  .son-table td { text-align: right; }
+  .son-table thead th { background: var(--son-tint); color: var(--son-text-2); font-weight: 600; text-align: right; }
+  .son-table thead th:first-child, .son-table tbody th { text-align: left; }
+
+  .son-tooltip {
+    position: absolute; z-index: 20; pointer-events: none;
+    background: #fff; border: 1px solid var(--son-border); border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.12); padding: 8px 12px; font-size: .85em; min-width: 150px;
+    transform: translateY(-100%);
+  }
+  .son-tooltip[hidden] { display: none; }
+  .son-tooltip :global(.son-tooltip-title) { color: var(--son-text-2); margin-bottom: 4px; }
+  .son-tooltip :global(.son-tooltip-row) { display: flex; align-items: center; gap: 8px; line-height: 1.7; }
+  .son-tooltip :global(.son-tooltip-row strong) { color: var(--son-text); font-variant-numeric: tabular-nums; }
+  .son-tooltip :global(.son-tooltip-row span) { color: var(--son-text-2); }
+  .son-tooltip :global(.son-tooltip-row i:not([style])) { visibility: hidden; }
+
+  .son-download { text-align: right; margin: -16px 0 8px; }
+  .son-btn {
+    appearance: none; cursor: pointer; font: inherit; font-size: .9em;
+    border: 1px solid var(--brand-primary, #37baf7); color: #0655B4; background: #fff;
+    padding: 8px 16px; border-radius: 999px;
+  }
+  .son-btn:hover { background: var(--son-tint); }
+  .son-source { font-size: .82em; color: var(--son-text-muted); margin: 0 0 32px; }
+
+  .son-archive { margin: 0 0 32px; }
+  .son-archive summary { cursor: pointer; color: #0655B4; padding: 6px 0; }
+  .son-archive-tabs { margin: 12px 0; }
+  .son-archive img { width: 100%; height: auto; display: block; }
+  .son-archive img[hidden] { display: none; }
+
+  .son-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .son-link {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    padding: 16px 20px; border-radius: 10px; background: var(--brand-primary, #37baf7);
+    color: #fff !important; font-weight: 700; text-decoration: none;
+  }
+  .son-link:hover { opacity: .88; }
+  .son-link-tag { font-size: .8em; border: 1px solid rgba(255,255,255,.8); border-radius: 4px; padding: 1px 6px; }
+  .son-tooltip :global(.son-key) { display: inline-block; flex: none; width: 14px; height: 3px; border-radius: 2px; }
+
+  @media (max-width: 680px) {
+    .son-tiles { grid-template-columns: 1fr; gap: 10px; }
+    .son-tile { display: grid; grid-template-columns: 1fr auto; align-items: baseline; column-gap: 12px; }
+    .son-tile-value { font-size: 1.8em; grid-row: span 2; text-align: right; }
+    .son-tile-label { grid-column: 1; }
+    .son-tile-delta { grid-column: 1 / -1; }
+    .son-card { padding: 12px; }
+    .son-links { grid-template-columns: 1fr; }
+    .son-download { margin-top: -20px; }
+  }
+</style>
