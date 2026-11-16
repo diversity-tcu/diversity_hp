@@ -1309,6 +1309,15 @@ status: "publish"
 <td>2022.10</td>
 <td>9798361773169 </td>
 </tr>
+<tr>
+<td>8-41</td>
+<td><a href="https://www.amazon.co.jp/%E5%A5%B3%E3%81%AE%E5%AD%90%E3%81%8C%E3%81%84%E3%82%8B%E5%A0%B4%E6%89%80%E3%81%AF-%E3%83%93%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%84%E3%81%BE%E3%81%98%E3%81%88%E3%81%B3%E3%81%AD/dp/4047370967?th=1" target="_blank" rel="noopener">女の子がいる場所は</a></td>
+<td>
+やまじえびね (著)</td>
+<td>BEAM COMIX</td>
+<td>2022.6</td>
+<td>9784047370968 </td>
+</tr>
 </table>
 </div>
 </div></div></div></div></div></div></div></div> </div>
