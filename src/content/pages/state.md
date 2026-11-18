@@ -7,4 +7,10 @@ status: "publish"
 
 # 都市大の現状
 
-- [数字で見る都市大の現状](/state/stateofnumber/)
+<p class="state-current-link"><a href="/state/stateofnumber/">数字で見る都市大の現状</a></p>
+
+<style>
+  .state-current-link {
+    text-align: center;
+  }
+</style>
