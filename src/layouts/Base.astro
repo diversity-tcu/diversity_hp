@@ -52,7 +52,11 @@ const navIconStyle = [
               </ul>
             </li>
             <li class="menu-rentalbooks"><a href={`${base}rentalbooks/`}><strong>貸出図書</strong></a></li>
-            <li class="menu-state"><a href={`${base}state/stateofnumber/`}><strong>都市大の現状</strong></a></li>
+            <li class="menu-state"><a href={`${base}state/`}><strong>都市大の現状</strong></a>
+              <ul class="sub-menu">
+                <li><a href={`${base}state/stateofnumber/`}>数字で見る都市大の現状</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
         <a class="siteHeader_action" href={`${base}daiba-use/`}>
@@ -102,7 +106,7 @@ const navIconStyle = [
               <a href={`${base}events/`}>活動報告</a><br />
               <a href={`${base}library/`}>ライブラリ</a><br />
               <a href={`${base}support/`}>各種支援</a><br />
-              <a href={`${base}state/stateofnumber/`}>都市大の現状</a><br />
+              <a href={`${base}state/`}>都市大の現状</a><br />
               <a href={`${base}rentalbooks/`}>貸出図書</a>
               </p>
             </div>
