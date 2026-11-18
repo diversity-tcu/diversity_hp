@@ -258,6 +258,11 @@ const navIconStyle = [
     .newsList { list-style:none; padding:0; }
     .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
     .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
+    @media (min-width: 781px) {
+      .gMenu > li.menu-state { flex-grow: 1.35; }
+      .gMenu > li.menu-state > a { padding-left: 6px; padding-right: 6px; }
+      .gMenu > li.menu-state > a strong { font-size: 12px; white-space: nowrap; }
+    }
     @media (max-width: 780px) {
       .siteHeader_top {
         grid-template-columns: 20% 20% 1fr;
