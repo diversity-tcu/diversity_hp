@@ -52,7 +52,7 @@ const navIconStyle = [
               </ul>
             </li>
             <li class="menu-rentalbooks"><a href={`${base}rentalbooks/`}><strong>貸出図書</strong></a></li>
-            <li class="menu-state"><a href={`${base}state/stateofnumber/`}><strong>数字で見る都市大の現状</strong></a></li>
+            <li class="menu-state"><a href={`${base}state/stateofnumber/`}><strong><span class="menu-state-prefix">数字で見る</span><span class="menu-state-main">都市大の現状</span></strong></a></li>
           </ul>
         </nav>
         <a class="siteHeader_action" href={`${base}daiba-use/`}>
@@ -259,9 +259,10 @@ const navIconStyle = [
     .newsList li { padding:10px 0; border-bottom:1px dotted #ccc; }
     .newsList time { color:#888; margin-right:12px; font-size:0.9em; }
     @media (min-width: 781px) {
-      .gMenu > li.menu-state { flex-grow: 1.35; }
-      .gMenu > li.menu-state > a { padding-left: 6px; padding-right: 6px; }
-      .gMenu > li.menu-state > a strong { font-size: 12px; white-space: nowrap; }
+      .gMenu > li.menu-state .menu-state-prefix,
+      .gMenu > li.menu-state .menu-state-main { display: block; white-space: nowrap; }
+      .gMenu > li.menu-state .menu-state-prefix { font-size: 12px; }
+      .gMenu > li.menu-state .menu-state-main { font-size: 15px; }
     }
     @media (max-width: 780px) {
       .siteHeader_top {
