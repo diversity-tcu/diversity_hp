@@ -60,9 +60,10 @@ const navIconStyle = [
           <a class="siteHeader_action" href={`${base}daiba-use/`}>
             <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
           </a>
-          <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="YOUR VOICE" aria-disabled={voicePostFormUrl ? undefined : 'true'} title="YOUR VOICE">
+          <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="YOUR VOICE" aria-describedby="voicePostTooltip" aria-disabled={voicePostFormUrl ? undefined : 'true'}>
             <img class="siteHeader_voicePostIcon" src={`${base}assets/top/voice-post-jp.svg`} alt="" aria-hidden="true" />
             <span class="siteHeader_voicePostLabel">YOUR VOICE</span>
+            <span class="siteHeader_voicePostTooltip" id="voicePostTooltip" role="tooltip">ご意見・感想はこちらから！</span>
           </a>
           <img class="siteHeader_characterPaw" src={`${base}assets/top/diver.svg`} alt="" aria-hidden="true" />
         </div>
@@ -172,6 +173,10 @@ const navIconStyle = [
     .siteHeader_voicePostLabel { position:absolute; top:48px; left:-44px; display:block; width:112px; font-size:11px; font-weight:600; line-height:1.15; text-align:center; white-space:nowrap; }
     .siteHeader_voicePost:hover { color:var(--brand-primary); text-decoration:none; }
     .siteHeader_voicePost:focus-visible { outline:2px solid var(--brand-primary); outline-offset:2px; }
+    .siteHeader_voicePostTooltip { position:absolute; top:64px; right:-16px; z-index:10; width:max-content; max-width:calc(100vw - 32px); padding:8px 12px; border-radius:6px; background:#333; color:#fff; font-size:12px; font-weight:400; line-height:1.5; text-align:center; white-space:normal; visibility:hidden; opacity:0; }
+    .siteHeader_voicePostTooltip::before { content:""; position:absolute; bottom:100%; left:0; width:100%; height:10px; }
+    .siteHeader_voicePostTooltip::after { content:""; position:absolute; bottom:100%; right:24px; border:6px solid transparent; border-bottom-color:#333; }
+    .siteHeader_voicePost:not(.tooltipDismissed):is(:hover, :focus-visible) .siteHeader_voicePostTooltip { visibility:visible; opacity:1; }
     .siteHeader_tcuLink img,
     .siteHeader_diversityLink img,
     .siteHeader_action img { display:block; width:100%; height:auto; }
@@ -300,6 +305,7 @@ const navIconStyle = [
       .siteHeader_voicePost { top:24px; left:38px; width:32px; height:32px; }
       .siteHeader_voicePostIcon { width:32px; height:32px; }
       .siteHeader_voicePostLabel { top:38px; left:-38px; width:96px; font-size:10px; }
+      .siteHeader_voicePostTooltip { top:54px; }
       .siteHeader_tcuLogo,
       .siteHeader_diversityLogo { transform: none; max-width: 100%; width: 100%; height: auto; }
 
@@ -402,6 +408,15 @@ const navIconStyle = [
     }
   </style>
   <script>
+    const voicePost = document.querySelector<HTMLElement>('.siteHeader_voicePost');
+    if (voicePost) {
+      const resetTooltip = () => voicePost.classList.remove('tooltipDismissed');
+      voicePost.addEventListener('pointerenter', resetTooltip);
+      voicePost.addEventListener('focus', resetTooltip);
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') voicePost.classList.add('tooltipDismissed');
+      });
+    }
     const header = document.querySelector<HTMLElement>('.siteHeader');
     if (header) {
       const updateHeaderHeight = () => {
