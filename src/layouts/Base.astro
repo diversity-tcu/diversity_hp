@@ -266,7 +266,7 @@ const navIconStyle = [
     }
     @media (max-width: 780px) {
       .siteHeader_top {
-        grid-template-columns: 20% 20% 1fr;
+        grid-template-columns: 20% 20% minmax(0, 1fr) 44px;
         column-gap: 8px;
         row-gap: 0;
         padding: 8px 0;
@@ -275,7 +275,8 @@ const navIconStyle = [
       .siteHeader_tcuLink { grid-column: 1; justify-content: flex-start; }
       .siteHeader_diversityLink { grid-column: 2; justify-content: flex-start; }
       .siteHeader_nav { grid-column: 3; justify-content: flex-end; position: relative; }
-      .siteHeader_action { display: none; }
+      .siteHeader_action { grid-column: 4; display: flex; justify-content: center; width: 44px; height: 44px; }
+      .siteHeader_action .siteHeader_diver { width: 44px; height: 44px; max-width: 44px; object-fit: contain; transform: none; }
       .siteHeader_tcuLogo,
       .siteHeader_diversityLogo { transform: none; max-width: 100%; width: 100%; height: auto; }
 
