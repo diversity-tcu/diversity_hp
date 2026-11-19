@@ -60,7 +60,7 @@ const navIconStyle = [
           <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
         </a>
         <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="皆さまの声ポスト" aria-disabled={voicePostFormUrl ? undefined : 'true'} title="皆さまの声ポスト">
-          <span class="siteHeader_voicePostIcon" style={`--voice-post-icon:url("${base}assets/top/voice-post.svg")`} aria-hidden="true"></span>
+          <img class="siteHeader_voicePostIcon" src={`${base}assets/top/voice-post-jp.svg`} alt="" aria-hidden="true" />
           <span class="siteHeader_voicePostLabel">皆さまの<br />声ポスト</span>
         </a>
       </div>
@@ -161,7 +161,7 @@ const navIconStyle = [
     .siteHeader_nav { grid-column:5; }
     .siteHeader_action { grid-column:6; }
     .siteHeader_voicePost { grid-column:7; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; width:64px; min-height:52px; color:#444; text-decoration:none; }
-    .siteHeader_voicePostIcon { display:block; width:28px; height:28px; background:#d94b61; -webkit-mask:var(--voice-post-icon) center / contain no-repeat; mask:var(--voice-post-icon) center / contain no-repeat; }
+    .siteHeader_voicePostIcon { display:block; width:40px; height:40px; object-fit:contain; }
     .siteHeader_voicePostLabel { display:block; font-size:11px; font-weight:600; line-height:1.15; text-align:center; white-space:nowrap; }
     .siteHeader_voicePost:hover { color:var(--brand-primary); text-decoration:none; }
     .siteHeader_voicePost:focus-visible { outline:2px solid var(--brand-primary); outline-offset:2px; }
