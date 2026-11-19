@@ -60,9 +60,9 @@ const navIconStyle = [
           <a class="siteHeader_action" href={`${base}daiba-use/`}>
             <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
           </a>
-          <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="皆さまの声ポスト" aria-disabled={voicePostFormUrl ? undefined : 'true'} title="皆さまの声ポスト">
+          <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="YOUR VOICE" aria-disabled={voicePostFormUrl ? undefined : 'true'} title="YOUR VOICE">
             <img class="siteHeader_voicePostIcon" src={`${base}assets/top/voice-post-jp.svg`} alt="" aria-hidden="true" />
-            <span class="siteHeader_voicePostLabel">皆さまの声ポスト</span>
+            <span class="siteHeader_voicePostLabel">YOUR VOICE</span>
           </a>
           <img class="siteHeader_characterPaw" src={`${base}assets/top/diver.svg`} alt="" aria-hidden="true" />
         </div>
@@ -292,7 +292,7 @@ const navIconStyle = [
       .siteHeader_tcuLink { grid-column: 1; justify-content: flex-start; }
       .siteHeader_diversityLink { grid-column: 2; justify-content: flex-start; }
       .siteHeader_nav { grid-column: 3; justify-content: flex-end; position: relative; }
-      .siteHeader_character { grid-column:4; right:0; width:96px; height:78px; }
+      .siteHeader_character { grid-column:4; right:-10px; width:96px; height:78px; }
       .siteHeader_character .siteHeader_action { left:0; width:68px; height:63px; }
       .siteHeader_character .siteHeader_diver,
       .siteHeader_characterPaw { width:68px; }
