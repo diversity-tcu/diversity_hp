@@ -56,13 +56,16 @@ const navIconStyle = [
             <li class="menu-state"><a href={`${base}state/stateofnumber/`}><strong><span class="menu-state-prefix">数字で見る</span><span class="menu-state-main">都市大の現状</span></strong></a></li>
           </ul>
         </nav>
-        <a class="siteHeader_action" href={`${base}daiba-use/`}>
-          <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
-        </a>
-        <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="皆さまの声ポスト" aria-disabled={voicePostFormUrl ? undefined : 'true'} title="皆さまの声ポスト">
-          <img class="siteHeader_voicePostIcon" src={`${base}assets/top/voice-post-jp.svg`} alt="" aria-hidden="true" />
-          <span class="siteHeader_voicePostLabel">皆さまの<br />声ポスト</span>
-        </a>
+        <div class="siteHeader_character">
+          <a class="siteHeader_action" href={`${base}daiba-use/`}>
+            <img class="siteHeader_diver" src={`${base}assets/top/diver.svg`} alt="ダイバ" />
+          </a>
+          <a class="siteHeader_voicePost" href={voicePostFormUrl || undefined} target={voicePostFormUrl ? '_blank' : undefined} rel={voicePostFormUrl ? 'noopener noreferrer' : undefined} aria-label="皆さまの声ポスト" aria-disabled={voicePostFormUrl ? undefined : 'true'} title="皆さまの声ポスト">
+            <img class="siteHeader_voicePostIcon" src={`${base}assets/top/voice-post-jp.svg`} alt="" aria-hidden="true" />
+            <span class="siteHeader_voicePostLabel">皆さまの声ポスト</span>
+          </a>
+          <img class="siteHeader_characterPaw" src={`${base}assets/top/diver.svg`} alt="" aria-hidden="true" />
+        </div>
       </div>
     </div>
     <div class="siteHeader_bar" aria-hidden="true"></div>
@@ -147,7 +150,7 @@ const navIconStyle = [
     .mobileScrollTop {
       display: none;
     }
-    .siteHeader_top { display:grid; grid-template-columns: 5% 6% 10% 1fr 50% 10% 64px; align-items:center; column-gap:0; padding:12px 0; overflow:visible; }
+    .siteHeader_top { display:grid; grid-template-columns: 5% 6% 10% 1fr 50% 112px; align-items:center; column-gap:0; padding:12px 0; overflow:visible; }
     .siteHeader_tcuLink,
     .siteHeader_diversityLink,
     .siteHeader_nav,
@@ -159,10 +162,14 @@ const navIconStyle = [
     .siteHeader_tcuLink { grid-column:1; }
     .siteHeader_diversityLink { grid-column:3; }
     .siteHeader_nav { grid-column:5; }
-    .siteHeader_action { grid-column:6; }
-    .siteHeader_voicePost { grid-column:7; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; width:64px; min-height:52px; color:#444; text-decoration:none; }
+    .siteHeader_character { grid-column:6; justify-self:end; position:relative; right:-16px; width:112px; height:94px; }
+    .siteHeader_character .siteHeader_action { position:absolute; top:0; left:0; display:block; width:80px; height:74px; z-index:1; }
+    .siteHeader_character .siteHeader_diver,
+    .siteHeader_characterPaw { display:block; width:80px; height:auto; max-width:none; transform:none; }
+    .siteHeader_characterPaw { position:absolute; top:0; left:0; z-index:3; clip-path:polygon(65% 69%, 77% 79%, 73% 88%, 60% 97%, 50% 96%, 43% 90%, 50% 87%); pointer-events:none; }
+    .siteHeader_voicePost { position:absolute; top:28px; left:44px; z-index:2; display:block; width:40px; height:40px; color:#444; text-decoration:none; }
     .siteHeader_voicePostIcon { display:block; width:40px; height:40px; object-fit:contain; }
-    .siteHeader_voicePostLabel { display:block; font-size:11px; font-weight:600; line-height:1.15; text-align:center; white-space:nowrap; }
+    .siteHeader_voicePostLabel { position:absolute; top:48px; left:-44px; display:block; width:112px; font-size:11px; font-weight:600; line-height:1.15; text-align:center; white-space:nowrap; }
     .siteHeader_voicePost:hover { color:var(--brand-primary); text-decoration:none; }
     .siteHeader_voicePost:focus-visible { outline:2px solid var(--brand-primary); outline-offset:2px; }
     .siteHeader_tcuLink img,
@@ -276,7 +283,7 @@ const navIconStyle = [
     }
     @media (max-width: 780px) {
       .siteHeader_top {
-        grid-template-columns: 20% 20% minmax(0, 1fr) 44px 48px;
+        grid-template-columns: 20% 20% minmax(0, 1fr) 96px;
         column-gap: 8px;
         row-gap: 0;
         padding: 8px 0;
@@ -285,10 +292,14 @@ const navIconStyle = [
       .siteHeader_tcuLink { grid-column: 1; justify-content: flex-start; }
       .siteHeader_diversityLink { grid-column: 2; justify-content: flex-start; }
       .siteHeader_nav { grid-column: 3; justify-content: flex-end; position: relative; }
-      .siteHeader_action { grid-column: 4; display: flex; justify-content: center; width: 44px; height: 44px; }
-      .siteHeader_action .siteHeader_diver { width: 44px; height: 44px; max-width: 44px; object-fit: contain; transform: none; }
-      .siteHeader_voicePost { grid-column:5; width:48px; }
-      .siteHeader_voicePostLabel { font-size:10px; }
+      .siteHeader_character { grid-column:4; right:0; width:96px; height:78px; }
+      .siteHeader_character .siteHeader_action { left:0; width:68px; height:63px; }
+      .siteHeader_character .siteHeader_diver,
+      .siteHeader_characterPaw { width:68px; }
+      .siteHeader_characterPaw { left:0; }
+      .siteHeader_voicePost { top:24px; left:38px; width:32px; height:32px; }
+      .siteHeader_voicePostIcon { width:32px; height:32px; }
+      .siteHeader_voicePostLabel { top:38px; left:-38px; width:96px; font-size:10px; }
       .siteHeader_tcuLogo,
       .siteHeader_diversityLogo { transform: none; max-width: 100%; width: 100%; height: auto; }
 
@@ -296,15 +307,18 @@ const navIconStyle = [
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        gap: 4px;
-        padding: 8px 12px;
+        gap: 6px;
+        min-width: 112px;
+        min-height: 44px;
+        padding: 10px 12px;
         background: var(--brand-primary, #0655B4);
         color: #fff;
         border-radius: 6px;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 600;
         cursor: pointer;
         border: none;
+        white-space: nowrap;
       }
       .siteHeader_menuTrigger:focus {
         outline: 2px solid #fff;
@@ -373,8 +387,13 @@ const navIconStyle = [
       .siteFooter .copySection { margin-left:0; margin-top:0; padding-top:0; text-align:left; white-space:normal; border:0; }
     }
     @media (max-width: 480px) {
-      .siteHeader_menuLabel { display:none; }
-      .siteHeader_menuTrigger { width:40px; height:40px; padding:0; flex-shrink:0; font-size:18px; }
+      .siteHeader_top { grid-template-columns:minmax(0,88px) minmax(0,88px) minmax(96px,1fr); column-gap:4px; row-gap:8px; }
+      .siteHeader_tcuLink,
+      .siteHeader_diversityLink { grid-row:1; }
+      .siteHeader_nav { grid-column:1 / 3; grid-row:2; justify-content:flex-start; }
+      .siteHeader_character { grid-column:3; grid-row:1 / 3; align-self:start; }
+      .siteHeader_menuLabel { display:inline; }
+      .siteHeader_nav .gMenu { left:0; right:auto; }
       .mainContent { padding:18px 14px; }
       .siteFooter .container { padding:22px 14px 18px; }
       .siteFooter_address p { font-size:.9em; line-height:1.7; }
