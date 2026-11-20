@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import ScheduledHero from '../components/ScheduledHero.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../lib/path';
 
@@ -105,29 +106,7 @@ const quickLinks = [
 ];
 ---
 <Base title="東京都市大学 ダイバーシティ推進室">
-  <section class="hero">
-    <div class="hero-grid">
-      <div class="hero-img hero-img-left"><img src={withBase('/assets/top/hero2.jpg')} alt="" /></div>
-      <div class="hero-img hero-img-center"><img src={withBase('/assets/top/hero3.jpg')} alt="" /></div>
-      <div class="hero-img hero-img-right"><img src={withBase('/assets/top/hero1.jpg')} alt="" /></div>
-    </div>
-  </section>
-  <style>
-    .hero-grid{
-      display: flex;
-      gap: 0;
-    }
-
-    .hero-img{
-      flex: 1;
-    }
-
-    .hero-img img {
-      display: block;
-     width: 100%;
-      height: auto;
-    }
-  </style>
+  <ScheduledHero />
   <section class="top-panels">
     <section class="quicklinks">
       {quickLinks.map((q) => (
