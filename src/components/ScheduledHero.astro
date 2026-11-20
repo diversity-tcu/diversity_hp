@@ -12,12 +12,16 @@ import { withBase } from '../lib/path';
         <a class="campaign-image-details" href={withBase('/uploads/2026/11/Diversityweek02.pdf')} target="_blank" rel="noopener noreferrer" aria-label="DIVERSITY WEEKについてはこちら（PDF、新しいタブ）"></a>
         <a class="campaign-image-registration" href="https://forms.cloud.microsoft/r/8zyEScSnjK" target="_blank" rel="noopener noreferrer" aria-label="学生ボランティアスタッフの登録はこちら（新しいタブ）"></a>
       </div>
+      <div class="campaign-dots" role="group" aria-label="スライドを選択">
+        <button type="button" aria-label="スライド1" aria-current="true"></button>
+        <button type="button" aria-label="スライド2"></button>
+        <button type="button" aria-label="スライド3"></button>
+      </div>
     </div>
-    <div class="campaign-controls" aria-label="スライド操作">
+    <div class="campaign-mobile-controls" role="group" aria-label="スライド操作">
       <button type="button" data-prev>前へ</button>
       <button type="button" data-play>一時停止</button>
       <button type="button" data-next>次へ</button>
-      <output data-slide-status aria-live="off">1 / 3</output>
     </div>
   </div>
   <div class="hero-grid">
@@ -34,10 +38,10 @@ import { withBase } from '../lib/path';
   const photos = hero.querySelector('.hero-grid');
   const slides = [...campaign.querySelectorAll('.campaign-slide')];
   const imageLinks = campaign.querySelector('.campaign-image-links');
-  const slideStatus = campaign.querySelector('[data-slide-status]');
+  const dotButtons = [...campaign.querySelectorAll('.campaign-dots button')];
   const play = campaign.querySelector('[data-play]');
-  const startsAt = Date.parse('2026-11-20T15:00:00+09:00');
-  const endsAt = Date.parse('2026-11-20T15:30:00+09:00');
+  const startsAt = Date.parse('2026-11-20T15:45:00+09:00');
+  const endsAt = Date.parse('2026-11-20T15:50:00+09:00');
   const preloadAt = startsAt - 10000;
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const delay = 8000;
@@ -56,16 +60,23 @@ import { withBase } from '../lib/path';
       slide.setAttribute('aria-hidden', String(!active));
     });
     imageLinks.hidden = current !== 2;
-    slideStatus.textContent = (current + 1) + ' / ' + slides.length;
+    dotButtons.forEach((dot, position) => {
+      if (position === current) {
+        dot.setAttribute('aria-current', 'true');
+      } else {
+        dot.removeAttribute('aria-current');
+      }
+    });
   }
 
   function updatePlayback() {
     window.clearInterval(slideTimer);
     play.textContent = playing ? '一時停止' : '再生';
-    slideStatus.setAttribute('aria-live', playing ? 'off' : 'polite');
     if (playing && !campaign.hidden && !document.hidden) {
       slideTimer = window.setInterval(() => {
-        if (!imageLinks.querySelector('a:hover') && !imageLinks.contains(document.activeElement)) {
+        const usingImageLink = imageLinks.querySelector('a:hover') || imageLinks.contains(document.activeElement);
+        const usingKeyboardOnDots = dotButtons.some(dot => dot.matches(':focus-visible'));
+        if (!usingImageLink && !usingKeyboardOnDots) {
           showSlide(current + 1);
         }
       }, delay);
@@ -102,10 +113,16 @@ import { withBase } from '../lib/path';
     }
   }
 
+  dotButtons.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      showSlide(index);
+      updatePlayback();
+    });
+  });
   function step(offset) {
     playing = false;
-    updatePlayback();
     showSlide(current + offset);
+    updatePlayback();
   }
 
   campaign.querySelector('[data-prev]').addEventListener('click', () => step(-1));
@@ -118,7 +135,7 @@ import { withBase } from '../lib/path';
     updateSchedule();
     updatePlayback();
   });
-  reducedMotion.addEventListener('change', (event) => {
+  reducedMotion.addEventListener('change', event => {
     if (event.matches) {
       playing = false;
       updatePlayback();
@@ -131,9 +148,66 @@ import { withBase } from '../lib/path';
 
 <style>
   .hero [hidden] { display: none !important; }
-  .hero-grid { display: flex; gap: 0; }
-  .hero-img { flex: 1; }
-  .hero-img img, .hero-campaign img { display: block; width: 100%; height: auto; }
+  .hero {
+    margin: -30px -20px 0px;
+    position: relative;
+  }
+  .hero::after {
+    content: "";
+    display: block;
+    height: 7px;
+    background: linear-gradient(
+      90deg,
+      #e74c3c 0%,
+      #f39c12 16%,
+      #f1c40f 32%,
+      #2ecc71 48%,
+      #3498db 64%,
+      #5b6ee1 82%,
+      #e056fd 100%
+    );
+  }
+  .hero-grid { display:grid; grid-template-columns: minmax(0, 30fr) minmax(0, 40fr) minmax(0, 30fr); gap:0; }
+  .hero-img {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: var(--hero-x, 50%) var(--hero-y, 50%);
+    display: block;
+    transform-origin: center center;
+    transform: scale(var(--hero-scale, 1));
+  }
+  .hero-img-left {
+    --hero-scale: 1.1;
+    --hero-x: 110%;
+    --hero-y: 50%;
+  }
+  .hero-img-center {
+    --hero-scale: 1;
+    --hero-x: 50%;
+    --hero-y: 80%;
+  }
+  .hero-img-right {
+    --hero-scale: 1;
+    --hero-x: 50%;
+    --hero-y: 50%;
+  }
+
+  @media (max-width: 780px) {
+    .hero { margin: -18px -14px 0; }
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-img { height: 200px; }
+  }
+  @media (max-width: 480px) {
+    .hero-img { height: 170px; }
+  }
+
+  .hero-campaign img { display: block; width: 100%; height: auto; }
   .hero-campaign .campaign-stage { position: relative; display: grid; max-width: 1040px; margin-inline: auto; isolation: isolate; }
   .hero-campaign .campaign-slide { grid-area: 1 / 1; opacity: 0; z-index: 0; transition: opacity .5s ease; }
   .hero-campaign .campaign-slide.is-current { opacity: 1; z-index: 1; }
@@ -146,10 +220,61 @@ import { withBase } from '../lib/path';
   .campaign-image-details { top: 63%; left: 12%; right: 12%; height: 8%; }
   .campaign-image-registration { top: 76.5%; left: 8%; right: 8%; height: 9%; }
   .hero-campaign { background: #f0f5f8; }
-  .campaign-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; padding: 12px; background: #fff; }
-  .campaign-controls output { display: inline-block; padding: 0 8px; color: #182d43; font: inherit; font-variant-numeric: tabular-nums; }
-  .campaign-controls button { min-height: 44px; border: 1px solid #6d8ba1; border-radius: 6px; background: #fff; color: #182d43; font: inherit; padding: 6px 12px; }
-  .campaign-controls :focus-visible { outline: 3px solid #168acf; outline-offset: 2px; }
+  .campaign-dots {
+    position: absolute;
+    inset-inline-start: 50%;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    transform: translateX(-50%);
+  }
+  .campaign-dots button {
+    display: grid;
+    place-items: center;
+    padding: 0;
+    width: 36px;
+    height: 44px;
+    border: 0;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+  }
+  .campaign-dots button::before {
+    content: '';
+    box-sizing: border-box;
+    width: 9px;
+    height: 9px;
+    border: 1.5px solid currentColor;
+    border-radius: 50%;
+  }
+  .campaign-dots button[aria-current]::before { background: currentColor; }
+  .campaign-dots button:focus-visible { outline: 2px solid #000; outline-offset: -4px; }
+  .campaign-mobile-controls { display: none; }
+  @media (max-width: 780px) {
+    .campaign-dots { display: none; }
+    .campaign-mobile-controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px;
+      background: #fff;
+    }
+    .campaign-mobile-controls button {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 6px 12px;
+      border: 1px solid #6d8ba1;
+      border-radius: 6px;
+      background: #fff;
+      color: #182d43;
+      font: inherit;
+    }
+    .campaign-mobile-controls button:focus-visible {
+      outline: 2px solid #182d43;
+      outline-offset: 2px;
+    }
+  }
   @media (prefers-reduced-motion: reduce) {
     .hero-campaign .campaign-slide { transition: none; }
   }

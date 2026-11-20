@@ -218,56 +218,6 @@ const quickLinks = [
 </Base>
 
 <style>
-  .hero {
-    margin: -30px -20px 0px;
-    position: relative;
-  }
-  .hero::after {
-    content: "";
-    display: block;
-    height: 7px;
-    background: linear-gradient(
-      90deg,
-      #e74c3c 0%,
-      #f39c12 16%,
-      #f1c40f 32%,
-      #2ecc71 48%,
-      #3498db 64%,
-      #5b6ee1 82%,
-      #e056fd 100%
-    );
-  }
-  .hero-grid { display:grid; grid-template-columns: minmax(0, 30fr) minmax(0, 40fr) minmax(0, 30fr); gap:0; }
-  .hero-img {
-    height: 260px;
-    overflow: hidden;
-    position: relative;
-  }
-  .hero-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: var(--hero-x, 50%) var(--hero-y, 50%);
-    display: block;
-    transform-origin: center center;
-    transform: scale(var(--hero-scale, 1));
-  }
-  .hero-img-left {
-    --hero-scale: 1.1;
-    --hero-x: 110%;
-    --hero-y: 50%;
-  }
-  .hero-img-center {
-    --hero-scale: 1;
-    --hero-x: 50%;
-    --hero-y: 80%;
-  }
-  .hero-img-right {
-    --hero-scale: 1;
-    --hero-x: 50%;
-    --hero-y: 50%;
-  }
-
   .top-panels { margin: 0 -20px 0px; background: #f9f9f9; padding: 20px 20px; border-radius: 0px; }
   .quicklinks { display:grid; grid-template-columns: repeat(4, 1fr); gap:16px; margin-bottom:24px; }
   .ql-card { display:flex; align-items:center; gap:12px; background:linear-gradient(135deg,var(--brand-primary),var(--brand-primary)); color:#fff; padding:10px 12px; border-radius:10px; text-decoration:none; box-shadow:0 2px 8px rgba(0,0,0,.08); transition:transform .15s; min-height:64px; box-sizing:border-box; }
@@ -421,9 +371,6 @@ const quickLinks = [
   .footer-banner img { max-width:300px; height:auto; }
 
   @media (max-width: 780px) {
-    .hero { margin: -18px -14px 0; }
-    .hero-grid { grid-template-columns: 1fr; }
-    .hero-img { height: 200px; }
     .top-panels { margin: 0 -14px 40px; padding: 16px 14px; }
     .quicklinks { grid-template-columns: repeat(2, 1fr); gap:12px; }
     .ql-card { padding:8px 10px; }
@@ -445,7 +392,6 @@ const quickLinks = [
     .act-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px; }
   }
   @media (max-width: 480px) {
-    .hero-img { height: 170px; }
     .quicklinks { grid-template-columns: 1fr; }
     .ql-icon { width:34px; height:34px; font-size:18px; }
     .news-cards { grid-template-columns: 1fr; }
